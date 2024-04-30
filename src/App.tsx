@@ -4,7 +4,9 @@ import { Map } from 'mapbox-gl';
 
 import './App.css'
 
-mapboxgl.accessToken = 'insertthekeyhere';
+console.log(import.meta.env.VITE_MAPBOX_TOKEN);
+
+mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
 
 function App() {
   const mapContainer = useRef<HTMLDivElement>(null);

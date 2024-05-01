@@ -19,11 +19,11 @@ import './App.scss'
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
 function App() {
-  const [lng, setLng] = useState(-81.200142);
-  const [lat, setLat] = useState(28.602368);
-  const [zoom, setZoom] = useState(15);
+  const [lng] = useState(-81.200142);
+  const [lat] = useState(28.602368);
+  const [zoom] = useState(15);
 
-  const [visibility, setVisibility] = useState({
+  const [visibility] = useState({
     locations: true,
     departments: true,
     emPhones: true

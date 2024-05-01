@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+
+		<name>Well-Being</name>
+		<open>1</open>
+		<ExtendedData>
+			<Data name="searchable">
+				<value>0</value>
+			</Data>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Folder>
+			<name>Fruit Trees</name>
+			<Placemark>
+<name>Jaboticaba Tree</name>
+<description>Lap Pool. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1986,28.5951,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Avocado Tree</name>
+<description>Lap Pool. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1984,28.5951,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>StarFruit Tree</name>
+<description>Lap Pool. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1984,28.5951,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Longan Tree</name>
+<description>Lap Pool. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1982,28.5951,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Mango Tree</name>
+<description>Lap Pool. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1982,28.5951,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Bananas Tree</name>
+<description>Lap Pool. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1981,28.5955,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Sugar Tree</name>
+<description>Lap Pool. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1977,28.5966,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Peach Tree</name>
+<description>Creative School for Children. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1972,28.5966,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Pomegrante Tree</name>
+<description>Creative School for Children. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1972,28.5966,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Mulberry Tree</name>
+<description>Creative School for Children. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1971,28.5967,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Avocado Tree</name>
+<description>Creative School for Children. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1971,28.5967,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Mango Tree</name>
+<description>Creative School for Children. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1971,28.5967,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Strawberry  Tree</name>
+<description>Creative School for Children. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1971,28.5967,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Starfruit Tree</name>
+<description>Creative School for Children. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.197,28.5966,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Barbados Cherry Tree</name>
+<description>Near Arboretum. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1977,28.5997,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Guava Tree</name>
+<description>Arboretum. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1965,28.6006,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Pomegranate  Tree</name>
+<description>Arboretum. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.1968,28.6005,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Loquats (Reflecting Pond) Tree</name>
+<description>Reflection Pond. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.2011,28.5993,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Loquats Tree</name>
+<description>Student Union. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.2013,28.6017,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Mulberry  Tree</name>
+<description>Student Union All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens.</description>
+<Point><coordinates>-81.2012,28.6016,0</coordinates></Point>
+</Placemark>
+		</Folder>
+		<Folder>
+			<name>Tower Gardens</name>
+			<Placemark>
+<name>Tower Garden (WHPS)</name>
+<description></description>
+<Point><coordinates>-81.1991,28.5958,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Tower Garden (Student Union Outdoor)</name>
+<description></description>
+<Point><coordinates>-81.201,28.6018,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Tower Garden (Student Union 1st Floor)</name>
+<description></description>
+<Point><coordinates>-81.2005,28.6019,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Tower Garden (Student Union 2nd Floor)</name>
+<description></description>
+<Point><coordinates>-81.2005,28.6019,0</coordinates></Point>
+</Placemark>
+		</Folder>
+		<Folder>
+			<name>Condom Dispensers</name>
+			<Placemark>
+<name>Condom Dispensers (Student Union, First Floor)</name>
+<description>First Floor of Student Union</description>
+<Point><coordinates>-81.2005,28.6019,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Condom Dispensers (All Knight Study)</name>
+<description></description>
+<Point><coordinates>-81.199,28.5976,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Condom Dispensers (All Knight  Study - Towers)</name>
+<description></description>
+<Point><coordinates>-81.198,28.6074,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Condom Dispensers (WHPS)</name>
+<description></description>
+<Point><coordinates>-81.199,28.5957,0</coordinates></Point>
+</Placemark>
+		</Folder>
+</Document>
+</kml>

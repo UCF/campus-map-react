@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>recreation.kml</name>
+	<open>1</open>
+		<Placemark>
+			<name>Athletic Training Room</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/1063" alt="Athletic Training Room"></p><p>The athletic training room is designed to allow athletic trainers to evaluate students who may have suffered an injury or have a general question about sports medicine. The athletic training room is equipped with observation tables, first aid supplies and a cold whirlpool. The schedule for the athletic training room shows the times when it is available for open clinic hours.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/athletic-training-room">http://rwc.sdes.ucf.edu/facilities/athletic-training-room</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Athletic Training Room</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/1063" alt="Athletic Training Room"></p><p>The athletic training room is designed to allow athletic trainers to evaluate students who may have suffered an injury or have a general question about sports medicine. The athletic training room is equipped with observation tables, first aid supplies and a cold whirlpool. The schedule for the athletic training room shows the times when it is available for open clinic hours.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/athletic-training-room">http://rwc.sdes.ucf.edu/facilities/athletic-training-room</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595586</SimpleData>
+					<SimpleData name="Longitude">-81.198358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198358,28.595586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cardio Floor</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/785" alt="Cardio Floor"></p><p>The RWC building has a 9,300 square foot cardio floor equipped with 150 cardio pieces including: Matrix, Star Trac, Precor, Woodway, Life Fitness, and Cybex. There are a variety of machines including: recumbent and upright bikes, treadmills, rowing machines, total body ellipticals, lower body ellipticals, steppers, and arc trainers. There is also a 1/8 mile track to enhance your cardiovascular endurance.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/cardio-floor">http://rwc.sdes.ucf.edu/facilities/cardio-floor</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Cardio Floor</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/785" alt="Cardio Floor"></p><p>The RWC building has a 9,300 square foot cardio floor equipped with 150 cardio pieces including: Matrix, Star Trac, Precor, Woodway, Life Fitness, and Cybex. There are a variety of machines including: recumbent and upright bikes, treadmills, rowing machines, total body ellipticals, lower body ellipticals, steppers, and arc trainers. There is also a 1/8 mile track to enhance your cardiovascular endurance.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/cardio-floor">http://rwc.sdes.ucf.edu/facilities/cardio-floor</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595586</SimpleData>
+					<SimpleData name="Longitude">-81.198358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198358,28.595586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Climbing Tower</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/1089" alt="Climbing Tower"></p><p>Housed within the RWC, the Climbing Tower offers premiere indoor climbing for students at UCF. Standing at 41 feet, the tower is comprised of over 20 top-rope routes in a wide range of difficulty levels, making it a great place for beginners as well as avid climbers.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/climbing-tower">http://rwc.sdes.ucf.edu/facilities/climbing-tower</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Climbing Tower</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/1089" alt="Climbing Tower"></p><p>Housed within the RWC, the Climbing Tower offers premiere indoor climbing for students at UCF. Standing at 41 feet, the tower is comprised of over 20 top-rope routes in a wide range of difficulty levels, making it a great place for beginners as well as avid climbers.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/climbing-tower">http://rwc.sdes.ucf.edu/facilities/climbing-tower</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595586</SimpleData>
+					<SimpleData name="Longitude">-81.198358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198358,28.595586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Disc Golf Course</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/801" alt="Disc Golf Course"></p><p>The Disc Golf Course is a nine-hole course that is located within RWC Park and is available for the UCF Community. The course is open during daylight hours each day of the week.</p><p>Location: RWC Park</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/disc-golf-course">http://rwc.sdes.ucf.edu/facilities/disc-golf-course</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Disc Golf Course</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/801" alt="Disc Golf Course"></p><p>The Disc Golf Course is a nine-hole course that is located within RWC Park and is available for the UCF Community. The course is open during daylight hours each day of the week.</p><p>Location: RWC Park</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/disc-golf-course">http://rwc.sdes.ucf.edu/facilities/disc-golf-course</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.591983</SimpleData>
+					<SimpleData name="Longitude">-81.203722</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.203722,28.591983,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Education Building Gym</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b21.jpg" alt="Education Building Gym"></p><p>The ED Gym has a wood floor and features ten overlapping athletic courts. There is one college length and two high school-sized basketball courts, three volleyball courts and four badminton courts. There are also five sections of bleachers in the Gym that seat over 230 individuals.</p><p>Location: Education Complex</p><p>Phone Number: <a href="tel:407-823-5003">407-823-5003</a></p><p>Website: <a href="http://education.ucf.edu/techfac/facilities.cfm">http://education.ucf.edu/techfac/facilities.cfm</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Education Building Gym</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b21.jpg" alt="Education Building Gym"></p><p>The ED Gym has a wood floor and features ten overlapping athletic courts. There is one college length and two high school-sized basketball courts, three volleyball courts and four badminton courts. There are also five sections of bleachers in the Gym that seat over 230 individuals.</p><p>Location: Education Complex</p><p>Phone Number: <a href="tel:407-823-5003">407-823-5003</a></p><p>Website: <a href="http://education.ucf.edu/techfac/facilities.cfm">http://education.ucf.edu/techfac/facilities.cfm</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600037</SimpleData>
+					<SimpleData name="Longitude">-81.204307</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.204307,28.600037,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Faculty &amp; Staff Gym</name>
+			<description><![CDATA[<p><img src="http://pegasus.cc.ucf.edu/~wrcenter/images/picture2.gif" alt="Faculty & Staff Gym"></p><p>UCF Students and members of the Recreation and Wellness Center can checkout disc golf discs for use during RWC Park Hours of Operation or at the Recreation and Wellness Center Member Services desk.</p><p>Location: Education Complex 179</p><p>Phone Number: <a href="tel:407-823-3509">407-823-3509</a></p><p>Website: <a href="http://pegasus.cc.ucf.edu/~wrcenter/">http://pegasus.cc.ucf.edu/~wrcenter/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Faculty &amp; Staff Gym</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://pegasus.cc.ucf.edu/~wrcenter/images/picture2.gif" alt="Faculty & Staff Gym"></p><p>UCF Students and members of the Recreation and Wellness Center can checkout disc golf discs for use during RWC Park Hours of Operation or at the Recreation and Wellness Center Member Services desk.</p><p>Location: Education Complex 179</p><p>Phone Number: <a href="tel:407-823-3509">407-823-3509</a></p><p>Website: <a href="http://pegasus.cc.ucf.edu/~wrcenter/">http://pegasus.cc.ucf.edu/~wrcenter/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.599891</SimpleData>
+					<SimpleData name="Longitude">-81.204613</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20461299999999,28.599891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Faculty &amp; Staff Wellness Research Center</name>
+			<description><![CDATA[<p><img src="http://pegasus.cc.ucf.edu/~wrcenter/images/picture2.gif" alt="Faculty & Staff Wellness Research Center"></p><p>The Wellness Research Center (WRC) is a work-site wellness program for faculty and staff. Housed in the Education Building, this fitness center offers strength, flexibility and aerobic conditioning equipment as well as fitness services. The WRC provides individualized fitness instruction, fitness assessments, and special programs that focus on various health-related issues.</p><p>Location: Education Complex 179</p><p>Phone Number: <a href="tel:407-823-3509">407-823-3509</a></p><p>Website: <a href="http://pegasus.cc.ucf.edu/~wrcenter/">http://pegasus.cc.ucf.edu/~wrcenter/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Faculty &amp; Staff Wellness Research Center</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://pegasus.cc.ucf.edu/~wrcenter/images/picture2.gif" alt="Faculty & Staff Wellness Research Center"></p><p>The Wellness Research Center (WRC) is a work-site wellness program for faculty and staff. Housed in the Education Building, this fitness center offers strength, flexibility and aerobic conditioning equipment as well as fitness services. The WRC provides individualized fitness instruction, fitness assessments, and special programs that focus on various health-related issues.</p><p>Location: Education Complex 179</p><p>Phone Number: <a href="tel:407-823-3509">407-823-3509</a></p><p>Website: <a href="http://pegasus.cc.ucf.edu/~wrcenter/">http://pegasus.cc.ucf.edu/~wrcenter/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.599891</SimpleData>
+					<SimpleData name="Longitude">-81.204613</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20461299999999,28.599891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Group Exercise Studios</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/799" alt="Group Exercise Studios"></p><p>The group exercise studios host the more than 100 classes offered weekly at the Recreation and Wellness Center. Most of the classes ranging from Kickboxing to Zumba meet in the main group exercise studio and the multipurpose room, while our Spinning studio hosts our Spinning classes.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/group-exercise-studios">http://rwc.sdes.ucf.edu/facilities/group-exercise-studios</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Group Exercise Studios</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/799" alt="Group Exercise Studios"></p><p>The group exercise studios host the more than 100 classes offered weekly at the Recreation and Wellness Center. Most of the classes ranging from Kickboxing to Zumba meet in the main group exercise studio and the multipurpose room, while our Spinning studio hosts our Spinning classes.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/group-exercise-studios">http://rwc.sdes.ucf.edu/facilities/group-exercise-studios</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595586</SimpleData>
+					<SimpleData name="Longitude">-81.198358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198358,28.595586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Intramural Sports</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/rwc_b88.jpg" alt="Intramural Sports"></p><p>Intramural Sports offers all Activity and Service Fee paying UCF Students (and UCF Faculty and Staff who purchase Recreation and Wellness Center Memberships) the opportunity to participate in a variety of team, dual, and individual sports. Participating is a great chance to get involved. Several divisions of play are offered for most activities to accommodate various skill levels for both recreational and competitive participation.</p><p>Location: Recreation and Wellness Center #204</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu">http://rwc.sdes.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Intramural Sports</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/rwc_b88.jpg" alt="Intramural Sports"></p><p>Intramural Sports offers all Activity and Service Fee paying UCF Students (and UCF Faculty and Staff who purchase Recreation and Wellness Center Memberships) the opportunity to participate in a variety of team, dual, and individual sports. Participating is a great chance to get involved. Several divisions of play are offered for most activities to accommodate various skill levels for both recreational and competitive participation.</p><p>Location: Recreation and Wellness Center #204</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu">http://rwc.sdes.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595586</SimpleData>
+					<SimpleData name="Longitude">-81.198358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198358,28.595586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lake Claire</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/1079" alt="Lake Claire"></p><p>Lake Claire, located at the end of Greek Park Drive, offers an adventure for all types. During boat house hours, students may rent a variety of equipment FREE of charge to enjoy out on the water or in the recreational area. No equipment will be rented during UCF Football games.</p><p>Location: Lake Claire</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/lake-claire">http://rwc.sdes.ucf.edu/facilities/lake-claire</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Lake Claire</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/1079" alt="Lake Claire"></p><p>Lake Claire, located at the end of Greek Park Drive, offers an adventure for all types. During boat house hours, students may rent a variety of equipment FREE of charge to enjoy out on the water or in the recreational area. No equipment will be rented during UCF Football games.</p><p>Location: Lake Claire</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/lake-claire">http://rwc.sdes.ucf.edu/facilities/lake-claire</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.606647</SimpleData>
+					<SimpleData name="Longitude">-81.203418</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.203418,28.606647,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lap Pool</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/805" alt="Lap Pool"></p><p>The lap pool which is located on the first floor of the Recreation and Wellness Center provides nine lanes of lap swimming. In addition to lap swimming, the lap pool serves as a venue for other programs such as swim lessons, SCUBA certifications and sport club practices. The lap pool has a lift for students with disabilities and the leisure pool has zero point entry that is accessible for students in wheelchairs</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/lap-pool">http://rwc.sdes.ucf.edu/facilities/lap-pool</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Lap Pool</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/805" alt="Lap Pool"></p><p>The lap pool which is located on the first floor of the Recreation and Wellness Center provides nine lanes of lap swimming. In addition to lap swimming, the lap pool serves as a venue for other programs such as swim lessons, SCUBA certifications and sport club practices. The lap pool has a lift for students with disabilities and the leisure pool has zero point entry that is accessible for students in wheelchairs</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/lap-pool">http://rwc.sdes.ucf.edu/facilities/lap-pool</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595949</SimpleData>
+					<SimpleData name="Longitude">-81.199993</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19999300000001,28.595949,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leisure Pool</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/813" alt="Leisure Pool"></p><p>The Leisure Pool is located on the east side of the Recreation and Wellness Center. It has 186,000 gallons of water and is a zero entry pool to 5 feet deep. A wheelchair designed specifically for the pool is available for use upon request.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/leisure-pool">http://rwc.sdes.ucf.edu/facilities/leisure-pool</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Leisure Pool</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/813" alt="Leisure Pool"></p><p>The Leisure Pool is located on the east side of the Recreation and Wellness Center. It has 186,000 gallons of water and is a zero entry pool to 5 feet deep. A wheelchair designed specifically for the pool is available for use upon request.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/leisure-pool">http://rwc.sdes.ucf.edu/facilities/leisure-pool</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595489</SimpleData>
+					<SimpleData name="Longitude">-81.198299</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19829900000001,28.595489,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MAC Gym</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/817" alt="MAC Gym"></p><p>The MAC (Multipurpose Activity Courts) Gym is an area that has two courts enclosed with rounded walls. The walls are rounded to allow for different activities such as floor hockey and indoor soccer. The schedule for the MAC gym shows the times designated for the different activities.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/mac-gym">http://rwc.sdes.ucf.edu/facilities/mac-gym</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">MAC Gym</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/817" alt="MAC Gym"></p><p>The MAC (Multipurpose Activity Courts) Gym is an area that has two courts enclosed with rounded walls. The walls are rounded to allow for different activities such as floor hockey and indoor soccer. The schedule for the MAC gym shows the times designated for the different activities.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/mac-gym">http://rwc.sdes.ucf.edu/facilities/mac-gym</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595586</SimpleData>
+					<SimpleData name="Longitude">-81.198358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198358,28.595586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Multipurpose Courts</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/821" alt="Multipurpose Courts"></p><p>The Recreation and Wellness Center has four indoor, multipurpose courts. During Open Rec/Freeplay hours the courts can be used for basketball, volleyball, table tennis, and badminton. The schedule for the multipurpose courts shows the times designated for the different activities.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/multipurpose-courts">http://rwc.sdes.ucf.edu/facilities/multipurpose-courts</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Multipurpose Courts</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/821" alt="Multipurpose Courts"></p><p>The Recreation and Wellness Center has four indoor, multipurpose courts. During Open Rec/Freeplay hours the courts can be used for basketball, volleyball, table tennis, and badminton. The schedule for the multipurpose courts shows the times designated for the different activities.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/multipurpose-courts">http://rwc.sdes.ucf.edu/facilities/multipurpose-courts</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595586</SimpleData>
+					<SimpleData name="Longitude">-81.198358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198358,28.595586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Outdoor Adventure Center</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/1067" alt="Outdoor Adventure Center"></p><p>The Outdoor Adventure Center (OAC) is the headquarters for your next adventure with UCF. The OAC offers a variety of rental gear, from tents and sleeping bags to surf boards and Stand-Up Paddleboards.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/outdoor-adventure-center">http://rwc.sdes.ucf.edu/facilities/outdoor-adventure-center</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Outdoor Adventure Center</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/1067" alt="Outdoor Adventure Center"></p><p>The Outdoor Adventure Center (OAC) is the headquarters for your next adventure with UCF. The OAC offers a variety of rental gear, from tents and sleeping bags to surf boards and Stand-Up Paddleboards.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/outdoor-adventure-center">http://rwc.sdes.ucf.edu/facilities/outdoor-adventure-center</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595586</SimpleData>
+					<SimpleData name="Longitude">-81.198358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198358,28.595586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Racquetball Courts</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/829" alt="Racquetball Courts"></p><p>There are four racquetball courts that are located on the first floor of the Recreation and Wellness Center near the free weights area. Courts can be reserved by members and students as early as one day in advanced by calling the RWC. Racquets, racquetballs and goggles are available for checkout at the member services desk.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/racquetball-courts">http://rwc.sdes.ucf.edu/facilities/racquetball-courts</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Racquetball Courts</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/829" alt="Racquetball Courts"></p><p>There are four racquetball courts that are located on the first floor of the Recreation and Wellness Center near the free weights area. Courts can be reserved by members and students as early as one day in advanced by calling the RWC. Racquets, racquetballs and goggles are available for checkout at the member services desk.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/racquetball-courts">http://rwc.sdes.ucf.edu/facilities/racquetball-courts</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595586</SimpleData>
+					<SimpleData name="Longitude">-81.198358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198358,28.595586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Outdoor Basketball Courts</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/847" alt="Outdoor Basketball Courts"></p><p>Three (3) lighted outdoor basketball courts are open to the UCF community from dawn until 10:00pm any day of the week.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/outdoor-basketball-courts">http://rwc.sdes.ucf.edu/facilities/outdoor-basketball-courts</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Outdoor Basketball Courts</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/847" alt="Outdoor Basketball Courts"></p><p>Three (3) lighted outdoor basketball courts are open to the UCF community from dawn until 10:00pm any day of the week.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/outdoor-basketball-courts">http://rwc.sdes.ucf.edu/facilities/outdoor-basketball-courts</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.594828</SimpleData>
+					<SimpleData name="Longitude">-81.20067</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20067,28.594828,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Recreation and Wellness Center</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/rwc_b88.jpg" alt="Recreation and Wellness Center"></p><p>The UCF Recreation and Wellness Center (RWC) comprises many programs, such as Intramural Sports, Sport Clubs, Outdoor Adventure, Fitness, and Aquatics. The RWC is open to all students; paid memberships are available for non-students. The RWC offers a vast array of state-of-the-art facilities, includes a custom climbing wall, tennis courts, sand volleyball courts, a disc golf course, numerous intramural sports fields, a leisure pool, and an outdoor lap pool.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu">http://rwc.sdes.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Recreation and Wellness Center</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/rwc_b88.jpg" alt="Recreation and Wellness Center"></p><p>The UCF Recreation and Wellness Center (RWC) comprises many programs, such as Intramural Sports, Sport Clubs, Outdoor Adventure, Fitness, and Aquatics. The RWC is open to all students; paid memberships are available for non-students. The RWC offers a vast array of state-of-the-art facilities, includes a custom climbing wall, tennis courts, sand volleyball courts, a disc golf course, numerous intramural sports fields, a leisure pool, and an outdoor lap pool.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu">http://rwc.sdes.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595586</SimpleData>
+					<SimpleData name="Longitude">-81.198358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198358,28.595586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RWC @ Knights Plaza</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/831" alt="RWC @ Knights Plaza"></p><p>RWC @ Knights plaza is an inviting new facility on the north end of the UCF Campus. Located at the corner of West Plaza Drive and Gemini Boulevard North near the UCF Arena, RWC @ Knight's plaza offers students, faculty, staff and alumni an intimate and convenient work out space.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/knights-plaza">http://rwc.sdes.ucf.edu/facilities/knights-plaza</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">RWC @ Knights Plaza</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/831" alt="RWC @ Knights Plaza"></p><p>RWC @ Knights plaza is an inviting new facility on the north end of the UCF Campus. Located at the corner of West Plaza Drive and Gemini Boulevard North near the UCF Arena, RWC @ Knight's plaza offers students, faculty, staff and alumni an intimate and convenient work out space.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/knights-plaza">http://rwc.sdes.ucf.edu/facilities/knights-plaza</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.606623</SimpleData>
+					<SimpleData name="Longitude">-81.198847</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198847,28.606623,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RWC Park</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/1097" alt="RWC Park"></p><p>The RWC Park features 6 artificial turf lighted fields, grass fields, and a baseball/softball field. Located on the south end of campus, the RWC Park allows playing fields for outdoor activities ranging from open rec flag football to organized rugby events.</p><p>Location: RWC Park</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/park">http://rwc.sdes.ucf.edu/facilities/park</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">RWC Park</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/1097" alt="RWC Park"></p><p>The RWC Park features 6 artificial turf lighted fields, grass fields, and a baseball/softball field. Located on the south end of campus, the RWC Park allows playing fields for outdoor activities ranging from open rec flag football to organized rugby events.</p><p>Location: RWC Park</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/park">http://rwc.sdes.ucf.edu/facilities/park</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.592803</SimpleData>
+					<SimpleData name="Longitude">-81.203696</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20369599999999,28.592803,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sand Volleyball Courts</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/855" alt="Sand Volleyball Courts"></p><p>There are six (6) total sand volleyball courts; four are located between the leisure pool and the tennis courts while the remaining two courts are located in the Lake Claire lawn. The four courts are available from dawn until midnight and the two courts are open from dawn until dusk.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/sand-volleyball-courts">http://rwc.sdes.ucf.edu/facilities/sand-volleyball-courts</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Sand Volleyball Courts</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/855" alt="Sand Volleyball Courts"></p><p>There are six (6) total sand volleyball courts; four are located between the leisure pool and the tennis courts while the remaining two courts are located in the Lake Claire lawn. The four courts are available from dawn until midnight and the two courts are open from dawn until dusk.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/sand-volleyball-courts">http://rwc.sdes.ucf.edu/facilities/sand-volleyball-courts</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595616</SimpleData>
+					<SimpleData name="Longitude">-81.19789</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19789,28.595616,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tennis Courts</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/861" alt="Tennis Courts"></p><p>The nine (9) tennis courts are located next to the Leisure Pool and are open from dawn until midnight. In addition to being open to the UCF community, the tennis courts host College of Education classes, intramural tennis ladder, sport club practices and are home to the UCF tennis team.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/tennis-courts">http://rwc.sdes.ucf.edu/facilities/tennis-courts</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Tennis Courts</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/861" alt="Tennis Courts"></p><p>The nine (9) tennis courts are located next to the Leisure Pool and are open from dawn until midnight. In addition to being open to the UCF community, the tennis courts host College of Education classes, intramural tennis ladder, sport club practices and are home to the UCF tennis team.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/tennis-courts">http://rwc.sdes.ucf.edu/facilities/tennis-courts</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595864</SimpleData>
+					<SimpleData name="Longitude">-81.197644</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.197644,28.595864,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Weight Floor</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/835" alt="Weight Floor"></p><p>The weight floor which is split into two areas provides approximately 14,000 sq. ft. of space for guests to work any muscle group. The first area of the weight floor is mostly machine based, while the second area is predominantly free weights. Both areas are located on the first floor of the Recreation and Wellness Center.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/weight-floor">http://rwc.sdes.ucf.edu/facilities/weight-floor</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Weight Floor</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/835" alt="Weight Floor"></p><p>The weight floor which is split into two areas provides approximately 14,000 sq. ft. of space for guests to work any muscle group. The first area of the weight floor is mostly machine based, while the second area is predominantly free weights. Both areas are located on the first floor of the Recreation and Wellness Center.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/weight-floor">http://rwc.sdes.ucf.edu/facilities/weight-floor</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595586</SimpleData>
+					<SimpleData name="Longitude">-81.198358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198358,28.595586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wet Classroom</name>
+			<description><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/1075" alt="Wet Classroom"></p><p>The wet classroom is used in a wide range of ways. First aid and CPR classes are mostly taught in the space as well as act as a classroom for lifeguard in-services and SCUBA classes. The wet classroom is located at the end of the hall past the racquetball courts of the Recreation and Wellness Center.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/wet-classroom">http://rwc.sdes.ucf.edu/facilities/wet-classroom</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160503025437">
+					<SimpleData name="Name">Wet Classroom</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://rwc.sdes.ucf.edu/image/1075" alt="Wet Classroom"></p><p>The wet classroom is used in a wide range of ways. First aid and CPR classes are mostly taught in the space as well as act as a classroom for lifeguard in-services and SCUBA classes. The wet classroom is located at the end of the hall past the racquetball courts of the Recreation and Wellness Center.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href="tel:407-823-2408">407-823-2408</a></p><p>Website: <a href="http://rwc.sdes.ucf.edu/facilities/wet-classroom">http://rwc.sdes.ucf.edu/facilities/wet-classroom</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595586</SimpleData>
+					<SimpleData name="Longitude">-81.198358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198358,28.595586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Schema name="csv_20160503025437" id="csv_20160503025437">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="string"></SimpleField>
+	<SimpleField name="Longitude" type="string"></SimpleField>
+</Schema>
+
+</Document>
+</kml>

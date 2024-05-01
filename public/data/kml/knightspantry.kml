@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+
+		<name>maps_data_knights_pantry</name>
+		<open>1</open>
+		
+		<Placemark>
+			<name>Career Services (Knights Pantry Donation Bin)</name>
+			<description><![CDATA[<p>Location: first floor by the help desk</p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">Career Services (Knights Pantry Donation Bin)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p>Location: first floor by the help desk</p>]]></SimpleData>
+					<SimpleData name="Latitude">28.605286</SimpleData>
+					<SimpleData name="Longitude">-81.199026</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.199026,28.605286,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Engineering II (Knights Pantry Donation Bin)</name>
+			<description><![CDATA[<p>Location: main lobby door</p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">Engineering II (Knights Pantry Donation Bin)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p>Location: main lobby door</p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60198153</SimpleData>
+					<SimpleData name="Longitude">-81.19868504</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19868504,28.60198153,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>FAIRWINDS Alumni Center (Knights Pantry Donation Bin)</name>
+			<description><![CDATA[<p>Location: end of the hallway past the ballrooms</p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">FAIRWINDS Alumni Center (Knights Pantry Donation Bin)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p>Location: end of the hallway past the ballrooms</p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60567393</SimpleData>
+					<SimpleData name="Longitude">-81.1988728</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.1988728,28.60567393,0</coordinates>
+			</Point>
+		</Placemark>
+
+<Placemark>
+			<name>Health &amp; Public Affairs I (Knights Pantry Donation Bin)</name>
+			<description><![CDATA[<p>Location: near the back doors in the Atrium</p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">Health &amp; Public Affairs I (Knights Pantry Donation Bin)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p>Location: near the back doors in the Atrium</p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60289522</SimpleData>
+					<SimpleData name="Longitude">-81.19881915</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19881915000001,28.60289522,0</coordinates>
+			</Point>
+		</Placemark>
+
+<Placemark>
+			<name>Health Center (Knights Pantry Donation Bin)</name>
+			<description><![CDATA[<p>Location: in Room 101.</p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">Health Center &amp; Pharmacy (Knights Pantry Donation Bin)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p>Location: in Room 101.</p>]]></SimpleData>
+					<SimpleData name="Latitude">28.59937228</SimpleData>
+					<SimpleData name="Longitude">-81.19929122</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19929122000001,28.59937228,0</coordinates>
+			</Point>
+		</Placemark>
+		
+
+		<Placemark>
+			<name>Howard Phillips Hall (Knights Pantry Donation Bin)</name>
+			<description><![CDATA[<p>Location: near room 116.</p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">Howard Phillips Hall (Knights Pantry Donation Bin)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p>Location: near room 116.</p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600283</SimpleData>
+					<SimpleData name="Longitude">-81.202776</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202776,28.600283,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Millican Hall (Knights Pantry Donation Bin)</name>
+			<description><![CDATA[<p>Location: outside SDES on the second floor</p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">Millican Hall (Knights Pantry Donation Bin)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p>Location: outside SDES on the second floor</p>]]></SimpleData>
+					<SimpleData name="Latitude">28.599106</SimpleData>
+					<SimpleData name="Longitude">-81.202319</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202319,28.599106,0</coordinates>
+			</Point>
+		</Placemark>
+
+
+		<Placemark>
+			<name>Nicholson School of Communication (Knights Pantry Donation Bin)</name>
+			<description><![CDATA[<p>Location 1: by the doors in 1st floor atrium </p> <p>Location 2: inside Academic Student Services</p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">Nicholson School of Communication (Knights Pantry Donation Bin)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p>Location 1: by the doors in 1st floor atrium </p> <p>Location 2: inside Academic Student Services</p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60386071</SimpleData>
+					<SimpleData name="Longitude">-81.20325821</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20325821,28.60386071,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+		<name>NorthView (Knights Pantry Donation Bin)</name>
+		<description><![CDATA[<p>Location: will deliver bin to pantry</p>]]></description>
+		<ExtendedData>
+			<SchemaData schemaUrl="#csv_20160526125858">
+				<SimpleData name="Name">NorthView (Knights Pantry Donation Bin)</SimpleData>
+				<SimpleData name="Description"><![CDATA[<p>Location: will deliver bin to pantry</p>]]></SimpleData>
+				<SimpleData name="Latitude">28.613629</SimpleData>
+				<SimpleData name="Longitude">-81.19139</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-81.19139,28.613629,0</coordinates>
+		</Point>
+	</Placemark>
+
+
+		<Placemark>
+			<name>Psychology Building (Knights Pantry Donation Bin)</name>
+			<description><![CDATA[<p>Location 1: outside room 108 </p> <p>Location 2: room 320</p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">Psychology Building (Knights Pantry Donation Bin)</SimpleData>
+					<SimpleData name="Description"><![CDATA[p>Location 1: outside room 108 </p> <p>Location 2: room 320</p>]]></SimpleData>
+					<SimpleData name="Latitude">28.604586</SimpleData>
+					<SimpleData name="Longitude">-81.19945752</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19945752,28.604586,0</coordinates>
+			</Point>
+		</Placemark>
+
+<Placemark>
+			<name>Recreation and Wellness Center (Knights Pantry Donation Bin)</name>
+			<description><![CDATA[<p>Location: in the Wellness & Health Promotion Services Front Office</p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">Recreation and Wellness Center (RWC)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p>Location: in the Wellness & Health Promotion Services Front Office</p>]]></SimpleData>
+					<SimpleData name="Latitude">28.59380503</SimpleData>
+					<SimpleData name="Longitude">-81.20439815</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20439815,28.59380503,0</coordinates>
+			</Point>
+		</Placemark>
+		
+
+		<Placemark>
+			<name>Student Union (Knights Pantry Donation Bin)</name>
+			<description><![CDATA[<p>Location: by info desk</p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">Student Union (Knights Pantry Donation Bin)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p>Location: by info desk</p>]]></SimpleData>
+					<SimpleData name="Latitude">28.6016695</SimpleData>
+					<SimpleData name="Longitude">-81.20052772</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20052772,28.6016695,0</coordinates>
+			</Point>
+		</Placemark>
+
+
+
+		<Placemark>
+			<name>Trevor Colbourn Hall (Knights Pantry Donation Bin)</name>
+			<description><![CDATA[<p>Location: Graduate Student Center, room 213</p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">Trevor Colbourn Hall (Knights Pantry Donation Bin)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p>Location: Graduate Student Center, room 213</p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601918</SimpleData>
+					<SimpleData name="Longitude">-81.203578</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.203578,28.601918,0</coordinates>
+			</Point>
+		</Placemark>
+		
+			<Placemark>
+			<name>UCF Art Gallery (Knights Pantry Donation Bin)</name>
+			<description><![CDATA[<p>Location: Outside UCF Art Gallery</p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">UCF Art Gallery (Knights Pantry Donation Bin)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p>Location: Outside UCF Art Gallery</p>]]></SimpleData>
+					<SimpleData name="Latitude">28.602790</SimpleData>
+					<SimpleData name="Longitude">-81.203873</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.203873,28.602790,0</coordinates>
+			</Point>
+		</Placemark>
+
+
+		<Schema name="csv_20160824020812" id="csv_20160824020812">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="string"></SimpleField>
+	<SimpleField name="Longitude" type="string"></SimpleField>
+</Schema>
+
+</Document>
+</kml>

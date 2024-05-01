@@ -1,0 +1,1116 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198387,
+                    28.597539,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Housing Administration Building (HAB)",
+                "styleUrl": "#default0",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b73.jpg\" alt=\"Housing Administration\"></p><p>Housing Administration</p><p>Location: Housing Administration Building</p><p>Phone Number: <a href=\"tel:407-823-4663\">407-823-4663</a></p><p>Website: <a href=\"http://www.housing.ucf.edu\">http://www.housing.ucf.edu</a></p>",
+                "Name": "Housing Administration",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b73.jpg\" alt=\"Housing Administration\"></p><p>Housing Administration</p><p>Location: Housing Administration Building</p><p>Phone Number: <a href=\"tel:407-823-4663\">407-823-4663</a></p><p>Website: <a href=\"http://www.housing.ucf.edu\">http://www.housing.ucf.edu</a></p>",
+                "Latitude": "28.597539",
+                "Longitude": "-81.198387"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19697164777396,
+                    28.59367863295301,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Housing Key Services (N159)",
+                "styleUrl": "#default",
+                "description": "Housing Key Services (N159)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201051,
+                    28.598737,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Hall (LAK)",
+                "styleUrl": "#default00",
+                "description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/apollo3.png\" alt=\"Lake Hall (Apollo)\"></p><p>The Apollo Community has the most centrally located residence halls on campus and is reserved exclusively for first-year students. It is comprised of four two-story buildings with suite-style floor plans, in which four or five residents occupy a two or three bedroom suite. Each suite includes a shared bathroom and an unfurnished living space. Students can use the space in many different ways, and are encouraged to get creative! Students may bring in additional furnishings for their living space including tables, chairs, entertainment stands, small sofas, beanbags, and more. Each of the four residence halls includes a community lounge area, laundry room, and vending machines.</p><p>Location: Apollo Community</p><p>Phone Number: <a href=\"tel:407-882-5016\">407-882-5016</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/apollo\">http://www.housing.ucf.edu/choices/apollo</a></p>",
+                "Name": "Lake Hall (Apollo)",
+                "Description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/apollo3.png\" alt=\"Lake Hall (Apollo)\"></p><p>The Apollo Community has the most centrally located residence halls on campus and is reserved exclusively for first-year students. It is comprised of four two-story buildings with suite-style floor plans, in which four or five residents occupy a two or three bedroom suite. Each suite includes a shared bathroom and an unfurnished living space. Students can use the space in many different ways, and are encouraged to get creative! Students may bring in additional furnishings for their living space including tables, chairs, entertainment stands, small sofas, beanbags, and more. Each of the four residence halls includes a community lounge area, laundry room, and vending machines.</p><p>Location: Apollo Community</p><p>Phone Number: <a href=\"tel:407-882-5016\">407-882-5016</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/apollo\">http://www.housing.ucf.edu/choices/apollo</a></p>",
+                "Latitude": "28.598737",
+                "Longitude": "-81.201051"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200914,
+                    28.597645,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Osceola Hall (OSC)",
+                "styleUrl": "#default00",
+                "description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/apollo3.png\" alt=\"Osceola Hall (Apollo)\"></p><p>The Apollo Community has the most centrally located residence halls on campus and is reserved exclusively for first-year students. It is comprised of four two-story buildings with suite-style floor plans, in which four or five residents occupy a two or three bedroom suite. Each suite includes a shared bathroom and an unfurnished living space. Students can use the space in many different ways, and are encouraged to get creative! Students may bring in additional furnishings for their living space including tables, chairs, entertainment stands, small sofas, beanbags, and more. Each of the four residence halls includes a community lounge area, laundry room, and vending machines.</p><p>Location: Apollo Community</p><p>Phone Number: <a href=\"tel:407-882-5016\">407-882-5016</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/apollo\">http://www.housing.ucf.edu/choices/apollo</a></p>",
+                "Name": "Osceola Hall (Apollo)",
+                "Description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/apollo3.png\" alt=\"Osceola Hall (Apollo)\"></p><p>The Apollo Community has the most centrally located residence halls on campus and is reserved exclusively for first-year students. It is comprised of four two-story buildings with suite-style floor plans, in which four or five residents occupy a two or three bedroom suite. Each suite includes a shared bathroom and an unfurnished living space. Students can use the space in many different ways, and are encouraged to get creative! Students may bring in additional furnishings for their living space including tables, chairs, entertainment stands, small sofas, beanbags, and more. Each of the four residence halls includes a community lounge area, laundry room, and vending machines.</p><p>Location: Apollo Community</p><p>Phone Number: <a href=\"tel:407-882-5016\">407-882-5016</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/apollo\">http://www.housing.ucf.edu/choices/apollo</a></p>",
+                "Latitude": "28.597645",
+                "Longitude": "-81.200914"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201319,
+                    28.59755,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Polk Hall (POL)",
+                "styleUrl": "#default00",
+                "description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/apollo3.png\" alt=\"Polk Hall (Apollo)\"></p><p>The Apollo Community has the most centrally located residence halls on campus and is reserved exclusively for first-year students. It is comprised of four two-story buildings with suite-style floor plans, in which four or five residents occupy a two or three bedroom suite. Each suite includes a shared bathroom and an unfurnished living space. Students can use the space in many different ways, and are encouraged to get creative! Students may bring in additional furnishings for their living space including tables, chairs, entertainment stands, small sofas, beanbags, and more. Each of the four residence halls includes a community lounge area, laundry room, and vending machines.</p><p>Location: Apollo Community</p><p>Phone Number: <a href=\"tel:407-882-5016\">407-882-5016</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/apollo\">http://www.housing.ucf.edu/choices/apollo</a></p>",
+                "Name": "Polk Hall (Apollo)",
+                "Description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/apollo3.png\" alt=\"Polk Hall (Apollo)\"></p><p>The Apollo Community has the most centrally located residence halls on campus and is reserved exclusively for first-year students. It is comprised of four two-story buildings with suite-style floor plans, in which four or five residents occupy a two or three bedroom suite. Each suite includes a shared bathroom and an unfurnished living space. Students can use the space in many different ways, and are encouraged to get creative! Students may bring in additional furnishings for their living space including tables, chairs, entertainment stands, small sofas, beanbags, and more. Each of the four residence halls includes a community lounge area, laundry room, and vending machines.</p><p>Location: Apollo Community</p><p>Phone Number: <a href=\"tel:407-882-5016\">407-882-5016</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/apollo\">http://www.housing.ucf.edu/choices/apollo</a></p>",
+                "Latitude": "28.59755",
+                "Longitude": "-81.201319"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200675,
+                    28.598506,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Volusia Hall (VOL)",
+                "styleUrl": "#default00",
+                "description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/apollo3.png\" alt=\"Volusia Hall (Apollo)\"></p><p>The Apollo Community has the most centrally located residence halls on campus and is reserved exclusively for first-year students. It is comprised of four two-story buildings with suite-style floor plans, in which four or five residents occupy a two or three bedroom suite. Each suite includes a shared bathroom and an unfurnished living space. Students can use the space in many different ways, and are encouraged to get creative! Students may bring in additional furnishings for their living space including tables, chairs, entertainment stands, small sofas, beanbags, and more. Each of the four residence halls includes a community lounge area, laundry room, and vending machines.</p><p>Location: Apollo Community</p><p>Phone Number: <a href=\"tel:407-882-5016\">407-882-5016</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/apollo\">http://www.housing.ucf.edu/choices/apollo</a></p>",
+                "Name": "Volusia Hall (Apollo)",
+                "Description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/apollo3.png\" alt=\"Volusia Hall (Apollo)\"></p><p>The Apollo Community has the most centrally located residence halls on campus and is reserved exclusively for first-year students. It is comprised of four two-story buildings with suite-style floor plans, in which four or five residents occupy a two or three bedroom suite. Each suite includes a shared bathroom and an unfurnished living space. Students can use the space in many different ways, and are encouraged to get creative! Students may bring in additional furnishings for their living space including tables, chairs, entertainment stands, small sofas, beanbags, and more. Each of the four residence halls includes a community lounge area, laundry room, and vending machines.</p><p>Location: Apollo Community</p><p>Phone Number: <a href=\"tel:407-882-5016\">407-882-5016</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/apollo\">http://www.housing.ucf.edu/choices/apollo</a></p>",
+                "Latitude": "28.598506",
+                "Longitude": "-81.200675"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199071,
+                    28.594225,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hercules 108 (H108)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b108.jpg\" alt=\"Hercules 108\"></p>",
+                "Name": "Hercules 108",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b108.jpg\" alt=\"Hercules 108\"></p>",
+                "Latitude": "28.594225",
+                "Longitude": "-81.199071"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199286,
+                    28.594569,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hercules 109 (H109)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b109.jpg\" alt=\"Hercules 109\"></p>",
+                "Name": "Hercules 109",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b109.jpg\" alt=\"Hercules 109\"></p>",
+                "Latitude": "28.594569",
+                "Longitude": "-81.199286"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199774,
+                    28.59414,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hercules 110 (H110)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b110.jpg\" alt=\"Hercules 110\"></p>",
+                "Name": "Hercules 110",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b110.jpg\" alt=\"Hercules 110\"></p>",
+                "Latitude": "28.59414",
+                "Longitude": "-81.199774"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199533,
+                    28.59357,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hercules 111 (H111)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b111.jpg\" alt=\"Hercules 111\"></p>",
+                "Name": "Hercules 111",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b111.jpg\" alt=\"Hercules 111\"></p>",
+                "Latitude": "28.59357",
+                "Longitude": "-81.199533"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200091,
+                    28.593551,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hercules 112 (H112)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/AV112.jpg\" alt=\"Hercules 112\"></p>",
+                "Name": "Hercules 112",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/AV112.jpg\" alt=\"Hercules 112\"></p>",
+                "Latitude": "28.593551",
+                "Longitude": "-81.200091"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200316,
+                    28.594362,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hercules 113 (H113)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b113.jpg\" alt=\"Hercules 113\"></p>",
+                "Name": "Hercules 113",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b113.jpg\" alt=\"Hercules 113\"></p>",
+                "Latitude": "28.594362",
+                "Longitude": "-81.200316"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200498,
+                    28.594131,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hercules 114 (H114)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b114.jpg\" alt=\"Hercules 114\"></p>",
+                "Name": "Hercules 114",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b114.jpg\" alt=\"Hercules 114\"></p>",
+                "Latitude": "28.594131",
+                "Longitude": "-81.200498"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20049613,
+                    28.5940719,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hercules 115 (H115)",
+                "description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Hercules 115\"></p>",
+                "Name": "Hercules 115",
+                "Description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Hercules 115\"></p>",
+                "Latitude": "28.5940719",
+                "Longitude": "-81.20049613"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20440351,
+                    28.603564,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Apartments #55 (LC55)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b55.jpg\" alt=\"Aquarius Courtyard #55\"></p>",
+                "Name": "Aquarius Courtyard #55",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b55.jpg\" alt=\"Aquarius Courtyard #55\"></p>",
+                "Latitude": "28.603564",
+                "Longitude": "-81.20440351"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20474147,
+                    28.60350277,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Apartments #56 (LC56)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b56.jpg\" alt=\"Aquarius Courtyard #56\"></p>",
+                "Name": "Aquarius Courtyard #56",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b56.jpg\" alt=\"Aquarius Courtyard #56\"></p>",
+                "Latitude": "28.60350277",
+                "Longitude": "-81.20474147"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20509552,
+                    28.60363464,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Apartments #57 (LC57)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b57.jpg\" alt=\"Aquarius Courtyard #57\"></p>",
+                "Name": "Aquarius Courtyard #57",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b57.jpg\" alt=\"Aquarius Courtyard #57\"></p>",
+                "Latitude": "28.60363464",
+                "Longitude": "-81.20509552"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20497751,
+                    28.60394077999999,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Apartments #58 (LC58)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b58.jpg\" alt=\"Aquarius Courtyard #58\"></p>",
+                "Name": "Aquarius Courtyard #58",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b58.jpg\" alt=\"Aquarius Courtyard #58\"></p>",
+                "Latitude": "28.60394078",
+                "Longitude": "-81.20497751"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20456445,
+                    28.60392194,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Apartments #59 (LC59)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b59.jpg\" alt=\"Aquarius Courtyard #59\"></p>",
+                "Name": "Aquarius Courtyard #59",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b59.jpg\" alt=\"Aquarius Courtyard #59\"></p>",
+                "Latitude": "28.60392194",
+                "Longitude": "-81.20456445"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20395827,
+                    28.60403732,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Apartments #60 (LC60)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b60.jpg\" alt=\"Pegasus Courtyard #60\"></p>",
+                "Name": "Pegasus Courtyard #60",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b60.jpg\" alt=\"Pegasus Courtyard #60\"></p>",
+                "Latitude": "28.60403732",
+                "Longitude": "-81.20395827"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20424526,
+                    28.60424926,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Apartments #61 (LC61)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b61.jpg\" alt=\"Pegasus Courtyard #61\"></p>",
+                "Name": "Pegasus Courtyard #61",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b61.jpg\" alt=\"Pegasus Courtyard #61\"></p>",
+                "Latitude": "28.60424926",
+                "Longitude": "-81.20424526"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20425331,
+                    28.60448474,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Apartments #62 (LC62)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b62.jpg\" alt=\"Pegasus Courtyard #62\"></p>",
+                "Name": "Pegasus Courtyard #62",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b62.jpg\" alt=\"Pegasus Courtyard #62\"></p>",
+                "Latitude": "28.60448474",
+                "Longitude": "-81.20425331"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.2038778,
+                    28.60445413,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Apartments #63 (LC63)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b63.jpg\" alt=\"Pegasus Courtyard #63\"></p>",
+                "Name": "Pegasus Courtyard #63",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b63.jpg\" alt=\"Pegasus Courtyard #63\"></p>",
+                "Latitude": "28.60445413",
+                "Longitude": "-81.2038778"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20371687,
+                    28.60419039,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Apartments #64 (LC64)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b64.jpg\" alt=\"Pegasus Courtyard #64\"></p>",
+                "Name": "Pegasus Courtyard #64",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b64.jpg\" alt=\"Pegasus Courtyard #64\"></p>",
+                "Latitude": "28.60419039",
+                "Longitude": "-81.20371687"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20395827,
+                    28.60403732,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Community Office and Center (LC65)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b65.jpg\" alt=\"Lake Claire Community Office and Center\"></p>",
+                "Name": "Lake Claire Community Office and Center",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b65.jpg\" alt=\"Lake Claire Community Office and Center\"></p>",
+                "Latitude": "28.60403732",
+                "Longitude": "-81.20395827"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.2031536,
+                    28.6046849,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "GLake Claire Apartments #66 (LC66)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b66.jpg\" alt=\"Gemini Courtyard #66\"></p>",
+                "Name": "Gemini Courtyard #66",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b66.jpg\" alt=\"Gemini Courtyard #66\"></p>",
+                "Latitude": "28.6046849",
+                "Longitude": "-81.2031536"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20342719,
+                    28.60494393,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Apartments #67 (LC67)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b67.jpg\" alt=\"Gemini Courtyard #67\"></p>",
+                "Name": "Gemini Courtyard #67",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b67.jpg\" alt=\"Gemini Courtyard #67\"></p>",
+                "Latitude": "28.60494393",
+                "Longitude": "-81.20342719"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20337355,
+                    28.60520296,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Apartments #68 (LC68)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b68.jpg\" alt=\"Gemini Courtyard #68\"></p>",
+                "Name": "Gemini Courtyard #68",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b68.jpg\" alt=\"Gemini Courtyard #68\"></p>",
+                "Latitude": "28.60520296",
+                "Longitude": "-81.20337355"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20306241,
+                    28.60518413,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Apartments #69 (LC69)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b69.jpg\" alt=\"Gemini Courtyard #69\"></p>",
+                "Name": "Gemini Courtyard #69",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b69.jpg\" alt=\"Gemini Courtyard #69\"></p>",
+                "Latitude": "28.60518413",
+                "Longitude": "-81.20306241"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20291757,
+                    28.60498161,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Claire Apartments #70 (LC70)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b70.jpg\" alt=\"Gemini Courtyard #70\"></p>",
+                "Name": "Gemini Courtyard #70",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b70.jpg\" alt=\"Gemini Courtyard #70\"></p>",
+                "Latitude": "28.60498161",
+                "Longitude": "-81.20291757"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198916,
+                    28.598846,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Brevard Hall (BRE)",
+                "styleUrl": "#default00",
+                "description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/li1.png\" alt=\"Brevard Hall (Libra)\"></p><p>The Libra Community features six residence halls and is reserved for first-year students. The Libra Community is close to the Health Center, Marketplace dining hall, and Recreation and Wellness Center. There are two different styles of rooms in the community, the L-shaped and the Pod-Style suites.</p><p>Location: Libra Community</p><p>Phone Number: <a href=\"tel:407-882-5015\">407-882-5015</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/libra\">http://www.housing.ucf.edu/choices/libra</a></p>",
+                "Name": "Brevard Hall (Libra)",
+                "Description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/li1.png\" alt=\"Brevard Hall (Libra)\"></p><p>The Libra Community features six residence halls and is reserved for first-year students. The Libra Community is close to the Health Center, Marketplace dining hall, and Recreation and Wellness Center. There are two different styles of rooms in the community, the L-shaped and the Pod-Style suites.</p><p>Location: Libra Community</p><p>Phone Number: <a href=\"tel:407-882-5015\">407-882-5015</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/libra\">http://www.housing.ucf.edu/choices/libra</a></p>",
+                "Latitude": "28.598846",
+                "Longitude": "-81.198916"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198412,
+                    28.598365,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Citrus Hall (CIT)",
+                "styleUrl": "#default00",
+                "description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/li1.png\" alt=\"Citrus Hall (Libra)\"></p><p>The Libra Community features six residence halls and is reserved for first-year students. The Libra Community is close to the Health Center, Marketplace dining hall, and Recreation and Wellness Center. There are two different styles of rooms in the community, the L-shaped and the Pod-Style suites.</p><p>Location: Libra Community</p><p>Phone Number: <a href=\"tel:407-882-5015\">407-882-5015</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/libra\">http://www.housing.ucf.edu/choices/libra</a></p>",
+                "Name": "Citrus Hall (Libra)",
+                "Description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/li1.png\" alt=\"Citrus Hall (Libra)\"></p><p>The Libra Community features six residence halls and is reserved for first-year students. The Libra Community is close to the Health Center, Marketplace dining hall, and Recreation and Wellness Center. There are two different styles of rooms in the community, the L-shaped and the Pod-Style suites.</p><p>Location: Libra Community</p><p>Phone Number: <a href=\"tel:407-882-5015\">407-882-5015</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/libra\">http://www.housing.ucf.edu/choices/libra</a></p>",
+                "Latitude": "28.598365",
+                "Longitude": "-81.198412"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197832,
+                    28.598302,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Flagler Hall (FLA)",
+                "styleUrl": "#default00",
+                "description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/li1.png\" alt=\"Flagler Hall (Libra)\"></p><p>The Libra Community features six residence halls and is reserved for first-year students. The Libra Community is close to the Health Center, Marketplace dining hall, and Recreation and Wellness Center. There are two different styles of rooms in the community, the L-shaped and the Pod-Style suites.</p><p>Location: Libra Community</p><p>Phone Number: <a href=\"tel:407-882-5015\">407-882-5015</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/libra\">http://www.housing.ucf.edu/choices/libra</a></p>",
+                "Name": "Flagler Hall (Libra)",
+                "Description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/li1.png\" alt=\"Flagler Hall (Libra)\"></p><p>The Libra Community features six residence halls and is reserved for first-year students. The Libra Community is close to the Health Center, Marketplace dining hall, and Recreation and Wellness Center. There are two different styles of rooms in the community, the L-shaped and the Pod-Style suites.</p><p>Location: Libra Community</p><p>Phone Number: <a href=\"tel:407-882-5015\">407-882-5015</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/libra\">http://www.housing.ucf.edu/choices/libra</a></p>",
+                "Latitude": "28.598302",
+                "Longitude": "-81.197832"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19859176,
+                    28.59869457,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Libra Community Center (LCC)",
+                "styleUrl": "#default00",
+                "description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Libra Community Center\"></p>",
+                "Name": "Libra Community Center",
+                "Description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Libra Community Center\"></p>",
+                "Latitude": "28.59869457",
+                "Longitude": "-81.19859176"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198637,
+                    28.598233,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Orange Hall (ORG)",
+                "styleUrl": "#default00",
+                "description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/li1.png\" alt=\"Orange Hall (Libra)\"></p><p>The Libra Community features six residence halls and is reserved for first-year students. The Libra Community is close to the Health Center, Marketplace dining hall, and Recreation and Wellness Center. There are two different styles of rooms in the community, the L-shaped and the Pod-Style suites.</p><p>Location: Libra Community</p><p>Phone Number: <a href=\"tel:407-882-5015\">407-882-5015</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/libra\">http://www.housing.ucf.edu/choices/libra</a></p>",
+                "Name": "Orange Hall (Libra)",
+                "Description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/li1.png\" alt=\"Orange Hall (Libra)\"></p><p>The Libra Community features six residence halls and is reserved for first-year students. The Libra Community is close to the Health Center, Marketplace dining hall, and Recreation and Wellness Center. There are two different styles of rooms in the community, the L-shaped and the Pod-Style suites.</p><p>Location: Libra Community</p><p>Phone Number: <a href=\"tel:407-882-5015\">407-882-5015</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/libra\">http://www.housing.ucf.edu/choices/libra</a></p>",
+                "Latitude": "28.598233",
+                "Longitude": "-81.198637"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198216,
+                    28.597988,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Seminole Hall (SEM)",
+                "styleUrl": "#default00",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b32.jpg\" alt=\"Seminole Hall (Libra)\"></p><p>The Libra Community features six residence halls and is reserved for first-year students. The Libra Community is close to the Health Center, Marketplace dining hall, and Recreation and Wellness Center. There are two different styles of rooms in the community, the L-shaped and the Pod-Style suites.</p><p>Location: Libra Community</p><p>Phone Number: <a href=\"tel:407-882-5015\">407-882-5015</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/libra\">http://www.housing.ucf.edu/choices/libra</a></p>",
+                "Name": "Seminole Hall (Libra)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b32.jpg\" alt=\"Seminole Hall (Libra)\"></p><p>The Libra Community features six residence halls and is reserved for first-year students. The Libra Community is close to the Health Center, Marketplace dining hall, and Recreation and Wellness Center. There are two different styles of rooms in the community, the L-shaped and the Pod-Style suites.</p><p>Location: Libra Community</p><p>Phone Number: <a href=\"tel:407-882-5015\">407-882-5015</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/libra\">http://www.housing.ucf.edu/choices/libra</a></p>",
+                "Latitude": "28.597988",
+                "Longitude": "-81.198216"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198296,
+                    28.598831,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sumter Hall (SUM)",
+                "styleUrl": "#default00",
+                "description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/li1.png\" alt=\"Sumter Hall (Libra)\"></p><p>The Libra Community features six residence halls and is reserved for first-year students. The Libra Community is close to the Health Center, Marketplace dining hall, and Recreation and Wellness Center. There are two different styles of rooms in the community, the L-shaped and the Pod-Style suites.</p><p>Location: Libra Community</p><p>Phone Number: <a href=\"tel:407-882-5015\">407-882-5015</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/libra\">http://www.housing.ucf.edu/choices/libra</a></p>",
+                "Name": "Sumter Hall (Libra)",
+                "Description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/li1.png\" alt=\"Sumter Hall (Libra)\"></p><p>The Libra Community features six residence halls and is reserved for first-year students. The Libra Community is close to the Health Center, Marketplace dining hall, and Recreation and Wellness Center. There are two different styles of rooms in the community, the L-shaped and the Pod-Style suites.</p><p>Location: Libra Community</p><p>Phone Number: <a href=\"tel:407-882-5015\">407-882-5015</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/libra\">http://www.housing.ucf.edu/choices/libra</a></p>",
+                "Latitude": "28.598831",
+                "Longitude": "-81.198296"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197288,
+                    28.593322,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Neptune 156 (N156)",
+                "description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Neptune 156\"></p>",
+                "Name": "Neptune 156",
+                "Description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Neptune 156\"></p>",
+                "Latitude": "28.593322",
+                "Longitude": "-81.197288"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198296,
+                    28.593875,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Neptune 157 (N157)",
+                "description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Neptune 157\"></p>",
+                "Name": "Neptune 157",
+                "Description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Neptune 157\"></p>",
+                "Latitude": "28.593875",
+                "Longitude": "-81.198296"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198829,
+                    28.593785,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Neptune 158 (N158)",
+                "description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Neptune 158\"></p>",
+                "Name": "Neptune 158",
+                "Description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Neptune 158\"></p>",
+                "Latitude": "28.593785",
+                "Longitude": "-81.198829"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198208,
+                    28.594814,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nike 101 (N101)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b101.jpg\" alt=\"Nike 101\"></p>",
+                "Name": "Nike 101",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b101.jpg\" alt=\"Nike 101\"></p>",
+                "Latitude": "28.594814",
+                "Longitude": "-81.198208"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198556,
+                    28.594446,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nike 102 (N102)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b102.jpg\" alt=\"Nike 102\"></p>",
+                "Name": "Nike 102",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b102.jpg\" alt=\"Nike 102\"></p>",
+                "Latitude": "28.594446",
+                "Longitude": "-81.198556"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197848,
+                    28.594574,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nike 103 (N103)",
+                "description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Nike 103\"></p>",
+                "Name": "Nike 103",
+                "Description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Nike 103\"></p>",
+                "Latitude": "28.594574",
+                "Longitude": "-81.197848"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197473,
+                    28.595082,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nike 104 (N104)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b104.jpg\" alt=\"Nike 104\"></p>",
+                "Name": "Nike 104",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b104.jpg\" alt=\"Nike 104\"></p>",
+                "Latitude": "28.595082",
+                "Longitude": "-81.197473"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197119,
+                    28.594809,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nike 105 (N105)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b105.jpg\" alt=\"Nike 105\"></p>",
+                "Name": "Nike 105",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b105.jpg\" alt=\"Nike 105\"></p>",
+                "Latitude": "28.594809",
+                "Longitude": "-81.197119"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197623,
+                    28.594065,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nike 106 (N106)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b106.jpg\" alt=\"Nike 106\"></p>",
+                "Name": "Nike 106",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b106.jpg\" alt=\"Nike 106\"></p>",
+                "Latitude": "28.594065",
+                "Longitude": "-81.197623"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197183,
+                    28.594272,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nike 107 (N107)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b107.jpg\" alt=\"Nike 107\"></p>",
+                "Name": "Nike 107",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b107.jpg\" alt=\"Nike 107\"></p>",
+                "Latitude": "28.594272",
+                "Longitude": "-81.197183"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198162,
+                    28.607959,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tower I (T1)",
+                "description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/twrs1.png\" alt=\"Tower I (Gemini, Towers at Knights Plaza)\"></p><p>The Towers apartments are nestled in one of the most dynamic areas on campus- Knights Plaza. With concerts, athletic events, the All Knight Study, RWC@Knights Plaza and lots of great retail and dining options, this area of campus is the place to be. Something is always going on at your doorstep. Residents of the Towers are also provided with exclusive resident-only discounts at retailers and many other great Knights Plaza perks.</p><p>Location: Towers apartments</p><p>Phone Number: <a href=\"tel:407-882-9400\">407-882-9400</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/towers/\">http://www.housing.ucf.edu/choices/towers/</a></p>",
+                "Name": "Tower I (Gemini, Towers at Knights Plaza)",
+                "Description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/twrs1.png\" alt=\"Tower I (Gemini, Towers at Knights Plaza)\"></p><p>The Towers apartments are nestled in one of the most dynamic areas on campus- Knights Plaza. With concerts, athletic events, the All Knight Study, RWC@Knights Plaza and lots of great retail and dining options, this area of campus is the place to be. Something is always going on at your doorstep. Residents of the Towers are also provided with exclusive resident-only discounts at retailers and many other great Knights Plaza perks.</p><p>Location: Towers apartments</p><p>Phone Number: <a href=\"tel:407-882-9400\">407-882-9400</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/towers/\">http://www.housing.ucf.edu/choices/towers/</a></p>",
+                "Latitude": "28.607959",
+                "Longitude": "-81.198162"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19833099,
+                    28.60801929,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tower I (T1)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b129.jpg\" alt=\"Tower I\"></p>",
+                "Name": "Tower I",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b129.jpg\" alt=\"Tower I\"></p>",
+                "Latitude": "28.60801929",
+                "Longitude": "-81.19833099"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19740295,
+                    28.60962051,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tower II (T2)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b130.jpg\" alt=\"Tower II\"></p>",
+                "Name": "Tower II",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b130.jpg\" alt=\"Tower II\"></p>",
+                "Latitude": "28.60962051",
+                "Longitude": "-81.19740295"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197347,
+                    28.609579,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tower II (T2)",
+                "description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/twrs1.png\" alt=\"Tower II (Gemini, Towers at Knights Plaza)\"></p><p>The Towers apartments are nestled in one of the most dynamic areas on campus- Knights Plaza. With concerts, athletic events, the All Knight Study, RWC@Knights Plaza and lots of great retail and dining options, this area of campus is the place to be. Something is always going on at your doorstep. Residents of the Towers are also provided with exclusive resident-only discounts at retailers and many other great Knights Plaza perks.</p><p>Location: Towers apartments</p><p>Phone Number: <a href=\"tel:407-882-9406\">407-882-9406</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/towers/\">http://www.housing.ucf.edu/choices/towers/</a></p>",
+                "Name": "Tower II (Gemini, Towers at Knights Plaza)",
+                "Description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/twrs1.png\" alt=\"Tower II (Gemini, Towers at Knights Plaza)\"></p><p>The Towers apartments are nestled in one of the most dynamic areas on campus- Knights Plaza. With concerts, athletic events, the All Knight Study, RWC@Knights Plaza and lots of great retail and dining options, this area of campus is the place to be. Something is always going on at your doorstep. Residents of the Towers are also provided with exclusive resident-only discounts at retailers and many other great Knights Plaza perks.</p><p>Location: Towers apartments</p><p>Phone Number: <a href=\"tel:407-882-9406\">407-882-9406</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/towers/\">http://www.housing.ucf.edu/choices/towers/</a></p>",
+                "Latitude": "28.609579",
+                "Longitude": "-81.197347"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19648027,
+                    28.60659701,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tower III (T3)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/T3.jpg\" alt=\"Tower III\"></p>",
+                "Name": "Tower III",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/T3.jpg\" alt=\"Tower III\"></p>",
+                "Latitude": "28.60659701",
+                "Longitude": "-81.19648027"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.196385,
+                    28.606578,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tower III (T3)",
+                "description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/twrs1.png\" alt=\"Tower III (Orion, Towers at Knights Plaza)\"></p><p>The Towers apartments are nestled in one of the most dynamic areas on campus- Knights Plaza. With concerts, athletic events, the All Knight Study, RWC@Knights Plaza and lots of great retail and dining options, this area of campus is the place to be. Something is always going on at your doorstep. Residents of the Towers are also provided with exclusive resident-only discounts at retailers and many other great Knights Plaza perks.</p><p>Location: Towers apartments</p><p>Phone Number: <a href=\"tel:407-882-9408\">407-882-9408</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/towers/\">http://www.housing.ucf.edu/choices/towers/</a></p>",
+                "Name": "Tower III (Orion, Towers at Knights Plaza)",
+                "Description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/twrs1.png\" alt=\"Tower III (Orion, Towers at Knights Plaza)\"></p><p>The Towers apartments are nestled in one of the most dynamic areas on campus- Knights Plaza. With concerts, athletic events, the All Knight Study, RWC@Knights Plaza and lots of great retail and dining options, this area of campus is the place to be. Something is always going on at your doorstep. Residents of the Towers are also provided with exclusive resident-only discounts at retailers and many other great Knights Plaza perks.</p><p>Location: Towers apartments</p><p>Phone Number: <a href=\"tel:407-882-9408\">407-882-9408</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/towers/\">http://www.housing.ucf.edu/choices/towers/</a></p>",
+                "Latitude": "28.606578",
+                "Longitude": "-81.196385"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19576144,
+                    28.60554206,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tower IV (T4)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b133.jpg\" alt=\"Tower IV\"></p>",
+                "Name": "Tower IV",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b133.jpg\" alt=\"Tower IV\"></p>",
+                "Latitude": "28.60554206",
+                "Longitude": "-81.19576144"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19581,
+                    28.605684,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tower IV (T4)",
+                "description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/twrs1.png\" alt=\"Tower IV (Orion, Towers at Knights Plaza)\"></p><p>The Towers apartments are nestled in one of the most dynamic areas on campus- Knights Plaza. With concerts, athletic events, the All Knight Study, RWC@Knights Plaza and lots of great retail and dining options, this area of campus is the place to be. Something is always going on at your doorstep. Residents of the Towers are also provided with exclusive resident-only discounts at retailers and many other great Knights Plaza perks.</p><p>Location: Towers apartments</p><p>Phone Number: <a href=\"tel:407-882-9418\">407-882-9418</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/towers/\">http://www.housing.ucf.edu/choices/towers/</a></p>",
+                "Name": "Tower IV (Orion, Towers at Knights Plaza)",
+                "Description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/twrs1.png\" alt=\"Tower IV (Orion, Towers at Knights Plaza)\"></p><p>The Towers apartments are nestled in one of the most dynamic areas on campus- Knights Plaza. With concerts, athletic events, the All Knight Study, RWC@Knights Plaza and lots of great retail and dining options, this area of campus is the place to be. Something is always going on at your doorstep. Residents of the Towers are also provided with exclusive resident-only discounts at retailers and many other great Knights Plaza perks.</p><p>Location: Towers apartments</p><p>Phone Number: <a href=\"tel:407-882-9418\">407-882-9418</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/choices/towers/\">http://www.housing.ucf.edu/choices/towers/</a></p>",
+                "Latitude": "28.605684",
+                "Longitude": "-81.19581"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19139,
+                    28.613629,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "NorthView",
+                "description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/nv7.png\" alt=\"NorthView (Off Campus)\"></p><p>NorthView is UCF's newest and most luxurious student Apartment community. NorthView is located just north of the Bright House Networks Stadium, and a dedicated shuttle runs throughout the day to bring residents to the center of campus, near the Health and Public Affairs building.</p><p>Location: 3925 Lockwood Blvd, Oviedo, FL</p><p>Phone Number: <a href=\"tel:407-608-8570\">407-608-8570</a></p><p>Website: <a href=\"http://northview.sdes.ucf.edu\">http://northview.sdes.ucf.edu</a></p>",
+                "Name": "NorthView (Off Campus)",
+                "Description": "<p><img src=\"http://www.housing.ucf.edu/img/choices/pics/nv7.png\" alt=\"NorthView (Off Campus)\"></p><p>NorthView is UCF's newest and most luxurious student Apartment community. NorthView is located just north of the Bright House Networks Stadium, and a dedicated shuttle runs throughout the day to bring residents to the center of campus, near the Health and Public Affairs building.</p><p>Location: 3925 Lockwood Blvd, Oviedo, FL</p><p>Phone Number: <a href=\"tel:407-608-8570\">407-608-8570</a></p><p>Website: <a href=\"http://northview.sdes.ucf.edu\">http://northview.sdes.ucf.edu</a></p>",
+                "Latitude": "28.613629",
+                "Longitude": "-81.19139"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.208384,
+                    28.609784,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Knights Circle (Off Campus)",
+                "description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Knights Circle (Off Campus)\"></p><p>Live like you mean it at Knights Circle. Take advantage of renovated buildings, updated units, and outstanding amenities. Sprawling over 60 acres the amenity packages offer a state of the art movie theater, free tanning, fitness area, study lounge, three swimming pools, basketball, tennis and volleyball courts, computer labs, social recreational areas and much more.</p><p>Location: 12440 Golden Knight Cir, Orlando, FL</p><p>Phone Number: <a href=\"tel:407-380-5807\">407-380-5807</a></p><p>Website: <a href=\"http://liveatknightscircle.com\">http://liveatknightscircle.com</a></p>",
+                "Name": "Knights Circle (Off Campus)",
+                "Description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Knights Circle (Off Campus)\"></p><p>Live like you mean it at Knights Circle. Take advantage of renovated buildings, updated units, and outstanding amenities. Sprawling over 60 acres the amenity packages offer a state of the art movie theater, free tanning, fitness area, study lounge, three swimming pools, basketball, tennis and volleyball courts, computer labs, social recreational areas and much more.</p><p>Location: 12440 Golden Knight Cir, Orlando, FL</p><p>Phone Number: <a href=\"tel:407-380-5807\">407-380-5807</a></p><p>Website: <a href=\"http://liveatknightscircle.com\">http://liveatknightscircle.com</a></p>",
+                "Latitude": "28.609784",
+                "Longitude": "-81.208384"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.21046,
+                    28.578205,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "The Pointe at Central (Off Campus)",
+                "description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"The Pointe at Central (Off Campus)\"></p><p>With low prices, vast amenities and friendly staff, The Pointe at Central is a great choice for off-campus housing! A worry-free environment allows you to focus on the most important thing - being a college student. You will experience our best of class amenities such as a 24-hour clubhouse complete with a state-of-the-art fitness center, game room, business center, two resort-style pools and a hot tub, basketball and sand volleyball courts and much more! Located on the University of Central Florida shuttle and Lynx bus routes, the commute is easy!</p><p>Location: 2635 College Knight Ct, Orlando, FL</p><p>Phone Number: <a href=\"tel:407-384-6800\">407-384-6800</a></p><p>Website: <a href=\"http://www.thepointeatcentral.com\">http://www.thepointeatcentral.com</a></p>",
+                "Name": "The Pointe at Central (Off Campus)",
+                "Description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"The Pointe at Central (Off Campus)\"></p><p>With low prices, vast amenities and friendly staff, The Pointe at Central is a great choice for off-campus housing! A worry-free environment allows you to focus on the most important thing - being a college student. You will experience our best of class amenities such as a 24-hour clubhouse complete with a state-of-the-art fitness center, game room, business center, two resort-style pools and a hot tub, basketball and sand volleyball courts and much more! Located on the University of Central Florida shuttle and Lynx bus routes, the commute is easy!</p><p>Location: 2635 College Knight Ct, Orlando, FL</p><p>Phone Number: <a href=\"tel:407-384-6800\">407-384-6800</a></p><p>Website: <a href=\"http://www.thepointeatcentral.com\">http://www.thepointeatcentral.com</a></p>",
+                "Latitude": "28.578205",
+                "Longitude": "-81.21046"
+            }
+        }
+    ]
+}

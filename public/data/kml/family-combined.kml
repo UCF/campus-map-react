@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>family-combined.kml</name>
+
+		<open>1</open>
+		<ExtendedData>
+			<Data name="searchable">
+				<value>0</value>
+			</Data>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Folder>
+			<name>Baby Changing Stations</name>
+			<Placemark>
+				<name>UCF Arena Lobby (Baby Changing Station)</name>
+				<description>The family restroom, near Jimmy John&apos;s.</description>
+				<styleUrl>#default15</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160630122052">
+						<SimpleData name="Name">UCF Arena Lobby</SimpleData>
+						<SimpleData name="Description">The family restroom, near Jimmy John&apos;s.</SimpleData>
+						<SimpleData name="Latitude">28.60699</SimpleData>
+						<SimpleData name="Longitude">-81.197383</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.197383,28.60699,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Student Union (Baby Changing Station)</name>
+				<description>The men&apos;s and women&apos;s restrooms near Mrs. Field&apos;s Bakery on the first floor.</description>
+				<styleUrl>#default22</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160630122052">
+						<SimpleData name="Name">Student Union</SimpleData>
+						<SimpleData name="Description">The men&apos;s and women&apos;s restrooms near Mrs. Field&apos;s Bakery on the first floor.</SimpleData>
+						<SimpleData name="Latitude">28.601842</SimpleData>
+						<SimpleData name="Longitude">-81.200654</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.200654,28.601842,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Library (Baby Changing Station)</name>
+				<description>Main floor are in the men's and women's bathrooms nearest to the Student Union facing entrance. 3rd floor are in the family bathroom, and the men's and women's restrooms closest to the Reflecting Pond.</description>
+				<styleUrl>#default22</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160630122052">
+						<SimpleData name="Name">Library</SimpleData>
+						<SimpleData name="Description">Main floor are in the men's and women's bathrooms nearest to the Student Union facing entrance. 3rd floor are in the family bathroom, and the men's and women's restrooms closest to the Reflecting Pond.</SimpleData>
+						<SimpleData name="Latitude">28.600204294823776</SimpleData>
+						<SimpleData name="Longitude">-81.20152112618406</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-28.600204294823776, -81.20152112618406,0</coordinates>
+				</Point>
+			</Placemark>
+
+			
+			
+			<Schema name="csv_20160630122052" id="csv_20160630122052">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="string"></SimpleField>
+	<SimpleField name="Longitude" type="string"></SimpleField>
+</Schema>
+		</Folder>
+		<Folder>
+			<name>Family/All Gender Restrooms</name>
+			<Placemark>
+				<name>All Knight Study @ Knights Plaza (Family/All Gender Restrooms)</name>
+				<description>Back of the area towards the restroom sign.</description>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160602015917">
+						<SimpleData name="Name">All Knight Study (UCF Arena)</SimpleData>
+						<SimpleData name="Description">All Knight Study (UCF Arena)</SimpleData>
+						<SimpleData name="Latitude">28.607125</SimpleData>
+						<SimpleData name="Longitude">-81.197996</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.197996,28.607125,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Central Florida Hillel (Family/All Gender Restrooms)</name>
+				<description>On the ground floor of Northview; enter the building from the Lockwood Blvd. and it wiill be left from the front desk. If closed ask anyone in the office.</description>
+				<styleUrl>#default1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160602015917">
+						<SimpleData name="Name">Central Florida Hillel</SimpleData>
+						<SimpleData name="Description">Central Florida Hillel</SimpleData>
+						<SimpleData name="Latitude">28.613843</SimpleData>
+						<SimpleData name="Longitude">-81.191499</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.19149899999999,28.613843,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Addition Financial Arena Lobby - (Family/All Gender Restrooms)</name>
+				<description><![CDATA[<p>This location has two restrooms:</p>
+<p>2nd floor by section 208 and 103 (To the right past the staircase)</p>
+<p>1st floor, directly forward and behind the staircase (towards the right staircase)</p>]]></description>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160602015917">
+						<SimpleData name="Name">UCF Arena Lobby</SimpleData>
+						<SimpleData name="Description">UCF Arena Lobby</SimpleData>
+						<SimpleData name="Latitude">28.606903</SimpleData>
+						<SimpleData name="Longitude">-81.19765</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.19765,28.606903,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Career Services/Experiential Learning (Family/All Gender Restrooms)</name>
+				<description>First floor past check in desk at the end of the hallway.</description>
+				<styleUrl>#default19</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160602015917">
+						<SimpleData name="Name">Career Services/Experiential Learning</SimpleData>
+						<SimpleData name="Description">Career Services/Experiential Learning</SimpleData>
+						<SimpleData name="Latitude">28.605223</SimpleData>
+						<SimpleData name="Longitude">-81.19897</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.19897,28.605223,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fraternity &amp; Sorority Life (Family/All Gender Restrooms)</name>
+				<description>Enter and follow hallway, past cubicles, all the way to the back of the building.</description>
+				<styleUrl>#default11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160602015917">
+						<SimpleData name="Name">Fraternity &amp; Sorority Life</SimpleData>
+						<SimpleData name="Description">Fraternity &amp; Sorority Life</SimpleData>
+						<SimpleData name="Latitude">28.603401</SimpleData>
+						<SimpleData name="Longitude">-81.206641</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.206641,28.603401,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Health Services (Family/All Gender Restrooms)</name>
+				<description>4 Restrooms on the first floor. Past the appointment windows on the right hand side.</description>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160602015917">
+						<SimpleData name="Name">Health Services</SimpleData>
+						<SimpleData name="Description">Health Services</SimpleData>
+						<SimpleData name="Latitude">28.599251</SimpleData>
+						<SimpleData name="Longitude">-81.199237</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.199237,28.599251,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>John T. Washington Center (Family/All Gender Restrooms)</name>
+				<description>Behind the CFE Bank, in-between the Spot and CFE.</description>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160602015917">
+						<SimpleData name="Name">John T. Washington Center</SimpleData>
+						<SimpleData name="Description">John T. Washington Center</SimpleData>
+						<SimpleData name="Latitude">28.600889</SimpleData>
+						<SimpleData name="Longitude">-81.201762</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.201762,28.600889,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pride Commons (Family/All Gender Restrooms)</name>
+				<description>Immediately when you enter</description>
+				<styleUrl>#default14</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160602015917">
+						<SimpleData name="Name">Pride Commons</SimpleData>
+						<SimpleData name="Description">Pride Commons - Ferrell Commons 171</SimpleData>
+						<SimpleData name="Latitude">28.59769</SimpleData>
+						<SimpleData name="Longitude">-81.199616</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.19961600000001,28.59769,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Recreation and Wellness Center (Family/All Gender Restrooms)</name>
+				<description>2 restrooms at the RWC main building.</description>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160602015917">
+						<SimpleData name="Name">Recreation and Wellness Center</SimpleData>
+						<SimpleData name="Description">Recreation and Wellness Center</SimpleData>
+						<SimpleData name="Latitude">28.596034</SimpleData>
+						<SimpleData name="Longitude">-81.199298</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.199298,28.596034,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>RWC @ Knights Plaza (Family/All Gender Restrooms)</name>
+				<description>Enter RWC and turn right.</description>
+				<styleUrl>#msn_ylw-pushpin4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160602015917">
+						<SimpleData name="Name">RWC @ Knights Plaza</SimpleData>
+						<SimpleData name="Description">RWC @ Knights Plaza</SimpleData>
+						<SimpleData name="Latitude">28.606593</SimpleData>
+						<SimpleData name="Longitude">-81.198688</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.198688,28.606593,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Student Health Services @ Knights Plaza (Family Restroom)</name>
+				<description>In the back by the pharmacy pick up.</description>
+				<LookAt>
+					<gx:ViewerOptions>
+						<gx:option enabled="0" name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-81.19893875101775</longitude>
+					<latitude>28.60804336093695</latitude>
+					<altitude>0</altitude>
+					<heading>-37.16421999132864</heading>
+					<tilt>78.38800862937936</tilt>
+					<range>125.9745780573035</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-81.19826621224803,28.60726447804673,22.35817722891817</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Student Union (Family/All Gender Restrooms)</name>
+				<description>Inside Smoothie King - Enter and immediately turn left.</description>
+				<styleUrl>#default</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160602015917">
+						<SimpleData name="Name">Student Union (Smoothie King)</SimpleData>
+						<SimpleData name="Description">Student Union (Smoothie King)</SimpleData>
+						<SimpleData name="Latitude">28.601605</SimpleData>
+						<SimpleData name="Longitude">-81.200509</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.200509,28.601605,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tower 3 Lobby (Family/All Gender Restrooms)</name>
+				<description>Enter from the Knights Plaza entrance and take a right. Entrance is locked to non-residents.</description>
+				<styleUrl>#msn_ylw-pushpin6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20160602015917">
+						<SimpleData name="Name">Tower 3 Lobby</SimpleData>
+						<SimpleData name="Description">Tower 3 Lobby</SimpleData>
+						<SimpleData name="Latitude">28.606722</SimpleData>
+						<SimpleData name="Longitude">-81.19659</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.19659,28.606722,0</coordinates>
+				</Point>
+			</Placemark>
+			<Schema name="csv_20160602015917" id="csv_20160602015917">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="string"></SimpleField>
+	<SimpleField name="Longitude" type="string"></SimpleField>
+</Schema>
+		</Folder>
+		<Folder>
+			<name>Lactation Rooms</name>
+			<Placemark>
+				<name>College of Nursing - University Tower (Lactation Room)</name>
+				<description>Room 431, Check in at room 300 for key</description>
+				<styleUrl>#default16</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20161018023444">
+						<SimpleData name="Name">College of Nursing - University Tower (Lactation Room)</SimpleData>
+						<SimpleData name="Description">Room 431, Check in at room 300 for key</SimpleData>
+						<SimpleData name="Latitude">28.587781</SimpleData>
+						<SimpleData name="Longitude">-81.199333</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.199333,28.587781,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Engineering Building 1 (Lactation Room)</name>
+				<description>Room 220, Check in at room 107 for key</description>
+				<styleUrl>#default20</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20161018023444">
+						<SimpleData name="Name">Engineering Building 1 (Lactation Room)</SimpleData>
+						<SimpleData name="Description">Room 220, Check in at room 107 for key</SimpleData>
+						<SimpleData name="Latitude">28.60140693</SimpleData>
+						<SimpleData name="Longitude">-81.19850802</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.19850802000001,28.60140693,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>UCF Global (Lactation Room)</name>
+				<description>Room 314, Check in at reception desk on 3rd floor for key</description>
+				<styleUrl>#default4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20161018023444">
+						<SimpleData name="Name">UCF Global (Lactation Room)</SimpleData>
+						<SimpleData name="Description">Room 314, Check in at reception desk on 3rd floor for key</SimpleData>
+						<SimpleData name="Latitude">28.60476485</SimpleData>
+						<SimpleData name="Longitude">-81.19806469</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.19806469,28.60476485,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Health &amp; Public Affairs I (Lactation Room)</name>
+				<description>Room 210, Check in at room 365 (front desk) for key</description>
+				<styleUrl>#default9</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20161018023444">
+						<SimpleData name="Name">Health &amp; Public Affairs I (Lactation Room)</SimpleData>
+						<SimpleData name="Description">Room 210, Check in at room 365 (front desk) for key</SimpleData>
+						<SimpleData name="Latitude">28.60289522</SimpleData>
+						<SimpleData name="Longitude">-81.19881915</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.19881915000001,28.60289522,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Physical Science Building (Lactation Room)</name>
+				<description>Room 467, Check in at room 430 for key</description>
+				<styleUrl>#default10</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20161018023444">
+						<SimpleData name="Name">Physical Science Building (Lactation Room)</SimpleData>
+						<SimpleData name="Description">Room 467, Check in at room 430 for key</SimpleData>
+						<SimpleData name="Latitude">28.599769</SimpleData>
+						<SimpleData name="Longitude">-81.197993</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.197993,28.59976899999999,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Recreation and Wellness Center (Lactation Room)</name>
+				<description>Recreation and Wellness Center, Entrance across from Leisure Pool, Check in at suite 111 for key</description>
+				<styleUrl>#default18</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#csv_20161018023444">
+						<SimpleData name="Name">Recreation and Wellness Center (Lactation Room)</SimpleData>
+						<SimpleData name="Description">Recreation and Wellness Center, Entrance across from Leisure Pool, Check in at suite 111 for key</SimpleData>
+						<SimpleData name="Latitude">28.596001</SimpleData>
+						<SimpleData name="Longitude">-81.199269</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-81.199269,28.596001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Schema name="csv_20160917123132" id="csv_20160917123132">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="string"></SimpleField>
+	<SimpleField name="Longitude" type="string"></SimpleField>
+</Schema>
+		</Folder>
+
+</Document>
+</kml>

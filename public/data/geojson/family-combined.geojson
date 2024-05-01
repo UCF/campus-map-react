@@ -1,0 +1,441 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197383,
+                    28.60699,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "UCF Arena Lobby (Baby Changing Station)",
+                "styleUrl": "#default15",
+                "description": "The family restroom, near Jimmy John's.",
+                "Name": "UCF Arena Lobby",
+                "Description": "The family restroom, near Jimmy John's.",
+                "Latitude": "28.60699",
+                "Longitude": "-81.197383"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200654,
+                    28.601842,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Student Union (Baby Changing Station)",
+                "styleUrl": "#default22",
+                "description": "The men's and women's restrooms near Mrs. Field's Bakery on the first floor.",
+                "Name": "Student Union",
+                "Description": "The men's and women's restrooms near Mrs. Field's Bakery on the first floor.",
+                "Latitude": "28.601842",
+                "Longitude": "-81.200654"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -28.600204294823776,
+                    -81.20152112618406,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Library (Baby Changing Station)",
+                "styleUrl": "#default22",
+                "description": "Main floor are in the men's and women's bathrooms nearest to the Student Union facing entrance. 3rd floor are in the family bathroom, and the men's and women's restrooms closest to the Reflecting Pond.",
+                "Name": "Library",
+                "Description": "Main floor are in the men's and women's bathrooms nearest to the Student Union facing entrance. 3rd floor are in the family bathroom, and the men's and women's restrooms closest to the Reflecting Pond.",
+                "Latitude": "28.600204294823776",
+                "Longitude": "-81.20152112618406"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197996,
+                    28.607125,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "All Knight Study @ Knights Plaza (Family/All Gender Restrooms)",
+                "styleUrl": "#msn_ylw-pushpin3",
+                "description": "Back of the area towards the restroom sign.",
+                "Name": "All Knight Study (UCF Arena)",
+                "Description": "All Knight Study (UCF Arena)",
+                "Latitude": "28.607125",
+                "Longitude": "-81.197996"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.191499,
+                    28.613843,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Central Florida Hillel (Family/All Gender Restrooms)",
+                "styleUrl": "#default1",
+                "description": "On the ground floor of Northview; enter the building from the Lockwood Blvd. and it wiill be left from the front desk. If closed ask anyone in the office.",
+                "Name": "Central Florida Hillel",
+                "Description": "Central Florida Hillel",
+                "Latitude": "28.613843",
+                "Longitude": "-81.191499"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19765,
+                    28.606903,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Addition Financial Arena Lobby - (Family/All Gender Restrooms)",
+                "styleUrl": "#msn_ylw-pushpin",
+                "description": "<p>This location has two restrooms:</p>\n<p>2nd floor by section 208 and 103 (To the right past the staircase)</p>\n<p>1st floor, directly forward and behind the staircase (towards the right staircase)</p>",
+                "Name": "UCF Arena Lobby",
+                "Description": "UCF Arena Lobby",
+                "Latitude": "28.606903",
+                "Longitude": "-81.19765"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19897,
+                    28.605223,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Career Services/Experiential Learning (Family/All Gender Restrooms)",
+                "styleUrl": "#default19",
+                "description": "First floor past check in desk at the end of the hallway.",
+                "Name": "Career Services/Experiential Learning",
+                "Description": "Career Services/Experiential Learning",
+                "Latitude": "28.605223",
+                "Longitude": "-81.19897"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.206641,
+                    28.603401,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Fraternity & Sorority Life (Family/All Gender Restrooms)",
+                "styleUrl": "#default11",
+                "description": "Enter and follow hallway, past cubicles, all the way to the back of the building.",
+                "Name": "Fraternity & Sorority Life",
+                "Description": "Fraternity & Sorority Life",
+                "Latitude": "28.603401",
+                "Longitude": "-81.206641"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199237,
+                    28.599251,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Health Services (Family/All Gender Restrooms)",
+                "styleUrl": "#msn_ylw-pushpin5",
+                "description": "4 Restrooms on the first floor. Past the appointment windows on the right hand side.",
+                "Name": "Health Services",
+                "Description": "Health Services",
+                "Latitude": "28.599251",
+                "Longitude": "-81.199237"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201762,
+                    28.600889,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "John T. Washington Center (Family/All Gender Restrooms)",
+                "styleUrl": "#msn_ylw-pushpin1",
+                "description": "Behind the CFE Bank, in-between the Spot and CFE.",
+                "Name": "John T. Washington Center",
+                "Description": "John T. Washington Center",
+                "Latitude": "28.600889",
+                "Longitude": "-81.201762"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199616,
+                    28.59769,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pride Commons (Family/All Gender Restrooms)",
+                "styleUrl": "#default14",
+                "description": "Immediately when you enter",
+                "Name": "Pride Commons",
+                "Description": "Pride Commons - Ferrell Commons 171",
+                "Latitude": "28.59769",
+                "Longitude": "-81.199616"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199298,
+                    28.596034,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Recreation and Wellness Center (Family/All Gender Restrooms)",
+                "styleUrl": "#msn_ylw-pushpin2",
+                "description": "2 restrooms at the RWC main building.",
+                "Name": "Recreation and Wellness Center",
+                "Description": "Recreation and Wellness Center",
+                "Latitude": "28.596034",
+                "Longitude": "-81.199298"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198688,
+                    28.606593,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "RWC @ Knights Plaza (Family/All Gender Restrooms)",
+                "styleUrl": "#msn_ylw-pushpin4",
+                "description": "Enter RWC and turn right.",
+                "Name": "RWC @ Knights Plaza",
+                "Description": "RWC @ Knights Plaza",
+                "Latitude": "28.606593",
+                "Longitude": "-81.198688"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19826621224803,
+                    28.60726447804673,
+                    22.35817722891817
+                ]
+            },
+            "properties": {
+                "name": "Student Health Services @ Knights Plaza (Family Restroom)",
+                "styleUrl": "#msn_ylw-pushpin0",
+                "description": "In the back by the pharmacy pick up."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200509,
+                    28.601605,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Student Union (Family/All Gender Restrooms)",
+                "styleUrl": "#default",
+                "description": "Inside Smoothie King - Enter and immediately turn left.",
+                "Name": "Student Union (Smoothie King)",
+                "Description": "Student Union (Smoothie King)",
+                "Latitude": "28.601605",
+                "Longitude": "-81.200509"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19659,
+                    28.606722,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tower 3 Lobby (Family/All Gender Restrooms)",
+                "styleUrl": "#msn_ylw-pushpin6",
+                "description": "Enter from the Knights Plaza entrance and take a right. Entrance is locked to non-residents.",
+                "Name": "Tower 3 Lobby",
+                "Description": "Tower 3 Lobby",
+                "Latitude": "28.606722",
+                "Longitude": "-81.19659"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199333,
+                    28.587781,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "College of Nursing - University Tower (Lactation Room)",
+                "styleUrl": "#default16",
+                "description": "Room 431, Check in at room 300 for key",
+                "Name": "College of Nursing - University Tower (Lactation Room)",
+                "Description": "Room 431, Check in at room 300 for key",
+                "Latitude": "28.587781",
+                "Longitude": "-81.199333"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19850802,
+                    28.60140693,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Engineering Building 1 (Lactation Room)",
+                "styleUrl": "#default20",
+                "description": "Room 220, Check in at room 107 for key",
+                "Name": "Engineering Building 1 (Lactation Room)",
+                "Description": "Room 220, Check in at room 107 for key",
+                "Latitude": "28.60140693",
+                "Longitude": "-81.19850802"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19806469,
+                    28.60476485,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "UCF Global (Lactation Room)",
+                "styleUrl": "#default4",
+                "description": "Room 314, Check in at reception desk on 3rd floor for key",
+                "Name": "UCF Global (Lactation Room)",
+                "Description": "Room 314, Check in at reception desk on 3rd floor for key",
+                "Latitude": "28.60476485",
+                "Longitude": "-81.19806469"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19881915,
+                    28.60289522,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Health & Public Affairs I (Lactation Room)",
+                "styleUrl": "#default9",
+                "description": "Room 210, Check in at room 365 (front desk) for key",
+                "Name": "Health & Public Affairs I (Lactation Room)",
+                "Description": "Room 210, Check in at room 365 (front desk) for key",
+                "Latitude": "28.60289522",
+                "Longitude": "-81.19881915"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197993,
+                    28.59976899999999,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Physical Science Building (Lactation Room)",
+                "styleUrl": "#default10",
+                "description": "Room 467, Check in at room 430 for key",
+                "Name": "Physical Science Building (Lactation Room)",
+                "Description": "Room 467, Check in at room 430 for key",
+                "Latitude": "28.599769",
+                "Longitude": "-81.197993"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199269,
+                    28.596001,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Recreation and Wellness Center (Lactation Room)",
+                "styleUrl": "#default18",
+                "description": "Recreation and Wellness Center, Entrance across from Leisure Pool, Check in at suite 111 for key",
+                "Name": "Recreation and Wellness Center (Lactation Room)",
+                "Description": "Recreation and Wellness Center, Entrance across from Leisure Pool, Check in at suite 111 for key",
+                "Latitude": "28.596001",
+                "Longitude": "-81.199269"
+            }
+        }
+    ]
+}

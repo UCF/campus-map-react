@@ -1,0 +1,271 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199026,
+                    28.605286,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Career Services (Knights Pantry Donation Bin)",
+                "description": "<p>Location: first floor by the help desk</p>",
+                "Name": "Career Services (Knights Pantry Donation Bin)",
+                "Description": "<p>Location: first floor by the help desk</p>",
+                "Latitude": "28.605286",
+                "Longitude": "-81.199026"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19868504,
+                    28.60198153,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Engineering II (Knights Pantry Donation Bin)",
+                "description": "<p>Location: main lobby door</p>",
+                "Name": "Engineering II (Knights Pantry Donation Bin)",
+                "Description": "<p>Location: main lobby door</p>",
+                "Latitude": "28.60198153",
+                "Longitude": "-81.19868504"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1988728,
+                    28.60567393,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "FAIRWINDS Alumni Center (Knights Pantry Donation Bin)",
+                "description": "<p>Location: end of the hallway past the ballrooms</p>",
+                "Name": "FAIRWINDS Alumni Center (Knights Pantry Donation Bin)",
+                "Description": "<p>Location: end of the hallway past the ballrooms</p>",
+                "Latitude": "28.60567393",
+                "Longitude": "-81.1988728"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19881915,
+                    28.60289522,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Health & Public Affairs I (Knights Pantry Donation Bin)",
+                "description": "<p>Location: near the back doors in the Atrium</p>",
+                "Name": "Health & Public Affairs I (Knights Pantry Donation Bin)",
+                "Description": "<p>Location: near the back doors in the Atrium</p>",
+                "Latitude": "28.60289522",
+                "Longitude": "-81.19881915"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19929122,
+                    28.59937228,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Health Center (Knights Pantry Donation Bin)",
+                "description": "<p>Location: in Room 101.</p>",
+                "Name": "Health Center & Pharmacy (Knights Pantry Donation Bin)",
+                "Description": "<p>Location: in Room 101.</p>",
+                "Latitude": "28.59937228",
+                "Longitude": "-81.19929122"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202776,
+                    28.600283,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Howard Phillips Hall (Knights Pantry Donation Bin)",
+                "description": "<p>Location: near room 116.</p>",
+                "Name": "Howard Phillips Hall (Knights Pantry Donation Bin)",
+                "Description": "<p>Location: near room 116.</p>",
+                "Latitude": "28.600283",
+                "Longitude": "-81.202776"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202319,
+                    28.599106,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Millican Hall (Knights Pantry Donation Bin)",
+                "description": "<p>Location: outside SDES on the second floor</p>",
+                "Name": "Millican Hall (Knights Pantry Donation Bin)",
+                "Description": "<p>Location: outside SDES on the second floor</p>",
+                "Latitude": "28.599106",
+                "Longitude": "-81.202319"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20325821,
+                    28.60386071,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nicholson School of Communication (Knights Pantry Donation Bin)",
+                "description": "<p>Location 1: by the doors in 1st floor atrium </p> <p>Location 2: inside Academic Student Services</p>",
+                "Name": "Nicholson School of Communication (Knights Pantry Donation Bin)",
+                "Description": "<p>Location 1: by the doors in 1st floor atrium </p> <p>Location 2: inside Academic Student Services</p>",
+                "Latitude": "28.60386071",
+                "Longitude": "-81.20325821"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19139,
+                    28.613629,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "NorthView (Knights Pantry Donation Bin)",
+                "description": "<p>Location: will deliver bin to pantry</p>",
+                "Name": "NorthView (Knights Pantry Donation Bin)",
+                "Description": "<p>Location: will deliver bin to pantry</p>",
+                "Latitude": "28.613629",
+                "Longitude": "-81.19139"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19945752,
+                    28.604586,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Psychology Building (Knights Pantry Donation Bin)",
+                "description": "<p>Location 1: outside room 108 </p> <p>Location 2: room 320</p>",
+                "Name": "Psychology Building (Knights Pantry Donation Bin)",
+                "Description": "p>Location 1: outside room 108 </p> <p>Location 2: room 320</p>",
+                "Latitude": "28.604586",
+                "Longitude": "-81.19945752"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20439815,
+                    28.59380503,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Recreation and Wellness Center (Knights Pantry Donation Bin)",
+                "description": "<p>Location: in the Wellness & Health Promotion Services Front Office</p>",
+                "Name": "Recreation and Wellness Center (RWC)",
+                "Description": "<p>Location: in the Wellness & Health Promotion Services Front Office</p>",
+                "Latitude": "28.59380503",
+                "Longitude": "-81.20439815"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20052772,
+                    28.6016695,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Student Union (Knights Pantry Donation Bin)",
+                "description": "<p>Location: by info desk</p>",
+                "Name": "Student Union (Knights Pantry Donation Bin)",
+                "Description": "<p>Location: by info desk</p>",
+                "Latitude": "28.6016695",
+                "Longitude": "-81.20052772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.203578,
+                    28.601918,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Trevor Colbourn Hall (Knights Pantry Donation Bin)",
+                "description": "<p>Location: Graduate Student Center, room 213</p>",
+                "Name": "Trevor Colbourn Hall (Knights Pantry Donation Bin)",
+                "Description": "<p>Location: Graduate Student Center, room 213</p>",
+                "Latitude": "28.601918",
+                "Longitude": "-81.203578"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.203873,
+                    28.60279,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "UCF Art Gallery (Knights Pantry Donation Bin)",
+                "description": "<p>Location: Outside UCF Art Gallery</p>",
+                "Name": "UCF Art Gallery (Knights Pantry Donation Bin)",
+                "Description": "<p>Location: Outside UCF Art Gallery</p>",
+                "Latitude": "28.602790",
+                "Longitude": "-81.203873"
+            }
+        }
+    ]
+}

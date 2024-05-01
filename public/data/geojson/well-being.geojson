@@ -1,0 +1,418 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1986,
+                    28.5951,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Jaboticaba Tree",
+                "description": "Lap Pool. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1984,
+                    28.5951,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Avocado Tree",
+                "description": "Lap Pool. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1984,
+                    28.5951,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "StarFruit Tree",
+                "description": "Lap Pool. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1982,
+                    28.5951,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Longan Tree",
+                "description": "Lap Pool. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1982,
+                    28.5951,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mango Tree",
+                "description": "Lap Pool. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1981,
+                    28.5955,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bananas Tree",
+                "description": "Lap Pool. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1977,
+                    28.5966,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sugar Tree",
+                "description": "Lap Pool. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1972,
+                    28.5966,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Peach Tree",
+                "description": "Creative School for Children. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1972,
+                    28.5966,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pomegrante Tree",
+                "description": "Creative School for Children. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1971,
+                    28.5967,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mulberry Tree",
+                "description": "Creative School for Children. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1971,
+                    28.5967,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Avocado Tree",
+                "description": "Creative School for Children. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1971,
+                    28.5967,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mango Tree",
+                "description": "Creative School for Children. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1971,
+                    28.5967,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Strawberry  Tree",
+                "description": "Creative School for Children. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197,
+                    28.5966,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Starfruit Tree",
+                "description": "Creative School for Children. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1977,
+                    28.5997,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Barbados Cherry Tree",
+                "description": "Near Arboretum. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1965,
+                    28.6006,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Guava Tree",
+                "description": "Arboretum. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1968,
+                    28.6005,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pomegranate  Tree",
+                "description": "Arboretum. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.2011,
+                    28.5993,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Loquats (Reflecting Pond) Tree",
+                "description": "Reflection Pond. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.2013,
+                    28.6017,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Loquats Tree",
+                "description": "Student Union. All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.2012,
+                    28.6016,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mulberry  Tree",
+                "description": "Student Union All produce is made available for free via Knights Pantry and through Wellness and Health Promotion Services FreshU to go space. Please refrain from harvesting directly from the fruit trees and tower gardens."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1991,
+                    28.5958,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tower Garden (WHPS)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201,
+                    28.6018,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tower Garden (Student Union Outdoor)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.2005,
+                    28.6019,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tower Garden (Student Union 1st Floor)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.2005,
+                    28.6019,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tower Garden (Student Union 2nd Floor)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.2005,
+                    28.6019,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Condom Dispensers (Student Union, First Floor)",
+                "description": "First Floor of Student Union"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199,
+                    28.5976,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Condom Dispensers (All Knight Study)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198,
+                    28.6074,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Condom Dispensers (All Knight  Study - Towers)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199,
+                    28.5957,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Condom Dispensers (WHPS)"
+            }
+        }
+    ]
+}

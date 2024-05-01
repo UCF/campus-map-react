@@ -1,0 +1,1335 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.2038778,
+                    28.60005521,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Curriculum Materials Center ",
+                "description": "<p>The Curriculum Materials Center (CMC) is a UCF library whose collection supports the School of Teacher Education academic program.  The CMC provides preK-12th grade representative materials for preview, analysis, and checkout to UCF students, faculty, staff and the Florida community at large. Located in the Education Complex, room ED 194, the collection contains approximately 32,000 items including, juvenile & young adult fiction, nonfiction, graphic novels, DVDs, audiobooks, professional literature for educators, preK-12th grade textbooks, educational manipulatives, a laminator, Glowforge laser cutter, and Ellison die cuts. </p>",
+                "Name": "Curriculum Materials Center ",
+                "Description": "<p>The Curriculum Materials Center (CMC) is a UCF library whose collection supports the School of Teacher Education academic program.  The CMC provides preK-12th grade representative materials for preview, analysis, and checkout to UCF students, faculty, staff and the Florida community at large. Located in the Education Complex, room ED 194, the collection contains approximately 32,000 items including, juvenile & young adult fiction, nonfiction, graphic novels, DVDs, audiobooks, professional literature for educators, preK-12th grade textbooks, educational manipulatives, a laminator, Glowforge laser cutter, and Ellison die cuts. </p>",
+                "Latitude": "28.60005521",
+                "Longitude": "-81.2038778"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20246696,
+                    28.59885419,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Academic Services",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b1.jpg\" alt=\"Academic Services\"></p><p>This office is responsible for administering State of Florida and University academic policies pertaining to academic record changes, curriculum file management, the degree audit program and University-wide undergraduate graduation requirements. The primary goal of the office is to apply these policies fairly and evenly according to established guidelines, to provide a prompt response to requests from students, faculty, and staff, and to maintain accurate and effective computer records for advisement and graduation certification. Academic record change forms are not available on our website and cannot be requested by phone. Please contact our office for more information on obtaining the necessary paperwork.</p><p>Location: Millican Hall, Room 210</p><p>Phone Number: <a href=\"tel:407-823-2691\">407-823-2691</a></p><p>Website: <a href=\"https://www.academicservices.ucf.edu/\">https://www.academicservices.ucf.edu/</a></p>",
+                "Name": "Academic Services",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b1.jpg\" alt=\"Academic Services\"></p><p>This office is responsible for administering State of Florida and University academic policies pertaining to academic record changes, curriculum file management, the degree audit program and University-wide undergraduate graduation requirements. The primary goal of the office is to apply these policies fairly and evenly according to established guidelines, to provide a prompt response to requests from students, faculty, and staff, and to maintain accurate and effective computer records for advisement and graduation certification. Academic record change forms are not available on our website and cannot be requested by phone. Please contact our office for more information on obtaining the necessary paperwork.</p><p>Location: Millican Hall, Room 210</p><p>Phone Number: <a href=\"tel:407-823-2691\">407-823-2691</a></p><p>Website: <a href=\"https://www.academicservices.ucf.edu/\">https://www.academicservices.ucf.edu/</a></p>",
+                "Latitude": "28.59885419",
+                "Longitude": "-81.20246696"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.194249,
+                    28.606414,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Academic Services for Student-Athletes (ASSA)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b38.jpg\" alt=\"Academic Services for Student-Athletes (ASSA)\"></p><p>The office of Academic Services for Student Athletes (ASSA) offers a variety of support services including Mentoring, Tutoring, and Academic Advising to help assist the more than 400 UCF student-athletes reach their full academic potential.</p><p>Location: Wayne Densch Center I 105</p><p>Phone Number: <a href=\"tel:407-823-5896\">407-823-5896</a></p><p>Website: <a href=\"http://assa.sdes.ucf.edu/\">http://assa.sdes.ucf.edu/</a></p>",
+                "Name": "Academic Services for Student-Athletes (ASSA)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b38.jpg\" alt=\"Academic Services for Student-Athletes (ASSA)\"></p><p>The office of Academic Services for Student Athletes (ASSA) offers a variety of support services including Mentoring, Tutoring, and Academic Advising to help assist the more than 400 UCF student-athletes reach their full academic potential.</p><p>Location: Wayne Densch Center I 105</p><p>Phone Number: <a href=\"tel:407-823-5896\">407-823-5896</a></p><p>Website: <a href=\"http://assa.sdes.ucf.edu/\">http://assa.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.606414",
+                "Longitude": "-81.194249"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.195858,
+                    28.586566,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Accounts Payable",
+                "description": "<p><img src=\"http://www.fa.ucf.edu/images/global/fa-header.gif\" alt=\"Accounts Payable\"></p><p>The mission of Finance and Accounting (F&A) is to provide accurate and timely financial services for the university faculty, staff, students and the public with an emphasis on integrity, customer service and quality.</p><p>Location: Research Pavilion, Suite 300</p><p>Phone Number: <a href=\"tel:407-882-1000\">407-882-1000</a></p><p>Website: <a href=\"http://www.fa.ucf.edu/\">http://www.fa.ucf.edu/</a></p>",
+                "Name": "Accounts Payable",
+                "Description": "<p><img src=\"http://www.fa.ucf.edu/images/global/fa-header.gif\" alt=\"Accounts Payable\"></p><p>The mission of Finance and Accounting (F&A) is to provide accurate and timely financial services for the university faculty, staff, students and the public with an emphasis on integrity, customer service and quality.</p><p>Location: Research Pavilion, Suite 300</p><p>Phone Number: <a href=\"tel:407-882-1000\">407-882-1000</a></p><p>Website: <a href=\"http://www.fa.ucf.edu/\">http://www.fa.ucf.edu/</a></p>",
+                "Latitude": "28.586566",
+                "Longitude": "-81.195858"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202767,
+                    28.601139,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Arts & Humanities Advising/Audits",
+                "description": "<p><img src=\"http://map.ucf.edu/locations/18/colbourn-hall-cnh/\" alt=\"Arts & Humanities Advising/Audits\"></p><p>CAHSA will work with students, departments and other university offices to optimize educational opportunities and provide guidance with respect to university and college policies</p><p>Location: Colbourn Hall 201</p><p>Phone Number: <a href=\"tel:407-823-3312\">407-823-3312</a></p><p>Website: <a href=\"http://cahsa.cah.ucf.edu\">http://cahsa.cah.ucf.edu</a></p>",
+                "Name": "Arts & Humanities Advising/Audits",
+                "Description": "<p><img src=\"http://map.ucf.edu/locations/18/colbourn-hall-cnh/\" alt=\"Arts & Humanities Advising/Audits\"></p><p>CAHSA will work with students, departments and other university offices to optimize educational opportunities and provide guidance with respect to university and college policies</p><p>Location: Colbourn Hall 201</p><p>Phone Number: <a href=\"tel:407-823-3312\">407-823-3312</a></p><p>Website: <a href=\"http://cahsa.cah.ucf.edu\">http://cahsa.cah.ucf.edu</a></p>",
+                "Latitude": "28.601139",
+                "Longitude": "-81.202767"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199742,
+                    28.589722,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Benefits",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b8112_1.jpg\" alt=\"Benefits\"></p><p>UCF Human Resources supports, develops, and protects UCF's most valuable resource people!</p><p>Location: Innovative Center 3280 Progress Drive, Suite 100, Orlando, FL 32826-0140</p><p>Phone Number: <a href=\"tel:407-823-2771\">407-823-2771</a></p><p>Website: <a href=\"http://hr.ucf.edu/\">http://hr.ucf.edu/</a></p>",
+                "Name": "Benefits",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b8112_1.jpg\" alt=\"Benefits\"></p><p>UCF Human Resources supports, develops, and protects UCF's most valuable resource people!</p><p>Location: Innovative Center 3280 Progress Drive, Suite 100, Orlando, FL 32826-0140</p><p>Phone Number: <a href=\"tel:407-823-2771\">407-823-2771</a></p><p>Website: <a href=\"http://hr.ucf.edu/\">http://hr.ucf.edu/</a></p>",
+                "Latitude": "28.589722",
+                "Longitude": "-81.199742"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20052772,
+                    28.6016695,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Campus Faiths & Ministries (CFM)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b52.jpg\" alt=\"Campus Faiths & Ministries (CFM)\"></p><p>Campus Faiths & Ministries (CFM) is a network of faith-based organizations dedicated to meeting the personal, religious and social needs of university students, faculty and staff.</p><p>Location: Student Union room 305</p><p>Phone Number: <a href=\"tel:407-823-5336\">407-823-5336</a></p><p>Website: <a href=\"http://cfm.sdes.ucf.edu/\">http://cfm.sdes.ucf.edu/</a></p>",
+                "Name": "Campus Faiths & Ministries (CFM)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b52.jpg\" alt=\"Campus Faiths & Ministries (CFM)\"></p><p>Campus Faiths & Ministries (CFM) is a network of faith-based organizations dedicated to meeting the personal, religious and social needs of university students, faculty and staff.</p><p>Location: Student Union room 305</p><p>Phone Number: <a href=\"tel:407-823-5336\">407-823-5336</a></p><p>Website: <a href=\"http://cfm.sdes.ucf.edu/\">http://cfm.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.6016695",
+                "Longitude": "-81.20052772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199117,
+                    28.601178,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "College of Business Administration - Undergraduate Student Services",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b94.jpg\" alt=\"College of Business Administration - Undergraduate Student Services\"></p><p>The Office of Professional Development (OPD) is unique to #UCFBusiness, providing both academic advising and career coaching services to students. Staffed by experienced Human Resource professionals, our Career Coaches work to help students develop their career plan from the day they start classes in the college.</p><p>Location: Business Administration II, Room 101</p><p>Phone Number: <a href=\"tel:407-823-2184\">407-823-2184</a></p><p>Website: <a href=\"http://business.ucf.edu/centers-institutes/office-of-professional-development/\">http://business.ucf.edu/centers-institutes/office-of-professional-development/</a></p>",
+                "Name": "College of Business Administration - Undergraduate Student Services",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b94.jpg\" alt=\"College of Business Administration - Undergraduate Student Services\"></p><p>The Office of Professional Development (OPD) is unique to #UCFBusiness, providing both academic advising and career coaching services to students. Staffed by experienced Human Resource professionals, our Career Coaches work to help students develop their career plan from the day they start classes in the college.</p><p>Location: Business Administration II, Room 101</p><p>Phone Number: <a href=\"tel:407-823-2184\">407-823-2184</a></p><p>Website: <a href=\"http://business.ucf.edu/centers-institutes/office-of-professional-development/\">http://business.ucf.edu/centers-institutes/office-of-professional-development/</a></p>",
+                "Latitude": "28.601178",
+                "Longitude": "-81.199117"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.203819,
+                    28.600216,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "College of Education and Human Performance Advising",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b21.jpg\" alt=\"College of Education and Human Performance Advising\"></p><p>While you are an education major in the UCF College of Education and Human Performance, you may seek academic advising here.</p><p>Location: Education Complex Room 110</p><p>Phone Number: <a href=\"tel:407-823-3723\">407-823-3723</a></p><p>Website: <a href=\"http://education.ucf.edu/ugrad/advising_undergrad.cfm\">http://education.ucf.edu/ugrad/advising_undergrad.cfm</a></p>",
+                "Name": "College of Education and Human Performance Advising",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b21.jpg\" alt=\"College of Education and Human Performance Advising\"></p><p>While you are an education major in the UCF College of Education and Human Performance, you may seek academic advising here.</p><p>Location: Education Complex Room 110</p><p>Phone Number: <a href=\"tel:407-823-3723\">407-823-3723</a></p><p>Website: <a href=\"http://education.ucf.edu/ugrad/advising_undergrad.cfm\">http://education.ucf.edu/ugrad/advising_undergrad.cfm</a></p>",
+                "Latitude": "28.600216",
+                "Longitude": "-81.203819"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198444,
+                    28.601827,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "College of Engineering and Computer Science Academic Affairs",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b40.jpg\" alt=\"College of Engineering and Computer Science Academic Affairs\"></p><p>The national award-winning advising staff in the CECS Office of Academic Affairs are on hand to help students through every step of their academic career. This office also coordinates student scholarships, serves as the administrative portal for CECS-affiliated student organizations.</p><p>Location: Engineering I Room 107</p><p>Phone Number: <a href=\"tel:407-823-2455\">407-823-2455</a></p><p>Website: <a href=\"http://www.cecs.ucf.edu/current-students/academic-affairs-office/\">http://www.cecs.ucf.edu/current-students/academic-affairs-office/</a></p>",
+                "Name": "College of Engineering and Computer Science Academic Affairs",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b40.jpg\" alt=\"College of Engineering and Computer Science Academic Affairs\"></p><p>The national award-winning advising staff in the CECS Office of Academic Affairs are on hand to help students through every step of their academic career. This office also coordinates student scholarships, serves as the administrative portal for CECS-affiliated student organizations.</p><p>Location: Engineering I Room 107</p><p>Phone Number: <a href=\"tel:407-823-2455\">407-823-2455</a></p><p>Website: <a href=\"http://www.cecs.ucf.edu/current-students/academic-affairs-office/\">http://www.cecs.ucf.edu/current-students/academic-affairs-office/</a></p>",
+                "Latitude": "28.601827",
+                "Longitude": "-81.198444"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198194,
+                    28.603155,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "College of Health and Public Affairs - Undergraduate Student Services",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b90.jpg\" alt=\"College of Health and Public Affairs - Undergraduate Student Services\"></p><p>The College of Health and Public Affairs is a leader in improving the health and welfare of communities -- both locally and around the world -- through education, research, service and community partnerships.The</p><p>Location: Health and Public Affairs II - Room 115</p><p>Phone Number: <a href=\"tel:407-823-0010\">407-823-0010</a></p><p>Website: <a href=\"https://www.cohpa.ucf.edu/undergraduate-services/\">https://www.cohpa.ucf.edu/undergraduate-services/</a></p>",
+                "Name": "College of Health and Public Affairs - Undergraduate Student Services",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b90.jpg\" alt=\"College of Health and Public Affairs - Undergraduate Student Services\"></p><p>The College of Health and Public Affairs is a leader in improving the health and welfare of communities -- both locally and around the world -- through education, research, service and community partnerships.The</p><p>Location: Health and Public Affairs II - Room 115</p><p>Phone Number: <a href=\"tel:407-823-0010\">407-823-0010</a></p><p>Website: <a href=\"https://www.cohpa.ucf.edu/undergraduate-services/\">https://www.cohpa.ucf.edu/undergraduate-services/</a></p>",
+                "Latitude": "28.603155",
+                "Longitude": "-81.198194"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198205,
+                    28.603189,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "College of Medicine, Biomedical Sciences Advising",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b90.jpg\" alt=\"College of Medicine, Biomedical Sciences Advising\"></p><p>The Office of Student Services and Advisement is the primary office for undergraduate academic advisement in the Burnett School of Biomedical Sciences. The Office of Student Services and Advisement in the Burnett School of Biomedical Sciences empowers students by providing academic advising services and co-curricular learning opportunities that support academic success.</p><p>Location: Health and Public Affairs II, Room 335</p><p>Phone Number: <a href=\"tel:407-823-5932\">407-823-5932</a></p><p>Website: <a href=\"https://med.ucf.edu/biomed/academics/academic-advising/undergraduate-advising/\">https://med.ucf.edu/biomed/academics/academic-advising/undergraduate-advising/</a></p>",
+                "Name": "College of Medicine, Biomedical Sciences Advising",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b90.jpg\" alt=\"College of Medicine, Biomedical Sciences Advising\"></p><p>The Office of Student Services and Advisement is the primary office for undergraduate academic advisement in the Burnett School of Biomedical Sciences. The Office of Student Services and Advisement in the Burnett School of Biomedical Sciences empowers students by providing academic advising services and co-curricular learning opportunities that support academic success.</p><p>Location: Health and Public Affairs II, Room 335</p><p>Phone Number: <a href=\"tel:407-823-5932\">407-823-5932</a></p><p>Website: <a href=\"https://med.ucf.edu/biomed/academics/academic-advising/undergraduate-advising/\">https://med.ucf.edu/biomed/academics/academic-advising/undergraduate-advising/</a></p>",
+                "Latitude": "28.603189",
+                "Longitude": "-81.198205"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20005834,
+                    28.60050382,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Computer and Technology Repair",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b29.jpg\" alt=\"Computer and Technology Repair\"></p><p>Whether you need help with campus WiFi, Office, or you've got an issue with your PC, our trained experts have the answers you need. Any Support Tech can help you find the perfect service to keep your computer running smoothly. Find us at the Student Support Desk in the Technology Commons II building.</p><p>Location: Technology Commons II</p><p>Phone Number: <a href=\"tel:407-823-5603\">407-823-5603</a></p><p>Website: <a href=\"http://cstore.ucf.edu/repair.html\">http://cstore.ucf.edu/repair.html</a></p>",
+                "Name": "Computer and Technology Repair",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b29.jpg\" alt=\"Computer and Technology Repair\"></p><p>Whether you need help with campus WiFi, Office, or you've got an issue with your PC, our trained experts have the answers you need. Any Support Tech can help you find the perfect service to keep your computer running smoothly. Find us at the Student Support Desk in the Technology Commons II building.</p><p>Location: Technology Commons II</p><p>Phone Number: <a href=\"tel:407-823-5603\">407-823-5603</a></p><p>Website: <a href=\"http://cstore.ucf.edu/repair.html\">http://cstore.ucf.edu/repair.html</a></p>",
+                "Latitude": "28.60050382",
+                "Longitude": "-81.20005834"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19868,
+                    28.599387,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Counseling and Psychological Services",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b27.jpg\" alt=\"Counseling and Psychological Services\"></p><p>Counseling and Psychological Services (CAPS) is the only free of charge campus agency designated to provide comprehensive psychological services to university enrolled students.</p><p>Location: Counseling Center 101</p><p>Phone Number: <a href=\"tel:407-823-2811\">407-823-2811</a></p><p>Website: <a href=\"http://caps.sdes.ucf.edu/\">http://caps.sdes.ucf.edu/</a></p>",
+                "Name": "Counseling and Psychological Services",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b27.jpg\" alt=\"Counseling and Psychological Services\"></p><p>Counseling and Psychological Services (CAPS) is the only free of charge campus agency designated to provide comprehensive psychological services to university enrolled students.</p><p>Location: Counseling Center 101</p><p>Phone Number: <a href=\"tel:407-823-2811\">407-823-2811</a></p><p>Website: <a href=\"http://caps.sdes.ucf.edu/\">http://caps.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.599387",
+                "Longitude": "-81.19868"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197614,
+                    28.597044,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Creative School for Children (CSC)",
+                "description": "<p><img src=\"http://csc.sdes.ucf.edu/images/slate/slate2.jpg\" alt=\"Creative School for Children (CSC)\"></p><p>We believe that all children have the basic right to be educated in a safe and nurturing environment. All children should be provided with time, space, and opportunities needed to discover, accept, and develop themselves to their highest potentials.</p><p>Location: Creative School for Children 102</p><p>Phone Number: <a href=\"tel:407-823-2726\">407-823-2726</a></p><p>Website: <a href=\"http://csc.sdes.ucf.edu/\">http://csc.sdes.ucf.edu/</a></p>",
+                "Name": "Creative School for Children (CSC)",
+                "Description": "<p><img src=\"http://csc.sdes.ucf.edu/images/slate/slate2.jpg\" alt=\"Creative School for Children (CSC)\"></p><p>We believe that all children have the basic right to be educated in a safe and nurturing environment. All children should be provided with time, space, and opportunities needed to discover, accept, and develop themselves to their highest potentials.</p><p>Location: Creative School for Children 102</p><p>Phone Number: <a href=\"tel:407-823-2726\">407-823-2726</a></p><p>Website: <a href=\"http://csc.sdes.ucf.edu/\">http://csc.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.597044",
+                "Longitude": "-81.197614"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200485,
+                    28.603552,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Faculty Multimedia Center Resources",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b79.jpg\" alt=\"Faculty Multimedia Center Resources\"></p><p>The Faculty Multimedia Center (FMC) is a state of the art digital media production and multimedia learning facility for faculty use.</p><p>Location: Classroom Building I Room 202</p><p>Phone Number: <a href=\"tel:407-823-0519\">407-823-0519</a></p><p>Website: <a href=\"http://oir.ucf.edu/fmc-resources/\">http://oir.ucf.edu/fmc-resources/</a></p>",
+                "Name": "Faculty Multimedia Center Resources",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b79.jpg\" alt=\"Faculty Multimedia Center Resources\"></p><p>The Faculty Multimedia Center (FMC) is a state of the art digital media production and multimedia learning facility for faculty use.</p><p>Location: Classroom Building I Room 202</p><p>Phone Number: <a href=\"tel:407-823-0519\">407-823-0519</a></p><p>Website: <a href=\"http://oir.ucf.edu/fmc-resources/\">http://oir.ucf.edu/fmc-resources/</a></p>",
+                "Latitude": "28.603552",
+                "Longitude": "-81.200485"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202628,
+                    28.60015,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "First Year Experience (FYE)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b14.jpg\" alt=\"First Year Experience (FYE)\"></p><p>We know that college is an exciting and challenging time in your life, and the Office of First Year Experience (FYE) is designed to help make the transition to college smoother for you.</p><p>Location: Howard Phillips Hall 216</p><p>Phone Number: <a href=\"tel:407-823-5105\">407-823-5105</a></p><p>Website: <a href=\"http://fye.sdes.ucf.edu/\">http://fye.sdes.ucf.edu/</a></p>",
+                "Name": "First Year Experience (FYE)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b14.jpg\" alt=\"First Year Experience (FYE)\"></p><p>We know that college is an exciting and challenging time in your life, and the Office of First Year Experience (FYE) is designed to help make the transition to college smoother for you.</p><p>Location: Howard Phillips Hall 216</p><p>Phone Number: <a href=\"tel:407-823-5105\">407-823-5105</a></p><p>Website: <a href=\"http://fye.sdes.ucf.edu/\">http://fye.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.60015",
+                "Longitude": "-81.202628"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.203611,
+                    28.60193,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "First Year Advising and Exploration (FYAE)",
+                "description": "<p><img src=\"https://map.ucf.edu/media/uploads/images/tch_3.jpg\" alt=\"First Year Advising and Exploration (FYAE)\"></p><p>FYAE provides an opportunity for prospective, first-time-in-college students to attend a prospective student presentation with a first-year academic advisor.</p><p>Location: Trevor Colbourn Hall 133</p><p>Phone Number: <a href=\"tel:407-823-3789\">407-823-3789</a></p><p>Website: <a href=\"http://fyae.sdes.ucf.edu/advising\">http://fyae.sdes.ucf.edu/advising</a></p>",
+                "Name": "First Year Advising and Exploration (FYAE)",
+                "Description": "<p><img src=\"https://map.ucf.edu/media/uploads/images/tch_3.jpg\" alt=\"First Year Advising and Exploration (FYAE)\"></p><p>FYAE provides an opportunity for prospective, first-time-in-college students to attend a prospective student presentation with a first-year academic advisor.</p><p>Location: Trevor Colbourn Hall 133</p><p>Phone Number: <a href=\"tel:407-823-3789\">407-823-3789</a></p><p>Website: <a href=\"http://fyae.sdes.ucf.edu/advising\">http://fyae.sdes.ucf.edu/advising</a></p>",
+                "Latitude": "28.601930",
+                "Longitude": "-81.203611"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.206692,
+                    28.603414,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Fraternity & Sorority Life",
+                "description": "<p><img src=\"http://fsl.sdes.ucf.edu/images/slate/03.jpg\" alt=\"Fraternity & Sorority Life\"></p><p>The mission of the Office of Fraternity and Sorority Life is to foster an inclusive environment and commitment to student growth, academic excellence, civic engagement, leadership development, positive relationships, and risk reduction education.</p><p>Location: Fraternity and Sorority Life 101</p><p>Phone Number: <a href=\"tel:407-823-2072\">407-823-2072</a></p><p>Website: <a href=\"http://fsl.sdes.ucf.edu/\">http://fsl.sdes.ucf.edu/</a></p>",
+                "Name": "Fraternity & Sorority Life",
+                "Description": "<p><img src=\"http://fsl.sdes.ucf.edu/images/slate/03.jpg\" alt=\"Fraternity & Sorority Life\"></p><p>The mission of the Office of Fraternity and Sorority Life is to foster an inclusive environment and commitment to student growth, academic excellence, civic engagement, leadership development, positive relationships, and risk reduction education.</p><p>Location: Fraternity and Sorority Life 101</p><p>Phone Number: <a href=\"tel:407-823-2072\">407-823-2072</a></p><p>Website: <a href=\"http://fsl.sdes.ucf.edu/\">http://fsl.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.603414",
+                "Longitude": "-81.206692"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202263,
+                    28.599048,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Graduate Admissions",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b1.jpg\" alt=\"Graduate Admissions\"></p><p>The Office of Graduate Admissions guides prospective graduate degree-seeking and nondegree-seeking students through the application and admissions processes</p><p>Location: Millican Hall, 230</p><p>Phone Number: <a href=\"tel:407-823-2766\">407-823-2766</a></p><p>Website: <a href=\"http://www.admissions.graduate.ucf.edu/\">http://www.admissions.graduate.ucf.edu/</a></p>",
+                "Name": "Graduate Admissions",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b1.jpg\" alt=\"Graduate Admissions\"></p><p>The Office of Graduate Admissions guides prospective graduate degree-seeking and nondegree-seeking students through the application and admissions processes</p><p>Location: Millican Hall, 230</p><p>Phone Number: <a href=\"tel:407-823-2766\">407-823-2766</a></p><p>Website: <a href=\"http://www.admissions.graduate.ucf.edu/\">http://www.admissions.graduate.ucf.edu/</a></p>",
+                "Latitude": "28.599048",
+                "Longitude": "-81.202263"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199495,
+                    28.599312,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Health Services",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b127.jpg\" alt=\"Health Services\"></p><p>The mission of UCF Health Services is to provide excellent healthcare that delivers value and promotes lifelong well-being to the UCF community.</p><p>Location: Health Center</p><p>Phone Number: <a href=\"tel:407-823-2701\">407-823-2701</a></p><p>Website: <a href=\"https://shs.sdes.ucf.edu/index.html\">https://shs.sdes.ucf.edu/index.html</a></p>",
+                "Name": "Health Services",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b127.jpg\" alt=\"Health Services\"></p><p>The mission of UCF Health Services is to provide excellent healthcare that delivers value and promotes lifelong well-being to the UCF community.</p><p>Location: Health Center</p><p>Phone Number: <a href=\"tel:407-823-2701\">407-823-2701</a></p><p>Website: <a href=\"https://shs.sdes.ucf.edu/index.html\">https://shs.sdes.ucf.edu/index.html</a></p>",
+                "Latitude": "28.599312",
+                "Longitude": "-81.199495"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198398,
+                    28.597517,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Housing and Residence Life (HRL)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b73.jpg\" alt=\"Housing and Residence Life (HRL)\"></p><p>Thank you for visiting the UCF Housing and Residence Life website.</p><p>Location: Housing Administration 123</p><p>Phone Number: <a href=\"tel:407-823-4663\">407-823-4663</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/\">http://www.housing.ucf.edu/</a></p>",
+                "Name": "Housing and Residence Life (HRL)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b73.jpg\" alt=\"Housing and Residence Life (HRL)\"></p><p>Thank you for visiting the UCF Housing and Residence Life website.</p><p>Location: Housing Administration 123</p><p>Phone Number: <a href=\"tel:407-823-4663\">407-823-4663</a></p><p>Website: <a href=\"http://www.housing.ucf.edu/\">http://www.housing.ucf.edu/</a></p>",
+                "Latitude": "28.597517",
+                "Longitude": "-81.198398"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199208,
+                    28.59794,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Inclusive Education Services (IES)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7f.jpg\" alt=\"Inclusive Education Services (IES)\"></p><p>Inclusive Education Services strives to deliver an innovative and distinctive post-secondary educational experience, by offering individuals with intellectual disabilities immersive campus and vocational opportunities to achieve excellence at UCF and beyond.</p><p>Location: Ferrell Commons 185</p><p>Phone Number: <a href=\"tel:407-823-2371\">407-823-2371</a></p><p>Website: <a href=\"http://sas.sdes.ucf.edu/\">http://sas.sdes.ucf.edu/</a></p>",
+                "Name": "Inclusive Education Services (IES)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7f.jpg\" alt=\"Inclusive Education Services (IES)\"></p><p>Inclusive Education Services strives to deliver an innovative and distinctive post-secondary educational experience, by offering individuals with intellectual disabilities immersive campus and vocational opportunities to achieve excellence at UCF and beyond.</p><p>Location: Ferrell Commons 185</p><p>Phone Number: <a href=\"tel:407-823-2371\">407-823-2371</a></p><p>Website: <a href=\"http://sas.sdes.ucf.edu/\">http://sas.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.59794",
+                "Longitude": "-81.199208"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19995,
+                    28.598311,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Integrity and Ethical Development (IED)",
+                "description": "<p><img src=\"http://ied.sdes.ucf.edu/images/slate/06.jpg\" alt=\"Integrity and Ethical Development (IED)\"></p><p>The Office of Integrity and Ethical Development (IED) specializes in the promotion of individual responsibility and personal development. Programs are designed to develop awareness toward integrity, ethical decision-making, conflict resolution, and supportive communication. Services include mediation, coaching sessions, and outreach workshops.</p><p>Location: Ferrell Commons 7C 142</p><p>Phone Number: <a href=\"tel:407-823-3477\">407-823-3477</a></p><p>Website: <a href=\"http://ied.sdes.ucf.edu\">http://ied.sdes.ucf.edu</a></p>",
+                "Name": "Integrity and Ethical Development (IED)",
+                "Description": "<p><img src=\"http://ied.sdes.ucf.edu/images/slate/06.jpg\" alt=\"Integrity and Ethical Development (IED)\"></p><p>The Office of Integrity and Ethical Development (IED) specializes in the promotion of individual responsibility and personal development. Programs are designed to develop awareness toward integrity, ethical decision-making, conflict resolution, and supportive communication. Services include mediation, coaching sessions, and outreach workshops.</p><p>Location: Ferrell Commons 7C 142</p><p>Phone Number: <a href=\"tel:407-823-3477\">407-823-3477</a></p><p>Website: <a href=\"http://ied.sdes.ucf.edu\">http://ied.sdes.ucf.edu</a></p>",
+                "Latitude": "28.598311",
+                "Longitude": "-81.19995"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199317,
+                    28.595637,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Intramural Sports",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/rwc_b88.jpg\" alt=\"Intramural Sports\"></p><p>Intramural Sports offers all Activity and Service Fee paying UCF Students (and UCF Faculty and Staff who purchase Recreation and Wellness Center Memberships) the opportunity to participate in a variety of team, dual, and individual sports. Participating is a great chance to get involved. Several divisions of play are offered for most activities to accommodate various skill levels for both recreational and competitive participation.</p><p>Location: Recreation and Wellness Center 204</p><p>Phone Number: <a href=\"tel:407-823-2408\">407-823-2408</a></p><p>Website: <a href=\"http://rwc.sdes.ucf.edu/im/\">http://rwc.sdes.ucf.edu/im/</a></p>",
+                "Name": "Intramural Sports",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/rwc_b88.jpg\" alt=\"Intramural Sports\"></p><p>Intramural Sports offers all Activity and Service Fee paying UCF Students (and UCF Faculty and Staff who purchase Recreation and Wellness Center Memberships) the opportunity to participate in a variety of team, dual, and individual sports. Participating is a great chance to get involved. Several divisions of play are offered for most activities to accommodate various skill levels for both recreational and competitive participation.</p><p>Location: Recreation and Wellness Center 204</p><p>Phone Number: <a href=\"tel:407-823-2408\">407-823-2408</a></p><p>Website: <a href=\"http://rwc.sdes.ucf.edu/im/\">http://rwc.sdes.ucf.edu/im/</a></p>",
+                "Latitude": "28.595637",
+                "Longitude": "-81.199317"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200882,
+                    28.601769,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kaplan Test Prep",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b52.jpg\" alt=\"Kaplan Test Prep\"></p><p>Kaplan helps individuals achieve their educational and career goals. We build futures one success story at a time.</p><p>Location: Student Union</p><p>Phone Number: <a href=\"tel:407-207-4213\">407-207-4213</a></p><p>Website: <a href=\"http://www.kaptest.com\">http://www.kaptest.com</a></p>",
+                "Name": "Kaplan Test Prep",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b52.jpg\" alt=\"Kaplan Test Prep\"></p><p>Kaplan helps individuals achieve their educational and career goals. We build futures one success story at a time.</p><p>Location: Student Union</p><p>Phone Number: <a href=\"tel:407-207-4213\">407-207-4213</a></p><p>Website: <a href=\"http://www.kaptest.com\">http://www.kaptest.com</a></p>",
+                "Latitude": "28.601769",
+                "Longitude": "-81.200882"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199631,
+                    28.597802,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Knights Helping Knights Pantry",
+                "description": "<p><img src=\"http://studentunion.ucf.edu/knights-pantry/images/about2.jpg\" alt=\"Knights Helping Knights Pantry\"></p><p>This grass roots initiative strived to ensure that UCF students would not have to choose between buying text books or buying groceries.</p><p>Location: Ferrell Commons E</p><p>Phone Number: <a href=\"tel:407-823-3663\">407-823-3663</a></p><p>Website: <a href=\"http://studentunion.ucf.edu/knights-pantry/\">http://studentunion.ucf.edu/knights-pantry/</a></p>",
+                "Name": "Knights Helping Knights Pantry",
+                "Description": "<p><img src=\"http://studentunion.ucf.edu/knights-pantry/images/about2.jpg\" alt=\"Knights Helping Knights Pantry\"></p><p>This grass roots initiative strived to ensure that UCF students would not have to choose between buying text books or buying groceries.</p><p>Location: Ferrell Commons E</p><p>Phone Number: <a href=\"tel:407-823-3663\">407-823-3663</a></p><p>Website: <a href=\"http://studentunion.ucf.edu/knights-pantry/\">http://studentunion.ucf.edu/knights-pantry/</a></p>",
+                "Latitude": "28.597802",
+                "Longitude": "-81.199631"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199396,
+                    28.597799,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "LEAD Scholars Academy",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7e.jpg\" alt=\"LEAD Scholars Academy\"></p><p>This office provides students with various opportunities to learn more about themselves, develop new leadership skills, and become student leaders through programs and events, including Campus-wide Leadership Workshops, Leadership Retreats, and Leadership Conferences.</p><p>Location: Ferrell Commons, Building 7E Room 165</p><p>Phone Number: <a href=\"tel:407-823-2223\">407-823-2223</a></p><p>Website: <a href=\"http://lsa.sdes.ucf.edu\">http://lsa.sdes.ucf.edu</a></p>",
+                "Name": "LEAD Scholars Academy",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7e.jpg\" alt=\"LEAD Scholars Academy\"></p><p>This office provides students with various opportunities to learn more about themselves, develop new leadership skills, and become student leaders through programs and events, including Campus-wide Leadership Workshops, Leadership Retreats, and Leadership Conferences.</p><p>Location: Ferrell Commons, Building 7E Room 165</p><p>Phone Number: <a href=\"tel:407-823-2223\">407-823-2223</a></p><p>Website: <a href=\"http://lsa.sdes.ucf.edu\">http://lsa.sdes.ucf.edu</a></p>",
+                "Latitude": "28.597799",
+                "Longitude": "-81.199396"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19588,
+                    28.592039,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lost & Found",
+                "description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Lost & Found\"></p><p>Property that is classified as found or held as safekeeping may be claimed, by appointment, between the hours of 9am and 3pm, Monday through Friday.</p><p>Location: UCF Police Department 150</p><p>Phone Number: <a href=\"tel:407-823-0001\">407-823-0001</a></p><p>Website: <a href=\"http://police.ucf.edu/lostandfound.html\">http://police.ucf.edu/lostandfound.html</a></p>",
+                "Name": "Lost & Found",
+                "Description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Lost & Found\"></p><p>Property that is classified as found or held as safekeeping may be claimed, by appointment, between the hours of 9am and 3pm, Monday through Friday.</p><p>Location: UCF Police Department 150</p><p>Phone Number: <a href=\"tel:407-823-0001\">407-823-0001</a></p><p>Website: <a href=\"http://police.ucf.edu/lostandfound.html\">http://police.ucf.edu/lostandfound.html</a></p>",
+                "Latitude": "28.592039",
+                "Longitude": "-81.19588"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200568,
+                    28.601798,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Multicultural Academic and Support Services (MASS)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b52.jpg\" alt=\"Multicultural Academic and Support Services (MASS)\"></p><p>Multicultural Academic and Support Services (MASS) assists multicultural and first-generation students.</p><p>Location: Student Union 154</p><p>Phone Number: <a href=\"tel:407-823-2716\">407-823-2716</a></p><p>Website: <a href=\"http://mass.sdes.ucf.edu/\">http://mass.sdes.ucf.edu/</a></p>",
+                "Name": "Multicultural Academic and Support Services (MASS)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b52.jpg\" alt=\"Multicultural Academic and Support Services (MASS)\"></p><p>Multicultural Academic and Support Services (MASS) assists multicultural and first-generation students.</p><p>Location: Student Union 154</p><p>Phone Number: <a href=\"tel:407-823-2716\">407-823-2716</a></p><p>Website: <a href=\"http://mass.sdes.ucf.edu/\">http://mass.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.601798",
+                "Longitude": "-81.200568"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200042,
+                    28.59788,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Neighborhood Relations and Safety Education (NRSE)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7f.jpg\" alt=\"Neighborhood Relations and Safety Education (NRSE)\"></p><p>The Neighborhood Relations and Safety Education website is a one stop shop for all of your off-campus living needs.</p><p>Location: Ferrell Commons 152-154</p><p>Phone Number: <a href=\"tel:407-823-6505\">407-823-6505</a></p><p>Website: <a href=\"http://nrse.sdes.ucf.edu\">http://nrse.sdes.ucf.edu</a></p>",
+                "Name": "Neighborhood Relations and Safety Education (NRSE)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7f.jpg\" alt=\"Neighborhood Relations and Safety Education (NRSE)\"></p><p>The Neighborhood Relations and Safety Education website is a one stop shop for all of your off-campus living needs.</p><p>Location: Ferrell Commons 152-154</p><p>Phone Number: <a href=\"tel:407-823-6505\">407-823-6505</a></p><p>Website: <a href=\"http://nrse.sdes.ucf.edu\">http://nrse.sdes.ucf.edu</a></p>",
+                "Latitude": "28.59788",
+                "Longitude": "-81.200042"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202347,
+                    28.602268,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Office of Honors Advising (Burnett Honors College)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b95.jpg\" alt=\"Office of Honors Advising (Burnett Honors College)\"></p><p>The Office of Honors Advising is located in The Burnett Honors College, room 109. OOHA's primary mission is to help University Honors students stay on track with Honors requirements. Students can also stop by room 109 for assistance with UCF policies, career planning, graduate school options, or anything else you can think of. OOHA also refers Honors students to other campus offices.</p><p>Location: Burnett Honors College, Room 109</p><p>Phone Number: <a href=\"tel:407-823-5871\">407-823-5871</a></p><p>Website: <a href=\"http://ooha.honors.ucf.edu\">http://ooha.honors.ucf.edu</a></p>",
+                "Name": "Office of Honors Advising (Burnett Honors College)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b95.jpg\" alt=\"Office of Honors Advising (Burnett Honors College)\"></p><p>The Office of Honors Advising is located in The Burnett Honors College, room 109. OOHA's primary mission is to help University Honors students stay on track with Honors requirements. Students can also stop by room 109 for assistance with UCF policies, career planning, graduate school options, or anything else you can think of. OOHA also refers Honors students to other campus offices.</p><p>Location: Burnett Honors College, Room 109</p><p>Phone Number: <a href=\"tel:407-823-5871\">407-823-5871</a></p><p>Website: <a href=\"http://ooha.honors.ucf.edu\">http://ooha.honors.ucf.edu</a></p>",
+                "Latitude": "28.602268",
+                "Longitude": "-81.202347"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200042,
+                    28.59788,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Office of Student Conduct (OSC)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7f.jpg\" alt=\"Office of Student Conduct (OSC)\"></p><p>The Office of Student Conduct (OSC) handles complaints against UCF students and student groups (but not faculty or staff). The complaint must indicate a possible violation of one or more of the Rules of Conduct or Conduct Regulations of Student Organizations located in the Golden Rule Student Handbook</p><p>Location: Ferrell Commons 7G 227</p><p>Phone Number: <a href=\"tel:407-823-4638\">407-823-4638</a></p><p>Website: <a href=\"http://osc.sdes.ucf.edu\">http://osc.sdes.ucf.edu</a></p>",
+                "Name": "Office of Student Conduct (OSC)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7f.jpg\" alt=\"Office of Student Conduct (OSC)\"></p><p>The Office of Student Conduct (OSC) handles complaints against UCF students and student groups (but not faculty or staff). The complaint must indicate a possible violation of one or more of the Rules of Conduct or Conduct Regulations of Student Organizations located in the Golden Rule Student Handbook</p><p>Location: Ferrell Commons 7G 227</p><p>Phone Number: <a href=\"tel:407-823-4638\">407-823-4638</a></p><p>Website: <a href=\"http://osc.sdes.ucf.edu\">http://osc.sdes.ucf.edu</a></p>",
+                "Latitude": "28.59788",
+                "Longitude": "-81.200042"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202271,
+                    28.59909,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Office of Student Financial Assistance",
+                "description": "<p><img src=\"https://map.ucf.edu/media/uploads/images/b1.jpg\" alt=\"Office of Student Financial Assistance\"></p><p>The mission of the Student Account Services office is to serve the students who attend our university by billing fees, campus housing, and other university charges accurately and efficiently, and collecting and crediting tuition revenue</p><p>Location: Millican Hall, Room 120</p><p>Phone Number: <a href=\"tel:407-823-2614\">407-823-2614</a></p><p>Website: <a href=\"http://finaid.ucf.edu/index.html\">http://finaid.ucf.edu/index.html</a></p>",
+                "Name": "Office of Student Financial Assistance",
+                "Description": "<p><img src=\"https://map.ucf.edu/media/uploads/images/b1.jpg\" alt=\"Office of Student Financial Assistance\"></p><p>The mission of the Student Account Services office is to serve the students who attend our university by billing fees, campus housing, and other university charges accurately and efficiently, and collecting and crediting tuition revenue</p><p>Location: Millican Hall, Room 120</p><p>Phone Number: <a href=\"tel:407-823-2614\">407-823-2614</a></p><p>Website: <a href=\"http://finaid.ucf.edu/index.html\">http://finaid.ucf.edu/index.html</a></p>",
+                "Latitude": "28.59909",
+                "Longitude": "-81.202271"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200568,
+                    28.601798,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Office of Student Involvement (OSI)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b52.jpg\" alt=\"Office of Student Involvement (OSI)\"></p><p>The Office of Student Involvement is a great way to find out about various student organizations on campus and become involved. Make the most of your college experience and let us show you how. Whether you're interested in community service, leadership opportunities, or just plain fun, we've got the info to get you plugged into what's going on at UCF!</p><p>Location: Student Union 208</p><p>Phone Number: <a href=\"tel:407-823-6471\">407-823-6471</a></p><p>Website: <a href=\"http://osi.ucf.edu/\">http://osi.ucf.edu/</a></p>",
+                "Name": "Office of Student Involvement (OSI)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b52.jpg\" alt=\"Office of Student Involvement (OSI)\"></p><p>The Office of Student Involvement is a great way to find out about various student organizations on campus and become involved. Make the most of your college experience and let us show you how. Whether you're interested in community service, leadership opportunities, or just plain fun, we've got the info to get you plugged into what's going on at UCF!</p><p>Location: Student Union 208</p><p>Phone Number: <a href=\"tel:407-823-6471\">407-823-6471</a></p><p>Website: <a href=\"http://osi.ucf.edu/\">http://osi.ucf.edu/</a></p>",
+                "Latitude": "28.601798",
+                "Longitude": "-81.200568"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200042,
+                    28.59788,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Office of Student Rights and Responsibilities (OSRR)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7f.jpg\" alt=\"Office of Student Rights and Responsibilities (OSRR)\"></p><p>The Office of Student Rights and Responsibilities (OSRR) promotes a campus climate of integrity, civility, accountability and student well-being by providing a wide array of resources, education, and support services for the university community.</p><p>Location: Ferrell Commons 7G 227</p><p>Phone Number: <a href=\"tel:407-823-4638\">407-823-4638</a></p><p>Website: <a href=\"http://osrr.sdes.ucf.edu/\">http://osrr.sdes.ucf.edu/</a></p>",
+                "Name": "Office of Student Rights and Responsibilities (OSRR)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7f.jpg\" alt=\"Office of Student Rights and Responsibilities (OSRR)\"></p><p>The Office of Student Rights and Responsibilities (OSRR) promotes a campus climate of integrity, civility, accountability and student well-being by providing a wide array of resources, education, and support services for the university community.</p><p>Location: Ferrell Commons 7G 227</p><p>Phone Number: <a href=\"tel:407-823-4638\">407-823-4638</a></p><p>Website: <a href=\"http://osrr.sdes.ucf.edu/\">http://osrr.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.59788",
+                "Longitude": "-81.200042"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202274,
+                    28.599076,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Ombuds Office (University Feedback)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b1.jpg\" alt=\"Ombuds Office (University Feedback)\"></p><p>The University Ombuds Office provides all members of the university community (students, staff, faculty, and others) an informal, independent, confidential, neutral office that offers assistance and impartial advice regarding concerns related to the University.</p><p>Location: Millican Hall room 243</p><p>Phone Number: <a href=\"tel:407-823-6440\">407-823-6440</a></p><p>Website: <a href=\"http://www.ombuds.ucf.edu/\">http://www.ombuds.ucf.edu/</a></p>",
+                "Name": "Ombuds Office (University Feedback)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b1.jpg\" alt=\"Ombuds Office (University Feedback)\"></p><p>The University Ombuds Office provides all members of the university community (students, staff, faculty, and others) an informal, independent, confidential, neutral office that offers assistance and impartial advice regarding concerns related to the University.</p><p>Location: Millican Hall room 243</p><p>Phone Number: <a href=\"tel:407-823-6440\">407-823-6440</a></p><p>Website: <a href=\"http://www.ombuds.ucf.edu/\">http://www.ombuds.ucf.edu/</a></p>",
+                "Latitude": "28.599076",
+                "Longitude": "-81.202274"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202708,
+                    28.600159,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Orientation for Students",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b14.jpg\" alt=\"Orientation for Students\"></p><p>Because we want our students to succeed, all undergraduate students are required to complete a UCF Orientation component prior to registering for classes. Our primary goal at Orientation is to assist students and their families with the transition to attending and experiencing UCF.</p><p>Location: Howard Phillips Hall 216</p><p>Phone Number: <a href=\"tel:407-823-5105\">407-823-5105</a></p><p>Website: <a href=\"http://orientation.ucf.edu/\">http://orientation.ucf.edu/</a></p>",
+                "Name": "Orientation for Students",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b14.jpg\" alt=\"Orientation for Students\"></p><p>Because we want our students to succeed, all undergraduate students are required to complete a UCF Orientation component prior to registering for classes. Our primary goal at Orientation is to assist students and their families with the transition to attending and experiencing UCF.</p><p>Location: Howard Phillips Hall 216</p><p>Phone Number: <a href=\"tel:407-823-5105\">407-823-5105</a></p><p>Website: <a href=\"http://orientation.ucf.edu/\">http://orientation.ucf.edu/</a></p>",
+                "Latitude": "28.600159",
+                "Longitude": "-81.202708"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200413,
+                    28.596861,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Parking Decals",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/pkgB_b89.jpg\" alt=\"Parking Decals\"></p><p>Students who park a vehicle on the University of Central Florida campus must purchase a parking permit.</p><p>Location: South Garage Garage B</p><p>Phone Number: <a href=\"tel:407-823-5812\">407-823-5812</a></p><p>Website: <a href=\"http://parking.ucf.edu/\">http://parking.ucf.edu/</a></p>",
+                "Name": "Parking Decals",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/pkgB_b89.jpg\" alt=\"Parking Decals\"></p><p>Students who park a vehicle on the University of Central Florida campus must purchase a parking permit.</p><p>Location: South Garage Garage B</p><p>Phone Number: <a href=\"tel:407-823-5812\">407-823-5812</a></p><p>Website: <a href=\"http://parking.ucf.edu/\">http://parking.ucf.edu/</a></p>",
+                "Latitude": "28.596861",
+                "Longitude": "-81.200413"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19588,
+                    28.592039,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Police Department - Non-Emergency",
+                "description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Police Department - Non-Emergency\"></p><p>Police Department - Non-Emergency</p><p>Location: UCF Police Department</p><p>Phone Number: <a href=\"tel:407-823-5555\">407-823-5555</a></p><p>Website: <a href=\"http://police.ucf.edu\">http://police.ucf.edu</a></p>",
+                "Name": "Police Department - Non-Emergency",
+                "Description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Police Department - Non-Emergency\"></p><p>Police Department - Non-Emergency</p><p>Location: UCF Police Department</p><p>Phone Number: <a href=\"tel:407-823-5555\">407-823-5555</a></p><p>Website: <a href=\"http://police.ucf.edu\">http://police.ucf.edu</a></p>",
+                "Latitude": "28.592039",
+                "Longitude": "-81.19588"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199463,
+                    28.598049,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pre-Health and Pre-Law Advising",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7g.jpg\" alt=\"Pre-Health and Pre-Law Advising\"></p><p>The mission of the Office of Pre-Health and Pre-Law Advising is to provide guidance and support to students interested in pursuing careers in the health and legal professions. The Office of Pre-Health and Pre-Law advising provides information about the field of law and a wide variety of health-related fields such as allopathic (M.D.), osteopathic (D.O.), and veterinary (D.V.M.) medicine, dentistry, pharmacy, optometry, podiatry, chiropractic, physician assistant, physical therapy, occupational therapy, and public health. These careers require academic study in professional school settings beyond the baccalaureate degree, and assists ?Pre-Professional? Students in any undergraduate major by offering academic advising, administrative support, and other activities related to preparing for and applying to professional schools.</p><p>Location: Ferrell Commons, Building 7G, Room 203</p><p>Phone Number: <a href=\"tel:407-823-3033\">407-823-3033</a></p><p>Website: <a href=\"https://phpladvising.ucf.edu\">https://phpladvising.ucf.edu</a></p>",
+                "Name": "Pre-Health and Pre-Law Advising",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7g.jpg\" alt=\"Pre-Health and Pre-Law Advising\"></p><p>The mission of the Office of Pre-Health and Pre-Law Advising is to provide guidance and support to students interested in pursuing careers in the health and legal professions. The Office of Pre-Health and Pre-Law advising provides information about the field of law and a wide variety of health-related fields such as allopathic (M.D.), osteopathic (D.O.), and veterinary (D.V.M.) medicine, dentistry, pharmacy, optometry, podiatry, chiropractic, physician assistant, physical therapy, occupational therapy, and public health. These careers require academic study in professional school settings beyond the baccalaureate degree, and assists ?Pre-Professional? Students in any undergraduate major by offering academic advising, administrative support, and other activities related to preparing for and applying to professional schools.</p><p>Location: Ferrell Commons, Building 7G, Room 203</p><p>Phone Number: <a href=\"tel:407-823-3033\">407-823-3033</a></p><p>Website: <a href=\"https://phpladvising.ucf.edu\">https://phpladvising.ucf.edu</a></p>",
+                "Latitude": "28.598049",
+                "Longitude": "-81.199463"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199203,
+                    28.596001,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Recreation and Wellness Center (RWC)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/rwc_b88.jpg\" alt=\"Recreation and Wellness Center (RWC)\"></p><p>The UCF Recreation and Wellness Center (RWC) comprises many programs, such as Intramural Sports, Sport Clubs, Outdoor Adventure, Fitness, and Aquatics.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href=\"tel:407-823-2408\">407-823-2408</a></p><p>Website: <a href=\"http://rwc.sdes.ucf.edu/\">http://rwc.sdes.ucf.edu/</a></p>",
+                "Name": "Recreation and Wellness Center (RWC)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/rwc_b88.jpg\" alt=\"Recreation and Wellness Center (RWC)\"></p><p>The UCF Recreation and Wellness Center (RWC) comprises many programs, such as Intramural Sports, Sport Clubs, Outdoor Adventure, Fitness, and Aquatics.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href=\"tel:407-823-2408\">407-823-2408</a></p><p>Website: <a href=\"http://rwc.sdes.ucf.edu/\">http://rwc.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.596001",
+                "Longitude": "-81.199203"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199203,
+                    28.596001,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Recreational Services",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/rwc_b88.jpg\" alt=\"Recreational Services\"></p><p>The UCF Recreation and Wellness Center (RWC) comprises many programs, such as Intramural Sports, Sport Clubs, Outdoor Adventure, Fitness, and Aquatics.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href=\"tel:407-823-2408\">407-823-2408</a></p><p>Website: <a href=\"http://rwc.sdes.ucf.edu/\">http://rwc.sdes.ucf.edu/</a></p>",
+                "Name": "Recreational Services",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/rwc_b88.jpg\" alt=\"Recreational Services\"></p><p>The UCF Recreation and Wellness Center (RWC) comprises many programs, such as Intramural Sports, Sport Clubs, Outdoor Adventure, Fitness, and Aquatics.</p><p>Location: Recreation and Wellness Center</p><p>Phone Number: <a href=\"tel:407-823-2408\">407-823-2408</a></p><p>Website: <a href=\"http://rwc.sdes.ucf.edu/\">http://rwc.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.596001",
+                "Longitude": "-81.199203"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200524,
+                    28.601834,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Social Justice and Advocacy (SJA) - Multicultural Student Center",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b52.jpg\" alt=\"Social Justice and Advocacy (SJA) - Multicultural Student Center\"></p><p>The mission of Social Justice and Advocacy (SJA) is to promote an equitable campus environment where all are assured that diversity, in its many forms, is valued.</p><p>Location: Student Union 207</p><p>Phone Number: <a href=\"tel:407-823-0401\">407-823-0401</a></p><p>Website: <a href=\"http://sja.sdes.ucf.edu/\">http://sja.sdes.ucf.edu/</a></p>",
+                "Name": "Social Justice and Advocacy (SJA) - Multicultural Student Center",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b52.jpg\" alt=\"Social Justice and Advocacy (SJA) - Multicultural Student Center\"></p><p>The mission of Social Justice and Advocacy (SJA) is to promote an equitable campus environment where all are assured that diversity, in its many forms, is valued.</p><p>Location: Student Union 207</p><p>Phone Number: <a href=\"tel:407-823-0401\">407-823-0401</a></p><p>Website: <a href=\"http://sja.sdes.ucf.edu/\">http://sja.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.601834",
+                "Longitude": "-81.200524"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200524,
+                    28.597718,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Social Justice and Advocacy (SJA) - Pride Commons",
+                "description": "<p><img src=\"http://sja.sdes.ucf.edu/images/billboard/sja-cover.jpg\" alt=\"Social Justice and Advocacy (SJA) - Pride Commons\"></p><p>Located in Ferrell Commons across from 63 South, Pride Commons is a place for UCF students who are looking for resources, community, a place to hang out, or a quiet place to study. It is open to all students of all genders and sexual orientations.</p><p>Location: Ferrell Commons 171</p><p>Phone Number: <a href=\"tel:407-823-3082\">407-823-3082</a></p><p>Website: <a href=\"http://sja.sdes.ucf.edu/\">http://sja.sdes.ucf.edu/</a></p>",
+                "Name": "Social Justice and Advocacy (SJA) - Pride Commons",
+                "Description": "<p><img src=\"http://sja.sdes.ucf.edu/images/billboard/sja-cover.jpg\" alt=\"Social Justice and Advocacy (SJA) - Pride Commons\"></p><p>Located in Ferrell Commons across from 63 South, Pride Commons is a place for UCF students who are looking for resources, community, a place to hang out, or a quiet place to study. It is open to all students of all genders and sexual orientations.</p><p>Location: Ferrell Commons 171</p><p>Phone Number: <a href=\"tel:407-823-3082\">407-823-3082</a></p><p>Website: <a href=\"http://sja.sdes.ucf.edu/\">http://sja.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.597718",
+                "Longitude": "-81.200524"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20257425,
+                    28.60008818,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sophomore and Second Year Center (SSYC)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b14.jpg\" alt=\"Sophomore and Second Year Center (SSYC)\"></p><p>Here at the Sophomore and Second Year Center (SSYC), we look forward to providing a variety of support services to you as you progress through your academic career at UCF. We offer numerous major exploration services for our Undeclared and Undecided students</p><p>Location: Howard Phillips Hall 215</p><p>Phone Number: <a href=\"tel:407-823-3375\">407-823-3375</a></p><p>Website: <a href=\"http://ssyc.sdes.ucf.edu/\">http://ssyc.sdes.ucf.edu/</a></p>",
+                "Name": "Sophomore and Second Year Center (SSYC)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b14.jpg\" alt=\"Sophomore and Second Year Center (SSYC)\"></p><p>Here at the Sophomore and Second Year Center (SSYC), we look forward to providing a variety of support services to you as you progress through your academic career at UCF. We offer numerous major exploration services for our Undeclared and Undecided students</p><p>Location: Howard Phillips Hall 215</p><p>Phone Number: <a href=\"tel:407-823-3375\">407-823-3375</a></p><p>Website: <a href=\"http://ssyc.sdes.ucf.edu/\">http://ssyc.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.60008818",
+                "Longitude": "-81.20257425"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20257425,
+                    28.60008818,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Student Academic Resource Center (SARC)",
+                "description": "<p><img src=\"http://sarc.sdes.ucf.edu/images/slate.jpg\" alt=\"Student Academic Resource Center (SARC)\"></p><p>The Student Academic Resource Center (SARC) provides high-quality academic support programs, including tutoring and supplemental instruction, retention programs, academic advising programs, and various other academic programs and services.</p><p>Location: Howard Phillips Hall 113</p><p>Phone Number: <a href=\"tel:407-823-5130\">407-823-5130</a></p><p>Website: <a href=\"http://sarc.sdes.ucf.edu/\">http://sarc.sdes.ucf.edu/</a></p>",
+                "Name": "Student Academic Resource Center (SARC)",
+                "Description": "<p><img src=\"http://sarc.sdes.ucf.edu/images/slate.jpg\" alt=\"Student Academic Resource Center (SARC)\"></p><p>The Student Academic Resource Center (SARC) provides high-quality academic support programs, including tutoring and supplemental instruction, retention programs, academic advising programs, and various other academic programs and services.</p><p>Location: Howard Phillips Hall 113</p><p>Phone Number: <a href=\"tel:407-823-5130\">407-823-5130</a></p><p>Website: <a href=\"http://sarc.sdes.ucf.edu/\">http://sarc.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.60008818",
+                "Longitude": "-81.20257425"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200163,
+                    28.598299,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Student Accessibility Services",
+                "description": "<p><img src=\"https://map.ucf.edu/media/uploads/images/b7g.jpg\" alt=\"Student Accessibility Services\"></p><p>Student Disability Services advocates for full accessibility and inclusion for students with disabilities within the UCF community.</p><p>Location: Ferrell Commons G 185</p><p>Phone Number: <a href=\"tel:407-823-2371\">407-823-2371</a></p><p>Website: <a href=\"http://sas.sdes.ucf.edu/\">http://sas.sdes.ucf.edu/</a></p>",
+                "Name": "Student Accessibility Services",
+                "Description": "<p><img src=\"https://map.ucf.edu/media/uploads/images/b7g.jpg\" alt=\"Student Accessibility Services\"></p><p>Student Disability Services advocates for full accessibility and inclusion for students with disabilities within the UCF community.</p><p>Location: Ferrell Commons G 185</p><p>Phone Number: <a href=\"tel:407-823-2371\">407-823-2371</a></p><p>Website: <a href=\"http://sas.sdes.ucf.edu/\">http://sas.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.598299",
+                "Longitude": "-81.200163"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199208,
+                    28.59794,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Student Accessibility Services (SAS)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7f.jpg\" alt=\"Student Accessibility Services (SAS)\"></p><p>Student Accessibility Services (SAS) views disabilities as an integral part of the rich diversity at the University of Central Florida. To that end, we work collaboratively with students, faculty, and staff to create an inclusive educational environment for students.</p><p>Location: Ferrell Commons 185</p><p>Phone Number: <a href=\"tel:407-823-2371\">407-823-2371</a></p><p>Website: <a href=\"http://sas.sdes.ucf.edu/\">http://sas.sdes.ucf.edu/</a></p>",
+                "Name": "Student Accessibility Services (SAS)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7f.jpg\" alt=\"Student Accessibility Services (SAS)\"></p><p>Student Accessibility Services (SAS) views disabilities as an integral part of the rich diversity at the University of Central Florida. To that end, we work collaboratively with students, faculty, and staff to create an inclusive educational environment for students.</p><p>Location: Ferrell Commons 185</p><p>Phone Number: <a href=\"tel:407-823-2371\">407-823-2371</a></p><p>Website: <a href=\"http://sas.sdes.ucf.edu/\">http://sas.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.59794",
+                "Longitude": "-81.199208"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19996,
+                    28.598311,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Student Care Services/UCF Cares",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7g.jpg\" alt=\"Student Care Services/UCF Cares\"></p><p>UCF Cares is an umbrella of care-related programs and resources dedicated to fostering a caring community of Knights.</p><p>Location: Ferrell Commons 142</p><p>Phone Number: <a href=\"tel:407-823-5607\">407-823-5607</a></p><p>Website: <a href=\"http://cares.sdes.ucf.edu\">http://cares.sdes.ucf.edu</a></p>",
+                "Name": "Student Care Services/UCF Cares",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7g.jpg\" alt=\"Student Care Services/UCF Cares\"></p><p>UCF Cares is an umbrella of care-related programs and resources dedicated to fostering a caring community of Knights.</p><p>Location: Ferrell Commons 142</p><p>Phone Number: <a href=\"tel:407-823-5607\">407-823-5607</a></p><p>Website: <a href=\"http://cares.sdes.ucf.edu\">http://cares.sdes.ucf.edu</a></p>",
+                "Latitude": "28.598311",
+                "Longitude": "-81.19996"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200339,
+                    28.601816,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Student Enhancement Training (S.E.T.)",
+                "description": "<p><img src=\"http://map.ucf.edu/locations/52/student-union-stun/\" alt=\"Student Enhancement Training (S.E.T.)\"></p><p>We are very excited to offer the Student Enhancement Training (S.E.T.) program to you, our student employees. We believe that your participation in the certification program will provide you with an excellent opportunity to enhance your skill set, enabling you to better succeed in your current position and as you advance in your career.</p><p>Location: Student Union 312</p><p>Phone Number: <a href=\"tel:407-823-3677\">407-823-3677</a></p><p>Website: <a href=\"http://set.sdes.ucf.edu\">http://set.sdes.ucf.edu</a></p>",
+                "Name": "Student Enhancement Training (S.E.T.)",
+                "Description": "<p><img src=\"http://map.ucf.edu/locations/52/student-union-stun/\" alt=\"Student Enhancement Training (S.E.T.)\"></p><p>We are very excited to offer the Student Enhancement Training (S.E.T.) program to you, our student employees. We believe that your participation in the certification program will provide you with an excellent opportunity to enhance your skill set, enabling you to better succeed in your current position and as you advance in your career.</p><p>Location: Student Union 312</p><p>Phone Number: <a href=\"tel:407-823-3677\">407-823-3677</a></p><p>Website: <a href=\"http://set.sdes.ucf.edu\">http://set.sdes.ucf.edu</a></p>",
+                "Latitude": "28.601816",
+                "Longitude": "-81.200339"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199495,
+                    28.599312,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Student Health Services (SHS)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b127.jpg\" alt=\"Student Health Services (SHS)\"></p><p>The mission of UCF Health Services is to provide excellent healthcare that delivers value and promotes lifelong well-being to the UCF community.</p><p>Location: Health Center 101</p><p>Phone Number: <a href=\"tel:407-823-2701\">407-823-2701</a></p><p>Website: <a href=\"https://shs.sdes.ucf.edu\">https://shs.sdes.ucf.edu</a></p>",
+                "Name": "Student Health Services (SHS)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b127.jpg\" alt=\"Student Health Services (SHS)\"></p><p>The mission of UCF Health Services is to provide excellent healthcare that delivers value and promotes lifelong well-being to the UCF community.</p><p>Location: Health Center 101</p><p>Phone Number: <a href=\"tel:407-823-2701\">407-823-2701</a></p><p>Website: <a href=\"https://shs.sdes.ucf.edu\">https://shs.sdes.ucf.edu</a></p>",
+                "Latitude": "28.599312",
+                "Longitude": "-81.199495"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19653391,
+                    28.59008395,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Student Outreach Services (SOS)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b8121.jpg\" alt=\"Student Outreach Services (SOS)\"></p><p>The primary mission of Student Outreach Services is to attract, motivate, and prepare select underrepresented middle and high school students to pursue and complete a college education via the Pre-Collegiate Readiness & Empowerment Program and the McKnight Center of Excellence.</p><p>Location: Orlando Tech Center Bldg. 600 Suite 215</p><p>Phone Number: <a href=\"tel:407-823-5580\">407-823-5580</a></p><p>Website: <a href=\"http://sos.sdes.ucf.edu\">http://sos.sdes.ucf.edu</a></p>",
+                "Name": "Student Outreach Services (SOS)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b8121.jpg\" alt=\"Student Outreach Services (SOS)\"></p><p>The primary mission of Student Outreach Services is to attract, motivate, and prepare select underrepresented middle and high school students to pursue and complete a college education via the Pre-Collegiate Readiness & Empowerment Program and the McKnight Center of Excellence.</p><p>Location: Orlando Tech Center Bldg. 600 Suite 215</p><p>Phone Number: <a href=\"tel:407-823-5580\">407-823-5580</a></p><p>Website: <a href=\"http://sos.sdes.ucf.edu\">http://sos.sdes.ucf.edu</a></p>",
+                "Latitude": "28.59008395",
+                "Longitude": "-81.19653391"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200075,
+                    28.600998,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Test Scoring",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b54.jpg\" alt=\"Test Scoring\"></p><p>The Test Scoring Services office is part of the Enterprise Systems and Operations service unit of CS&T. We provide free quiz and test scoring services for UCF course instructors, but also process surveys and the Student Perception of Instruction data that is collected at the end of each semester.</p><p>Location: College of Sciences Building 106</p><p>Phone Number: <a href=\"tel:407-823-5493\">407-823-5493</a></p><p>Website: <a href=\"http://www.cst.ucf.edu/resources/testscoring/\">http://www.cst.ucf.edu/resources/testscoring/</a></p>",
+                "Name": "Test Scoring",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b54.jpg\" alt=\"Test Scoring\"></p><p>The Test Scoring Services office is part of the Enterprise Systems and Operations service unit of CS&T. We provide free quiz and test scoring services for UCF course instructors, but also process surveys and the Student Perception of Instruction data that is collected at the end of each semester.</p><p>Location: College of Sciences Building 106</p><p>Phone Number: <a href=\"tel:407-823-5493\">407-823-5493</a></p><p>Website: <a href=\"http://www.cst.ucf.edu/resources/testscoring/\">http://www.cst.ucf.edu/resources/testscoring/</a></p>",
+                "Latitude": "28.600998",
+                "Longitude": "-81.200075"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197073,
+                    28.606329,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Textbooks & Supplies",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"Textbooks & Supplies\"></p><p>University of Central Florida Official Bookstore</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-2655\">407-823-2655</a></p><p>Website: <a href=\"http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1\">http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1</a></p>",
+                "Name": "Textbooks & Supplies",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"Textbooks & Supplies\"></p><p>University of Central Florida Official Bookstore</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-2655\">407-823-2655</a></p><p>Website: <a href=\"http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1\">http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1</a></p>",
+                "Latitude": "28.606329",
+                "Longitude": "-81.197073"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198481,
+                    28.606915,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "The Princeton Review",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b137.jpg\" alt=\"The Princeton Review\"></p><p>The Princeton Review offers the best in test prep for the ACT, SAT, GRE, GMAT, LSAT and MCAT. Our flexible course options and tutoring programs are designed to fit students' schedules, learning styles and academic goals.</p><p>Location: 4234 West Plaza Dr. (Knights Plaza)</p><p>Phone Number: <a href=\"tel:800-273-8439\">800-273-8439</a></p><p>Website: <a href=\"http://www.princetonreview.com\">http://www.princetonreview.com</a></p>",
+                "Name": "The Princeton Review",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b137.jpg\" alt=\"The Princeton Review\"></p><p>The Princeton Review offers the best in test prep for the ACT, SAT, GRE, GMAT, LSAT and MCAT. Our flexible course options and tutoring programs are designed to fit students' schedules, learning styles and academic goals.</p><p>Location: 4234 West Plaza Dr. (Knights Plaza)</p><p>Phone Number: <a href=\"tel:800-273-8439\">800-273-8439</a></p><p>Website: <a href=\"http://www.princetonreview.com\">http://www.princetonreview.com</a></p>",
+                "Latitude": "28.606915",
+                "Longitude": "-81.198481"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202832,
+                    28.60113,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Thesis & Dissertation",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b18.jpg\" alt=\"Thesis & Dissertation\"></p><p>Thesis & Dissertation</p><p>Location: Colbourn Hall 128</p><p>Phone Number: <a href=\"tel:407-823-2739\">407-823-2739</a></p><p>Website: <a href=\"http://www.students.graduate.ucf.edu/ETD/\">http://www.students.graduate.ucf.edu/ETD/</a></p>",
+                "Name": "Thesis & Dissertation",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b18.jpg\" alt=\"Thesis & Dissertation\"></p><p>Thesis & Dissertation</p><p>Location: Colbourn Hall 128</p><p>Phone Number: <a href=\"tel:407-823-2739\">407-823-2739</a></p><p>Website: <a href=\"http://www.students.graduate.ucf.edu/ETD/\">http://www.students.graduate.ucf.edu/ETD/</a></p>",
+                "Latitude": "28.60113",
+                "Longitude": "-81.202832"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202242,
+                    28.599142,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Transcripts",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b1.jpg\" alt=\"Transcripts\"></p><p>Both current and former students can order official transcripts online via myUCF, in person, or through our paper form.</p><p>Location: Millican Hall 161</p><p>Phone Number: <a href=\"tel:407-823-2090\">407-823-2090</a></p><p>Website: <a href=\"http://registrar.ucf.edu/transcript-request\">http://registrar.ucf.edu/transcript-request</a></p>",
+                "Name": "Transcripts",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b1.jpg\" alt=\"Transcripts\"></p><p>Both current and former students can order official transcripts online via myUCF, in person, or through our paper form.</p><p>Location: Millican Hall 161</p><p>Phone Number: <a href=\"tel:407-823-2090\">407-823-2090</a></p><p>Website: <a href=\"http://registrar.ucf.edu/transcript-request\">http://registrar.ucf.edu/transcript-request</a></p>",
+                "Latitude": "28.599142",
+                "Longitude": "-81.202242"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20257425,
+                    28.60008818,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Transfer and Transition Services (TTS)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b14.jpg\" alt=\"Transfer and Transition Services (TTS)\"></p><p>Transfer and Transition Services helps transfer students make a seamless transition for a more successful UCF experience. We provide pre-admission and transition advising to students to promote their successful transfer. Additionally, we provide connections to the campus community through a strong Peer Mentor program.</p><p>Location: Howard Phillips Hall 221</p><p>Phone Number: <a href=\"tel:407-823-2231\">407-823-2231</a></p><p>Website: <a href=\"http://transfer.sdes.ucf.edu/\">http://transfer.sdes.ucf.edu/</a></p>",
+                "Name": "Transfer and Transition Services (TTS)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b14.jpg\" alt=\"Transfer and Transition Services (TTS)\"></p><p>Transfer and Transition Services helps transfer students make a seamless transition for a more successful UCF experience. We provide pre-admission and transition advising to students to promote their successful transfer. Additionally, we provide connections to the campus community through a strong Peer Mentor program.</p><p>Location: Howard Phillips Hall 221</p><p>Phone Number: <a href=\"tel:407-823-2231\">407-823-2231</a></p><p>Website: <a href=\"http://transfer.sdes.ucf.edu/\">http://transfer.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.60008818",
+                "Longitude": "-81.20257425"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20257425,
+                    28.60008818,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "TRiO Programs (TRIO)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b14.jpg\" alt=\"TRiO Programs (TRIO)\"></p><p>The PRIME STEM Project is a program for college students, who are first-generation, demonstrate a financial need, and/or have a documented disability pursuing a STEM (Science, Technology, Engineering, Mathematics) majors. The project offers academic support services and resources to assist PRIME scholars pursuing a STEM major at UCF.</p><p>Location: Howard Phillips Hall 208</p><p>Phone Number: <a href=\"tel:407-823-4165\">407-823-4165</a></p><p>Website: <a href=\"http://trio.sdes.ucf.edu/\">http://trio.sdes.ucf.edu/</a></p>",
+                "Name": "TRiO Programs (TRIO)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b14.jpg\" alt=\"TRiO Programs (TRIO)\"></p><p>The PRIME STEM Project is a program for college students, who are first-generation, demonstrate a financial need, and/or have a documented disability pursuing a STEM (Science, Technology, Engineering, Mathematics) majors. The project offers academic support services and resources to assist PRIME scholars pursuing a STEM major at UCF.</p><p>Location: Howard Phillips Hall 208</p><p>Phone Number: <a href=\"tel:407-823-4165\">407-823-4165</a></p><p>Website: <a href=\"http://trio.sdes.ucf.edu/\">http://trio.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.60008818",
+                "Longitude": "-81.20257425"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202006,
+                    28.60079,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "UCF Card Services",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"UCF Card Services\"></p><p>Welcome to Card Services, your one stop shop for all things related to your UCF Card. Here, we will show you how to add money to your Knight Cash account, where to use your card on campus and all the other tips and tricks that will make your time at UCF a pleasurable experience.</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-2100\">407-823-2100</a></p><p>Website: <a href=\"https://ucfcard.ucf.edu\">https://ucfcard.ucf.edu</a></p>",
+                "Name": "UCF Card Services",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"UCF Card Services\"></p><p>Welcome to Card Services, your one stop shop for all things related to your UCF Card. Here, we will show you how to add money to your Knight Cash account, where to use your card on campus and all the other tips and tricks that will make your time at UCF a pleasurable experience.</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-2100\">407-823-2100</a></p><p>Website: <a href=\"https://ucfcard.ucf.edu\">https://ucfcard.ucf.edu</a></p>",
+                "Latitude": "28.60079",
+                "Longitude": "-81.202006"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202843,
+                    28.597936,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Undergraduate Admissions",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b96.jpg\" alt=\"Undergraduate Admissions\"></p><p>At UCF, we prepare you for life and a career. Here you'll experience the benefits of a complete college experience on a friendly and exciting campus.</p><p>Location: University Welcome Center</p><p>Phone Number: <a href=\"tel:407-823-3000\">407-823-3000</a></p><p>Website: <a href=\"http://admissions.ucf.edu/\">http://admissions.ucf.edu/</a></p>",
+                "Name": "Undergraduate Admissions",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b96.jpg\" alt=\"Undergraduate Admissions\"></p><p>At UCF, we prepare you for life and a career. Here you'll experience the benefits of a complete college experience on a friendly and exciting campus.</p><p>Location: University Welcome Center</p><p>Phone Number: <a href=\"tel:407-823-3000\">407-823-3000</a></p><p>Website: <a href=\"http://admissions.ucf.edu/\">http://admissions.ucf.edu/</a></p>",
+                "Latitude": "28.597936",
+                "Longitude": "-81.202843"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20267081,
+                    28.5979593,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Undergraduate Admissions (UA)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b96.jpg\" alt=\"Undergraduate Admissions (UA)\"></p><p>At UCF, we prepare you for life and a career. Here you'll experience the benefits of a complete college experience on a friendly and exciting campus.</p><p>Location: Duke Energy University Welcome Center 101</p><p>Phone Number: <a href=\"tel:407-823-3000\">407-823-3000</a></p><p>Website: <a href=\"http://admissions.ucf.edu/\">http://admissions.ucf.edu/</a></p>",
+                "Name": "Undergraduate Admissions (UA)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b96.jpg\" alt=\"Undergraduate Admissions (UA)\"></p><p>At UCF, we prepare you for life and a career. Here you'll experience the benefits of a complete college experience on a friendly and exciting campus.</p><p>Location: Duke Energy University Welcome Center 101</p><p>Phone Number: <a href=\"tel:407-823-3000\">407-823-3000</a></p><p>Website: <a href=\"http://admissions.ucf.edu/\">http://admissions.ucf.edu/</a></p>",
+                "Latitude": "28.5979593",
+                "Longitude": "-81.20267081"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202826,
+                    28.60014,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "University Testing Center",
+                "description": "<p><img src=\"http://utc.sdes.ucf.edu/images/slate/05.jpg\" alt=\"University Testing Center\"></p><p>UTC strives to meet the needs of UCF students, prospective students, alumni, and the greater Orlando metropolitan area by providing a wide-variety of testing services such as Distance Learning, CLEP, LSAT, TEAS, TOEFL-iBT and many others in order to foster excellence in higher education and create opportunities for success.</p><p>Location: Howard Phillips Hall 106</p><p>Phone Number: <a href=\"tel:407-823-5109\">407-823-5109</a></p><p>Website: <a href=\"http://utc.sdes.ucf.edu\">http://utc.sdes.ucf.edu</a></p>",
+                "Name": "University Testing Center",
+                "Description": "<p><img src=\"http://utc.sdes.ucf.edu/images/slate/05.jpg\" alt=\"University Testing Center\"></p><p>UTC strives to meet the needs of UCF students, prospective students, alumni, and the greater Orlando metropolitan area by providing a wide-variety of testing services such as Distance Learning, CLEP, LSAT, TEAS, TOEFL-iBT and many others in order to foster excellence in higher education and create opportunities for success.</p><p>Location: Howard Phillips Hall 106</p><p>Phone Number: <a href=\"tel:407-823-5109\">407-823-5109</a></p><p>Website: <a href=\"http://utc.sdes.ucf.edu\">http://utc.sdes.ucf.edu</a></p>",
+                "Latitude": "28.60014",
+                "Longitude": "-81.202826"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.203282,
+                    28.601687,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "University Writing Center",
+                "description": "<p><img src=\"https://map.ucf.edu/media/uploads/images/tch_3.jpg\" alt=\"University Writing Center\"></p><p>The University Writing Center is a campus resource that offers free individual and small-group consultations to UCF students, faculty, staff, and community members, for any writing you do.</p><p>Location: Trevor Colbourn Hall Room 109</p><p>Phone Number: <a href=\"tel:407-823-2197\">407-823-2197</a></p><p>Website: <a href=\"http://uwc.cah.ucf.edu/\">http://uwc.cah.ucf.edu/</a></p>",
+                "Name": "University Writing Center",
+                "Description": "<p><img src=\"https://map.ucf.edu/media/uploads/images/tch_3.jpg\" alt=\"University Writing Center\"></p><p>The University Writing Center is a campus resource that offers free individual and small-group consultations to UCF students, faculty, staff, and community members, for any writing you do.</p><p>Location: Trevor Colbourn Hall Room 109</p><p>Phone Number: <a href=\"tel:407-823-2197\">407-823-2197</a></p><p>Website: <a href=\"http://uwc.cah.ucf.edu/\">http://uwc.cah.ucf.edu/</a></p>",
+                "Latitude": "28.601687",
+                "Longitude": "-81.203282"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197203,
+                    28.606691,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Veterans Academic Resource Center (VARC)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/ARNA_50.jpg\" alt=\"Veterans Academic Resource Center (VARC)\"></p><p>The Veterans Academic Resource Center, or VARC, is your one-stop solution to your needs as a student veteran. We provide offices, study space and lounge space, as well as access to a number of university offices, in one central location.</p><p>Location: Addition Financial Arena Suite 100</p><p>Phone Number: <a href=\"tel:407-823-2707\">407-823-2707</a></p><p>Website: <a href=\"http://varc.sdes.ucf.edu\">http://varc.sdes.ucf.edu</a></p>",
+                "Name": "Veterans Academic Resource Center (VARC)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/ARNA_50.jpg\" alt=\"Veterans Academic Resource Center (VARC)\"></p><p>The Veterans Academic Resource Center, or VARC, is your one-stop solution to your needs as a student veteran. We provide offices, study space and lounge space, as well as access to a number of university offices, in one central location.</p><p>Location: Addition Financial Arena Suite 100</p><p>Phone Number: <a href=\"tel:407-823-2707\">407-823-2707</a></p><p>Website: <a href=\"http://varc.sdes.ucf.edu\">http://varc.sdes.ucf.edu</a></p>",
+                "Latitude": "28.606691",
+                "Longitude": "-81.197203"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19934,
+                    28.587743,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Victim Services",
+                "description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Victim Services\"></p><p>UCF Victim Services provides advocacy and support to the UCF Community, 24/7, including weekends and holidays.</p><p>Location: 12201 Research Parkway, Suite 450</p><p>Phone Number: <a href=\"tel:407-823-2425\">407-823-2425</a></p><p>Website: <a href=\"http://victimservices.ucf.edu/\">http://victimservices.ucf.edu/</a></p>",
+                "Name": "Victim Services",
+                "Description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Victim Services\"></p><p>UCF Victim Services provides advocacy and support to the UCF Community, 24/7, including weekends and holidays.</p><p>Location: 12201 Research Parkway, Suite 450</p><p>Phone Number: <a href=\"tel:407-823-2425\">407-823-2425</a></p><p>Website: <a href=\"http://victimservices.ucf.edu/\">http://victimservices.ucf.edu/</a></p>",
+                "Latitude": "28.587743",
+                "Longitude": "-81.19934"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201612,
+                    28.601022,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Victim Services (On-Campus Outreach Office)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"Victim Services (On-Campus Outreach Office)\"></p><p>UCF Victim Services provides advocacy and support to the UCF Community, 24/7, including weekends and holidays.</p><p>Location: John T. Washington Center, Suite 108</p><p>Phone Number: <a href=\"tel:407-823-2425\">407-823-2425</a></p><p>Website: <a href=\"http://victimservices.ucf.edu/\">http://victimservices.ucf.edu/</a></p>",
+                "Name": "Victim Services (On-Campus Outreach Office)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"Victim Services (On-Campus Outreach Office)\"></p><p>UCF Victim Services provides advocacy and support to the UCF Community, 24/7, including weekends and holidays.</p><p>Location: John T. Washington Center, Suite 108</p><p>Phone Number: <a href=\"tel:407-823-2425\">407-823-2425</a></p><p>Website: <a href=\"http://victimservices.ucf.edu/\">http://victimservices.ucf.edu/</a></p>",
+                "Latitude": "28.601022",
+                "Longitude": "-81.201612"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.203274,
+                    28.596844,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Visitor Information",
+                "description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Visitor Information\"></p><p>Visit the Visitor and Parking Information Center for campus information, maps, permits and directions. The Visitor and Parking Information Center is located at the corner of Central Florida Boulevard and Gemini Boulevard South.</p><p>Location: Visitor and Parking Information Center</p><p>Phone Number: <a href=\"tel:407-823-2131\">407-823-2131</a></p><p>Website: <a href=\"http://parking.ucf.edu/permits/visitor-permits/\">http://parking.ucf.edu/permits/visitor-permits/</a></p>",
+                "Name": "Visitor Information",
+                "Description": "<p><img src=\"http://ucfmobile.ucf.edu/app/images/no_image.png\" alt=\"Visitor Information\"></p><p>Visit the Visitor and Parking Information Center for campus information, maps, permits and directions. The Visitor and Parking Information Center is located at the corner of Central Florida Boulevard and Gemini Boulevard South.</p><p>Location: Visitor and Parking Information Center</p><p>Phone Number: <a href=\"tel:407-823-2131\">407-823-2131</a></p><p>Website: <a href=\"http://parking.ucf.edu/permits/visitor-permits/\">http://parking.ucf.edu/permits/visitor-permits/</a></p>",
+                "Latitude": "28.596844",
+                "Longitude": "-81.203274"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19914102,
+                    28.5960753,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wellness and Health Promotion Services (WHPS)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/rwc_b88.jpg\" alt=\"Wellness and Health Promotion Services (WHPS)\"></p><p>The Wellness & Health Promotion Services (WHPS) office offers a wide variety of services and programming aimed at helping students \"be well\" so they can \"do well\".</p><p>Location: Recreation and Wellness Center 111</p><p>Phone Number: <a href=\"tel:407-823-5841\">407-823-5841</a></p><p>Website: <a href=\"http://whps.sdes.ucf.edu/\">http://whps.sdes.ucf.edu/</a></p>",
+                "Name": "Wellness and Health Promotion Services (WHPS)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/rwc_b88.jpg\" alt=\"Wellness and Health Promotion Services (WHPS)\"></p><p>The Wellness & Health Promotion Services (WHPS) office offers a wide variety of services and programming aimed at helping students \"be well\" so they can \"do well\".</p><p>Location: Recreation and Wellness Center 111</p><p>Phone Number: <a href=\"tel:407-823-5841\">407-823-5841</a></p><p>Website: <a href=\"http://whps.sdes.ucf.edu/\">http://whps.sdes.ucf.edu/</a></p>",
+                "Latitude": "28.5960753",
+                "Longitude": "-81.19914102"
+            }
+        }
+    ]
+}

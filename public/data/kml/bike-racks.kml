@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>bike-racks.kml</name>
+	<open>1</open>
+
+		<Placemark>
+			<name>Bike Rack - Barbara Ying Center</name>
+			<description>Barbara Ying Center</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Barbara Ying Center</SimpleData>
+					<SimpleData name="Description">Barbara Ying Center</SimpleData>
+					<SimpleData name="Latitude">28.595407</SimpleData>
+					<SimpleData name="Longitude">-81.202478</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202478,28.59540700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Bright House Stadium (Rack 1)</name>
+			<description>Bright House Stadium (Rack 1)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Bright House Stadium (Rack 1)</SimpleData>
+					<SimpleData name="Description">Bright House Stadium (Rack 1)</SimpleData>
+					<SimpleData name="Latitude">28.609464</SimpleData>
+					<SimpleData name="Longitude">-81.193031</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.193031,28.609464,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Bright House Stadium (Rack 2)</name>
+			<description>Bright House Stadium (Rack 2)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Bright House Stadium (Rack 2)</SimpleData>
+					<SimpleData name="Description">Bright House Stadium (Rack 2)</SimpleData>
+					<SimpleData name="Latitude">28.609545</SimpleData>
+					<SimpleData name="Longitude">-81.192729</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.192729,28.609545,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Bright House Stadium (Rack 3)</name>
+			<description>Bright House Stadium (Rack 3)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Bright House Stadium (Rack 3)</SimpleData>
+					<SimpleData name="Description">Bright House Stadium (Rack 3)</SimpleData>
+					<SimpleData name="Latitude">28.609522</SimpleData>
+					<SimpleData name="Longitude">-81.192602</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19260199999999,28.609522,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Burnett Honors College</name>
+			<description>Burnett Honors College</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Burnett Honors College</SimpleData>
+					<SimpleData name="Description">Burnett Honors College</SimpleData>
+					<SimpleData name="Latitude">28.602229</SimpleData>
+					<SimpleData name="Longitude">-81.20157</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20157,28.602229,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Addition Financial Arena</name>
+			<description>Addition Financial Arena</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Addition Financial Arena</SimpleData>
+					<SimpleData name="Description">Addition Financial Arena</SimpleData>
+					<SimpleData name="Latitude">28.606807</SimpleData>
+					<SimpleData name="Longitude">-81.197354</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.197354,28.606807,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Chemistry</name>
+			<description>Chemistry</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Chemistry</SimpleData>
+					<SimpleData name="Description">Chemistry</SimpleData>
+					<SimpleData name="Latitude">28.600044</SimpleData>
+					<SimpleData name="Longitude">-81.199436</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19943600000001,28.600044,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - CMMS</name>
+			<description>CMMS</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - CMMS</SimpleData>
+					<SimpleData name="Description">CMMS</SimpleData>
+					<SimpleData name="Latitude">28.594996</SimpleData>
+					<SimpleData name="Longitude">-81.202193</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20219299999999,28.594996,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Colbourn Hall</name>
+			<description>Colbourn Hall</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Colbourn Hall</SimpleData>
+					<SimpleData name="Description">Colbourn Hall</SimpleData>
+					<SimpleData name="Latitude">28.601433</SimpleData>
+					<SimpleData name="Longitude">-81.203205</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.203205,28.601433,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - College of Sciences</name>
+			<description>College of Sciences</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - College of Sciences</SimpleData>
+					<SimpleData name="Description">College of Sciences</SimpleData>
+					<SimpleData name="Latitude">28.600829</SimpleData>
+					<SimpleData name="Longitude">-81.200442</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200442,28.600829,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Communication (Rack 1)</name>
+			<description>Communication (Rack 1)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Communication (Rack 1)</SimpleData>
+					<SimpleData name="Description">Communication (Rack 1)</SimpleData>
+					<SimpleData name="Latitude">28.604139</SimpleData>
+					<SimpleData name="Longitude">-81.203353</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20335300000001,28.604139,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Communication (Rack 2)</name>
+			<description>Communication (Rack 2)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Communication (Rack 2)</SimpleData>
+					<SimpleData name="Description">Communication (Rack 2)</SimpleData>
+					<SimpleData name="Latitude">28.603826</SimpleData>
+					<SimpleData name="Longitude">-81.203606</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20360599999999,28.603826,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Communication (Rack 3)</name>
+			<description>Communication (Rack 3)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Communication (Rack 3)</SimpleData>
+					<SimpleData name="Description">Communication (Rack 3)</SimpleData>
+					<SimpleData name="Latitude">28.604663</SimpleData>
+					<SimpleData name="Longitude">-81.202793</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202793,28.604663,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Communication (Rack 4)</name>
+			<description>Communication (Rack 4)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Communication (Rack 4)</SimpleData>
+					<SimpleData name="Description">Communication (Rack 4)</SimpleData>
+					<SimpleData name="Latitude">28.604465</SimpleData>
+					<SimpleData name="Longitude">-81.203039</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.203039,28.604465,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - CREOL (Rack 1)</name>
+			<description>CREOL (Rack 1)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - CREOL (Rack 1)</SimpleData>
+					<SimpleData name="Description">CREOL (Rack 1)</SimpleData>
+					<SimpleData name="Latitude">28.600839</SimpleData>
+					<SimpleData name="Longitude">-81.19688</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19687999999999,28.600839,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - CREOL (Rack 2)</name>
+			<description>CREOL (Rack 2)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - CREOL (Rack 2)</SimpleData>
+					<SimpleData name="Description">CREOL (Rack 2)</SimpleData>
+					<SimpleData name="Latitude">28.601239</SimpleData>
+					<SimpleData name="Longitude">-81.197483</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19748300000001,28.601239,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - CREOL (Rack 3)</name>
+			<description>CREOL (Rack 3)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - CREOL (Rack 3)</SimpleData>
+					<SimpleData name="Description">CREOL (Rack 3)</SimpleData>
+					<SimpleData name="Latitude">28.601152</SimpleData>
+					<SimpleData name="Longitude">-81.197401</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.197401,28.601152,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Education</name>
+			<description>Education</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Education</SimpleData>
+					<SimpleData name="Description">Education</SimpleData>
+					<SimpleData name="Latitude">28.600117</SimpleData>
+					<SimpleData name="Longitude">-81.203286</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20328600000001,28.600117,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Engineering I (East)</name>
+			<description>Engineering I (East)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Engineering I (East)</SimpleData>
+					<SimpleData name="Description">Engineering I (East)</SimpleData>
+					<SimpleData name="Latitude">28.601095</SimpleData>
+					<SimpleData name="Longitude">-81.198171</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198171,28.601095,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Engineering I (West)</name>
+			<description>Engineering I (West)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Engineering I (West)</SimpleData>
+					<SimpleData name="Description">Engineering I (West)</SimpleData>
+					<SimpleData name="Latitude">28.601608</SimpleData>
+					<SimpleData name="Longitude">-81.198931</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198931,28.601608,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Engineering II</name>
+			<description>Engineering II</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Engineering II</SimpleData>
+					<SimpleData name="Description">Engineering II</SimpleData>
+					<SimpleData name="Latitude">28.602141</SimpleData>
+					<SimpleData name="Longitude">-81.197758</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19775799999999,28.602141,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Ferrell Commons</name>
+			<description>Ferrell Commons</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Ferrell Commons</SimpleData>
+					<SimpleData name="Description">Ferrell Commons</SimpleData>
+					<SimpleData name="Latitude">28.597552</SimpleData>
+					<SimpleData name="Longitude">-81.199686</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.199686,28.597552,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Garage H</name>
+			<description>Garage H</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Garage H</SimpleData>
+					<SimpleData name="Description">Garage H</SimpleData>
+					<SimpleData name="Latitude">28.604162</SimpleData>
+					<SimpleData name="Longitude">-81.2017</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.2017,28.604162,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Harris Corporation Engineering Center</name>
+			<description>Harris Corporation Engineering Center</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Harris Corporation Engineering Center</SimpleData>
+					<SimpleData name="Description">Harris Corporation Engineering Center</SimpleData>
+					<SimpleData name="Latitude">28.600714</SimpleData>
+					<SimpleData name="Longitude">-81.197071</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19707099999999,28.600714,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Health Center</name>
+			<description>Health Center</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Health Center</SimpleData>
+					<SimpleData name="Description">Health Center</SimpleData>
+					<SimpleData name="Latitude">28.599569</SimpleData>
+					<SimpleData name="Longitude">-81.199165</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19916499999999,28.599569,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Hercules (Rack 1)</name>
+			<description>Hercules (Rack 1)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Hercules (Rack 1)</SimpleData>
+					<SimpleData name="Description">Hercules (Rack 1)</SimpleData>
+					<SimpleData name="Latitude">28.593416</SimpleData>
+					<SimpleData name="Longitude">-81.200246</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20024600000001,28.593416,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Hercules (Rack 2)</name>
+			<description>Hercules (Rack 2)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Hercules (Rack 2)</SimpleData>
+					<SimpleData name="Description">Hercules (Rack 2)</SimpleData>
+					<SimpleData name="Latitude">28.595012</SimpleData>
+					<SimpleData name="Longitude">-81.198626</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198626,28.595012,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Hercules (Rack 3)</name>
+			<description>Hercules (Rack 3)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Hercules (Rack 3)</SimpleData>
+					<SimpleData name="Description">Hercules (Rack 3)</SimpleData>
+					<SimpleData name="Latitude">28.594721</SimpleData>
+					<SimpleData name="Longitude">-81.199712</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19971200000001,28.594721,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Hercules (Rack 4)</name>
+			<description>Hercules (Rack 4)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Hercules (Rack 4)</SimpleData>
+					<SimpleData name="Description">Hercules (Rack 4)</SimpleData>
+					<SimpleData name="Latitude">28.59415</SimpleData>
+					<SimpleData name="Longitude">-81.200743</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200743,28.59415,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Howard Phillips Hall</name>
+			<description>Howard Phillips Hall</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Howard Phillips Hall</SimpleData>
+					<SimpleData name="Description">Howard Phillips Hall</SimpleData>
+					<SimpleData name="Latitude">28.600379</SimpleData>
+					<SimpleData name="Longitude">-81.202521</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202521,28.600379,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - John T. Washington Center</name>
+			<description>John T. Washington Center</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - John T. Washington Center</SimpleData>
+					<SimpleData name="Description">John T. Washington Center</SimpleData>
+					<SimpleData name="Latitude">28.60068</SimpleData>
+					<SimpleData name="Longitude">-81.201851</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.201851,28.60068,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Knights Plaza (Northeast)</name>
+			<description>Knights Plaza (Northeast)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Knights Plaza (Northeast)</SimpleData>
+					<SimpleData name="Description">Knights Plaza (Northeast)</SimpleData>
+					<SimpleData name="Latitude">28.607454</SimpleData>
+					<SimpleData name="Longitude">-81.19656</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19656000000001,28.607454,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Knights Plaza (Southeast)</name>
+			<description>Knights Plaza (Southeast)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Knights Plaza (Southeast)</SimpleData>
+					<SimpleData name="Description">Knights Plaza (Southeast)</SimpleData>
+					<SimpleData name="Latitude">28.606311</SimpleData>
+					<SimpleData name="Longitude">-81.197177</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.197177,28.606311,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Lake Claire Apartments (Rack 1)</name>
+			<description>Lake Claire Apartments (Rack 1)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Lake Claire Apartments (Rack 1)</SimpleData>
+					<SimpleData name="Description">Lake Claire Apartments (Rack 1)</SimpleData>
+					<SimpleData name="Latitude">28.603493</SimpleData>
+					<SimpleData name="Longitude">-81.205238</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20523799999999,28.603493,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Lake Claire Apartments (Rack 2)</name>
+			<description>Lake Claire Apartments (Rack 2)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Lake Claire Apartments (Rack 2)</SimpleData>
+					<SimpleData name="Description">Lake Claire Apartments (Rack 2)</SimpleData>
+					<SimpleData name="Latitude">28.603951</SimpleData>
+					<SimpleData name="Longitude">-81.203941</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.203941,28.603951,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Lake Claire Apartments (Rack 3)</name>
+			<description>Lake Claire Apartments (Rack 3)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Lake Claire Apartments (Rack 3)</SimpleData>
+					<SimpleData name="Description">Lake Claire Apartments (Rack 3)</SimpleData>
+					<SimpleData name="Latitude">28.603946</SimpleData>
+					<SimpleData name="Longitude">-81.204242</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20424199999999,28.603946,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Lake Claire Apartments (Rack 4)</name>
+			<description>Lake Claire Apartments (Rack 4)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Lake Claire Apartments (Rack 4)</SimpleData>
+					<SimpleData name="Description">Lake Claire Apartments (Rack 4)</SimpleData>
+					<SimpleData name="Latitude">28.603864</SimpleData>
+					<SimpleData name="Longitude">-81.204363</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.204363,28.60386400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Lake Claire Apartments (Rack 5)</name>
+			<description>Lake Claire Apartments (Rack 5)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Lake Claire Apartments (Rack 5)</SimpleData>
+					<SimpleData name="Description">Lake Claire Apartments (Rack 5)</SimpleData>
+					<SimpleData name="Latitude">28.603958</SimpleData>
+					<SimpleData name="Longitude">-81.205248</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.205248,28.603958,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Lake Claire Apartments (Rack 6)</name>
+			<description>Lake Claire Apartments (Rack 6)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Lake Claire Apartments (Rack 6)</SimpleData>
+					<SimpleData name="Description">Lake Claire Apartments (Rack 6)</SimpleData>
+					<SimpleData name="Latitude">28.604073</SimpleData>
+					<SimpleData name="Longitude">-81.205214</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.205214,28.604073,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Lake Claire Apartments (Rack 7)</name>
+			<description>Lake Claire Apartments (Rack 7)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Lake Claire Apartments (Rack 7)</SimpleData>
+					<SimpleData name="Description">Lake Claire Apartments (Rack 7)</SimpleData>
+					<SimpleData name="Latitude">28.60413</SimpleData>
+					<SimpleData name="Longitude">-81.204802</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.204802,28.60413,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Libra (Rack 1)</name>
+			<description>Libra (Rack 1)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Libra (Rack 1)</SimpleData>
+					<SimpleData name="Description">Libra (Rack 1)</SimpleData>
+					<SimpleData name="Latitude">28.598143</SimpleData>
+					<SimpleData name="Longitude">-81.198361</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19836100000001,28.598143,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Libra (Rack 2)</name>
+			<description>Libra (Rack 2)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Libra (Rack 2)</SimpleData>
+					<SimpleData name="Description">Libra (Rack 2)</SimpleData>
+					<SimpleData name="Latitude">28.597835</SimpleData>
+					<SimpleData name="Longitude">-81.198629</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198629,28.597835,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Library</name>
+			<description>Library</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Library</SimpleData>
+					<SimpleData name="Description">Library</SimpleData>
+					<SimpleData name="Latitude">28.600168</SimpleData>
+					<SimpleData name="Longitude">-81.201942</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.201942,28.600168,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Mathematical Sciences Building</name>
+			<description>Mathematical Sciences Building</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Mathematical Sciences Building</SimpleData>
+					<SimpleData name="Description">Mathematical Sciences Building</SimpleData>
+					<SimpleData name="Latitude">28.600046</SimpleData>
+					<SimpleData name="Longitude">-81.200474</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200474,28.600046,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Memory Mall (East)</name>
+			<description>Memory Mall (East)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Memory Mall (East)</SimpleData>
+					<SimpleData name="Description">Memory Mall (East)</SimpleData>
+					<SimpleData name="Latitude">28.603589</SimpleData>
+					<SimpleData name="Longitude">-81.198859</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198859,28.603589,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Memory Mall (West)</name>
+			<description>Memory Mall (West)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Memory Mall (West)</SimpleData>
+					<SimpleData name="Description">Memory Mall (West)</SimpleData>
+					<SimpleData name="Latitude">28.603891</SimpleData>
+					<SimpleData name="Longitude">-81.199739</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19973899999999,28.603891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Mercury Circle (Rack 1)</name>
+			<description>Mercury Circle (Rack 1)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Mercury Circle (Rack 1)</SimpleData>
+					<SimpleData name="Description">Mercury Circle (Rack 1)</SimpleData>
+					<SimpleData name="Latitude">28.60177</SimpleData>
+					<SimpleData name="Longitude">-81.202597</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202597,28.60177,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Mercury Circle (Rack 2)</name>
+			<description>Mercury Circle (Rack 2)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Mercury Circle (Rack 2)</SimpleData>
+					<SimpleData name="Description">Mercury Circle (Rack 2)</SimpleData>
+					<SimpleData name="Latitude">28.601649</SimpleData>
+					<SimpleData name="Longitude">-81.20254</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20254,28.601649,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Millican Hall (East)</name>
+			<description>Millican Hall (East)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Millican Hall (East)</SimpleData>
+					<SimpleData name="Description">Millican Hall (East)</SimpleData>
+					<SimpleData name="Latitude">28.599257</SimpleData>
+					<SimpleData name="Longitude">-81.201644</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.201644,28.599257,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Millican Hall (West)</name>
+			<description>Millican Hall (West)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Millican Hall (West)</SimpleData>
+					<SimpleData name="Description">Millican Hall (West)</SimpleData>
+					<SimpleData name="Latitude">28.599684</SimpleData>
+					<SimpleData name="Longitude">-81.202495</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202495,28.599684,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Nike (Rack 1)</name>
+			<description>Nike (Rack 1)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Nike (Rack 1)</SimpleData>
+					<SimpleData name="Description">Nike (Rack 1)</SimpleData>
+					<SimpleData name="Latitude">28.59437</SimpleData>
+					<SimpleData name="Longitude">-81.197477</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19747700000001,28.59437,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Nike (Rack 2)</name>
+			<description>Nike (Rack 2)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Nike (Rack 2)</SimpleData>
+					<SimpleData name="Description">Nike (Rack 2)</SimpleData>
+					<SimpleData name="Latitude">28.594937</SimpleData>
+					<SimpleData name="Longitude">-81.197276</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.197276,28.594937,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Osceola Hall</name>
+			<description>Osceola Hall</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Osceola Hall</SimpleData>
+					<SimpleData name="Description">Osceola Hall</SimpleData>
+					<SimpleData name="Latitude">28.597578</SimpleData>
+					<SimpleData name="Longitude">-81.201118</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20111799999999,28.597578,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Perseus Loop</name>
+			<description>Perseus Loop</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Perseus Loop</SimpleData>
+					<SimpleData name="Description">Perseus Loop</SimpleData>
+					<SimpleData name="Latitude">28.592105</SimpleData>
+					<SimpleData name="Longitude">-81.19797</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19797,28.592105,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Psychology</name>
+			<description>Psychology</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Psychology</SimpleData>
+					<SimpleData name="Description">Psychology</SimpleData>
+					<SimpleData name="Latitude">28.604554</SimpleData>
+					<SimpleData name="Longitude">-81.200042</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200042,28.604554,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Rec Center</name>
+			<description>Rec Center</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Rec Center</SimpleData>
+					<SimpleData name="Description">Rec Center</SimpleData>
+					<SimpleData name="Latitude">28.596237</SimpleData>
+					<SimpleData name="Longitude">-81.199405</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.199405,28.596237,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Softball Field</name>
+			<description>Softball Field</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Softball Field</SimpleData>
+					<SimpleData name="Description">Softball Field</SimpleData>
+					<SimpleData name="Latitude">28.604277</SimpleData>
+					<SimpleData name="Longitude">-81.189929</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.18992900000001,28.604277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Student Union (South)</name>
+			<description>Student Union (South)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Student Union (South)</SimpleData>
+					<SimpleData name="Description">Student Union (South)</SimpleData>
+					<SimpleData name="Latitude">28.601283</SimpleData>
+					<SimpleData name="Longitude">-81.200045</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200045,28.601283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Student Union North</name>
+			<description>Student Union North</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Student Union North</SimpleData>
+					<SimpleData name="Description">Student Union North</SimpleData>
+					<SimpleData name="Latitude">28.602813</SimpleData>
+					<SimpleData name="Longitude">-81.201007</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.201007,28.602813,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Tennis Courts</name>
+			<description>Tennis Courts</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Tennis Courts</SimpleData>
+					<SimpleData name="Description">Tennis Courts</SimpleData>
+					<SimpleData name="Latitude">28.596296</SimpleData>
+					<SimpleData name="Longitude">-81.198177</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198177,28.596296,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Visual Arts Building (Rack 1)</name>
+			<description>Visual Arts Building (Rack 1)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Visual Arts Building (Rack 1)</SimpleData>
+					<SimpleData name="Description">Visual Arts Building (Rack 1)</SimpleData>
+					<SimpleData name="Latitude">28.602576</SimpleData>
+					<SimpleData name="Longitude">-81.20388</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20388,28.602576,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Visual Arts Building (Rack 2)</name>
+			<description>Visual Arts Building (Rack 2)</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Visual Arts Building (Rack 2)</SimpleData>
+					<SimpleData name="Description">Visual Arts Building (Rack 2)</SimpleData>
+					<SimpleData name="Latitude">28.602926</SimpleData>
+					<SimpleData name="Longitude">-81.202667</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20266700000001,28.602926,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Volusia Hall</name>
+			<description>Volusia Hall</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Volusia Hall</SimpleData>
+					<SimpleData name="Description">Volusia Hall</SimpleData>
+					<SimpleData name="Latitude">28.598576</SimpleData>
+					<SimpleData name="Longitude">-81.200984</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20098400000001,28.598576,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bike Rack - Wayne Densch Sport Center</name>
+			<description>Wayne Densch Sport Center</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160525125155">
+					<SimpleData name="Name">Bike Rack - Wayne Densch Sport Center</SimpleData>
+					<SimpleData name="Description">Wayne Densch Sport Center</SimpleData>
+					<SimpleData name="Latitude">28.606011</SimpleData>
+					<SimpleData name="Longitude">-81.194726</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.194726,28.606011,0</coordinates>
+			</Point>
+		</Placemark>
+		<Schema name="csv_20160525125155" id="csv_20160525125155">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="string"></SimpleField>
+	<SimpleField name="Longitude" type="string"></SimpleField>
+</Schema>
+
+</Document>
+</kml>

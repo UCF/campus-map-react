@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+
+		<name>maps_data_emergency_phones</name>
+		<open>1</open>
+		<ExtendedData>
+			<Data name="searchable">
+				<value>0</value>
+			</Data>
+		</ExtendedData>
+		
+      <Placemark>
+        <name>Blue Light Phones - Lake Claire Pavillion</name>
+        <description><![CDATA[Lake Claire Pavillion]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20321,28.6074</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Between Delta Delta Delta and Pi Beta Phi</name>
+        <description><![CDATA[Between Delta Delta Delta and Pi Beta Phi]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20542,28.60552</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - End of Greek Row, NE of Theta Chi</name>
+        <description><![CDATA[End of Greek Row, NE of Theta Chi]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20369,28.60625</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Between Theta Chi and Lake Claire Apartments</name>
+        <description><![CDATA[Between Theta Chi and Lake Claire Apartments]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20391,28.60526</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Intersection of Aquarius Agora and Gemini W</name>
+        <description><![CDATA[Intersection of Aquarius Agora and Gemini W]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20588,28.60324</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - West end of Performing arts building</name>
+        <description><![CDATA[West end of Performing arts building]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20495,28.60274</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - East end of performing arts building</name>
+        <description><![CDATA[East end of performing arts building]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20407,28.60271</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - NE of Burnetts Honors College</name>
+        <description><![CDATA[NE of Burnetts Honors College]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20146,28.60288</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Between Classroom Building 1 and 2</name>
+        <description><![CDATA[Between Classroom Building 1 and 2]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20029,28.60404</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - N of Utility Building 2</name>
+        <description><![CDATA[N of Utility Building 2]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20163,28.60425</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage H</name>
+        <description><![CDATA[Parking Garage H]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20177,28.60512</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage H</name>
+        <description><![CDATA[Parking Garage H]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20158,28.60444</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage H</name>
+        <description><![CDATA[Parking Garage H]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20049,28.60476</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage H</name>
+        <description><![CDATA[Parking Garage H]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20076,28.60548</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - West of College of Health professions and Science</name>
+        <description><![CDATA[West of College of Health professions and Science]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19921,28.60305</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - South of Psych and philosophy building</name>
+        <description><![CDATA[South of Psych and philosophy building]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19945,28.604403</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - South end of Real life church</name>
+        <description><![CDATA[South end of Real life church]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19877,28.60548</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - North of UCF Global building</name>
+        <description><![CDATA[North of UCF Global building]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19808,28.60498</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage D</name>
+        <description><![CDATA[Parking Garage D]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19786,28.60511</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage D</name>
+        <description><![CDATA[Parking Garage D]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19737,28.60554</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage D</name>
+        <description><![CDATA[Parking Garage D]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19648,28.60478</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage D</name>
+        <description><![CDATA[Parking Garage D]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19701,28.6043</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - W of Tower 4, S of Tower 3</name>
+        <description><![CDATA[W of Tower 4, S of Tower 3]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19635,28.60592</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - SE of Tower 3, N of Tower 4</name>
+        <description><![CDATA[SE of Tower 3, N of Tower 4]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19574,28.606193</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage E</name>
+        <description><![CDATA[Parking Garage E]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19565,28.60673</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage E</name>
+        <description><![CDATA[Parking Garage E]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19563,28.60626</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage E</name>
+        <description><![CDATA[Parking Garage E]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19489,28.60631</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage E</name>
+        <description><![CDATA[Parking Garage E]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19488,28.60676</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - South Side of Knights Plaza</name>
+        <description><![CDATA[South Side of Knights Plaza]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.1974,28.6067</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - N of Tower 3 on Plaza Dr</name>
+        <description><![CDATA[N of Tower 3 on Plaza Dr]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19661,28.60711</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - E Knights Plaza, S The Venue</name>
+        <description><![CDATA[E Knights Plaza, S The Venue]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19656,28.6075</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage F</name>
+        <description><![CDATA[Parking Garage F]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19675,28.60899</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage F</name>
+        <description><![CDATA[Parking Garage F]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19609,28.60874</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage F</name>
+        <description><![CDATA[Parking Garage F]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19636,28.6083</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage F</name>
+        <description><![CDATA[Parking Garage F]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19697,28.60858</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - NE Tower 2</name>
+        <description><![CDATA[NE Tower 2]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19682,28.60964</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Garage G</name>
+        <description><![CDATA[Garage G]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19815,28.60871</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Garage G</name>
+        <description><![CDATA[Garage G]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19793,28.60909</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - E Tower 1</name>
+        <description><![CDATA[E Tower 1]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19774,28.60804</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - SE Tower 1</name>
+        <description><![CDATA[SE Tower 1]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19782,28.60761</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage C</name>
+        <description><![CDATA[Parking Garage C]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19625,28.60287</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage C</name>
+        <description><![CDATA[Parking Garage C]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19561,28.60289</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage C</name>
+        <description><![CDATA[Parking Garage C]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19626,28.60182</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage C</name>
+        <description><![CDATA[Parking Garage C]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19557,28.60187</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - E of PSB</name>
+        <description><![CDATA[E of PSB]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19746,28.60007</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - S of BIO Building, N of Counseling</name>
+        <description><![CDATA[S of BIO Building, N of Counseling]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19862,28.5998</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - W of Health Center</name>
+        <description><![CDATA[W of Health Center]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.199989,28.59909</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - W of Hitt Library</name>
+        <description><![CDATA[W of Hitt Library]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20205,28.600301</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - S or Morgridge, W or Duke Energy</name>
+        <description><![CDATA[S or Morgridge, W or Duke Energy]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.204560,28.598064</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage A</name>
+        <description><![CDATA[Parking Garage A]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20628,28.60027</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage A</name>
+        <description><![CDATA[Parking Garage A]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.10573,28.60057</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage A</name>
+        <description><![CDATA[Parking Garage A]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20497,28.59955</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage A</name>
+        <description><![CDATA[Parking Garage A]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20553,28.59924</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage I</name>
+        <description><![CDATA[Parking Garage I]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20533,28.60149</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage I</name>
+        <description><![CDATA[Parking Garage I]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20415,28.60132</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage I</name>
+        <description><![CDATA[Parking Garage I]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20425,28.60075</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage I</name>
+        <description><![CDATA[Parking Garage I]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20546,28.60093</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - NE of Ed complex and gym, W of Parking Garage I</name>
+        <description><![CDATA[NE of Ed complex and gym, W of Parking Garage I]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20382,28.60086</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Performing Arts Music Parking lot, N of Garage I</name>
+        <description><![CDATA[Performing Arts Music Parking lot, N of Garage I]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20497,28.6019</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage B</name>
+        <description><![CDATA[Parking Garage B]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20108,28.59717</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage B</name>
+        <description><![CDATA[Parking Garage B]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19989,28.59735</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage B</name>
+        <description><![CDATA[Parking Garage B]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19976,28.5967</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Parking Garage B</name>
+        <description><![CDATA[Parking Garage B]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20099,28.59652</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - W of Wayne Densch 1</name>
+        <description><![CDATA[W of Wayne Densch 1]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20207,28.59579</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - E of Barbara Ying Center</name>
+        <description><![CDATA[E of Barbara Ying Center]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.2019,28.594752</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - W of Barbara Ying Center</name>
+        <description><![CDATA[W of Barbara Ying Center]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20331,28.59516</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - RWC Park NW</name>
+        <description><![CDATA[RWC Park NW]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20397,28.593283</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - S of Burnett House</name>
+        <description><![CDATA[S of Burnett House]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.205688,28.59511</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Visitor and Parking Info Parking lot</name>
+        <description><![CDATA[Visitor and Parking Info Parking lot]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20345,28.59647</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Intersection of Gemini S and Andromeda Loop N</name>
+        <description><![CDATA[Intersection of Gemini S and Andromeda Loop N]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20227,28.59694</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Intersection of Gemini S and Central Florida Blvd</name>
+        <description><![CDATA[Intersection of Gemini S and Central Florida Blvd]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20372,28.5973</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - NE of Rec and Wellness Center</name>
+        <description><![CDATA[NE of Rec and Wellness Center]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19841,28.59631</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Between Nike 101 and Hercules 109</name>
+        <description><![CDATA[Between Nike 101 and Hercules 109]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19884,28.59496</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Between Hercules 108 and Nike 102</name>
+        <description><![CDATA[Between Hercules 108 and Nike 102]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19877,28.59432</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Between Neptune 157 and 158</name>
+        <description><![CDATA[Between Neptune 157 and 158]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19844,28.59367</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - SW End of Neptune 158</name>
+        <description><![CDATA[SW End of Neptune 158]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.1991,28.59333</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Between Hercules112, and Rec support</name>
+        <description><![CDATA[Between Hercules112, and Rec support]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20032,28.59349</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - S end of Lake Nerites Baseball Field</name>
+        <description><![CDATA[S end of Lake Nerites Baseball Field]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19938,28.5918</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - E end of Rugby Pitch</name>
+        <description><![CDATA[E end of Rugby Pitch]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19957,28.59269</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Band Practice Facility</name>
+        <description><![CDATA[Band Practice Facility]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20135,28.59257</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Middle of Neptune 56, lake side</name>
+        <description><![CDATA[Middle of Neptune 56, lake side]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19738,28.5931</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - S side of Nike 106</name>
+        <description><![CDATA[S side of Nike 106]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19733,28.59384</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - W Nike 105</name>
+        <description><![CDATA[W Nike 105]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19691,28.59481</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Nike Bus Stop</name>
+        <description><![CDATA[Nike Bus Stop]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.196899,28.59532</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Libra Parking Garage</name>
+        <description><![CDATA[Libra Parking Garage]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19701,28.5964</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Libra Parking Garage</name>
+        <description><![CDATA[Libra Parking Garage]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19649,28.59642</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Libra Parking Garage</name>
+        <description><![CDATA[Libra Parking Garage]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19683,28.59551</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Light Phones - Libra Parking Garage</name>
+        <description><![CDATA[Libra Parking Garage]]></description>
+        
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19637,28.59567</coordinates>
+        </Point>
+      </Placemark>
+
+  </Document>
+</kml>

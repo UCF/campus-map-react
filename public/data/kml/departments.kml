@@ -1,0 +1,1665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<open>1</open>
+		<name>maps_data_labs</name>
+		<Placemark>
+			<name>Activity and Service Fee Business Office (ASF)</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Activity and Service Fee Business Office (ASF)"></p><p>The Activity & Service Fee Business Office services the accounting, personnel, and/or purchasing needs of Activity-&-Service-Fee-funded agencies</p><p>Location: Student Union 215</p><p>Phone Number: <a href="tel:407-823-5548">407-823-5548</a></p><p>Website: <a href="http://asf.sdes.ucf.edu/">http://asf.sdes.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Activity and Service Fee Business Office (ASF)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Activity and Service Fee Business Office (ASF)"></p><p>The Activity & Service Fee Business Office services the accounting, personnel, and/or purchasing needs of Activity-&-Service-Fee-funded agencies</p><p>Location: Student Union 215</p><p>Phone Number: <a href="tel:407-823-5548">407-823-5548</a></p><p>Website: <a href="http://asf.sdes.ucf.edu/">http://asf.sdes.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601751</SimpleData>
+					<SimpleData name="Longitude">-81.200547</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200547,28.601751,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Advertising Degree</name>
+			<description><![CDATA[<p><img src="http://communication.cos.ucf.edu/main/wp-content/uploads/2012/02/centerpiece.jpg" alt="Advertising Degree"></p><p>The advertising-public relations major is designed to provide students with the skills and knowledge leading to careers in the widely diverse fields of advertising and public relations.</p><p>Location: Nicholson School of Communication</p><p>Phone Number: <a href="tel:407-823-2681">407-823-2681</a></p><p>Website: <a href="https://communication.cos.ucf.edu/">https://communication.cos.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Advertising Degree</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://communication.cos.ucf.edu/main/wp-content/uploads/2012/02/centerpiece.jpg" alt="Advertising Degree"></p><p>The advertising-public relations major is designed to provide students with the skills and knowledge leading to careers in the widely diverse fields of advertising and public relations.</p><p>Location: Nicholson School of Communication</p><p>Phone Number: <a href="tel:407-823-2681">407-823-2681</a></p><p>Website: <a href="https://communication.cos.ucf.edu/">https://communication.cos.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.603518</SimpleData>
+					<SimpleData name="Longitude">-81.202845</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202845,28.603518,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Africana Studies</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Africana Studies"></p><p>Africana Studies is dedicated to developing expertise and knowledge of the black experience in the African Diaspora.</p><p>Location: Colbourn Hall 110</p><p>Phone Number: <a href="tel:407-823-0026">407-823-0026</a></p><p>Website: <a href="http://africana.cah.ucf.edu/">http://africana.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Africana Studies</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Africana Studies"></p><p>Africana Studies is dedicated to developing expertise and knowledge of the black experience in the African Diaspora.</p><p>Location: Colbourn Hall 110</p><p>Phone Number: <a href="tel:407-823-0026">407-823-0026</a></p><p>Website: <a href="http://africana.cah.ucf.edu/">http://africana.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601167</SimpleData>
+					<SimpleData name="Longitude">-81.202767</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20276699999999,28.601167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Air Force (ROTC)</name>
+			<description><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Air Force (ROTC)"></p><p>Air Force (ROTC)</p><p>Location: Classroom Building II</p><p>Phone Number: <a href="tel:407-823-1247">407-823-1247</a></p><p>Website: <a href="http://airforce.ucf.edu/det159/">http://airforce.ucf.edu/det159/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Air Force (ROTC)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Air Force (ROTC)"></p><p>Air Force (ROTC)</p><p>Location: Classroom Building II</p><p>Phone Number: <a href="tel:407-823-1247">407-823-1247</a></p><p>Website: <a href="http://airforce.ucf.edu/det159/">http://airforce.ucf.edu/det159/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.604013</SimpleData>
+					<SimpleData name="Longitude">-81.199792</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.199792,28.604013,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Anthropology</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b14.jpg" alt="Anthropology"></p><p>The UCF Department of Anthropology represents the future of academic Anthropology. The department has a four-field and interdisciplinary approach that focuses both on the efficient delivery of anthropological concepts through a variety of teaching modalities -- field, face-to-face, web -- as well as on active research -- in Belize, Bolivia, Egypt, Lithuania, Mexico, Peru, Poland, and Turkey</p><p>Location: Phillips Hall Rm 309</p><p>Phone Number: <a href="tel:407-823-2227">407-823-2227</a></p><p>Website: <a href="https://anthropology.cos.ucf.edu/">https://anthropology.cos.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Anthropology</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b14.jpg" alt="Anthropology"></p><p>The UCF Department of Anthropology represents the future of academic Anthropology. The department has a four-field and interdisciplinary approach that focuses both on the efficient delivery of anthropological concepts through a variety of teaching modalities -- field, face-to-face, web -- as well as on active research -- in Belize, Bolivia, Egypt, Lithuania, Mexico, Peru, Poland, and Turkey</p><p>Location: Phillips Hall Rm 309</p><p>Phone Number: <a href="tel:407-823-2227">407-823-2227</a></p><p>Website: <a href="https://anthropology.cos.ucf.edu/">https://anthropology.cos.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600206</SimpleData>
+					<SimpleData name="Longitude">-81.202671</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202671,28.600206,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Army (ROTC)</name>
+			<description><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Army (ROTC)"></p><p>Army (ROTC)</p><p>Location: Classroom Building II</p><p>Phone Number: <a href="tel:407-823-2649">407-823-2649</a></p><p>Website: <a href="http://www.ucfrotc.com">http://www.ucfrotc.com</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Army (ROTC)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Army (ROTC)"></p><p>Army (ROTC)</p><p>Location: Classroom Building II</p><p>Phone Number: <a href="tel:407-823-2649">407-823-2649</a></p><p>Website: <a href="http://www.ucfrotc.com">http://www.ucfrotc.com</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.604013</SimpleData>
+					<SimpleData name="Longitude">-81.199792</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.199792,28.604013,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Athletic Training</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b90.jpg" alt="Athletic Training"></p><p>Athletic trainers are vital members of the medical support team for physically active populations such as athletes, dancers/artists, military personnel, and industrial workers. The job of an athletic trainer includes prevention of injury, recognition and evaluation of injuries and illnesses, emergency care, rehabilitation, and administration.</p><p>Location: Health and Public Affairs II - 118/119</p><p>Phone Number: <a href="tel:407-823-2214">407-823-2214</a></p><p>Website: <a href="http://www2.cohpa.ucf.edu/health.pro/athletic-training-about.shtml">http://www2.cohpa.ucf.edu/health.pro/athletic-training-about.shtml</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Athletic Training</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b90.jpg" alt="Athletic Training"></p><p>Athletic trainers are vital members of the medical support team for physically active populations such as athletes, dancers/artists, military personnel, and industrial workers. The job of an athletic trainer includes prevention of injury, recognition and evaluation of injuries and illnesses, emergency care, rehabilitation, and administration.</p><p>Location: Health and Public Affairs II - 118/119</p><p>Phone Number: <a href="tel:407-823-2214">407-823-2214</a></p><p>Website: <a href="http://www2.cohpa.ucf.edu/health.pro/athletic-training-about.shtml">http://www2.cohpa.ucf.edu/health.pro/athletic-training-about.shtml</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60315896</SimpleData>
+					<SimpleData name="Longitude">-81.19821834</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19821834,28.60315896,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Athletics</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b39.jpg" alt="Athletics"></p><p>UCF Athletics</p><p>Location: Wayne Densch Center II</p><p>Phone Number: <a href="tel:407-823-3213">407-823-3213</a></p><p>Website: <a href="http://m.ucfknights.com/m/staffdir/ucf-staffdir.html">http://m.ucfknights.com/m/staffdir/ucf-staffdir.html</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Athletics</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b39.jpg" alt="Athletics"></p><p>UCF Athletics</p><p>Location: Wayne Densch Center II</p><p>Phone Number: <a href="tel:407-823-3213">407-823-3213</a></p><p>Website: <a href="http://m.ucfknights.com/m/staffdir/ucf-staffdir.html">http://m.ucfknights.com/m/staffdir/ucf-staffdir.html</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595759</SimpleData>
+					<SimpleData name="Longitude">-81.200815</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20081500000001,28.595759,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Barbara Ying Center</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b71.jpg" alt="Barbara Ying Center"></p><p>The International Services Center (ISC) provides assistance and information to the international community of students and scholars.</p><p>Location: Barbara Ying Center</p><p>Phone Number: <a href="tel:407-823-0061">407-823-0061</a></p><p>Website: <a href="https://www.international.ucf.edu">https://www.international.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Barbara Ying Center</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b71.jpg" alt="Barbara Ying Center"></p><p>The International Services Center (ISC) provides assistance and information to the international community of students and scholars.</p><p>Location: Barbara Ying Center</p><p>Phone Number: <a href="tel:407-823-0061">407-823-0061</a></p><p>Website: <a href="https://www.international.ucf.edu">https://www.international.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595374</SimpleData>
+					<SimpleData name="Longitude">-81.202687</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202687,28.595374,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Biology</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b20.jpg" alt="Biology"></p><p>The UCF Department of Biology is comprised of a balanced blend of research scientists and classroom lecturers who are committed to maintaining a diverse undergraduate curriculum, creating a dynamic graduate program, and engaging in contemporary research.</p><p>Location: Biological Sciences Bldg</p><p>Phone Number: <a href="tel:407-823-2141">407-823-2141</a></p><p>Website: <a href="https://biology.cos.ucf.edu/">https://biology.cos.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Biology</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b20.jpg" alt="Biology"></p><p>The UCF Department of Biology is comprised of a balanced blend of research scientists and classroom lecturers who are committed to maintaining a diverse undergraduate curriculum, creating a dynamic graduate program, and engaging in contemporary research.</p><p>Location: Biological Sciences Bldg</p><p>Phone Number: <a href="tel:407-823-2141">407-823-2141</a></p><p>Website: <a href="https://biology.cos.ucf.edu/">https://biology.cos.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600225</SimpleData>
+					<SimpleData name="Longitude">-81.19853</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19853000000001,28.60022499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Budget and Personnel Support (BPS)</name>
+			<description><![CDATA[<p><img src="http://bps.sdes.ucf.edu/images/billboard.jpg" alt="Budget and Personnel Support (BPS)"></p><p>Our mission is to improve the quality of university operations and student success by providing the Vice President and SDES departments with overall management and leadership in resource management, and technology support.</p><p>Location: Millican Hall 282</p><p>Phone Number: <a href="tel:407-823-4625">407-823-4625</a></p><p>Website: <a href="http://bps.sdes.ucf.edu/">http://bps.sdes.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Budget and Personnel Support (BPS)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://bps.sdes.ucf.edu/images/billboard.jpg" alt="Budget and Personnel Support (BPS)"></p><p>Our mission is to improve the quality of university operations and student success by providing the Vice President and SDES departments with overall management and leadership in resource management, and technology support.</p><p>Location: Millican Hall 282</p><p>Phone Number: <a href="tel:407-823-4625">407-823-4625</a></p><p>Website: <a href="http://bps.sdes.ucf.edu/">http://bps.sdes.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.59885419</SimpleData>
+					<SimpleData name="Longitude">-81.20246696</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20246696,28.59885419,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Burnett Honors College</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b95.jpg" alt="Burnett Honors College"></p><p>The Honors building is home to UCF's more than 1700 Honors students. In addition to staff offices, it houses a well-equipped computer lab, a reading room for quiet study, five multi-media classrooms, a conference/seminar room, a workroom, and informal gathering spaces.</p><p>Location: Burnet Honors College room 111</p><p>Phone Number: <a href="tel:407-823-2076">407-823-2076</a></p><p>Website: <a href="http://honors.ucf.edu/">http://honors.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Burnett Honors College</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b95.jpg" alt="Burnett Honors College"></p><p>The Honors building is home to UCF's more than 1700 Honors students. In addition to staff offices, it houses a well-equipped computer lab, a reading room for quiet study, five multi-media classrooms, a conference/seminar room, a workroom, and informal gathering spaces.</p><p>Location: Burnet Honors College room 111</p><p>Phone Number: <a href="tel:407-823-2076">407-823-2076</a></p><p>Website: <a href="http://honors.ucf.edu/">http://honors.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60226882</SimpleData>
+					<SimpleData name="Longitude">-81.20245623</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20245623,28.60226882,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Business Administration</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b45.jpg" alt="Business Administration"></p><p>Established in 1968, the UCF College of Business Administration offers programs at the bachelor's, master's, doctoral and executive levels. All programs, as well as the Kenneth G. Dixon School of Accounting are accredited by AACSB Internationalthe Association to Advance Collegiate Schools of Business.</p><p>Location: Business Adminstration I</p><p>Phone Number: <a href="tel:407-823-2184">407-823-2184</a></p><p>Website: <a href="http://web.bus.ucf.edu/">http://web.bus.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Business Administration</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b45.jpg" alt="Business Administration"></p><p>Established in 1968, the UCF College of Business Administration offers programs at the bachelor's, master's, doctoral and executive levels. All programs, as well as the Kenneth G. Dixon School of Accounting are accredited by AACSB Internationalthe Association to Advance Collegiate Schools of Business.</p><p>Location: Business Adminstration I</p><p>Phone Number: <a href="tel:407-823-2184">407-823-2184</a></p><p>Website: <a href="http://web.bus.ucf.edu/">http://web.bus.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601101</SimpleData>
+					<SimpleData name="Longitude">-81.199098</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19909800000001,28.601101,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Career Services (CS)</name>
+			<description><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Career Services (CS)"></p><p>UCF Career Services contributes to the university's goal of offering high quality undergraduate and graduate education and student development by providing centralized, comprehensive and coordinated career development, experiential learning and employer relations programs.</p><p>Location: Career Services and Experiential Learning 101</p><p>Phone Number: <a href="tel:407-823-2361">407-823-2361</a></p><p>Website: <a href="http://career.ucf.edu/">http://career.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Career Services (CS)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Career Services (CS)"></p><p>UCF Career Services contributes to the university's goal of offering high quality undergraduate and graduate education and student development by providing centralized, comprehensive and coordinated career development, experiential learning and employer relations programs.</p><p>Location: Career Services and Experiential Learning 101</p><p>Phone Number: <a href="tel:407-823-2361">407-823-2361</a></p><p>Website: <a href="http://career.ucf.edu/">http://career.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.605208</SimpleData>
+					<SimpleData name="Longitude">-81.199113</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.199113,28.605208,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Center for Advanced Transportation Systems Simulation</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b91.jpg" alt="Center for Advanced Transportation Systems Simulation"></p><p>Center for Advanced Transportation Systems Simulation</p><p>Location: Engineering II Room 211</p><p>Phone Number: <a href="tel:407 823-2841">407 823-2841</a></p><p>Website: <a href="http://www.cecs.ucf.edu/catss/">http://www.cecs.ucf.edu/catss/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Center for Advanced Transportation Systems Simulation</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b91.jpg" alt="Center for Advanced Transportation Systems Simulation"></p><p>Center for Advanced Transportation Systems Simulation</p><p>Location: Engineering II Room 211</p><p>Phone Number: <a href="tel:407 823-2841">407 823-2841</a></p><p>Website: <a href="http://www.cecs.ucf.edu/catss/">http://www.cecs.ucf.edu/catss/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.602057</SimpleData>
+					<SimpleData name="Longitude">-81.198455</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198455,28.602057,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Center for Distributed Learning (CDL)</name>
+			<description><![CDATA[<p><img src="https://www.ucf.edu/files/2021/07/DLC.jpeg" alt="Center for Distributed Learning"></p><p>Dynamic growth, changing student demographics, an increasing need for accessible lifelong learning, and advances in information technologies have transformed the educational environment. The University of Central Florida responds to these trends by providing a wide range of distributed learning strategies that provide flexibility and access to academic programs and student</p><p>Location: Digital Learning Center, 12351 Research Parkway</p><p>Phone Number: <a href="tel:407-823-4910">407-823-4910</a></p><p>Website: <a href="http://cdl.ucf.edu/">http://cdl.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Center for Distributed Learning (CDL)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="https://www.ucf.edu/files/2021/07/DLC.jpeg" alt="Center for Distributed Learning"></p><p>Dynamic growth, changing student demographics, an increasing need for accessible lifelong learning, and advances in information technologies have transformed the educational environment. The University of Central Florida responds to these trends by providing a wide range of distributed learning strategies that provide flexibility and access to academic programs and student</p><p>Location: Digital Learning Center, 12351 Research Parkway</p><p>Phone Number: <a href="tel:407-823-4910">407-823-4910</a></p><p>Website: <a href="http://cdl.ucf.edu/">http://cdl.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.587499112588798</SimpleData>
+					<SimpleData name="Longitude">-81.19771416931312</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19771416931312,28.587499112588798,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Center for Distributed Learning</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b2.jpg" alt="Center for Distributed Learning"></p><p>Dynamic growth, changing student demographics, an increasing need for accessible lifelong learning, and advances in information technologies have transformed the educational environment. The University of Central Florida responds to these trends by providing a wide range of distributed learning strategies that provide flexibility and access to academic programs and student</p><p>Location: John C. Hitt Library, First Floor</p><p>Phone Number: <a href="tel:407-823-4910">407-823-4910</a></p><p>Website: <a href="http://cdl.ucf.edu/">http://cdl.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Center for Distributed Learning</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b2.jpg" alt="Center for Distributed Learning"></p><p>Dynamic growth, changing student demographics, an increasing need for accessible lifelong learning, and advances in information technologies have transformed the educational environment. The University of Central Florida responds to these trends by providing a wide range of distributed learning strategies that provide flexibility and access to academic programs and student</p><p>Location: John C. Hitt Library, First Floor</p><p>Phone Number: <a href="tel:407-823-4910">407-823-4910</a></p><p>Website: <a href="http://cdl.ucf.edu/">http://cdl.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600557</SimpleData>
+					<SimpleData name="Longitude">-81.201359</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.201359,28.600557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Center for Success of Women Faculty</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b79.jpg" alt="Center for Success of Women Faculty"></p><p>The UCF Center for Success of Women Faculty promotes the success of all women faculty at the University of Central Florida. We primarily achieve this through active mentoring; sponsored events designed to help faculty maximize their research, instructional, and professional capabilities; advocacy; and providing resources to assist faculty to balance life and work. The Center also encourages excellence in scholarship, research, and creativity among UCF faculty and students in endeavors related to women.</p><p>Location: Classroom Building I Room 207</p><p>Phone Number: <a href="tel:407-823-4240">407-823-4240</a></p><p>Website: <a href="https://womenfaculty.afia.ucf.edu">https://womenfaculty.afia.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Center for Success of Women Faculty</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b79.jpg" alt="Center for Success of Women Faculty"></p><p>The UCF Center for Success of Women Faculty promotes the success of all women faculty at the University of Central Florida. We primarily achieve this through active mentoring; sponsored events designed to help faculty maximize their research, instructional, and professional capabilities; advocacy; and providing resources to assist faculty to balance life and work. The Center also encourages excellence in scholarship, research, and creativity among UCF faculty and students in endeavors related to women.</p><p>Location: Classroom Building I Room 207</p><p>Phone Number: <a href="tel:407-823-4240">407-823-4240</a></p><p>Website: <a href="https://womenfaculty.afia.ucf.edu">https://womenfaculty.afia.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.603552</SimpleData>
+					<SimpleData name="Longitude">-81.200487</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200487,28.603552,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chemistry</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/PS_121.jpg" alt="Chemistry"></p><p>The UCF Chemistry Department offers Bachelors degrees in Chemistry, Forensic Science Analysis, and Forensic Science Serology, and Masters degrees in Chemistry and Forensic Science. It enjoys research, technical, and business links, and provides opportunities for growth in those areas, with many local and worldwide organizations.</p><p>Location: Physical Sciences Bld. Rm. 255</p><p>Phone Number: <a href="tel:407-823-2246">407-823-2246</a></p><p>Website: <a href="https://chemistry.cos.ucf.edu/">https://chemistry.cos.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Chemistry</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/PS_121.jpg" alt="Chemistry"></p><p>The UCF Chemistry Department offers Bachelors degrees in Chemistry, Forensic Science Analysis, and Forensic Science Serology, and Masters degrees in Chemistry and Forensic Science. It enjoys research, technical, and business links, and provides opportunities for growth in those areas, with many local and worldwide organizations.</p><p>Location: Physical Sciences Bld. Rm. 255</p><p>Phone Number: <a href="tel:407-823-2246">407-823-2246</a></p><p>Website: <a href="https://chemistry.cos.ucf.edu/">https://chemistry.cos.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.599858</SimpleData>
+					<SimpleData name="Longitude">-81.197982</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.197982,28.599858,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Child Family &amp; Community Sciences</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b21.jpg" alt="Child Family & Community Sciences"></p><p>The Department of Child, Family, and Community Sciences (CFCS) offers both undergraduate and graduate programs related to careers in school and settings and community agencies. The programs offered include: Counselor Education & School Psychology; Higher Education & Policy Studies; and Exceptional Student Education.</p><p>Location: Education Complex Room 209</p><p>Phone Number: <a href="tel:407-823-6106">407-823-6106</a></p><p>Website: <a href="http://education.ucf.edu/cfcs/">http://education.ucf.edu/cfcs/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Child Family &amp; Community Sciences</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b21.jpg" alt="Child Family & Community Sciences"></p><p>The Department of Child, Family, and Community Sciences (CFCS) offers both undergraduate and graduate programs related to careers in school and settings and community agencies. The programs offered include: Counselor Education & School Psychology; Higher Education & Policy Studies; and Exceptional Student Education.</p><p>Location: Education Complex Room 209</p><p>Phone Number: <a href="tel:407-823-6106">407-823-6106</a></p><p>Website: <a href="http://education.ucf.edu/cfcs/">http://education.ucf.edu/cfcs/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60005521</SimpleData>
+					<SimpleData name="Longitude">-81.2038778</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.2038778,28.60005521,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Civil, Environmental and Construction Engineering</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b40.jpg" alt="Civil, Environmental and Construction Engineering"></p><p>The University of Central Florida Civil, Environmental, and Construction Engineering Department has over 1000 undergraduate students pursuing one or more of three undergraduate degree programs.</p><p>Location: Engineering I Suite 211</p><p>Phone Number: <a href="tel:407-823-2841">407-823-2841</a></p><p>Website: <a href="http://cece.ucf.edu/">http://cece.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Civil, Environmental and Construction Engineering</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b40.jpg" alt="Civil, Environmental and Construction Engineering"></p><p>The University of Central Florida Civil, Environmental, and Construction Engineering Department has over 1000 undergraduate students pursuing one or more of three undergraduate degree programs.</p><p>Location: Engineering I Suite 211</p><p>Phone Number: <a href="tel:407-823-2841">407-823-2841</a></p><p>Website: <a href="http://cece.ucf.edu/">http://cece.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60140693</SimpleData>
+					<SimpleData name="Longitude">-81.19850802</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19850802000001,28.60140693,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>College of Sciences Advising Services office (COSAS)</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/locations/54/college-of-sciences-csb/" alt="College of Sciences Advising Services office (COSAS)"></p><p>The College of Sciences Academic Services (COSAS) is the primary office charged with providing academic assistance to undergraduate students within the College</p><p>Location: College of Sciences Building 250</p><p>Phone Number: <a href="tel:407-823-6131">407-823-6131</a></p><p>Website: <a href="https://www.cos.ucf.edu/cosas/">https://www.cos.ucf.edu/cosas/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">College of Sciences Advising Services office (COSAS)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/locations/54/college-of-sciences-csb/" alt="College of Sciences Advising Services office (COSAS)"></p><p>The College of Sciences Academic Services (COSAS) is the primary office charged with providing academic assistance to undergraduate students within the College</p><p>Location: College of Sciences Building 250</p><p>Phone Number: <a href="tel:407-823-6131">407-823-6131</a></p><p>Website: <a href="https://www.cos.ucf.edu/cosas/">https://www.cos.ucf.edu/cosas/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600922</SimpleData>
+					<SimpleData name="Longitude">-81.200235</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20023500000001,28.600922,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Communication Sciences &amp; Disorders</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b90.jpg" alt="Communication Sciences & Disorders"></p><p>Welcome to the Department of Communication Sciences and Disorders at the University of Central Florida. We invite you to explore our website to learn about our distinguished faculty, innovative clinical services and rigorous academic programs.</p><p>Location: Health and Public Affairs II 101</p><p>Phone Number: <a href="tel:407-823-4798">407-823-4798</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/csd/">https://www.cohpa.ucf.edu/csd/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Communication Sciences &amp; Disorders</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b90.jpg" alt="Communication Sciences & Disorders"></p><p>Welcome to the Department of Communication Sciences and Disorders at the University of Central Florida. We invite you to explore our website to learn about our distinguished faculty, innovative clinical services and rigorous academic programs.</p><p>Location: Health and Public Affairs II 101</p><p>Phone Number: <a href="tel:407-823-4798">407-823-4798</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/csd/">https://www.cohpa.ucf.edu/csd/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60315896</SimpleData>
+					<SimpleData name="Longitude">-81.19821834</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19821834,28.60315896,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Community Counseling and Research Center</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b21.jpg" alt="Community Counseling and Research Center"></p><p>The College of Education and Human Performance Community Counseling and Research Center (CCRC) is a state of the art clinical training facility with 10 counseling rooms including a play therapy and adolescent therapy room. The Clinic offers free individual, couple and family counseling sessions, and on occasion, we also conduct group-counseling programs.</p><p>Location: Education Complex Room 192</p><p>Phone Number: <a href="tel:407-823-2052">407-823-2052</a></p><p>Website: <a href="http://education.ucf.edu/ccc/">http://education.ucf.edu/ccc/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Community Counseling and Research Center</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b21.jpg" alt="Community Counseling and Research Center"></p><p>The College of Education and Human Performance Community Counseling and Research Center (CCRC) is a state of the art clinical training facility with 10 counseling rooms including a play therapy and adolescent therapy room. The Clinic offers free individual, couple and family counseling sessions, and on occasion, we also conduct group-counseling programs.</p><p>Location: Education Complex Room 192</p><p>Phone Number: <a href="tel:407-823-2052">407-823-2052</a></p><p>Website: <a href="http://education.ucf.edu/ccc/">http://education.ucf.edu/ccc/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600157</SimpleData>
+					<SimpleData name="Longitude">-81.204449</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.204449,28.600157,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Computer Engineering</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b40.jpg" alt="Computer Engineering"></p><p>Our faculty members are working professionals with advanced degrees who are dedicated to expanding their own knowledge and sharing what they've practiced for years with our students. They combine academic theory with real-life industry knowledge for a quality learning experience.</p><p>Location: Engineering I</p><p>Phone Number: <a href="tel:407-823-3327">407-823-3327</a></p><p>Website: <a href="http://www.cecs.ucf.edu/">http://www.cecs.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Computer Engineering</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b40.jpg" alt="Computer Engineering"></p><p>Our faculty members are working professionals with advanced degrees who are dedicated to expanding their own knowledge and sharing what they've practiced for years with our students. They combine academic theory with real-life industry knowledge for a quality learning experience.</p><p>Location: Engineering I</p><p>Phone Number: <a href="tel:407-823-3327">407-823-3327</a></p><p>Website: <a href="http://www.cecs.ucf.edu/">http://www.cecs.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60140693</SimpleData>
+					<SimpleData name="Longitude">-81.19850802</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19850802000001,28.60140693,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Computer Science</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b116.jpg" alt="Computer Science"></p><p>Welcome to Computer Science at UCF, where our mission is advancing human understanding of Computing. We do this both through teaching and research. In teaching we offer bachelor's degrees in Computer Science and Information Technology. We offer master's degrees in Computer Science and Digital Forensics and a Ph.D. in Computer Science. In research we have a distinguished and active faculty who do research in the many areas listed below.</p><p>Location: Harris Corporation Engineering Center 346</p><p>Phone Number: <a href="tel:407-823-5373">407-823-5373</a></p><p>Website: <a href="http://www.cs.ucf.edu">http://www.cs.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Computer Science</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b116.jpg" alt="Computer Science"></p><p>Welcome to Computer Science at UCF, where our mission is advancing human understanding of Computing. We do this both through teaching and research. In teaching we offer bachelor's degrees in Computer Science and Information Technology. We offer master's degrees in Computer Science and Digital Forensics and a Ph.D. in Computer Science. In research we have a distinguished and active faculty who do research in the many areas listed below.</p><p>Location: Harris Corporation Engineering Center 346</p><p>Phone Number: <a href="tel:407-823-5373">407-823-5373</a></p><p>Website: <a href="http://www.cs.ucf.edu">http://www.cs.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600657</SimpleData>
+					<SimpleData name="Longitude">-81.19775</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19775,28.600657,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Counseling and Psychological Services (CAPS)</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b27.jpg" alt="Counseling and Psychological Services (CAPS)"></p><p>Counseling and Psychological Services (CAPS) is the only free of charge campus agency designated to provide comprehensive psychological services to university enrolled students.</p><p>Location: Counseling Center</p><p>Phone Number: <a href="tel:407-823-2811">407-823-2811</a></p><p>Website: <a href="http://caps.sdes.ucf.edu/">http://caps.sdes.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Counseling and Psychological Services (CAPS)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b27.jpg" alt="Counseling and Psychological Services (CAPS)"></p><p>Counseling and Psychological Services (CAPS) is the only free of charge campus agency designated to provide comprehensive psychological services to university enrolled students.</p><p>Location: Counseling Center</p><p>Phone Number: <a href="tel:407-823-2811">407-823-2811</a></p><p>Website: <a href="http://caps.sdes.ucf.edu/">http://caps.sdes.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.599387</SimpleData>
+					<SimpleData name="Longitude">-81.19868</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19868,28.599387,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Criminal Justice</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b80.jpg" alt="Criminal Justice"></p><p>The Department of Criminal Justice at the University of Central Florida provides excellence in teaching, research and service. Dedicated to its students, the faculty delivers outstanding instruction at the undergraduate and graduate levels, incorporating learning, service and inquiry.</p><p>Location: Health and Public Affairs I - 311</p><p>Phone Number: <a href="tel:407-823-2603">407-823-2603</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/criminaljustice/#">https://www.cohpa.ucf.edu/criminaljustice/#</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Criminal Justice</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b80.jpg" alt="Criminal Justice"></p><p>The Department of Criminal Justice at the University of Central Florida provides excellence in teaching, research and service. Dedicated to its students, the faculty delivers outstanding instruction at the undergraduate and graduate levels, incorporating learning, service and inquiry.</p><p>Location: Health and Public Affairs I - 311</p><p>Phone Number: <a href="tel:407-823-2603">407-823-2603</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/criminaljustice/#">https://www.cohpa.ucf.edu/criminaljustice/#</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60289522</SimpleData>
+					<SimpleData name="Longitude">-81.19881915</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19881915000001,28.60289522,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cypress Room</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/ARNA_50.jpg" alt="Cypress Room"></p><p>The Cypress Room offers a festive atmosphere for banquets, receptions, tailgates and meetings in an exciting location at Knights Plaza on the north end of campus. Its proximity to the UCF Arena, Brighthouse Networks Stadium, and Knights Plaza restaurants and shops give it a spirited feel and make it the perfect venue.</p><p>Location: 12789 East Plaza Dr. Orlando, Florida 32816</p><p>Phone Number: <a href="tel:407-823-3677">407-823-3677</a></p><p>Website: <a href="https://liveoak.ucf.edu/rooms/cypress-room/">https://liveoak.ucf.edu/rooms/cypress-room/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Cypress Room</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/ARNA_50.jpg" alt="Cypress Room"></p><p>The Cypress Room offers a festive atmosphere for banquets, receptions, tailgates and meetings in an exciting location at Knights Plaza on the north end of campus. Its proximity to the UCF Arena, Brighthouse Networks Stadium, and Knights Plaza restaurants and shops give it a spirited feel and make it the perfect venue.</p><p>Location: 12789 East Plaza Dr. Orlando, Florida 32816</p><p>Phone Number: <a href="tel:407-823-3677">407-823-3677</a></p><p>Website: <a href="https://liveoak.ucf.edu/rooms/cypress-room/">https://liveoak.ucf.edu/rooms/cypress-room/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.607058</SimpleData>
+					<SimpleData name="Longitude">-81.196917</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.196917,28.607058,0</coordinates>
+			</Point>
+		</Placemark>
+<Placemark>
+			<name>Department of Emergency Management</name>
+			<description><![CDATA[<p><img src="https://map.ucf.edu/media/uploads/images/EmergencyOperationsCenter.jpg" alt="Emergency Operation Center"></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">Department of Emergency Management</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="https://map.ucf.edu/media/uploads/images/EmergencyOperationsCenter.jpg" alt="Emergency Operation Center"></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.592499</SimpleData>
+					<SimpleData name="Longitude">-81.196643</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19664299999999,28.592499,0</coordinates>
+			</Point>
+		</Placemark>
+<Placemark>
+			<name>Department of Security</name>
+			<description><![CDATA[<p><img src="https://map.ucf.edu/media/uploads/images/EmergencyOperationsCenter.jpg" alt="Emergency Operation Center"></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160824020812">
+					<SimpleData name="Name">Department of Security</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="https://map.ucf.edu/media/uploads/images/EmergencyOperationsCenter.jpg" alt="Emergency Operation Center"></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.592499</SimpleData>
+					<SimpleData name="Longitude">-81.196643</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19664299999999,28.592499,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>DeVos Sport Business Management Program</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b94.jpg" alt="DeVos Sport Business Management Program"></p><p>Welcome to the DeVos Sport Business Management Graduate Program at the University of Central Florida. Our comprehensive curriculum provides a unique, team-_based, integrative business approach and a global sports network in a hands_-on environment. The DeVos program offers students the opportunity to earn their Master?s in Sports Business Management (MSBM) and a Master of Business Administration (MBA). Focusing on ethics, diversity, leadership and community service, the DeVos Program attracts the brightest and most committed students from across the country and across the globe.</p><p>Location: Business Administration II 205</p><p>Phone Number: <a href="tel:407-823-4887">407-823-4887</a></p><p>Website: <a href="https://business.ucf.edu/devos/">https://business.ucf.edu/devos/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">DeVos Sport Business Management Program</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b94.jpg" alt="DeVos Sport Business Management Program"></p><p>Welcome to the DeVos Sport Business Management Graduate Program at the University of Central Florida. Our comprehensive curriculum provides a unique, team-_based, integrative business approach and a global sports network in a hands_-on environment. The DeVos program offers students the opportunity to earn their Master?s in Sports Business Management (MSBM) and a Master of Business Administration (MBA). Focusing on ethics, diversity, leadership and community service, the DeVos Program attracts the brightest and most committed students from across the country and across the globe.</p><p>Location: Business Administration II 205</p><p>Phone Number: <a href="tel:407-823-4887">407-823-4887</a></p><p>Website: <a href="https://business.ucf.edu/devos/">https://business.ucf.edu/devos/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600731</SimpleData>
+					<SimpleData name="Longitude">-81.198651</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198651,28.600731,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Digital Humanities</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Digital Humanities"></p><p>A minor in Digital Humanities prepares one to deal with our changing world and ?technology? from an interdisciplinary perspective. It provides students with a contextual and methodological understanding of the Internet, new media tools, and the emergence of digital information relative to database and social networking developments.</p><p>Location: Colbourn Hall 417C</p><p>Phone Number: <a href="tel:407-823-5596">407-823-5596</a></p><p>Website: <a href="http://digitalhumanities.cah.ucf.edu">http://digitalhumanities.cah.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Digital Humanities</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Digital Humanities"></p><p>A minor in Digital Humanities prepares one to deal with our changing world and ?technology? from an interdisciplinary perspective. It provides students with a contextual and methodological understanding of the Internet, new media tools, and the emergence of digital information relative to database and social networking developments.</p><p>Location: Colbourn Hall 417C</p><p>Phone Number: <a href="tel:407-823-5596">407-823-5596</a></p><p>Website: <a href="http://digitalhumanities.cah.ucf.edu">http://digitalhumanities.cah.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601266</SimpleData>
+					<SimpleData name="Longitude">-81.202659</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202659,28.601266,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Digital Media</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b51.jpg" alt="Digital Media"></p><p>The B.A. in Digital Media allows students to integrate the multiple domains of art, storytelling, and technology. It is designed to provide a solid foundation in techniques and theory in one focused area of competence, provide a broad understanding of related disciplines including arts, humanities, and technology, and provide extended experience in working in multidisciplinary teams on realistic problems.</p><p>Location: Visual Arts Building 117</p><p>Phone Number: <a href="tel:407-823-2676">407-823-2676</a></p><p>Website: <a href="http://svad.cah.ucf.edu/">http://svad.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Digital Media</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b51.jpg" alt="Digital Media"></p><p>The B.A. in Digital Media allows students to integrate the multiple domains of art, storytelling, and technology. It is designed to provide a solid foundation in techniques and theory in one focused area of competence, provide a broad understanding of related disciplines including arts, humanities, and technology, and provide extended experience in working in multidisciplinary teams on realistic problems.</p><p>Location: Visual Arts Building 117</p><p>Phone Number: <a href="tel:407-823-2676">407-823-2676</a></p><p>Website: <a href="http://svad.cah.ucf.edu/">http://svad.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60273038</SimpleData>
+					<SimpleData name="Longitude">-81.20347011</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20347011,28.60273038,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Economics</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b94.jpg" alt="Economics"></p><p>The department offers two undergraduate programs: a Bachelors of Science in Business Administration degree (BSBA) and a Bachelors of Science in Economics degree. The BSBA Program provides students with a professional business background that prepares them for careers in private business and government. The Bachelors of Science in Economics Program provides a broad-based liberal arts background that can serve as a strong foundation for further graduate studies in law, social sciences, and other fields or as training for careers in politics, teaching, research, social service, and other areas. Economics is also a popular minor for students in Finance, Accounting, Legal Studies, Statistics, and Political Science. An excellent source of information about undergraduate studies in Economics is the American Economics Association website.</p><p>Location: Business Administration II 305</p><p>Phone Number: <a href="tel:407-823-3266">407-823-3266</a></p><p>Website: <a href="http://business.ucf.edu/departments-schools/economics/">http://business.ucf.edu/departments-schools/economics/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Economics</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b94.jpg" alt="Economics"></p><p>The department offers two undergraduate programs: a Bachelors of Science in Business Administration degree (BSBA) and a Bachelors of Science in Economics degree. The BSBA Program provides students with a professional business background that prepares them for careers in private business and government. The Bachelors of Science in Economics Program provides a broad-based liberal arts background that can serve as a strong foundation for further graduate studies in law, social sciences, and other fields or as training for careers in politics, teaching, research, social service, and other areas. Economics is also a popular minor for students in Finance, Accounting, Legal Studies, Statistics, and Political Science. An excellent source of information about undergraduate studies in Economics is the American Economics Association website.</p><p>Location: Business Administration II 305</p><p>Phone Number: <a href="tel:407-823-3266">407-823-3266</a></p><p>Website: <a href="http://business.ucf.edu/departments-schools/economics/">http://business.ucf.edu/departments-schools/economics/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60069575</SimpleData>
+					<SimpleData name="Longitude">-81.1986314</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.1986314,28.60069575,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Educational &amp; Human Sciences</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b21.jpg" alt="Educational & Human Sciences"></p><p>The Department of Educational and Human Sciences (EHS) offers undergraduate and graduate programs in Sport and Exercise Science; graduate programs in Instructional Design and Technology, graduate certificates in e-Learning, Instructional Design for Simulations, Instructional/Educational Technology, and minors in Fitness Training and Coaching. EHS also provides graduate courses in educational research, measurement and statistics which are required courses or electives in a number of programs offered in other divisions in the college.</p><p>Location: Education Complex Room 209</p><p>Phone Number: <a href="tel:407-823-2595">407-823-2595</a></p><p>Website: <a href="http://education.ucf.edu/ehs/">http://education.ucf.edu/ehs/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Educational &amp; Human Sciences</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b21.jpg" alt="Educational & Human Sciences"></p><p>The Department of Educational and Human Sciences (EHS) offers undergraduate and graduate programs in Sport and Exercise Science; graduate programs in Instructional Design and Technology, graduate certificates in e-Learning, Instructional Design for Simulations, Instructional/Educational Technology, and minors in Fitness Training and Coaching. EHS also provides graduate courses in educational research, measurement and statistics which are required courses or electives in a number of programs offered in other divisions in the college.</p><p>Location: Education Complex Room 209</p><p>Phone Number: <a href="tel:407-823-2595">407-823-2595</a></p><p>Website: <a href="http://education.ucf.edu/ehs/">http://education.ucf.edu/ehs/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60005521</SimpleData>
+					<SimpleData name="Longitude">-81.2038778</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.2038778,28.60005521,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Electrical &amp; Computer Engineering</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b116.jpg" alt="Electrical & Computer Engineering"></p><p>The ECE's vision is to offer the best undergraduate education in electrical and computer engineering, to achieve national and international prominence in selected areas of graduate study and research, and to foster partnerships and contribute to technological and economical advances in the State of Florida, the nation, and the world.</p><p>Location: Harris Corporation Engineering Center 346</p><p>Phone Number: <a href="tel:407-823-3327">407-823-3327</a></p><p>Website: <a href="http://www.ece.ucf.edu">http://www.ece.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Electrical &amp; Computer Engineering</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b116.jpg" alt="Electrical & Computer Engineering"></p><p>The ECE's vision is to offer the best undergraduate education in electrical and computer engineering, to achieve national and international prominence in selected areas of graduate study and research, and to foster partnerships and contribute to technological and economical advances in the State of Florida, the nation, and the world.</p><p>Location: Harris Corporation Engineering Center 346</p><p>Phone Number: <a href="tel:407-823-3327">407-823-3327</a></p><p>Website: <a href="http://www.ece.ucf.edu">http://www.ece.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600657</SimpleData>
+					<SimpleData name="Longitude">-81.19775</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19775,28.600657,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>English</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="English"></p><p>The Department of English brings together scholars committed to the study of language, literature, and writing.</p><p>Location: Colbourn Hall 405</p><p>Phone Number: <a href="tel:407-823-5596">407-823-5596</a></p><p>Website: <a href="http://english.cah.ucf.edu/">http://english.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">English</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="English"></p><p>The Department of English brings together scholars committed to the study of language, literature, and writing.</p><p>Location: Colbourn Hall 405</p><p>Phone Number: <a href="tel:407-823-5596">407-823-5596</a></p><p>Website: <a href="http://english.cah.ucf.edu/">http://english.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601167</SimpleData>
+					<SimpleData name="Longitude">-81.202767</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20276699999999,28.601167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Environmental Health and Safety</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b16.jpg" alt="Environmental Health and Safety"></p><p>The Environmental Health and Safety Department promotes a culture of safety, health and environmental protection in collaboration with the university community to support education and research.</p><p>Location: Facilities & Safety</p><p>Phone Number: <a href="tel:407-823-6300">407-823-6300</a></p><p>Website: <a href="http://www.ehs.ucf.edu/">http://www.ehs.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Environmental Health and Safety</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b16.jpg" alt="Environmental Health and Safety"></p><p>The Environmental Health and Safety Department promotes a culture of safety, health and environmental protection in collaboration with the university community to support education and research.</p><p>Location: Facilities & Safety</p><p>Phone Number: <a href="tel:407-823-6300">407-823-6300</a></p><p>Website: <a href="http://www.ehs.ucf.edu/">http://www.ehs.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.591333</SimpleData>
+					<SimpleData name="Longitude">-81.196191</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.196191,28.591333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Environmental Studies</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b79.jpg" alt="Environmental Studies"></p><p>The Environmental Studies track is a program that prepares students for a number of interesting and challenging careers. Its interdisciplinary nature provides students with tools that can be applied across a spectrum of science, social behavior, and humanities, using the strengths of the various areas</p><p>Location: Classroom Building I, Suite 302</p><p>Phone Number: <a href="tel:407-823-0144">407-823-0144</a></p><p>Website: <a href="https://www.is.ucf.edu/index.php">https://www.is.ucf.edu/index.php</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Environmental Studies</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b79.jpg" alt="Environmental Studies"></p><p>The Environmental Studies track is a program that prepares students for a number of interesting and challenging careers. Its interdisciplinary nature provides students with tools that can be applied across a spectrum of science, social behavior, and humanities, using the strengths of the various areas</p><p>Location: Classroom Building I, Suite 302</p><p>Phone Number: <a href="tel:407-823-0144">407-823-0144</a></p><p>Website: <a href="https://www.is.ucf.edu/index.php">https://www.is.ucf.edu/index.php</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60349053</SimpleData>
+					<SimpleData name="Longitude">-81.20042043</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20042042999999,28.60349053,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Facilities</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b16.jpg" alt="Facilities"></p><p>The Facilities and Safety departments are committed to providing service to faculty, staff, students and the community by creating, maintaining, and protecting the educational environment of the University of Central Florida.</p><p>Location: Facilities & Safety 114</p><p>Phone Number: <a href="tel:407-823-2471">407-823-2471</a></p><p>Website: <a href="http://www.fs.ucf.edu/">http://www.fs.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Facilities</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b16.jpg" alt="Facilities"></p><p>The Facilities and Safety departments are committed to providing service to faculty, staff, students and the community by creating, maintaining, and protecting the educational environment of the University of Central Florida.</p><p>Location: Facilities & Safety 114</p><p>Phone Number: <a href="tel:407-823-2471">407-823-2471</a></p><p>Website: <a href="http://www.fs.ucf.edu/">http://www.fs.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.591474</SimpleData>
+					<SimpleData name="Longitude">-81.196277</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19627699999999,28.591474,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Faculty Center for Teaching and Learning</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b79.jpg" alt="Faculty Center for Teaching and Learning"></p><p>The Karen L. Smith Faculty Center for Teaching and Learning is dedicated to promoting the success of our stakeholders - the UCF full-time, part-time and graduate student faculty and, though indirectly, the students they serve and the staff and administrators with whom they work.</p><p>Location: Classroom Building I 207</p><p>Phone Number: <a href="tel:407-823-3544">407-823-3544</a></p><p>Website: <a href="http://www.fctl.ucf.edu/">http://www.fctl.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Faculty Center for Teaching and Learning</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b79.jpg" alt="Faculty Center for Teaching and Learning"></p><p>The Karen L. Smith Faculty Center for Teaching and Learning is dedicated to promoting the success of our stakeholders - the UCF full-time, part-time and graduate student faculty and, though indirectly, the students they serve and the staff and administrators with whom they work.</p><p>Location: Classroom Building I 207</p><p>Phone Number: <a href="tel:407-823-3544">407-823-3544</a></p><p>Website: <a href="http://www.fctl.ucf.edu/">http://www.fctl.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60349053</SimpleData>
+					<SimpleData name="Longitude">-81.20042043</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20042042999999,28.60349053,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Film</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b51.jpg" alt="Film"></p><p>The Film, B.F.A. prepares aspiring filmmakers for a professional career in film production.</p><p>Location: Visual Arts Building 117</p><p>Phone Number: <a href="tel:407-823-2676">407-823-2676</a></p><p>Website: <a href="http://svad.cah.ucf.edu/programinfo.php?id=32">http://svad.cah.ucf.edu/programinfo.php?id=32</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Film</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b51.jpg" alt="Film"></p><p>The Film, B.F.A. prepares aspiring filmmakers for a professional career in film production.</p><p>Location: Visual Arts Building 117</p><p>Phone Number: <a href="tel:407-823-2676">407-823-2676</a></p><p>Website: <a href="http://svad.cah.ucf.edu/programinfo.php?id=32">http://svad.cah.ucf.edu/programinfo.php?id=32</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60273038</SimpleData>
+					<SimpleData name="Longitude">-81.20347011</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20347011,28.60273038,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Finance &amp; Dr. P. Phillips School of Real Estate</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b45.jpg" alt="Finance & Dr. P. Phillips School of Real Estate"></p><p>Welcome to the UCF College of Business Administration?s Department of Finance. For undergraduate students, we offer the Bachelor of Science degree in Business Administration (BSBA), with majors in finance and real estate. We also offer minor programs in finance, real estate, and international business.</p><p>Location: Business Administration I 409</p><p>Phone Number: <a href="tel:407-823-3575">407-823-3575</a></p><p>Website: <a href="http://business.ucf.edu/departments-schools/finance/">http://business.ucf.edu/departments-schools/finance/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Finance &amp; Dr. P. Phillips School of Real Estate</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b45.jpg" alt="Finance & Dr. P. Phillips School of Real Estate"></p><p>Welcome to the UCF College of Business Administration?s Department of Finance. For undergraduate students, we offer the Bachelor of Science degree in Business Administration (BSBA), with majors in finance and real estate. We also offer minor programs in finance, real estate, and international business.</p><p>Location: Business Administration I 409</p><p>Phone Number: <a href="tel:407-823-3575">407-823-3575</a></p><p>Website: <a href="http://business.ucf.edu/departments-schools/finance/">http://business.ucf.edu/departments-schools/finance/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60101131</SimpleData>
+					<SimpleData name="Longitude">-81.19921612</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19921612,28.60101131,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Florida Studies</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Florida Studies"></p><p>UCF's Minor in Florida Studies unites faculty from history, English, political science, and other disciplines for an in-depth exploration of our state?s changing identity as a part of the United States as well as a bridge to the Caribbean Basin, Latin America, and the rest of the world.</p><p>Location: Colbourn Hall 415B</p><p>Phone Number: <a href="tel:407-823-1298">407-823-1298</a></p><p>Website: <a href="http://flstudies.cah.ucf.edu">http://flstudies.cah.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Florida Studies</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Florida Studies"></p><p>UCF's Minor in Florida Studies unites faculty from history, English, political science, and other disciplines for an in-depth exploration of our state?s changing identity as a part of the United States as well as a bridge to the Caribbean Basin, Latin America, and the rest of the world.</p><p>Location: Colbourn Hall 415B</p><p>Phone Number: <a href="tel:407-823-1298">407-823-1298</a></p><p>Website: <a href="http://flstudies.cah.ucf.edu">http://flstudies.cah.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601266</SimpleData>
+					<SimpleData name="Longitude">-81.202659</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202659,28.601266,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Foreign Languages</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Foreign Languages"></p><p>The department offers various programs at the undergraduate and graduate levels which have prepared our graduates for diverse careers. At the undergraduate level we offer Bachelor of Arts in French and Spanish. At the graduate level we offer a Master of Arts in Spanish and in TESOL.</p><p>Location: Colbourn Hall 532</p><p>Phone Number: <a href="tel:407-823-2472">407-823-2472</a></p><p>Website: <a href="http://mll.cah.ucf.edu/">http://mll.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Foreign Languages</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Foreign Languages"></p><p>The department offers various programs at the undergraduate and graduate levels which have prepared our graduates for diverse careers. At the undergraduate level we offer Bachelor of Arts in French and Spanish. At the graduate level we offer a Master of Arts in Spanish and in TESOL.</p><p>Location: Colbourn Hall 532</p><p>Phone Number: <a href="tel:407-823-2472">407-823-2472</a></p><p>Website: <a href="http://mll.cah.ucf.edu/">http://mll.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601224</SimpleData>
+					<SimpleData name="Longitude">-81.202682</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202682,28.601224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Forensic Science</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8111.jpg" alt="Forensic Science"></p><p>The Forensic Science Undergraduate Program at UCF has been designed to provide the student with an educational background in the professional specialty of criminalistics and is within the department of Chemistry. The Forensic Science Master Program is designed to service the needs of both practicing professionals and full time students who desire an advanced program of study. Two tracks are provided:</p><p>Location: Partnership I, 12354 Research Parkway, Suite 225</p><p>Phone Number: <a href="tel:407-823-6469">407-823-6469</a></p><p>Website: <a href="https://ncfs.ucf.edu/">https://ncfs.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Forensic Science</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8111.jpg" alt="Forensic Science"></p><p>The Forensic Science Undergraduate Program at UCF has been designed to provide the student with an educational background in the professional specialty of criminalistics and is within the department of Chemistry. The Forensic Science Master Program is designed to service the needs of both practicing professionals and full time students who desire an advanced program of study. Two tracks are provided:</p><p>Location: Partnership I, 12354 Research Parkway, Suite 225</p><p>Phone Number: <a href="tel:407-823-6469">407-823-6469</a></p><p>Website: <a href="https://ncfs.ucf.edu/">https://ncfs.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.586184</SimpleData>
+					<SimpleData name="Longitude">-81.197406</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.197406,28.586184,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fraternity and Sorority Life (FSL)</name>
+			<description><![CDATA[<p><img src="http://fsl.sdes.ucf.edu/images/slate/03.jpg" alt="Fraternity and Sorority Life (FSL)"></p><p>The mission of Fraternity and Sorority Life is to provide a quality and safe undergraduate fraternal experience that enhances student development through the active advising of student leaders.</p><p>Location: Fraternity and Sorority Life 101</p><p>Phone Number: <a href="tel:407-823-2072">407-823-2072</a></p><p>Website: <a href="http://fsl.sdes.ucf.edu/">http://fsl.sdes.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Fraternity and Sorority Life (FSL)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://fsl.sdes.ucf.edu/images/slate/03.jpg" alt="Fraternity and Sorority Life (FSL)"></p><p>The mission of Fraternity and Sorority Life is to provide a quality and safe undergraduate fraternal experience that enhances student development through the active advising of student leaders.</p><p>Location: Fraternity and Sorority Life 101</p><p>Phone Number: <a href="tel:407-823-2072">407-823-2072</a></p><p>Website: <a href="http://fsl.sdes.ucf.edu/">http://fsl.sdes.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.603414</SimpleData>
+					<SimpleData name="Longitude">-81.206692</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.206692,28.603414,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Health Management and Informatics</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b90.jpg" alt="Health Management and Informatics"></p><p>The University of Central Florida's Department of Health Management and Informatics is located at UCF's main campus in Orlando. The department office is in suite 210 on the second floor of Health and Public Affairs II. Faculty and staff offices are located on the second floor of HPA II as well. Classrooms are located in both Health and Public Affairs I and II.</p><p>Location: Health and Public Affairs II Suite 210</p><p>Phone Number: <a href="tel:407-823-2359">407-823-2359</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/hmi/">https://www.cohpa.ucf.edu/hmi/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Health Management and Informatics</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b90.jpg" alt="Health Management and Informatics"></p><p>The University of Central Florida's Department of Health Management and Informatics is located at UCF's main campus in Orlando. The department office is in suite 210 on the second floor of Health and Public Affairs II. Faculty and staff offices are located on the second floor of HPA II as well. Classrooms are located in both Health and Public Affairs I and II.</p><p>Location: Health and Public Affairs II Suite 210</p><p>Phone Number: <a href="tel:407-823-2359">407-823-2359</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/hmi/">https://www.cohpa.ucf.edu/hmi/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60315896</SimpleData>
+					<SimpleData name="Longitude">-81.19821834</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19821834,28.60315896,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Health Professions</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b90.jpg" alt="Health Professions"></p><p>The College of Health and Public Affairs is a leader in improving the health and welfare of communities -- both locally and around the world -- through education, research, service and community partnerships</p><p>Location: Health and Public Affairs II - 118/119</p><p>Phone Number: <a href="tel:407-823-2214">407-823-2214</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/hp/">https://www.cohpa.ucf.edu/hp/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Health Professions</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b90.jpg" alt="Health Professions"></p><p>The College of Health and Public Affairs is a leader in improving the health and welfare of communities -- both locally and around the world -- through education, research, service and community partnerships</p><p>Location: Health and Public Affairs II - 118/119</p><p>Phone Number: <a href="tel:407-823-2214">407-823-2214</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/hp/">https://www.cohpa.ucf.edu/hp/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60315896</SimpleData>
+					<SimpleData name="Longitude">-81.19821834</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19821834,28.60315896,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>History</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="History"></p><p>The History Department at the University of Central Florida offers students an excellent opportunity to cultivate analytical, reading, and writing skills while enhancing their knowledge of history and its role in today's society</p><p>Location: Colbourn Hall 551</p><p>Phone Number: <a href="tel:407-823-2225">407-823-2225</a></p><p>Website: <a href="http://history.cah.ucf.edu/">http://history.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">History</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="History"></p><p>The History Department at the University of Central Florida offers students an excellent opportunity to cultivate analytical, reading, and writing skills while enhancing their knowledge of history and its role in today's society</p><p>Location: Colbourn Hall 551</p><p>Phone Number: <a href="tel:407-823-2225">407-823-2225</a></p><p>Website: <a href="http://history.cah.ucf.edu/">http://history.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601167</SimpleData>
+					<SimpleData name="Longitude">-81.202767</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20276699999999,28.601167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Human Resources Department</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8112_1.jpg" alt="Human Resources Department"></p><p>We want to welcome you to the Offices of Human Resources at the University of Central Florida. HR invites you to explore our website and learn how HR partners with the university to achieve its strategic goals. The university's vision guides HR operations to recruit, retain and engage a team of well-qualified employees.</p><p>Location: Innovative Center 3280 Progress Drive, Suite 100, Orlando, FL 32826-0140</p><p>Phone Number: <a href="tel:407-823-2771">407-823-2771</a></p><p>Website: <a href="http://hr.ucf.edu/">http://hr.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Human Resources Department</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8112_1.jpg" alt="Human Resources Department"></p><p>We want to welcome you to the Offices of Human Resources at the University of Central Florida. HR invites you to explore our website and learn how HR partners with the university to achieve its strategic goals. The university's vision guides HR operations to recruit, retain and engage a team of well-qualified employees.</p><p>Location: Innovative Center 3280 Progress Drive, Suite 100, Orlando, FL 32826-0140</p><p>Phone Number: <a href="tel:407-823-2771">407-823-2771</a></p><p>Website: <a href="http://hr.ucf.edu/">http://hr.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.589721</SimpleData>
+					<SimpleData name="Longitude">-81.199683</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19968299999999,28.589721,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Industrial Engineering &amp; Management Systems</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b91.jpg" alt="Industrial Engineering & Management Systems"></p><p>UCF's Department of Industrial Engineering and Management Systems provides outstanding undergraduate education, engages in collaborative and multidisciplinary research, and offers excellent graduate programs that appeal to students of diverse interests and backgrounds.</p><p>Location: Engineering II</p><p>Phone Number: <a href="tel:407-823-2204">407-823-2204</a></p><p>Website: <a href="http://iems.ucf.edu/">http://iems.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Industrial Engineering &amp; Management Systems</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b91.jpg" alt="Industrial Engineering & Management Systems"></p><p>UCF's Department of Industrial Engineering and Management Systems provides outstanding undergraduate education, engages in collaborative and multidisciplinary research, and offers excellent graduate programs that appeal to students of diverse interests and backgrounds.</p><p>Location: Engineering II</p><p>Phone Number: <a href="tel:407-823-2204">407-823-2204</a></p><p>Website: <a href="http://iems.ucf.edu/">http://iems.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60198153</SimpleData>
+					<SimpleData name="Longitude">-81.19868504</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19868504,28.60198153,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Institute for Simulation and Training</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8119.jpg" alt="Institute for Simulation and Training"></p><p>The Florida High Tech Corridor boasts of the highest concentration of simulation and training related activities in the nation. IST's primary focus is on human-in-the-loop simulation and modeling of human activity.</p><p>Location: Partnership II, 3100 Technology Pkwy</p><p>Phone Number: <a href="tel:407-882-1300">407-882-1300</a></p><p>Website: <a href="http://www.ist.ucf.edu/">http://www.ist.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Institute for Simulation and Training</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8119.jpg" alt="Institute for Simulation and Training"></p><p>The Florida High Tech Corridor boasts of the highest concentration of simulation and training related activities in the nation. IST's primary focus is on human-in-the-loop simulation and modeling of human activity.</p><p>Location: Partnership II, 3100 Technology Pkwy</p><p>Phone Number: <a href="tel:407-882-1300">407-882-1300</a></p><p>Website: <a href="http://www.ist.ucf.edu/">http://www.ist.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.585973</SimpleData>
+					<SimpleData name="Longitude">-81.199007</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19900699999999,28.585973,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Institute for Simulation and Training - PIII</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8126.jpg" alt="Institute for Simulation and Training - PIII"></p><p>The Florida High Tech Corridor boasts of the highest concentration of simulation and training related activities in the nation. IST's primary focus is on human-in-the-loop simulation and modeling of human activity.</p><p>Location: Partnership III 3039 Technology Pkwy</p><p>Phone Number: <a href="tel:407-882-1300">407-882-1300</a></p><p>Website: <a href="http://www.ist.ucf.edu/">http://www.ist.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Institute for Simulation and Training - PIII</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8126.jpg" alt="Institute for Simulation and Training - PIII"></p><p>The Florida High Tech Corridor boasts of the highest concentration of simulation and training related activities in the nation. IST's primary focus is on human-in-the-loop simulation and modeling of human activity.</p><p>Location: Partnership III 3039 Technology Pkwy</p><p>Phone Number: <a href="tel:407-882-1300">407-882-1300</a></p><p>Website: <a href="http://www.ist.ucf.edu/">http://www.ist.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.58636</SimpleData>
+					<SimpleData name="Longitude">-81.19977</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19977,28.58636,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Interdisciplinary Studies</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b79.jpg" alt="Interdisciplinary Studies"></p><p>The Interdisciplinary Studies Office at UCF provides several ways in which to gain a degree relevant to 21st century life. Program offers students the opportunity to pursue interdisciplinary studies through individually planned programs of study.</p><p>Location: Classroom Building I room 302</p><p>Phone Number: <a href="tel:407-823-0144">407-823-0144</a></p><p>Website: <a href="https://www.is.ucf.edu/index.php">https://www.is.ucf.edu/index.php</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Interdisciplinary Studies</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b79.jpg" alt="Interdisciplinary Studies"></p><p>The Interdisciplinary Studies Office at UCF provides several ways in which to gain a degree relevant to 21st century life. Program offers students the opportunity to pursue interdisciplinary studies through individually planned programs of study.</p><p>Location: Classroom Building I room 302</p><p>Phone Number: <a href="tel:407-823-0144">407-823-0144</a></p><p>Website: <a href="https://www.is.ucf.edu/index.php">https://www.is.ucf.edu/index.php</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.603607</SimpleData>
+					<SimpleData name="Longitude">-81.200563</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200563,28.603607,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>International Students</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b71.jpg" alt="International Students"></p><p>The International Services Center (ISC) provides assistance and information to the international community of students and scholars. Its main functions are to serve as a source of information, advocacy and support, to provide assistance in adjusting to a new academic environment and culture, and to provide immigration and other advising to prospective, new and currently enrolled international students and scholars at the University of Central Florida.</p><p>Location: Barbara Ying Center</p><p>Phone Number: <a href="tel:407-823-2337">407-823-2337</a></p><p>Website: <a href="https://www.international.ucf.edu">https://www.international.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">International Students</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b71.jpg" alt="International Students"></p><p>The International Services Center (ISC) provides assistance and information to the international community of students and scholars. Its main functions are to serve as a source of information, advocacy and support, to provide assistance in adjusting to a new academic environment and culture, and to provide immigration and other advising to prospective, new and currently enrolled international students and scholars at the University of Central Florida.</p><p>Location: Barbara Ying Center</p><p>Phone Number: <a href="tel:407-823-2337">407-823-2337</a></p><p>Website: <a href="https://www.international.ucf.edu">https://www.international.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.594884</SimpleData>
+					<SimpleData name="Longitude">-81.202443</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202443,28.594884,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jornalism</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/NSC_75.jpg" alt="Jornalism"></p><p>NSC is a complex, diverse and large academic unit in the College of Sciences at UCF dedicated to providing intellectual leadership in the areas of communication scholarship through quality academic programs and significant scholarly research.</p><p>Location: Nicholson School of Communication 238</p><p>Phone Number: <a href="tel:407-823-1711">407-823-1711</a></p><p>Website: <a href="https://communication.cos.ucf.edu/program/journalism/">https://communication.cos.ucf.edu/program/journalism/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Jornalism</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/NSC_75.jpg" alt="Jornalism"></p><p>NSC is a complex, diverse and large academic unit in the College of Sciences at UCF dedicated to providing intellectual leadership in the areas of communication scholarship through quality academic programs and significant scholarly research.</p><p>Location: Nicholson School of Communication 238</p><p>Phone Number: <a href="tel:407-823-1711">407-823-1711</a></p><p>Website: <a href="https://communication.cos.ucf.edu/program/journalism/">https://communication.cos.ucf.edu/program/journalism/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60386071</SimpleData>
+					<SimpleData name="Longitude">-81.20325821</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20325821,28.60386071,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Judaic Studies</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Judaic Studies"></p><p>For more than 25 years, the Judaic Studies Program at UCF has enhanced Judaic knowledge, scholarship, and awareness in Central Florida. The program offers an interdisciplinary Minor in Judaic Studies and a Certificate in Judaic Studies.</p><p>Location: Colbourn Hall 415 E-J</p><p>Phone Number: <a href="tel:407-823-5129">407-823-5129</a></p><p>Website: <a href="http://judaicstudies.cah.ucf.edu/">http://judaicstudies.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Judaic Studies</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Judaic Studies"></p><p>For more than 25 years, the Judaic Studies Program at UCF has enhanced Judaic knowledge, scholarship, and awareness in Central Florida. The program offers an interdisciplinary Minor in Judaic Studies and a Certificate in Judaic Studies.</p><p>Location: Colbourn Hall 415 E-J</p><p>Phone Number: <a href="tel:407-823-5129">407-823-5129</a></p><p>Website: <a href="http://judaicstudies.cah.ucf.edu/">http://judaicstudies.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601167</SimpleData>
+					<SimpleData name="Longitude">-81.202767</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20276699999999,28.601167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kenneth G. Dixon School of Accounting</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b45.jpg" alt="Kenneth G. Dixon School of Accounting"></p><p>The mission of the Kenneth G. Dixon School of Accounting is to develop and deliver strong undergraduate and graduate programs, support and produce nationally and internationally relevant accounting research, and engage meaningfully with the academic and practitioner accounting communities.</p><p>Location: Business Administration I 325</p><p>Phone Number: <a href="tel:407-823-2871">407-823-2871</a></p><p>Website: <a href="http://business.ucf.edu/departments-schools/kenneth-g-dixon-school-of-accounting/">http://business.ucf.edu/departments-schools/kenneth-g-dixon-school-of-accounting/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Kenneth G. Dixon School of Accounting</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b45.jpg" alt="Kenneth G. Dixon School of Accounting"></p><p>The mission of the Kenneth G. Dixon School of Accounting is to develop and deliver strong undergraduate and graduate programs, support and produce nationally and internationally relevant accounting research, and engage meaningfully with the academic and practitioner accounting communities.</p><p>Location: Business Administration I 325</p><p>Phone Number: <a href="tel:407-823-2871">407-823-2871</a></p><p>Website: <a href="http://business.ucf.edu/departments-schools/kenneth-g-dixon-school-of-accounting/">http://business.ucf.edu/departments-schools/kenneth-g-dixon-school-of-accounting/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60101131</SimpleData>
+					<SimpleData name="Longitude">-81.19921612</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19921612,28.60101131,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Latin American Studies</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Latin American Studies"></p><p>The Latin American Studies program at UCF offers both a Bachelor of Arts and a Minor. These programs are designed for students with global interests and career goals. The courses are interdisciplinary, giving students the necessary tools and knowledge to work with diverse populations in Latin America.</p><p>Location: Colbourn Hall 122</p><p>Phone Number: <a href="tel:407-823-1173">407-823-1173</a></p><p>Website: <a href="http://las.cah.ucf.edu/">http://las.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Latin American Studies</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Latin American Studies"></p><p>The Latin American Studies program at UCF offers both a Bachelor of Arts and a Minor. These programs are designed for students with global interests and career goals. The courses are interdisciplinary, giving students the necessary tools and knowledge to work with diverse populations in Latin America.</p><p>Location: Colbourn Hall 122</p><p>Phone Number: <a href="tel:407-823-1173">407-823-1173</a></p><p>Website: <a href="http://las.cah.ucf.edu/">http://las.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601167</SimpleData>
+					<SimpleData name="Longitude">-81.202767</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20276699999999,28.601167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Legal Studies</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b80.jpg" alt="Legal Studies"></p><p>The Department of Legal Studies at the University of Central Florida provides excellence in teaching, research and service related to the law and legal community.</p><p>Location: Health and Public Affairs I Suite 343</p><p>Phone Number: <a href="tel:407-823-1670">407-823-1670</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/legalstudies/#">https://www.cohpa.ucf.edu/legalstudies/#</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Legal Studies</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b80.jpg" alt="Legal Studies"></p><p>The Department of Legal Studies at the University of Central Florida provides excellence in teaching, research and service related to the law and legal community.</p><p>Location: Health and Public Affairs I Suite 343</p><p>Phone Number: <a href="tel:407-823-1670">407-823-1670</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/legalstudies/#">https://www.cohpa.ucf.edu/legalstudies/#</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60289522</SimpleData>
+					<SimpleData name="Longitude">-81.19881915</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19881915000001,28.60289522,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Liberal Studies</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b79.jpg" alt="Liberal Studies"></p><p>The Interdisciplinary Studies Office at UCF provides several ways in which to gain a degree relevant to 21st century life. Program offers students the opportunity to pursue interdisciplinary studies through individually planned programs of study.</p><p>Location: Classroom Building I, Suite 302</p><p>Phone Number: <a href="tel:407-823-0144">407-823-0144</a></p><p>Website: <a href="https://www.is.ucf.edu/index.php">https://www.is.ucf.edu/index.php</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Liberal Studies</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b79.jpg" alt="Liberal Studies"></p><p>The Interdisciplinary Studies Office at UCF provides several ways in which to gain a degree relevant to 21st century life. Program offers students the opportunity to pursue interdisciplinary studies through individually planned programs of study.</p><p>Location: Classroom Building I, Suite 302</p><p>Phone Number: <a href="tel:407-823-0144">407-823-0144</a></p><p>Website: <a href="https://www.is.ucf.edu/index.php">https://www.is.ucf.edu/index.php</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.603659</SimpleData>
+					<SimpleData name="Longitude">-81.200522</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20052200000001,28.603659,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Management</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b45.jpg" alt="Management"></p><p>Welcome to the Management Department. We offer degrees at both the undergraduate and graduate levels. Our objective is to prepare students to succeed in the fast-paced business world.</p><p>Location: Business Administration I 309</p><p>Phone Number: <a href="tel:407-823-5569">407-823-5569</a></p><p>Website: <a href="http://business.ucf.edu/departments-schools/management/">http://business.ucf.edu/departments-schools/management/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Management</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b45.jpg" alt="Management"></p><p>Welcome to the Management Department. We offer degrees at both the undergraduate and graduate levels. Our objective is to prepare students to succeed in the fast-paced business world.</p><p>Location: Business Administration I 309</p><p>Phone Number: <a href="tel:407-823-5569">407-823-5569</a></p><p>Website: <a href="http://business.ucf.edu/departments-schools/management/">http://business.ucf.edu/departments-schools/management/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60101131</SimpleData>
+					<SimpleData name="Longitude">-81.19921612</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19921612,28.60101131,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Marketing</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b94.jpg" alt="Marketing"></p><p>UCF Stands For Opportunity, and similarly we believe that "Marketing is where Opportunity begins!"</p><p>Location: Business Administration II 307S</p><p>Phone Number: <a href="tel:407-823-2108">407-823-2108</a></p><p>Website: <a href="http://business.ucf.edu/departments-schools/marketing/">http://business.ucf.edu/departments-schools/marketing/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Marketing</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b94.jpg" alt="Marketing"></p><p>UCF Stands For Opportunity, and similarly we believe that "Marketing is where Opportunity begins!"</p><p>Location: Business Administration II 307S</p><p>Phone Number: <a href="tel:407-823-2108">407-823-2108</a></p><p>Website: <a href="http://business.ucf.edu/departments-schools/marketing/">http://business.ucf.edu/departments-schools/marketing/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60069575</SimpleData>
+					<SimpleData name="Longitude">-81.1986314</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.1986314,28.60069575,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Materials Science and Engineering</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b40.jpg" alt="Materials Science and Engineering"></p><p>Materials Science and Engineering is the study of the structure?processing?properties relationships of engineering materials. Modern MSE encompasses a broad range of materials, from traditional metallurgy to biological materials, polymers, ceramics, semiconductors, composites, and optical and magnetic materials, as well as numerous nanotechnology materials. MSE graduates can be found employed in almost all fields of human endeavor.</p><p>Location: Engineering I Suite 207</p><p>Phone Number: <a href="tel:407-823-0607">407-823-0607</a></p><p>Website: <a href="http://mse.ucf.edu">http://mse.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Materials Science and Engineering</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b40.jpg" alt="Materials Science and Engineering"></p><p>Materials Science and Engineering is the study of the structure?processing?properties relationships of engineering materials. Modern MSE encompasses a broad range of materials, from traditional metallurgy to biological materials, polymers, ceramics, semiconductors, composites, and optical and magnetic materials, as well as numerous nanotechnology materials. MSE graduates can be found employed in almost all fields of human endeavor.</p><p>Location: Engineering I Suite 207</p><p>Phone Number: <a href="tel:407-823-0607">407-823-0607</a></p><p>Website: <a href="http://mse.ucf.edu">http://mse.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60140693</SimpleData>
+					<SimpleData name="Longitude">-81.19850802</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19850802000001,28.60140693,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mathematics</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b12.jpg" alt="Mathematics"></p><p>Welcome to the Department of Mathematics at the University of Central Florida. The mission of the department is to offer the opportunity for excellence and development to students with visionary and relevant programs of high quality at the undergraduate and graduate levels and to advance mathematical research to benefit society.</p><p>Location: Mathmatical Sciences Building</p><p>Phone Number: <a href="tel:407-823-6284">407-823-6284</a></p><p>Website: <a href="https://math.cos.ucf.edu">https://math.cos.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Mathematics</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b12.jpg" alt="Mathematics"></p><p>Welcome to the Department of Mathematics at the University of Central Florida. The mission of the department is to offer the opportunity for excellence and development to students with visionary and relevant programs of high quality at the undergraduate and graduate levels and to advance mathematical research to benefit society.</p><p>Location: Mathmatical Sciences Building</p><p>Phone Number: <a href="tel:407-823-6284">407-823-6284</a></p><p>Website: <a href="https://math.cos.ucf.edu">https://math.cos.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.599594</SimpleData>
+					<SimpleData name="Longitude">-81.200514</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200514,28.599594,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mechanical and Aerospace Engineering</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b40.jpg" alt="Mechanical and Aerospace Engineering"></p><p>In support of the University of Central Florida, and the College of Engineering and Computer Science, the mission of the Mechanical Engineering Program is to provide the highest quality engineering education, through cooperative efforts with regional industry, and to propagate methods for the design, analysis, and implementation of the principles, and practices, particular to the mechanical engineering field.</p><p>Location: Engineering I</p><p>Phone Number: <a href="tel:407-823-2416">407-823-2416</a></p><p>Website: <a href="http://mae.ucf.edu">http://mae.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Mechanical and Aerospace Engineering</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b40.jpg" alt="Mechanical and Aerospace Engineering"></p><p>In support of the University of Central Florida, and the College of Engineering and Computer Science, the mission of the Mechanical Engineering Program is to provide the highest quality engineering education, through cooperative efforts with regional industry, and to propagate methods for the design, analysis, and implementation of the principles, and practices, particular to the mechanical engineering field.</p><p>Location: Engineering I</p><p>Phone Number: <a href="tel:407-823-2416">407-823-2416</a></p><p>Website: <a href="http://mae.ucf.edu">http://mae.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60140693</SimpleData>
+					<SimpleData name="Longitude">-81.19850802</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19850802000001,28.60140693,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Middle Eastern Studies</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Middle Eastern Studies"></p><p>The Middle Eastern Studies Program at UCF is designed to foster teaching, research and scholarship of the Middle East and Muslim world in particular. The program has a strong focus on the religious, political, historical and social forces shaping the region.</p><p>Location: Colbourn Hall 554</p><p>Phone Number: <a href="tel:407-823-0512">407-823-0512</a></p><p>Website: <a href="http://middleeasternstudies.cah.ucf.edu/">http://middleeasternstudies.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Middle Eastern Studies</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Middle Eastern Studies"></p><p>The Middle Eastern Studies Program at UCF is designed to foster teaching, research and scholarship of the Middle East and Muslim world in particular. The program has a strong focus on the religious, political, historical and social forces shaping the region.</p><p>Location: Colbourn Hall 554</p><p>Phone Number: <a href="tel:407-823-0512">407-823-0512</a></p><p>Website: <a href="http://middleeasternstudies.cah.ucf.edu/">http://middleeasternstudies.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601167</SimpleData>
+					<SimpleData name="Longitude">-81.202767</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20276699999999,28.601167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Modern Languages and Literatures</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Modern Languages and Literatures"></p><p>The department offers various programs at the undergraduate and graduate levels which have prepared our graduates for diverse careers. At the undergraduate level we offer Bachelor of Arts in French and Spanish. At the graduate level we offer a Master of Arts in Spanish and in TESOL.</p><p>Location: Colbourn Hall 523</p><p>Phone Number: <a href="tel:407-823-2472">407-823-2472</a></p><p>Website: <a href="http://mll.cah.ucf.edu/">http://mll.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Modern Languages and Literatures</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Modern Languages and Literatures"></p><p>The department offers various programs at the undergraduate and graduate levels which have prepared our graduates for diverse careers. At the undergraduate level we offer Bachelor of Arts in French and Spanish. At the graduate level we offer a Master of Arts in Spanish and in TESOL.</p><p>Location: Colbourn Hall 523</p><p>Phone Number: <a href="tel:407-823-2472">407-823-2472</a></p><p>Website: <a href="http://mll.cah.ucf.edu/">http://mll.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601167</SimpleData>
+					<SimpleData name="Longitude">-81.202767</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20276699999999,28.601167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Multicultural Academic &amp; Support Services</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/locations/52/student-union-stun/" alt="Multicultural Academic & Support Services"></p><p>Multicultural Academic and Support Services (MASS) assists multicultural and first-generation students. It is comprised of many services and programs.</p><p>Location: Student Union 154</p><p>Phone Number: <a href="tel:407-823-2716">407-823-2716</a></p><p>Website: <a href="http://mass.sdes.ucf.edu/">http://mass.sdes.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Multicultural Academic &amp; Support Services</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/locations/52/student-union-stun/" alt="Multicultural Academic & Support Services"></p><p>Multicultural Academic and Support Services (MASS) assists multicultural and first-generation students. It is comprised of many services and programs.</p><p>Location: Student Union 154</p><p>Phone Number: <a href="tel:407-823-2716">407-823-2716</a></p><p>Website: <a href="http://mass.sdes.ucf.edu/">http://mass.sdes.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601714</SimpleData>
+					<SimpleData name="Longitude">-81.200579</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200579,28.601714,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Music</name>
+			<description><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Music"></p><p>The Department of Music is dedicated to the proposition that music is basic to the human condition; that music promotes inclusiveness, diversity and understanding in a global society; that music enhances creativity, the source of all human progress; and that music elevates the human spirit.</p><p>Location: Performing Arts Center Music 203</p><p>Phone Number: <a href="tel:407-823-2869">407-823-2869</a></p><p>Website: <a href="http://music.cah.ucf.edu/">http://music.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Music</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Music"></p><p>The Department of Music is dedicated to the proposition that music is basic to the human condition; that music promotes inclusiveness, diversity and understanding in a global society; that music enhances creativity, the source of all human progress; and that music elevates the human spirit.</p><p>Location: Performing Arts Center Music 203</p><p>Phone Number: <a href="tel:407-823-2869">407-823-2869</a></p><p>Website: <a href="http://music.cah.ucf.edu/">http://music.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.602532</SimpleData>
+					<SimpleData name="Longitude">-81.204532</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.204532,28.602532,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>National Center for Forensic Science</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8111.jpg" alt="National Center for Forensic Science"></p><p>The National Center for Forensic Science (NCFS) is a research center at the University of Central Florida with a 15 year history of research and partnership with the forensic science community.</p><p>Location: 12354 Research Parkway, Suite 225</p><p>Phone Number: <a href="tel:407-823-6469">407-823-6469</a></p><p>Website: <a href="https://ncfs.ucf.edu/">https://ncfs.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">National Center for Forensic Science</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8111.jpg" alt="National Center for Forensic Science"></p><p>The National Center for Forensic Science (NCFS) is a research center at the University of Central Florida with a 15 year history of research and partnership with the forensic science community.</p><p>Location: 12354 Research Parkway, Suite 225</p><p>Phone Number: <a href="tel:407-823-6469">407-823-6469</a></p><p>Website: <a href="https://ncfs.ucf.edu/">https://ncfs.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.586198</SimpleData>
+					<SimpleData name="Longitude">-81.197366</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.197366,28.586198,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nicholson School of Communication</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/NSC_75.jpg" alt="Nicholson School of Communication"></p><p>NSC is a complex, diverse and large academic unit in the College of Sciences at UCF dedicated to providing intellectual leadership in the areas of communication scholarship through quality academic programs and significant scholarly research.</p><p>Location: Nicholson School of Communication 238</p><p>Phone Number: <a href="tel:407-823-1711">407-823-1711</a></p><p>Website: <a href="https://communication.cos.ucf.edu/">https://communication.cos.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Nicholson School of Communication</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/NSC_75.jpg" alt="Nicholson School of Communication"></p><p>NSC is a complex, diverse and large academic unit in the College of Sciences at UCF dedicated to providing intellectual leadership in the areas of communication scholarship through quality academic programs and significant scholarly research.</p><p>Location: Nicholson School of Communication 238</p><p>Phone Number: <a href="tel:407-823-1711">407-823-1711</a></p><p>Website: <a href="https://communication.cos.ucf.edu/">https://communication.cos.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.603861</SimpleData>
+					<SimpleData name="Longitude">-81.202864</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20286400000001,28.603861,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nursing</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8118.jpg" alt="Nursing"></p><p>UCF's nursing program is renowned for its quality academic programs, access to education and research, and its commitment to clinical excellence and community service.</p><p>Location: 12201 Research Parkway, 3rd floor Orlando, FL 32826</p><p>Phone Number: <a href="tel:407-823-2744">407-823-2744</a></p><p>Website: <a href="http://www.nursing.ucf.edu/">http://www.nursing.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Nursing</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8118.jpg" alt="Nursing"></p><p>UCF's nursing program is renowned for its quality academic programs, access to education and research, and its commitment to clinical excellence and community service.</p><p>Location: 12201 Research Parkway, 3rd floor Orlando, FL 32826</p><p>Phone Number: <a href="tel:407-823-2744">407-823-2744</a></p><p>Website: <a href="http://www.nursing.ucf.edu/">http://www.nursing.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.58791483</SimpleData>
+					<SimpleData name="Longitude">-81.1990981</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.1990981,28.58791483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Office of Experiential Learning</name>
+			<description><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Office of Experiential Learning"></p><p>The Office of Experiential Learning, in Undergraduate Studies, instructs and promotes applied learning courses, facilitates the development of quality experiential learning courses through collaboration with and training for faculty campus-wide, and partners with employers and community partners locally, nationally and internationally to help them access talented students and assist in the educational process.</p><p>Location: Career Services and Experiential Learning 300</p><p>Phone Number: <a href="tel:407-823-2667">407-823-2667</a></p><p>Website: <a href="http://www.explearning.ucf.edu">http://www.explearning.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Office of Experiential Learning</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Office of Experiential Learning"></p><p>The Office of Experiential Learning, in Undergraduate Studies, instructs and promotes applied learning courses, facilitates the development of quality experiential learning courses through collaboration with and training for faculty campus-wide, and partners with employers and community partners locally, nationally and internationally to help them access talented students and assist in the educational process.</p><p>Location: Career Services and Experiential Learning 300</p><p>Phone Number: <a href="tel:407-823-2667">407-823-2667</a></p><p>Website: <a href="http://www.explearning.ucf.edu">http://www.explearning.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.605208</SimpleData>
+					<SimpleData name="Longitude">-81.199082</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.199082,28.605208,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Office of Instructional Resources (OIR)</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b79.jpg" alt="Office of Instructional Resources (OIR)"></p><p>The mission of the Office of Instructional Resources (OIR) is to further the academic, research, and administrative goals of the University of Central Florida and its faculty through the design, application, and support of multimedia resources and services.</p><p>Location: Classroom Building I Suite 203</p><p>Phone Number: <a href="tel:407-823-2571">407-823-2571</a></p><p>Website: <a href="http://oir.ucf.edu">http://oir.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Office of Instructional Resources (OIR)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b79.jpg" alt="Office of Instructional Resources (OIR)"></p><p>The mission of the Office of Instructional Resources (OIR) is to further the academic, research, and administrative goals of the University of Central Florida and its faculty through the design, application, and support of multimedia resources and services.</p><p>Location: Classroom Building I Suite 203</p><p>Phone Number: <a href="tel:407-823-2571">407-823-2571</a></p><p>Website: <a href="http://oir.ucf.edu">http://oir.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.603627</SimpleData>
+					<SimpleData name="Longitude">-81.200436</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200436,28.603627,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Office of Undergraduate Research</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b29.jpg" alt="Office of Undergraduate Research"></p><p>The mission of the Office of Undergraduate Research (OUR) is to strengthen and enrich the undergraduate research climate at the University of Central Florida. Undergraduate research gives students the opportunity to work closely with faculty while having hands-on learning experiences that cannot be gained in a traditional classroom setting.</p><p>Location: Technology Commons II, Room 209</p><p>Phone Number: <a href="tel:407-823-3125">407-823-3125</a></p><p>Website: <a href="https://www.our.ucf.edu">https://www.our.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Office of Undergraduate Research</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b29.jpg" alt="Office of Undergraduate Research"></p><p>The mission of the Office of Undergraduate Research (OUR) is to strengthen and enrich the undergraduate research climate at the University of Central Florida. Undergraduate research gives students the opportunity to work closely with faculty while having hands-on learning experiences that cannot be gained in a traditional classroom setting.</p><p>Location: Technology Commons II, Room 209</p><p>Phone Number: <a href="tel:407-823-3125">407-823-3125</a></p><p>Website: <a href="https://www.our.ucf.edu">https://www.our.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60056</SimpleData>
+					<SimpleData name="Longitude">-81.200099</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20009899999999,28.60056,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Performing Arts</name>
+			<description><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Performing Arts"></p><p>Theatre UCF seeks to develop theatre artists of the highest quality. We provide our students with the training, education, and experiences necessary for the successful pursuit of professional theatre careers</p><p>Location: Performing Arts Center Theatre 210A</p><p>Phone Number: <a href="tel:407-823-2862">407-823-2862</a></p><p>Website: <a href="http://performingarts.cah.ucf.edu/">http://performingarts.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Performing Arts</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Performing Arts"></p><p>Theatre UCF seeks to develop theatre artists of the highest quality. We provide our students with the training, education, and experiences necessary for the successful pursuit of professional theatre careers</p><p>Location: Performing Arts Center Theatre 210A</p><p>Phone Number: <a href="tel:407-823-2862">407-823-2862</a></p><p>Website: <a href="http://performingarts.cah.ucf.edu/">http://performingarts.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.602571</SimpleData>
+					<SimpleData name="Longitude">-81.204675</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20467499999999,28.602571,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Philosophy</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b99.jpg" alt="Philosophy"></p><p>The Department of Philosophy is part of the UCF College of Arts and Humanities and houses majors, minors, and graduate certificates in Philosophy, Humanities, Religious Studies, and Cognitive Sciences.</p><p>Location: Psychology Building 220</p><p>Phone Number: <a href="tel:407-823-2273">407-823-2273</a></p><p>Website: <a href="http://philosophy.cah.ucf.edu/">http://philosophy.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Philosophy</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b99.jpg" alt="Philosophy"></p><p>The Department of Philosophy is part of the UCF College of Arts and Humanities and houses majors, minors, and graduate certificates in Philosophy, Humanities, Religious Studies, and Cognitive Sciences.</p><p>Location: Psychology Building 220</p><p>Phone Number: <a href="tel:407-823-2273">407-823-2273</a></p><p>Website: <a href="http://philosophy.cah.ucf.edu/">http://philosophy.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.604643</SimpleData>
+					<SimpleData name="Longitude">-81.199538</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.199538,28.604643,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Photonic Science and Engineering</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b53.jpg" alt="Photonic Science and Engineering"></p><p>B.S. degree in Photonic Science and Engineering will enable students to analyze and design optical and laser systems for a broad set of applications including manufacturing, healthcare, telecommunication, defense, security, and entertainment.</p><p>Location: CREOL Building</p><p>Phone Number: <a href="tel:407-823-6800">407-823-6800</a></p><p>Website: <a href="http://www.creol.ucf.edu/Academics/Undergrad/">http://www.creol.ucf.edu/Academics/Undergrad/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Photonic Science and Engineering</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b53.jpg" alt="Photonic Science and Engineering"></p><p>B.S. degree in Photonic Science and Engineering will enable students to analyze and design optical and laser systems for a broad set of applications including manufacturing, healthcare, telecommunication, defense, security, and entertainment.</p><p>Location: CREOL Building</p><p>Phone Number: <a href="tel:407-823-6800">407-823-6800</a></p><p>Website: <a href="http://www.creol.ucf.edu/Academics/Undergrad/">http://www.creol.ucf.edu/Academics/Undergrad/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601195</SimpleData>
+					<SimpleData name="Longitude">-81.197151</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19715100000001,28.601195,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Physics</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/PS_121.jpg" alt="Physics"></p><p>The mission of the Department of Physics of the University of Central Florida is to provide education and perform research in physics at the highest level. In fulfillment of this mission, the Department educates students at all levels from general education, through preparation for teaching and scientific careers, to doctoral and post-doctoral education</p><p>Location: Physical Science 430</p><p>Phone Number: <a href="tel:407-823-2325">407-823-2325</a></p><p>Website: <a href="https://physics.cos.ucf.edu/">https://physics.cos.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Physics</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/PS_121.jpg" alt="Physics"></p><p>The mission of the Department of Physics of the University of Central Florida is to provide education and perform research in physics at the highest level. In fulfillment of this mission, the Department educates students at all levels from general education, through preparation for teaching and scientific careers, to doctoral and post-doctoral education</p><p>Location: Physical Science 430</p><p>Phone Number: <a href="tel:407-823-2325">407-823-2325</a></p><p>Website: <a href="https://physics.cos.ucf.edu/">https://physics.cos.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.599858</SimpleData>
+					<SimpleData name="Longitude">-81.197982</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.197982,28.599858,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Political Science</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b14.jpg" alt="Political Science"></p><p>The Department of Political Science seeks to (1) provide a broad background for careers in foreign and domestic public service and in the private sector where a knowledge of government and politics is necessary; (2) provide a broad background for and facilitate admission to law school through the prelaw emphasis; (3) prepare students for teaching. research, and graduate study in Political Science; 4) provide a broad background for careers in politics; and (5) educate citizens and promote their active interest in public affairs.</p><p>Location: Howard Phillips Hall, Rm. 302</p><p>Phone Number: <a href="tel:407-823-2608">407-823-2608</a></p><p>Website: <a href="https://politicalscience.cos.ucf.edu">https://politicalscience.cos.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Political Science</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b14.jpg" alt="Political Science"></p><p>The Department of Political Science seeks to (1) provide a broad background for careers in foreign and domestic public service and in the private sector where a knowledge of government and politics is necessary; (2) provide a broad background for and facilitate admission to law school through the prelaw emphasis; (3) prepare students for teaching. research, and graduate study in Political Science; 4) provide a broad background for careers in politics; and (5) educate citizens and promote their active interest in public affairs.</p><p>Location: Howard Phillips Hall, Rm. 302</p><p>Phone Number: <a href="tel:407-823-2608">407-823-2608</a></p><p>Website: <a href="https://politicalscience.cos.ucf.edu">https://politicalscience.cos.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600206</SimpleData>
+					<SimpleData name="Longitude">-81.202671</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202671,28.600206,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Psychology</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b99.jpg" alt="Psychology"></p><p>The primary mission of the Psychology Department is to provide quality education to students at the undergraduate, master's, and doctoral levels. This education includes dissemination of state-of-the-field theoretical and empirical information, training in the methodological, statistical, and technical skills necessary to conduct psychological research, and practice in the application of psychological knowledge to real-life problems</p><p>Location: Psychology Building 320</p><p>Phone Number: <a href="tel:407-823-4344">407-823-4344</a></p><p>Website: <a href="https://psychology.cos.ucf.edu/">https://psychology.cos.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Psychology</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b99.jpg" alt="Psychology"></p><p>The primary mission of the Psychology Department is to provide quality education to students at the undergraduate, master's, and doctoral levels. This education includes dissemination of state-of-the-field theoretical and empirical information, training in the methodological, statistical, and technical skills necessary to conduct psychological research, and practice in the application of psychological knowledge to real-life problems</p><p>Location: Psychology Building 320</p><p>Phone Number: <a href="tel:407-823-4344">407-823-4344</a></p><p>Website: <a href="https://psychology.cos.ucf.edu/">https://psychology.cos.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.604671</SimpleData>
+					<SimpleData name="Longitude">-81.199484</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.199484,28.604671,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Public Administration</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b90.jpg" alt="Public Administration"></p><p>The School of Public Administration offers graduate and undergraduate programs in public administration and emergency management.</p><p>Location: Health and Public Affairs II Suite 238</p><p>Phone Number: <a href="tel:407-823-2604">407-823-2604</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/publicadmin/">https://www.cohpa.ucf.edu/publicadmin/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Public Administration</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b90.jpg" alt="Public Administration"></p><p>The School of Public Administration offers graduate and undergraduate programs in public administration and emergency management.</p><p>Location: Health and Public Affairs II Suite 238</p><p>Phone Number: <a href="tel:407-823-2604">407-823-2604</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/publicadmin/">https://www.cohpa.ucf.edu/publicadmin/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60315896</SimpleData>
+					<SimpleData name="Longitude">-81.19821834</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19821834,28.60315896,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Public Affairs</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b80.jpg" alt="Public Affairs"></p><p>The Doctoral Program in Public Affairs prepares future leaders to deal with complex social, health and governance issues that cut across traditional disciplinary boundaries.</p><p>Location: Health and Public Affairs I - 220</p><p>Phone Number: <a href="tel:407-823-0170">407-823-0170</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/publicaffairs/">https://www.cohpa.ucf.edu/publicaffairs/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Public Affairs</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b80.jpg" alt="Public Affairs"></p><p>The Doctoral Program in Public Affairs prepares future leaders to deal with complex social, health and governance issues that cut across traditional disciplinary boundaries.</p><p>Location: Health and Public Affairs I - 220</p><p>Phone Number: <a href="tel:407-823-0170">407-823-0170</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/publicaffairs/">https://www.cohpa.ucf.edu/publicaffairs/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60289522</SimpleData>
+					<SimpleData name="Longitude">-81.19881915</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19881915000001,28.60289522,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Radio - Television</name>
+			<description><![CDATA[<p><img src="http://communication.cos.ucf.edu/main/wp-content/uploads/2012/02/Contact-Us-Temp.jpg" alt="Radio - Television"></p><p>The radio-television major is designed to provide students with the skills and knowledge leading to careers in the field broadly defined as radio-television. Aside from broadcast stations, this major prepares students for jobs in cable television, production facilities and corporate and digital media.</p><p>Location: Nicholson School of Communication 238</p><p>Phone Number: <a href="tel:407-823-1711">407-823-1711</a></p><p>Website: <a href="https://communication.cos.ucf.edu/program/radio-television/">https://communication.cos.ucf.edu/program/radio-television/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Radio - Television</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://communication.cos.ucf.edu/main/wp-content/uploads/2012/02/Contact-Us-Temp.jpg" alt="Radio - Television"></p><p>The radio-television major is designed to provide students with the skills and knowledge leading to careers in the field broadly defined as radio-television. Aside from broadcast stations, this major prepares students for jobs in cable television, production facilities and corporate and digital media.</p><p>Location: Nicholson School of Communication 238</p><p>Phone Number: <a href="tel:407-823-1711">407-823-1711</a></p><p>Website: <a href="https://communication.cos.ucf.edu/program/radio-television/">https://communication.cos.ucf.edu/program/radio-television/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60386071</SimpleData>
+					<SimpleData name="Longitude">-81.20325821</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20325821,28.60386071,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Registrar&apos;s Office (RO)</name>
+			<description><![CDATA[<p><img src="http://bps.sdes.ucf.edu/images/billboard.jpg" alt="Registrar's Office (RO)"></p><p>A university registrar serves as the custodian of records, making sure that all academic records are accurate and maintained with the highest regard for privacy.</p><p>Location: Millican Hall 161</p><p>Phone Number: <a href="tel:407-823-3100">407-823-3100</a></p><p>Website: <a href="http://registrar.ucf.edu/">http://registrar.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Registrar&apos;s Office (RO)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://bps.sdes.ucf.edu/images/billboard.jpg" alt="Registrar's Office (RO)"></p><p>A university registrar serves as the custodian of records, making sure that all academic records are accurate and maintained with the highest regard for privacy.</p><p>Location: Millican Hall 161</p><p>Phone Number: <a href="tel:407-823-3100">407-823-3100</a></p><p>Website: <a href="http://registrar.ucf.edu/">http://registrar.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.59885419</SimpleData>
+					<SimpleData name="Longitude">-81.20246696</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20246696,28.59885419,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>School of Teaching, Learning &amp; Leadership</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b21.jpg" alt="School of Teaching, Learning & Leadership"></p><p>The UCF School of Teaching, Learning and Leadership (STLL) is a teacher education administration unit that stands for opportunity for all students to become leaders in education.</p><p>Location: Education Complex Room 209</p><p>Phone Number: <a href="tel:407-823-1768">407-823-1768</a></p><p>Website: <a href="http://www.education.ucf.edu/stll/">http://www.education.ucf.edu/stll/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">School of Teaching, Learning &amp; Leadership</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b21.jpg" alt="School of Teaching, Learning & Leadership"></p><p>The UCF School of Teaching, Learning and Leadership (STLL) is a teacher education administration unit that stands for opportunity for all students to become leaders in education.</p><p>Location: Education Complex Room 209</p><p>Phone Number: <a href="tel:407-823-1768">407-823-1768</a></p><p>Website: <a href="http://www.education.ucf.edu/stll/">http://www.education.ucf.edu/stll/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60005521</SimpleData>
+					<SimpleData name="Longitude">-81.2038778</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.2038778,28.60005521,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>School of Visual Arts &amp; Design</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b51.jpg" alt="School of Visual Arts & Design"></p><p>The School of Visual Arts and Design offers a variety of undergraduate and graduate programs of study</p><p>Location: Visual Arts Building 117</p><p>Phone Number: <a href="tel:407-823-1355">407-823-1355</a></p><p>Website: <a href="http://svad.cah.ucf.edu/">http://svad.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">School of Visual Arts &amp; Design</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b51.jpg" alt="School of Visual Arts & Design"></p><p>The School of Visual Arts and Design offers a variety of undergraduate and graduate programs of study</p><p>Location: Visual Arts Building 117</p><p>Phone Number: <a href="tel:407-823-1355">407-823-1355</a></p><p>Website: <a href="http://svad.cah.ucf.edu/">http://svad.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.602806</SimpleData>
+					<SimpleData name="Longitude">-81.2031</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20310000000001,28.602806,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SDES Information Technology (IT)</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b7f.jpg" alt="SDES Information Technology (IT)"></p><p>Welcome to SDES Information Technology! We empower SDES to achieve by combining advanced, reliable, and effective technology with diverse technical services including forecasting, consulting, research, purchasing, installation, configuration, and ongoing support for applications, clients, peripherals, and infrastructure devices for supported SDES staff.</p><p>Location: Ferrell Commons 7B 132</p><p>Phone Number: <a href="tel:407-823-4444">407-823-4444</a></p><p>Website: <a href="http://it.sdes.ucf.edu">http://it.sdes.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">SDES Information Technology (IT)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b7f.jpg" alt="SDES Information Technology (IT)"></p><p>Welcome to SDES Information Technology! We empower SDES to achieve by combining advanced, reliable, and effective technology with diverse technical services including forecasting, consulting, research, purchasing, installation, configuration, and ongoing support for applications, clients, peripherals, and infrastructure devices for supported SDES staff.</p><p>Location: Ferrell Commons 7B 132</p><p>Phone Number: <a href="tel:407-823-4444">407-823-4444</a></p><p>Website: <a href="http://it.sdes.ucf.edu">http://it.sdes.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.597927</SimpleData>
+					<SimpleData name="Longitude">-81.200021</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20002100000001,28.59792699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Social Sciences</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b14.jpg" alt="Social Sciences"></p><p>The Social Sciences are a cluster of academic disciplines that focus on human society and interpersonal relationships. Each of the disciplines within the social sciences provides a critical view of the social world and enables one to analyze and understand how societies work. The disciplines that are considered part of the social sciences include sociology, anthropology, political science, communications, psychology, and gender studies.</p><p>Location: Howard Phillips Hall, rm. 403</p><p>Phone Number: <a href="tel:407-823-3744">407-823-3744</a></p><p>Website: <a href="https://www.cos.ucf.edu/socialsciences/">https://www.cos.ucf.edu/socialsciences/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Social Sciences</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b14.jpg" alt="Social Sciences"></p><p>The Social Sciences are a cluster of academic disciplines that focus on human society and interpersonal relationships. Each of the disciplines within the social sciences provides a critical view of the social world and enables one to analyze and understand how societies work. The disciplines that are considered part of the social sciences include sociology, anthropology, political science, communications, psychology, and gender studies.</p><p>Location: Howard Phillips Hall, rm. 403</p><p>Phone Number: <a href="tel:407-823-3744">407-823-3744</a></p><p>Website: <a href="https://www.cos.ucf.edu/socialsciences/">https://www.cos.ucf.edu/socialsciences/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600206</SimpleData>
+					<SimpleData name="Longitude">-81.202671</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202671,28.600206,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Social Work</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b80.jpg" alt="Social Work"></p><p>The UCF School of Social Work seeks to prepare students to prevent and resolve human problems, promote social justice, serve the poor and oppressed, alleviate poverty, and address oppression and discrimination.</p><p>Location: Health and Public Affairs I Suite 204</p><p>Phone Number: <a href="tel:407-823-2114">407-823-2114</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/socialwork/">https://www.cohpa.ucf.edu/socialwork/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Social Work</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b80.jpg" alt="Social Work"></p><p>The UCF School of Social Work seeks to prepare students to prevent and resolve human problems, promote social justice, serve the poor and oppressed, alleviate poverty, and address oppression and discrimination.</p><p>Location: Health and Public Affairs I Suite 204</p><p>Phone Number: <a href="tel:407-823-2114">407-823-2114</a></p><p>Website: <a href="https://www.cohpa.ucf.edu/socialwork/">https://www.cohpa.ucf.edu/socialwork/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60289522</SimpleData>
+					<SimpleData name="Longitude">-81.19881915</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19881915000001,28.60289522,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sociology</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b14.jpg" alt="Sociology"></p><p>The UCF Department of Sociology provides the type of advanced learning community required to meet the challenges of the 21st century. We seek to educate global citizens who can access, evaluate, and analyze abundant information available through both electronic and more traditional forms of media.</p><p>Location: Howard Phillips Hall, rm. 403</p><p>Phone Number: <a href="tel:407-823-3744">407-823-3744</a></p><p>Website: <a href="https://sociology.cos.ucf.edu">https://sociology.cos.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Sociology</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b14.jpg" alt="Sociology"></p><p>The UCF Department of Sociology provides the type of advanced learning community required to meet the challenges of the 21st century. We seek to educate global citizens who can access, evaluate, and analyze abundant information available through both electronic and more traditional forms of media.</p><p>Location: Howard Phillips Hall, rm. 403</p><p>Phone Number: <a href="tel:407-823-3744">407-823-3744</a></p><p>Website: <a href="https://sociology.cos.ucf.edu">https://sociology.cos.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600206</SimpleData>
+					<SimpleData name="Longitude">-81.202671</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202671,28.600206,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Statistics</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b29.jpg" alt="Statistics"></p><p>Welcome to the Statistics Department website at the University of Central Florida. We are glad that you stopped by.</p><p>Location: Technology Commons II</p><p>Phone Number: <a href="tel:407-823-2289">407-823-2289</a></p><p>Website: <a href="https://statistics.cos.ucf.edu/">https://statistics.cos.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Statistics</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b29.jpg" alt="Statistics"></p><p>Welcome to the Statistics Department website at the University of Central Florida. We are glad that you stopped by.</p><p>Location: Technology Commons II</p><p>Phone Number: <a href="tel:407-823-2289">407-823-2289</a></p><p>Website: <a href="https://statistics.cos.ucf.edu/">https://statistics.cos.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600498</SimpleData>
+					<SimpleData name="Longitude">-81.200117</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20011700000001,28.600498,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Student Development and Enrollment Services (SDES)</name>
+			<description><![CDATA[<p><img src="https://map.ucf.edu/media/uploads/images/b1.jpg" alt="Student Development and Enrollment Services (SDES)"></p><p>Student Development and Enrollment Services (SDES) is a division of the university comprised of a wide-ranging array of programs and services dedicated to providing students with opportunities for learning and a broad, collegiate experience.</p><p>Location: Milican Hall 282</p><p>Phone Number: <a href="tel:407-823-4625">407-823-4625</a></p><p>Website: <a href="http://www.sdes.ucf.edu">http://www.sdes.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Student Development and Enrollment Services (SDES)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="https://map.ucf.edu/media/uploads/images/b1.jpg" alt="Student Development and Enrollment Services (SDES)"></p><p>Student Development and Enrollment Services (SDES) is a division of the university comprised of a wide-ranging array of programs and services dedicated to providing students with opportunities for learning and a broad, collegiate experience.</p><p>Location: Milican Hall 282</p><p>Phone Number: <a href="tel:407-823-4625">407-823-4625</a></p><p>Website: <a href="http://www.sdes.ucf.edu">http://www.sdes.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.598845</SimpleData>
+					<SimpleData name="Longitude">-81.20245</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20245,28.598845,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Student Financial Assistance (SFA)</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b1.jpg" alt="Student Financial Assistance (SFA)"></p><p>To provide UCF students and the university community comprehensive quality service by offering options for financial assistance and efficient delivery of aid. The Office of Student Financial Assistance, a unit of Student Development and Enrollment Services, is dedicated to the attainment of UCF's mission and goals.</p><p>Location: Millican Hall 120</p><p>Phone Number: <a href="tel:407-823-2827">407-823-2827</a></p><p>Website: <a href="http://finaid.ucf.edu/">http://finaid.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Student Financial Assistance (SFA)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b1.jpg" alt="Student Financial Assistance (SFA)"></p><p>To provide UCF students and the university community comprehensive quality service by offering options for financial assistance and efficient delivery of aid. The Office of Student Financial Assistance, a unit of Student Development and Enrollment Services, is dedicated to the attainment of UCF's mission and goals.</p><p>Location: Millican Hall 120</p><p>Phone Number: <a href="tel:407-823-2827">407-823-2827</a></p><p>Website: <a href="http://finaid.ucf.edu/">http://finaid.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.59885419</SimpleData>
+					<SimpleData name="Longitude">-81.20246696</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20246696,28.59885419,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Student Government (SGA)</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Student Government (SGA)"></p><p>The Student Government Association is a representative body modeled after the United States government. Through its Executive, Legislative, and Judicial branches, the Student Government Association aims to represent student issues and concerns at all levels of university decision making.</p><p>Location: Student Union room 214</p><p>Phone Number: <a href="tel:407-823-3291">407-823-3291</a></p><p>Website: <a href="http://ucfsga.com">http://ucfsga.com</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Student Government (SGA)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Student Government (SGA)"></p><p>The Student Government Association is a representative body modeled after the United States government. Through its Executive, Legislative, and Judicial branches, the Student Government Association aims to represent student issues and concerns at all levels of university decision making.</p><p>Location: Student Union room 214</p><p>Phone Number: <a href="tel:407-823-3291">407-823-3291</a></p><p>Website: <a href="http://ucfsga.com">http://ucfsga.com</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601775</SimpleData>
+					<SimpleData name="Longitude">-81.200709</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200709,28.601775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Student Legal Services (SLS)</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Student Legal Services (SLS)"></p><p>The office of Student Legal Services provides enrolled students at UCF with legal counseling and court representation in various areas of the law. The staff attorneys interview each client individually to advise in the areas of law that concern the student.</p><p>Location: Student Union 304</p><p>Phone Number: <a href="tel:407-823-2538">407-823-2538</a></p><p>Website: <a href="http://sls.sdes.ucf.edu/">http://sls.sdes.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Student Legal Services (SLS)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Student Legal Services (SLS)"></p><p>The office of Student Legal Services provides enrolled students at UCF with legal counseling and court representation in various areas of the law. The staff attorneys interview each client individually to advise in the areas of law that concern the student.</p><p>Location: Student Union 304</p><p>Phone Number: <a href="tel:407-823-2538">407-823-2538</a></p><p>Website: <a href="http://sls.sdes.ucf.edu/">http://sls.sdes.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601828</SimpleData>
+					<SimpleData name="Longitude">-81.200557</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200557,28.601828,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Student Union (SU)</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Student Union (SU)"></p><p>Known as the "Heart of Campus," the Student Union sits at the center of the University of Central Florida's Orlando Campus. Here at the Union we provide space for students, and members of the UCF community to study, socialize, eat, host events, attend meetings, and engage in campus life.</p><p>Location: Student Union 312</p><p>Phone Number: <a href="tel:407-823-3677">407-823-3677</a></p><p>Website: <a href="http://studentunion.ucf.edu/">http://studentunion.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Student Union (SU)</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Student Union (SU)"></p><p>Known as the "Heart of Campus," the Student Union sits at the center of the University of Central Florida's Orlando Campus. Here at the Union we provide space for students, and members of the UCF community to study, socialize, eat, host events, attend meetings, and engage in campus life.</p><p>Location: Student Union 312</p><p>Phone Number: <a href="tel:407-823-3677">407-823-3677</a></p><p>Website: <a href="http://studentunion.ucf.edu/">http://studentunion.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.6016695</SimpleData>
+					<SimpleData name="Longitude">-81.20052772</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20052772,28.6016695,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Texts and Technology</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b87.jpg" alt="Texts and Technology"></p><p>The Ph.D. in Texts and Technology program is part of a growing interdisciplinary field combining scholarly study, creative production, and assessment of digital media texts. The curriculum emphasizes theory and practice in new media supplemented by historical grounding in pre-digital media studies</p><p>Location: College of Arts & Humanities 190R</p><p>Phone Number: <a href="tel:407-823-2126">407-823-2126</a></p><p>Website: <a href="http://tandt.cah.ucf.edu/">http://tandt.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Texts and Technology</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b87.jpg" alt="Texts and Technology"></p><p>The Ph.D. in Texts and Technology program is part of a growing interdisciplinary field combining scholarly study, creative production, and assessment of digital media texts. The curriculum emphasizes theory and practice in new media supplemented by historical grounding in pre-digital media studies</p><p>Location: College of Arts & Humanities 190R</p><p>Phone Number: <a href="tel:407-823-2126">407-823-2126</a></p><p>Website: <a href="http://tandt.cah.ucf.edu/">http://tandt.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.604181</SimpleData>
+					<SimpleData name="Longitude">-81.202156</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202156,28.604181,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Theatre</name>
+			<description><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Theatre"></p><p>Theatre UCF seeks to develop theatre artists of the highest quality. We provide our students with the training, education, and experiences necessary for the successful pursuit of professional theatre careers</p><p>Location: Performing Arts Center Theatre 210A</p><p>Phone Number: <a href="tel:407-823-2862">407-823-2862</a></p><p>Website: <a href="http://theatre.cah.ucf.edu/">http://theatre.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Theatre</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Theatre"></p><p>Theatre UCF seeks to develop theatre artists of the highest quality. We provide our students with the training, education, and experiences necessary for the successful pursuit of professional theatre careers</p><p>Location: Performing Arts Center Theatre 210A</p><p>Phone Number: <a href="tel:407-823-2862">407-823-2862</a></p><p>Website: <a href="http://theatre.cah.ucf.edu/">http://theatre.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.602062</SimpleData>
+					<SimpleData name="Longitude">-81.204785</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.204785,28.602062,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Theatre Studies</name>
+			<description><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Theatre Studies"></p><p>The Bachelor of Arts Degree is designed to offer a thorough foundation in theatre while providing flexibility and opportunity for interdisciplinary study with a required minor. Upon graduation, UCF students can choose to pursue further education or enter the job market with a skill set unique to their goals.</p><p>Location: PAC-T, Second Floor</p><p>Phone Number: <a href="tel:407-823-2862">407-823-2862</a></p><p>Website: <a href="http://theatre.cah.ucf.edu/programinfo.php?id=85">http://theatre.cah.ucf.edu/programinfo.php?id=85</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Theatre Studies</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Theatre Studies"></p><p>The Bachelor of Arts Degree is designed to offer a thorough foundation in theatre while providing flexibility and opportunity for interdisciplinary study with a required minor. Upon graduation, UCF students can choose to pursue further education or enter the job market with a skill set unique to their goals.</p><p>Location: PAC-T, Second Floor</p><p>Phone Number: <a href="tel:407-823-2862">407-823-2862</a></p><p>Website: <a href="http://theatre.cah.ucf.edu/programinfo.php?id=85">http://theatre.cah.ucf.edu/programinfo.php?id=85</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.602613</SimpleData>
+					<SimpleData name="Longitude">-81.204484</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20448399999999,28.602613,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TOEFL</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b71.jpg" alt="TOEFL"></p><p>The Center for Multilingual Multicultural Studies (CMMS) provides high quality English language programs for international students and professionals, offers services that enhance research and instruction in language learning, and coordinates cultural programs that contribute to multicultural awareness and global education.</p><p>Location: Barbara Ying Center</p><p>Phone Number: <a href="tel:407-823-5515">407-823-5515</a></p><p>Website: <a href="http://www.ets.org/">http://www.ets.org/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">TOEFL</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b71.jpg" alt="TOEFL"></p><p>The Center for Multilingual Multicultural Studies (CMMS) provides high quality English language programs for international students and professionals, offers services that enhance research and instruction in language learning, and coordinates cultural programs that contribute to multicultural awareness and global education.</p><p>Location: Barbara Ying Center</p><p>Phone Number: <a href="tel:407-823-5515">407-823-5515</a></p><p>Website: <a href="http://www.ets.org/">http://www.ets.org/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.594912</SimpleData>
+					<SimpleData name="Longitude">-81.202553</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20255299999999,28.594912,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>US Post Services</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b16.jpg" alt="US Post Services"></p><p>UCF Postal Services</p><p>Location: Facilities & Safety</p><p>Phone Number: <a href="tel:407-823-2400">407-823-2400</a></p><p>Website: <a href="http://www.rm.fs.ucf.edu/ENT/postal/default.html">http://www.rm.fs.ucf.edu/ENT/postal/default.html</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">US Post Services</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b16.jpg" alt="US Post Services"></p><p>UCF Postal Services</p><p>Location: Facilities & Safety</p><p>Phone Number: <a href="tel:407-823-2400">407-823-2400</a></p><p>Website: <a href="http://www.rm.fs.ucf.edu/ENT/postal/default.html">http://www.rm.fs.ucf.edu/ENT/postal/default.html</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.591333</SimpleData>
+					<SimpleData name="Longitude">-81.196191</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.196191,28.591333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Visual Arts and Design</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b51.jpg" alt="Visual Arts and Design"></p><p>The School of Visual Arts and Design offers a variety of undergraduate and graduate programs of study</p><p>Location: Visual Arts Building 117</p><p>Phone Number: <a href="tel:407-823-1355">407-823-1355</a></p><p>Website: <a href="http://svad.cah.ucf.edu/">http://svad.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Visual Arts and Design</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b51.jpg" alt="Visual Arts and Design"></p><p>The School of Visual Arts and Design offers a variety of undergraduate and graduate programs of study</p><p>Location: Visual Arts Building 117</p><p>Phone Number: <a href="tel:407-823-1355">407-823-1355</a></p><p>Website: <a href="http://svad.cah.ucf.edu/">http://svad.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.602806</SimpleData>
+					<SimpleData name="Longitude">-81.2031</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20310000000001,28.602806,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Women&apos;s and Gender Studies</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Women's and Gender Studies"></p><p>Our mission is to provide the best education related to women?s and gender issues through our curricular and co-curricular programming on campus, and to enhance diversity and support women and their endeavors. Off campus, we recognize our responsibility to serve the larger Orlando community by striving to build and sustain partnerships that demonstrate the pragmatic importance of the issues concerning our program.</p><p>Location: Colbourn Hall 118</p><p>Phone Number: <a href="tel:407-823-6502">407-823-6502</a></p><p>Website: <a href="http://wgst.cah.ucf.edu">http://wgst.cah.ucf.edu</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Women&apos;s and Gender Studies</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Women's and Gender Studies"></p><p>Our mission is to provide the best education related to women?s and gender issues through our curricular and co-curricular programming on campus, and to enhance diversity and support women and their endeavors. Off campus, we recognize our responsibility to serve the larger Orlando community by striving to build and sustain partnerships that demonstrate the pragmatic importance of the issues concerning our program.</p><p>Location: Colbourn Hall 118</p><p>Phone Number: <a href="tel:407-823-6502">407-823-6502</a></p><p>Website: <a href="http://wgst.cah.ucf.edu">http://wgst.cah.ucf.edu</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601167</SimpleData>
+					<SimpleData name="Longitude">-81.202767</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20276699999999,28.601167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Writing and Rhetoric</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Writing and Rhetoric"></p><p>The Department of Writing and Rhetoric promotes sustained writing opportunities across the university by providing a strong writing foundation in first-year writing; coordination and support of writing across the curriculum and in the community; and four upper-division and graduate-level degree and certificate programs.</p><p>Location: Colbourn Hall 301</p><p>Phone Number: <a href="tel:407-823-2295">407-823-2295</a></p><p>Website: <a href="http://writingandrhetoric.cah.ucf.edu/">http://writingandrhetoric.cah.ucf.edu/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">Writing and Rhetoric</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b18.jpg" alt="Writing and Rhetoric"></p><p>The Department of Writing and Rhetoric promotes sustained writing opportunities across the university by providing a strong writing foundation in first-year writing; coordination and support of writing across the curriculum and in the community; and four upper-division and graduate-level degree and certificate programs.</p><p>Location: Colbourn Hall 301</p><p>Phone Number: <a href="tel:407-823-2295">407-823-2295</a></p><p>Website: <a href="http://writingandrhetoric.cah.ucf.edu/">http://writingandrhetoric.cah.ucf.edu/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601167</SimpleData>
+					<SimpleData name="Longitude">-81.202767</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20276699999999,28.601167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WUCF FM</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8120.jpg" alt="WUCF"></p><p>Website: <a href="http://wucf.org">http://wucf.org</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">WUCF FM</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8120.jpg" alt="WUCF"></p><p>Website: <a href="http://wucf.org">http://wucf.org</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.5896977</SimpleData>
+					<SimpleData name="Longitude">-81.1958419</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.1958419,28.5896977,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WUCF TV</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8120.jpg" alt="WUCF"></p><p>Website: <a href="http://wucf.org">http://wucf.org</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20160502082458">
+					<SimpleData name="Name">WUCF FM TV</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b8120.jpg" alt="WUCF"></p><p>Website: <a href="http://wucf.org">http://wucf.org</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.5896977</SimpleData>
+					<SimpleData name="Longitude">-81.1958419</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.1958419,28.5896977,0</coordinates>
+			</Point>
+		</Placemark>
+		<Schema name="csv_20160502082458" id="csv_20160502082458">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="string"></SimpleField>
+	<SimpleField name="Longitude" type="string"></SimpleField>
+</Schema>
+
+</Document>
+</kml>

@@ -1,0 +1,233 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200042,
+                    28.59788,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "All Knight Study @ Ferrell Commons",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7h.jpg\" alt=\"All Knight Study @ Ferrell Commons\"></p><p>All Knight Study @ Ferrell Commons provides students with a comfortable space to study 24 hours a day, 5 days a week. Free Printing, Scantrons, and Technology are provided to make studying successful.</p><p>Location: Ferrell Commons 7H</p><p>Phone Number: <a href=\"tel:407-823-4852\">407-823-4852</a></p><p>Website: <a href=\"https://studentgovernment.ucf.edu/services/academic/all-knight-study/\">https://studentgovernment.ucf.edu/services/academic/all-knight-study/</a></p>",
+                "Name": "All Knight Study @ Ferrell Commons",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b7h.jpg\" alt=\"All Knight Study @ Ferrell Commons\"></p><p>All Knight Study @ Ferrell Commons provides students with a comfortable space to study 24 hours a day, 5 days a week. Free Printing, Scantrons, and Technology are provided to make studying successful.</p><p>Location: Ferrell Commons 7H</p><p>Phone Number: <a href=\"tel:407-823-4852\">407-823-4852</a></p><p>Website: <a href=\"https://studentgovernment.ucf.edu/services/academic/all-knight-study/\">https://studentgovernment.ucf.edu/services/academic/all-knight-study/</a></p>",
+                "Latitude": "28.59788",
+                "Longitude": "-81.200042"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198013,
+                    28.607165,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "All Knight Study @ Knight's Plaza",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b137.jpg\" alt=\"All Knight Study @ Knight's Plaza\"></p><p>All Knight Study @ Knight's Plaza provides students with a comfortable space to study 24 hours a day, 7 days a week. Free Printing, Study Rooms, and Technology are provided to make studying successful.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href=\"tel:407-823-5824\">407-823-5824</a></p><p>Website: <a href=\"https://studentgovernment.ucf.edu/services/academic/all-knight-study/\">https://studentgovernment.ucf.edu/services/academic/all-knight-study/</a></p>",
+                "Name": "All Knight Study @ Knight's Plaza",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b137.jpg\" alt=\"All Knight Study @ Knight's Plaza\"></p><p>All Knight Study @ Knight's Plaza provides students with a comfortable space to study 24 hours a day, 7 days a week. Free Printing, Study Rooms, and Technology are provided to make studying successful.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href=\"tel:407-823-5824\">407-823-5824</a></p><p>Website: <a href=\"https://studentgovernment.ucf.edu/services/academic/all-knight-study/\">https://studentgovernment.ucf.edu/services/academic/all-knight-study/</a></p>",
+                "Latitude": "28.607165",
+                "Longitude": "-81.198013"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198669,
+                    28.600844,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Business Administration Testing Center",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b94.jpg\" alt=\"Business Administration Testing Center\"></p><p>The UCF College of Business Administration Testing Center is a fully secured facility in which business professors can allow students the flexibility to take exams on their schedules. Each exam will have a beginning and end time listed on the Testing Center schedule. A student can arrive any time in between but must be finished by both the ending exam time and/or when the Testing Center closes for the night.</p><p>Location: Business Administration II, Room 104</p><p>Phone Number: <a href=\"tel:407-823-0419\">407-823-0419</a></p><p>Website: <a href=\"https://business.ucf.edu/centers-institutes/keon-testing-center/\">https://business.ucf.edu/centers-institutes/keon-testing-center/</a></p>",
+                "Name": "Business Administration Testing Center",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b94.jpg\" alt=\"Business Administration Testing Center\"></p><p>The UCF College of Business Administration Testing Center is a fully secured facility in which business professors can allow students the flexibility to take exams on their schedules. Each exam will have a beginning and end time listed on the Testing Center schedule. A student can arrive any time in between but must be finished by both the ending exam time and/or when the Testing Center closes for the night.</p><p>Location: Business Administration II, Room 104</p><p>Phone Number: <a href=\"tel:407-823-0419\">407-823-0419</a></p><p>Website: <a href=\"https://business.ucf.edu/centers-institutes/keon-testing-center/\">https://business.ucf.edu/centers-institutes/keon-testing-center/</a></p>",
+                "Latitude": "28.600844",
+                "Longitude": "-81.198669"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200512,
+                    28.603593,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Classroom I Lab",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b79.jpg\" alt=\"Classroom I Lab\"></p><p>Classroom I Lab</p><p>Location: Classroom I, Room 101</p><p>Phone Number: <a href=\"tel:407-823-4141\">407-823-4141</a></p><p>Website: <a href=\"\"></a></p>",
+                "Name": "Classroom I Lab",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b79.jpg\" alt=\"Classroom I Lab\"></p><p>Classroom I Lab</p><p>Location: Classroom I, Room 101</p><p>Phone Number: <a href=\"tel:407-823-4141\">407-823-4141</a></p><p>Website: <a href=\"\"></a></p>",
+                "Latitude": "28.603593",
+                "Longitude": "-81.200512"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200651,
+                    28.601886,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Express Print Lab",
+                "description": "<p><img src=\"http://asf.sdes.ucf.edu/computer-labs/images/billboard.jpg\" alt=\"Express Print Lab\"></p><p>The Student Government Association (SGA) at UCF provides computer labs to all UCF students with a UCF ID card. Services provided at these labs include access to Windows computers (with various software installed), free (and paid) printing options, wireless printing, poster printing, and access to scanners, and fax machines.</p><p>Location: Student Union 102L</p><p>Phone Number: <a href=\"tel:407-823-0380\">407-823-0380</a></p><p>Website: <a href=\"http://asf.sdes.ucf.edu/computer-labs/\">http://asf.sdes.ucf.edu/computer-labs/</a></p>",
+                "Name": "Express Print Lab",
+                "Description": "<p><img src=\"http://asf.sdes.ucf.edu/computer-labs/images/billboard.jpg\" alt=\"Express Print Lab\"></p><p>The Student Government Association (SGA) at UCF provides computer labs to all UCF students with a UCF ID card. Services provided at these labs include access to Windows computers (with various software installed), free (and paid) printing options, wireless printing, poster printing, and access to scanners, and fax machines.</p><p>Location: Student Union 102L</p><p>Phone Number: <a href=\"tel:407-823-0380\">407-823-0380</a></p><p>Website: <a href=\"http://asf.sdes.ucf.edu/computer-labs/\">http://asf.sdes.ucf.edu/computer-labs/</a></p>",
+                "Latitude": "28.601886",
+                "Longitude": "-81.200651"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198562,
+                    28.601952,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Harris Lab",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b91.jpg\" alt=\"Harris Lab\"></p><p>The Harris Computer Lab is located in Engineering Building 2, room 201 (second floor), where Engineering & Computer Science students have access to the software required for all their classes: Microsoft Office, OpenOffice, AutoCAD, MatLab, MathCAD, Labview and other department related applications.The Harris Lab is open on the following days and times:</p><p>Location: Engineering II, room 201</p><p>Phone Number: <a href=\"tel:407-823-4058\">407-823-4058</a></p><p>Website: <a href=\"http://www.cecs.ucf.edu/current-students/undergraduate-programs-advising/\">http://www.cecs.ucf.edu/current-students/undergraduate-programs-advising/</a></p>",
+                "Name": "Harris Lab",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b91.jpg\" alt=\"Harris Lab\"></p><p>The Harris Computer Lab is located in Engineering Building 2, room 201 (second floor), where Engineering & Computer Science students have access to the software required for all their classes: Microsoft Office, OpenOffice, AutoCAD, MatLab, MathCAD, Labview and other department related applications.The Harris Lab is open on the following days and times:</p><p>Location: Engineering II, room 201</p><p>Phone Number: <a href=\"tel:407-823-4058\">407-823-4058</a></p><p>Website: <a href=\"http://www.cecs.ucf.edu/current-students/undergraduate-programs-advising/\">http://www.cecs.ucf.edu/current-students/undergraduate-programs-advising/</a></p>",
+                "Latitude": "28.601952",
+                "Longitude": "-81.198562"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199224,
+                    28.600854,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Magruder Teaching Lab",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b45.jpg\" alt=\"Magruder Teaching Lab\"></p><p>The Magruder Teaching Lab (MTL) is located on the first floor of the College of Business Administration 1 in room 148A. The MTL is located within the Business Lab, a large open lab for students to use.</p><p>Location: Business Administration I in room 148A</p><p>Phone Number: <a href=\"tel:407-823-0992\">407-823-0992</a></p><p>Website: <a href=\"http://business.ucf.edu?page=1650\">http://business.ucf.edu?page=1650</a></p>",
+                "Name": "Magruder Teaching Lab",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b45.jpg\" alt=\"Magruder Teaching Lab\"></p><p>The Magruder Teaching Lab (MTL) is located on the first floor of the College of Business Administration 1 in room 148A. The MTL is located within the Business Lab, a large open lab for students to use.</p><p>Location: Business Administration I in room 148A</p><p>Phone Number: <a href=\"tel:407-823-0992\">407-823-0992</a></p><p>Website: <a href=\"http://business.ucf.edu?page=1650\">http://business.ucf.edu?page=1650</a></p>",
+                "Latitude": "28.600854",
+                "Longitude": "-81.199224"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200423,
+                    28.59962,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Math Lab",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b12.jpg\" alt=\"Math Lab\"></p><p>The purpose of the Math Lab is to provide tutoring for students enrolled in mathematics courses here at UCF. We offer tutoring in the following courses: Finite Mathematics, Explorations in Mathematics, College Algebra, Trigonometry, Business Calculus, Precalculus, Mathematics for Calculus, Calculus I, II, III, and Differential Equations.</p><p>Location: Mathmatical Sciences Building 113</p><p>Phone Number: <a href=\"tel:407-823-3489\">407-823-3489</a></p><p>Website: <a href=\"https://math.cos.ucf.edu/~mathlab/\">https://math.cos.ucf.edu/~mathlab/</a></p>",
+                "Name": "Math Lab",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b12.jpg\" alt=\"Math Lab\"></p><p>The purpose of the Math Lab is to provide tutoring for students enrolled in mathematics courses here at UCF. We offer tutoring in the following courses: Finite Mathematics, Explorations in Mathematics, College Algebra, Trigonometry, Business Calculus, Precalculus, Mathematics for Calculus, Calculus I, II, III, and Differential Equations.</p><p>Location: Mathmatical Sciences Building 113</p><p>Phone Number: <a href=\"tel:407-823-3489\">407-823-3489</a></p><p>Website: <a href=\"https://math.cos.ucf.edu/~mathlab/\">https://math.cos.ucf.edu/~mathlab/</a></p>",
+                "Latitude": "28.59962",
+                "Longitude": "-81.200423"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200651,
+                    28.601886,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Student Government Lab",
+                "description": "<p><img src=\"http://asf.sdes.ucf.edu/computer-labs/images/billboard.jpg\" alt=\"Student Government Lab\"></p><p>The Technology Commons is an epicenter for students to gather, communicate, interact, study and receive technical support. A state-of-the-art facility open to all of UCF, providing the resources for students and staff alike to find, assemble, and synthesize the information needed to tackle numerous diverse tasks. The individual areas of the computer center buildings amalgamate to form a diverse, thriving, technical community at the heart of UCF.</p><p>Location: Student Union 209</p><p>Phone Number: <a href=\"tel:407-823-6413\">407-823-6413</a></p><p>Website: <a href=\"http://asf.sdes.ucf.edu/computer-labs/\">http://asf.sdes.ucf.edu/computer-labs/</a></p>",
+                "Name": "Student Government Lab",
+                "Description": "<p><img src=\"http://asf.sdes.ucf.edu/computer-labs/images/billboard.jpg\" alt=\"Student Government Lab\"></p><p>The Technology Commons is an epicenter for students to gather, communicate, interact, study and receive technical support. A state-of-the-art facility open to all of UCF, providing the resources for students and staff alike to find, assemble, and synthesize the information needed to tackle numerous diverse tasks. The individual areas of the computer center buildings amalgamate to form a diverse, thriving, technical community at the heart of UCF.</p><p>Location: Student Union 209</p><p>Phone Number: <a href=\"tel:407-823-6413\">407-823-6413</a></p><p>Website: <a href=\"http://asf.sdes.ucf.edu/computer-labs/\">http://asf.sdes.ucf.edu/computer-labs/</a></p>",
+                "Latitude": "28.601886",
+                "Longitude": "-81.200651"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200472,
+                    28.600595,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Technology Commons I",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b13.jpg\" alt=\"Technology Commons I\"></p><p>The Technology Commons is an epicenter for students to gather, communicate, interact, study and receive technical support. A state-of-the-art facility open to all of UCF, providing the resources for students and staff alike to find, assemble, and synthesize the information needed to tackle numerous diverse tasks. The individual areas of the computer center buildings amalgamate to form a diverse, thriving, technical community at the heart of UCF.</p><p>Location: Technology Commons I</p><p>Phone Number: <a href=\"tel:407-823-4357\">407-823-4357</a></p><p>Website: <a href=\"http://www.cst.ucf.edu/about/technology-sales-service-and-support/technology-commons-2/\">http://www.cst.ucf.edu/about/technology-sales-service-and-support/technology-commons-2/</a></p>",
+                "Name": "Technology Commons I",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b13.jpg\" alt=\"Technology Commons I\"></p><p>The Technology Commons is an epicenter for students to gather, communicate, interact, study and receive technical support. A state-of-the-art facility open to all of UCF, providing the resources for students and staff alike to find, assemble, and synthesize the information needed to tackle numerous diverse tasks. The individual areas of the computer center buildings amalgamate to form a diverse, thriving, technical community at the heart of UCF.</p><p>Location: Technology Commons I</p><p>Phone Number: <a href=\"tel:407-823-4357\">407-823-4357</a></p><p>Website: <a href=\"http://www.cst.ucf.edu/about/technology-sales-service-and-support/technology-commons-2/\">http://www.cst.ucf.edu/about/technology-sales-service-and-support/technology-commons-2/</a></p>",
+                "Latitude": "28.600595",
+                "Longitude": "-81.200472"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200472,
+                    28.600595,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Technology Commons II",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b29.jpg\" alt=\"Technology Commons II\"></p><p>The Technology Commons is an epicenter for students to gather, communicate, interact, study and receive technical support. A state-of-the-art facility open to all of UCF, providing the resources for students and staff alike to find, assemble, and synthesize the information needed to tackle numerous diverse tasks. The individual areas of the computer center buildings amalgamate to form a diverse, thriving, technical community at the heart of UCF.</p><p>Location: Technology Commons II</p><p>Phone Number: <a href=\"tel:407-823-4357\">407-823-4357</a></p><p>Website: <a href=\"http://www.cst.ucf.edu/about/technology-sales-service-and-support/technology-commons-2/\">http://www.cst.ucf.edu/about/technology-sales-service-and-support/technology-commons-2/</a></p>",
+                "Name": "Technology Commons II",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b29.jpg\" alt=\"Technology Commons II\"></p><p>The Technology Commons is an epicenter for students to gather, communicate, interact, study and receive technical support. A state-of-the-art facility open to all of UCF, providing the resources for students and staff alike to find, assemble, and synthesize the information needed to tackle numerous diverse tasks. The individual areas of the computer center buildings amalgamate to form a diverse, thriving, technical community at the heart of UCF.</p><p>Location: Technology Commons II</p><p>Phone Number: <a href=\"tel:407-823-4357\">407-823-4357</a></p><p>Website: <a href=\"http://www.cst.ucf.edu/about/technology-sales-service-and-support/technology-commons-2/\">http://www.cst.ucf.edu/about/technology-sales-service-and-support/technology-commons-2/</a></p>",
+                "Latitude": "28.600595",
+                "Longitude": "-81.200472"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.191578,
+                    28.608162,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wayne Densch Center for Student-Athlete Leadership",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b21.jpg\" alt=\"Wayne Densch Center for Student-Athlete Leadership\"></p><p>The center includes a multi-purpose classroom which will hold 200 students, a computer lab, tutoring and mentoring rooms, study space and conference and resource rooms.</p><p>Location: Bright House Stadium</p><p>Phone Number: <a href=\"tel:407-823-5896\">407-823-5896</a></p><p>Website: <a href=\"http://assa.sdes.ucf.edu\">http://assa.sdes.ucf.edu</a></p>",
+                "Name": "Wayne Densch Center for Student-Athlete Leadership",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b21.jpg\" alt=\"Wayne Densch Center for Student-Athlete Leadership\"></p><p>The center includes a multi-purpose classroom which will hold 200 students, a computer lab, tutoring and mentoring rooms, study space and conference and resource rooms.</p><p>Location: Bright House Stadium</p><p>Phone Number: <a href=\"tel:407-823-5896\">407-823-5896</a></p><p>Website: <a href=\"http://assa.sdes.ucf.edu\">http://assa.sdes.ucf.edu</a></p>",
+                "Latitude": "28.608162",
+                "Longitude": "-81.191578"
+            }
+        }
+    ]
+}

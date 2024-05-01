@@ -1,0 +1,1237 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20321,
+                    28.6074
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Lake Claire Pavillion",
+                "description": "Lake Claire Pavillion"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20542,
+                    28.60552
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Between Delta Delta Delta and Pi Beta Phi",
+                "description": "Between Delta Delta Delta and Pi Beta Phi"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20369,
+                    28.60625
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - End of Greek Row, NE of Theta Chi",
+                "description": "End of Greek Row, NE of Theta Chi"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20391,
+                    28.60526
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Between Theta Chi and Lake Claire Apartments",
+                "description": "Between Theta Chi and Lake Claire Apartments"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20588,
+                    28.60324
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Intersection of Aquarius Agora and Gemini W",
+                "description": "Intersection of Aquarius Agora and Gemini W"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20495,
+                    28.60274
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - West end of Performing arts building",
+                "description": "West end of Performing arts building"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20407,
+                    28.60271
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - East end of performing arts building",
+                "description": "East end of performing arts building"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20146,
+                    28.60288
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - NE of Burnetts Honors College",
+                "description": "NE of Burnetts Honors College"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20029,
+                    28.60404
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Between Classroom Building 1 and 2",
+                "description": "Between Classroom Building 1 and 2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20163,
+                    28.60425
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - N of Utility Building 2",
+                "description": "N of Utility Building 2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20177,
+                    28.60512
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage H",
+                "description": "Parking Garage H"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20158,
+                    28.60444
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage H",
+                "description": "Parking Garage H"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20049,
+                    28.60476
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage H",
+                "description": "Parking Garage H"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20076,
+                    28.60548
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage H",
+                "description": "Parking Garage H"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19921,
+                    28.60305
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - West of College of Health professions and Science",
+                "description": "West of College of Health professions and Science"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19945,
+                    28.604403
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - South of Psych and philosophy building",
+                "description": "South of Psych and philosophy building"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19877,
+                    28.60548
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - South end of Real life church",
+                "description": "South end of Real life church"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19808,
+                    28.60498
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - North of UCF Global building",
+                "description": "North of UCF Global building"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19786,
+                    28.60511
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage D",
+                "description": "Parking Garage D"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19737,
+                    28.60554
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage D",
+                "description": "Parking Garage D"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19648,
+                    28.60478
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage D",
+                "description": "Parking Garage D"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19701,
+                    28.6043
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage D",
+                "description": "Parking Garage D"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19635,
+                    28.60592
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - W of Tower 4, S of Tower 3",
+                "description": "W of Tower 4, S of Tower 3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19574,
+                    28.606193
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - SE of Tower 3, N of Tower 4",
+                "description": "SE of Tower 3, N of Tower 4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19565,
+                    28.60673
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage E",
+                "description": "Parking Garage E"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19563,
+                    28.60626
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage E",
+                "description": "Parking Garage E"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19489,
+                    28.60631
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage E",
+                "description": "Parking Garage E"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19488,
+                    28.60676
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage E",
+                "description": "Parking Garage E"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1974,
+                    28.6067
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - South Side of Knights Plaza",
+                "description": "South Side of Knights Plaza"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19661,
+                    28.60711
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - N of Tower 3 on Plaza Dr",
+                "description": "N of Tower 3 on Plaza Dr"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19656,
+                    28.6075
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - E Knights Plaza, S The Venue",
+                "description": "E Knights Plaza, S The Venue"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19675,
+                    28.60899
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage F",
+                "description": "Parking Garage F"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19609,
+                    28.60874
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage F",
+                "description": "Parking Garage F"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19636,
+                    28.6083
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage F",
+                "description": "Parking Garage F"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19697,
+                    28.60858
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage F",
+                "description": "Parking Garage F"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19682,
+                    28.60964
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - NE Tower 2",
+                "description": "NE Tower 2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19815,
+                    28.60871
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Garage G",
+                "description": "Garage G"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19793,
+                    28.60909
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Garage G",
+                "description": "Garage G"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19774,
+                    28.60804
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - E Tower 1",
+                "description": "E Tower 1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19782,
+                    28.60761
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - SE Tower 1",
+                "description": "SE Tower 1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19625,
+                    28.60287
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage C",
+                "description": "Parking Garage C"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19561,
+                    28.60289
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage C",
+                "description": "Parking Garage C"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19626,
+                    28.60182
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage C",
+                "description": "Parking Garage C"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19557,
+                    28.60187
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage C",
+                "description": "Parking Garage C"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19746,
+                    28.60007
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - E of PSB",
+                "description": "E of PSB"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19862,
+                    28.5998
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - S of BIO Building, N of Counseling",
+                "description": "S of BIO Building, N of Counseling"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199989,
+                    28.59909
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - W of Health Center",
+                "description": "W of Health Center"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20205,
+                    28.600301
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - W of Hitt Library",
+                "description": "W of Hitt Library"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20456,
+                    28.598064
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - S or Morgridge, W or Duke Energy",
+                "description": "S or Morgridge, W or Duke Energy"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20628,
+                    28.60027
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage A",
+                "description": "Parking Garage A"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.10573,
+                    28.60057
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage A",
+                "description": "Parking Garage A"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20497,
+                    28.59955
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage A",
+                "description": "Parking Garage A"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20553,
+                    28.59924
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage A",
+                "description": "Parking Garage A"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20533,
+                    28.60149
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage I",
+                "description": "Parking Garage I"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20415,
+                    28.60132
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage I",
+                "description": "Parking Garage I"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20425,
+                    28.60075
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage I",
+                "description": "Parking Garage I"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20546,
+                    28.60093
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage I",
+                "description": "Parking Garage I"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20382,
+                    28.60086
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - NE of Ed complex and gym, W of Parking Garage I",
+                "description": "NE of Ed complex and gym, W of Parking Garage I"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20497,
+                    28.6019
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Performing Arts Music Parking lot, N of Garage I",
+                "description": "Performing Arts Music Parking lot, N of Garage I"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20108,
+                    28.59717
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage B",
+                "description": "Parking Garage B"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19989,
+                    28.59735
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage B",
+                "description": "Parking Garage B"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19976,
+                    28.5967
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage B",
+                "description": "Parking Garage B"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20099,
+                    28.59652
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Parking Garage B",
+                "description": "Parking Garage B"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20207,
+                    28.59579
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - W of Wayne Densch 1",
+                "description": "W of Wayne Densch 1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.2019,
+                    28.594752
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - E of Barbara Ying Center",
+                "description": "E of Barbara Ying Center"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20331,
+                    28.59516
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - W of Barbara Ying Center",
+                "description": "W of Barbara Ying Center"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20397,
+                    28.593283
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - RWC Park NW",
+                "description": "RWC Park NW"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.205688,
+                    28.59511
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - S of Burnett House",
+                "description": "S of Burnett House"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20345,
+                    28.59647
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Visitor and Parking Info Parking lot",
+                "description": "Visitor and Parking Info Parking lot"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20227,
+                    28.59694
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Intersection of Gemini S and Andromeda Loop N",
+                "description": "Intersection of Gemini S and Andromeda Loop N"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20372,
+                    28.5973
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Intersection of Gemini S and Central Florida Blvd",
+                "description": "Intersection of Gemini S and Central Florida Blvd"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19841,
+                    28.59631
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - NE of Rec and Wellness Center",
+                "description": "NE of Rec and Wellness Center"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19884,
+                    28.59496
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Between Nike 101 and Hercules 109",
+                "description": "Between Nike 101 and Hercules 109"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19877,
+                    28.59432
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Between Hercules 108 and Nike 102",
+                "description": "Between Hercules 108 and Nike 102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19844,
+                    28.59367
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Between Neptune 157 and 158",
+                "description": "Between Neptune 157 and 158"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.1991,
+                    28.59333
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - SW End of Neptune 158",
+                "description": "SW End of Neptune 158"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20032,
+                    28.59349
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Between Hercules112, and Rec support",
+                "description": "Between Hercules112, and Rec support"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19938,
+                    28.5918
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - S end of Lake Nerites Baseball Field",
+                "description": "S end of Lake Nerites Baseball Field"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19957,
+                    28.59269
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - E end of Rugby Pitch",
+                "description": "E end of Rugby Pitch"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20135,
+                    28.59257
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Band Practice Facility",
+                "description": "Band Practice Facility"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19738,
+                    28.5931
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Middle of Neptune 56, lake side",
+                "description": "Middle of Neptune 56, lake side"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19733,
+                    28.59384
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - S side of Nike 106",
+                "description": "S side of Nike 106"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19691,
+                    28.59481
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - W Nike 105",
+                "description": "W Nike 105"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.196899,
+                    28.59532
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Nike Bus Stop",
+                "description": "Nike Bus Stop"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19701,
+                    28.5964
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Libra Parking Garage",
+                "description": "Libra Parking Garage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19649,
+                    28.59642
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Libra Parking Garage",
+                "description": "Libra Parking Garage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19683,
+                    28.59551
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Libra Parking Garage",
+                "description": "Libra Parking Garage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19637,
+                    28.59567
+                ]
+            },
+            "properties": {
+                "name": "Blue Light Phones - Libra Parking Garage",
+                "description": "Libra Parking Garage"
+            }
+        }
+    ]
+}

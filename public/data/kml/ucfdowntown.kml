@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>UCF Downtown</name>
+    <visibility>1</visibility>
+    <open>0</open>
+
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Dr. Phillips Academic Commons</name>
+        <description><![CDATA[<p>The Dr. Phillips Academic Commons features four stories of active learning spaces, including classrooms, the downtown library, study and tutor spaces, a moot court, and academic offices. </p> <p>Hours: <br />Mon - Fri  7 AM – 7 PM <br /> 7 PM – 11 PM using valid campus ID</p><p>Saturday - Sunday 7 AM - 10 PM using valid campus ID</p><p>528 W. Livingston Street <br />Orlando, FL 32801</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.386203,28.547231</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flying Horse Editions</name>
+        <description><![CDATA[<p>Flying Horse Editions is a collaborative research studio for visual artists at the University of Central Florida.  A non-profit publisher of limited-edition prints, artist books, and art objects by internationally renowned artists, FHE offers unique opportunities for artists, students, and the Central Florida community. <br /><br />380 W Amelia St, Orlando, FL 32801</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.383539,28.549191</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parramore Parking Garage</name>
+        <description><![CDATA[<p>The Parramore Parking Garage on Parramore Avenue is the primary parking garage for faculty and staff with dedicated zones for both “B” (red) and “C” (blue) permits. The garage serves as secondary parking to students with permits.</p><p>323 N. Parramore Ave., Orlando, FL 32801</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.388691,28.546536</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amelia I Parking Garage</name>
+        <description><![CDATA[<p>The Parking Garage on Amelia Street is the primary parking garage for students. Just like the main campus, parking permits are required and parking spaces are designated by permit type. Your student parking permit is good for use at both the main campus and UCF Downtown.</p><p>441 Ronald Blocker Ave., Orlando, FL 32801</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.38447,28.54909</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UCF Communication and Media Building (CMB)</name>
+        <description><![CDATA[<p>The UCF Communication and Media Building (CMB) is home to the Florida Interactive Entertainment Academy, the Center for Research and Education in Arts, Technology, and Entertainment (CREATE), and other academic and innovative programs. CMB is the new home to students, faculty, and staff in the Nicholson School of Communication and Media. </p><p>Hours: <br />Mon - Fri  7 AM – 6 PM; <br /> 6 PM – 11 PM with valid campus ID<br/>Saturday - Sunday 7 AM - 10 PM with valid campus ID</p><p>500 W. Livingston Street <br />Orlando, FL 32801</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.385115,28.546711</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UCF Police Department</name>
+        <description><![CDATA[<p>UCF Police has 24/7 uniformed patrols with officers dedicated to the downtown campus and based at a sub-station on Amelia Street. UCF Police will continue to offer similar services currently available on the main campus, including women’s self-defense classes, property registration and nighttime escorts to your car.</p><p>398 W. Amelia Street <br />Orlando, FL 32801</p><p>Non-Emergency Police # 407-823-5555</p><p>Security # 407-235-3800</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.384134,28.549081</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UnionWest at Creative Village</name>
+        <description><![CDATA[<p>UnionWest is a 15-story student housing unit with restaurants on the ground floor, student academic services, classrooms and amenities such as Recreation and Wellness @ Downtown conveniently located on floors 1–5, and student residences on floors 6–15. </p> <p>Hours: <br />7 AM – 11 PM; <br /> Residential students have 24/7 access to the residential areas using a valid campus ID.</p><p>601 W. Livingston Street <br />Orlando, FL 32801</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.387428,28.547836</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Express Shuttle</name>
+        <description><![CDATA[<p>The Express Shuttle stop can be found in front of the Dr. Phillips Academic Commons.</p><p>Hours of Operation: <br/>Mon - Thur 6:30 AM - 10:30 PM <br/> Fri- 6:30 AM- 8:30 PM</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.38663018955639,28.547464306450898</coordinates>
+        </Point>
+      </Placemark>
+
+<Folder>
+		<name>Dining</name>
+     <Placemark>
+        <name>Dunkin’</name>
+        <description><![CDATA[<p>Located at UnionWest at Creative Village.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.387428,28.547836</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Qdoba Mexican Eats</name>
+        <description><![CDATA[<p>Located at UnionWest at Creative Village.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.387428,28.547836</coordinates>
+        </Point>
+      </Placemark>
+       <Placemark>
+        <name>Subway’s Fresh Forward</name>
+        <description><![CDATA[<p>Located at UnionWest at Creative Village.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.387428,28.547836</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vera Asian</name>
+        <description><![CDATA[<p>Located at UnionWest at Creative Village.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.387428,28.547836</coordinates>
+        </Point>
+      </Placemark>
+  </Folder>
+  
+  
+ <Folder>
+		<name>Emergency Blue Light Phones</name>
+     <Placemark>
+        <name>Blue Light Phone 1</name>
+        <description></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.38852,28.5485</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Blue Light Phone 2</name>
+        <description></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.38776,28.54683</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Blue Light Phone 3</name>
+        <description></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.38694,28.54696</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Blue Light Phone 4</name>
+        <description></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.38643,28.54741</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Blue Light Phone 5</name>
+        <description></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.38579,28.54687</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Blue Light Phone 6</name>
+        <description></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.3851,28.54724</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Blue Light Phone 7</name>
+        <description></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.38408,28.54924</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Blue Light Phone 8</name>
+        <description></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.38579,28.54745</coordinates>
+        </Point>
+      </Placemark>
+  </Folder>
+  
+  <Folder>
+		<name>Face Masks</name>
+     <Placemark>
+        <name>Union West (Face Masks)</name>
+        <description><![CDATA[<p>Security desk & Student services</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.386203,28.547231</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dr. Phillips Academic Commons (Face Masks)</name>
+        <description><![CDATA[<p>Security desk, Library, & Technology lending desk</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.387428,28.547836</coordinates>
+        </Point>
+      </Placemark>
+  </Folder>
+  
+
+  </Document>
+</kml>

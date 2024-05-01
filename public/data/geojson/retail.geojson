@@ -1,0 +1,252 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201408,
+                    28.601177,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "A-1 Hair Studio",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"A-1 Hair Studio\"></p><p>We are a multicultural hair salon for men and women on UCF campus!</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-5085\">407-823-5085</a></p><p>Website: <a href=\"https://www.facebook.com/A-1-Hair-studio-222481711164368/\">https://www.facebook.com/A-1-Hair-studio-222481711164368/</a></p>",
+                "Name": "A-1 Hair Studio",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"A-1 Hair Studio\"></p><p>We are a multicultural hair salon for men and women on UCF campus!</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-5085\">407-823-5085</a></p><p>Website: <a href=\"https://www.facebook.com/A-1-Hair-studio-222481711164368/\">https://www.facebook.com/A-1-Hair-studio-222481711164368/</a></p>",
+                "Latitude": "28.601177",
+                "Longitude": "-81.201408"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.196918,
+                    28.606438,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Barnes & Noble",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b137.jpg\" alt=\"Barnes & Noble\"></p><p>You're busy, and we get that. That's why we put everything you need in one convenient place. We serve breakfast, lunch, and dinner (whether you survive on real food or just coffee), and offer a full selection of books, school supplies, and table space for chatting, studying, or napping. Note: This locations doesn't carry textbooks.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href=\"tel:407-882-0365\">407-882-0365</a></p><p>Website: <a href=\"http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1\">http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1</a></p>",
+                "Name": "Barnes & Noble",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b137.jpg\" alt=\"Barnes & Noble\"></p><p>You're busy, and we get that. That's why we put everything you need in one convenient place. We serve breakfast, lunch, and dinner (whether you survive on real food or just coffee), and offer a full selection of books, school supplies, and table space for chatting, studying, or napping. Note: This locations doesn't carry textbooks.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href=\"tel:407-882-0365\">407-882-0365</a></p><p>Website: <a href=\"http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1\">http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1</a></p>",
+                "Latitude": "28.606438",
+                "Longitude": "-81.196918"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20185,
+                    28.60091,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CFE Credit Union",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"CFE Credit Union\"></p><p>CFE Federal Credit Union is a member-owned; not-for-profit financial cooperative, offering comprehensive financial solutions that help members achieve their financial goals. We exist solely for the benefit of our members, and we return our profits to them in the form of lower loan rates, higher dividends on savings, and lower fees.</p><p>Location: 12785 East Plaza Dr. (CFE Arena)</p><p>Phone Number: <a href=\"tel:407-896-9411\">407-896-9411</a></p><p>Website: <a href=\"https://mycfe.com/ucf/\">https://mycfe.com/ucf/</a></p>",
+                "Name": "CFE Credit Union",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"CFE Credit Union\"></p><p>CFE Federal Credit Union is a member-owned; not-for-profit financial cooperative, offering comprehensive financial solutions that help members achieve their financial goals. We exist solely for the benefit of our members, and we return our profits to them in the form of lower loan rates, higher dividends on savings, and lower fees.</p><p>Location: 12785 East Plaza Dr. (CFE Arena)</p><p>Phone Number: <a href=\"tel:407-896-9411\">407-896-9411</a></p><p>Website: <a href=\"https://mycfe.com/ucf/\">https://mycfe.com/ucf/</a></p>",
+                "Latitude": "28.600910",
+                "Longitude": "-81.201850"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201846,
+                    28.600929,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CFE Credit Union",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"CFE Credit Union\"></p><p>CFE Federal Credit Union is a member-owned; not-for-profit financial cooperative, offering comprehensive financial solutions that help members achieve their financial goals. We exist solely for the benefit of our members, and we return our profits to them in the form of lower loan rates, higher dividends on savings, and lower fees.</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-3176\">407-823-3176</a></p><p>Website: <a href=\"https://mycfe.com/ucf/\">https://mycfe.com/ucf/</a></p>",
+                "Name": "CFE Credit Union",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"CFE Credit Union\"></p><p>CFE Federal Credit Union is a member-owned; not-for-profit financial cooperative, offering comprehensive financial solutions that help members achieve their financial goals. We exist solely for the benefit of our members, and we return our profits to them in the form of lower loan rates, higher dividends on savings, and lower fees.</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-3176\">407-823-3176</a></p><p>Website: <a href=\"https://mycfe.com/ucf/\">https://mycfe.com/ucf/</a></p>",
+                "Latitude": "28.600929",
+                "Longitude": "-81.201846"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200893,
+                    28.601713,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "College Optical Express",
+                "description": "<p><img src=\"http://studentunion.ucf.edu/image/11\" alt=\"College Optical Express\"></p><p>College Optical Express offers a wide range of services at reasonable prices such as eye exams, contact lenses, prescription glasses as well as sunglasses. Lab work and most repairs are done on premises by licensed opticians.</p><p>Location: Student Union</p><p>Phone Number: <a href=\"tel:407-823-4020\">407-823-4020</a></p><p>Website: <a href=\"http://studentunion.ucf.edu/spaces/retail\">http://studentunion.ucf.edu/spaces/retail</a></p>",
+                "Name": "College Optical Express",
+                "Description": "<p><img src=\"http://studentunion.ucf.edu/image/11\" alt=\"College Optical Express\"></p><p>College Optical Express offers a wide range of services at reasonable prices such as eye exams, contact lenses, prescription glasses as well as sunglasses. Lab work and most repairs are done on premises by licensed opticians.</p><p>Location: Student Union</p><p>Phone Number: <a href=\"tel:407-823-4020\">407-823-4020</a></p><p>Website: <a href=\"http://studentunion.ucf.edu/spaces/retail\">http://studentunion.ucf.edu/spaces/retail</a></p>",
+                "Latitude": "28.601713",
+                "Longitude": "-81.200893"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20196,
+                    28.60088,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Fairwinds Credit Union",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"Fairwinds Credit Union\"></p><p>FAIRWINDS is proud to be the Official Student Banking Services partner for the University of Central Florida. It is our goal for students to be just as successful with their finances as they are with their education. Let's get started!.</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-206-5783\">407-206-5783</a></p><p>Website: <a href=\"https://www.fairwinds.org/personal/personal-banking-accounts/ucf-banking/\">https://www.fairwinds.org/personal/personal-banking-accounts/ucf-banking/</a></p>",
+                "Name": "Fairwinds Credit Union",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"Fairwinds Credit Union\"></p><p>FAIRWINDS is proud to be the Official Student Banking Services partner for the University of Central Florida. It is our goal for students to be just as successful with their finances as they are with their education. Let's get started!.</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-206-5783\">407-206-5783</a></p><p>Website: <a href=\"https://www.fairwinds.org/personal/personal-banking-accounts/ucf-banking/\">https://www.fairwinds.org/personal/personal-banking-accounts/ucf-banking/</a></p>",
+                "Latitude": "28.600880",
+                "Longitude": "-81.201960"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19929122,
+                    28.59937228,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Knight Aide Pharmacy",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b127.jpg\" alt=\"Knight Aide Pharmacy\"></p><p>The UCF Pharmacy is a state-of-the-art facility located inside the Health Center. Our Pharmacists are passionate about patient education and providing excellent customer service. Patients are individually counseled and provided written drug information for each prescription. Each prescription is monitored for duplicate therapy, drug allergies and drug interactions. The pharmacy staff prides itself in the level of care they provide to each patient and the consultation service provided. For more detailed information about the Pharmacy & Knight Aide, please visit our Frequently Asked Questions page.</p><p>Location: Health Center</p><p>Phone Number: <a href=\"tel:407-882-0601\">407-882-0601</a></p><p>Website: <a href=\"https://shs.sdes.ucf.edu/contact/pharmacy\">https://shs.sdes.ucf.edu/contact/pharmacy</a></p>",
+                "Name": "Knight Aide Pharmacy",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b127.jpg\" alt=\"Knight Aide Pharmacy\"></p><p>The UCF Pharmacy is a state-of-the-art facility located inside the Health Center. Our Pharmacists are passionate about patient education and providing excellent customer service. Patients are individually counseled and provided written drug information for each prescription. Each prescription is monitored for duplicate therapy, drug allergies and drug interactions. The pharmacy staff prides itself in the level of care they provide to each patient and the consultation service provided. For more detailed information about the Pharmacy & Knight Aide, please visit our Frequently Asked Questions page.</p><p>Location: Health Center</p><p>Phone Number: <a href=\"tel:407-882-0601\">407-882-0601</a></p><p>Website: <a href=\"https://shs.sdes.ucf.edu/contact/pharmacy\">https://shs.sdes.ucf.edu/contact/pharmacy</a></p>",
+                "Latitude": "28.59937228",
+                "Longitude": "-81.19929122"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200749,
+                    28.601985,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "SGA Ticket Center (Area Attractions)",
+                "description": "<p><img src=\"http://asf.sdes.ucf.edu/ticket-center/Content/img/billboard/02.jpg\" alt=\"SGA Ticket Center (Area Attractions)\"></p><p>The SGA Ticket Center offers specially-priced tickets to various local theme parks, attractions, movie theaters, and transportation providers. Tickets are intended for use only by UCF students, staff, and faculty.</p><p>Location: Student Union 107</p><p>Phone Number: <a href=\"tel:407-823-2816\">407-823-2816</a></p><p>Website: <a href=\"http://asf.sdes.ucf.edu/ticket-center/\">http://asf.sdes.ucf.edu/ticket-center/</a></p>",
+                "Name": "SGA Ticket Center (Area Attractions)",
+                "Description": "<p><img src=\"http://asf.sdes.ucf.edu/ticket-center/Content/img/billboard/02.jpg\" alt=\"SGA Ticket Center (Area Attractions)\"></p><p>The SGA Ticket Center offers specially-priced tickets to various local theme parks, attractions, movie theaters, and transportation providers. Tickets are intended for use only by UCF students, staff, and faculty.</p><p>Location: Student Union 107</p><p>Phone Number: <a href=\"tel:407-823-2816\">407-823-2816</a></p><p>Website: <a href=\"http://asf.sdes.ucf.edu/ticket-center/\">http://asf.sdes.ucf.edu/ticket-center/</a></p>",
+                "Latitude": "28.601985",
+                "Longitude": "-81.200749"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201499,
+                    28.60116,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sk8 Boards & Sports",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"Sk8 Boards & Sports\"></p><p>Great selection of skateboards, t-shirts, stickers, headphones and more!</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-1020\">407-823-1020</a></p><p>Website: <a href=\"https://www.facebook.com/Sk8boardsandSports\">https://www.facebook.com/Sk8boardsandSports</a></p>",
+                "Name": "Sk8 Boards & Sports",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"Sk8 Boards & Sports\"></p><p>Great selection of skateboards, t-shirts, stickers, headphones and more!</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-1020\">407-823-1020</a></p><p>Website: <a href=\"https://www.facebook.com/Sk8boardsandSports\">https://www.facebook.com/Sk8boardsandSports</a></p>",
+                "Latitude": "28.60116",
+                "Longitude": "-81.201499"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201907,
+                    28.600895,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "The SPOT",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"The SPOT\"></p><p>The SPOT creates a complete visual language that connects you with your customers at a deep level in order to deliver results.</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-2500\">407-823-2500</a></p><p>Website: <a href=\"https://spot.ucf.edu/index.html\">https://spot.ucf.edu/index.html</a></p>",
+                "Name": "The SPOT",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"The SPOT\"></p><p>The SPOT creates a complete visual language that connects you with your customers at a deep level in order to deliver results.</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-2500\">407-823-2500</a></p><p>Website: <a href=\"https://spot.ucf.edu/index.html\">https://spot.ucf.edu/index.html</a></p>",
+                "Latitude": "28.600895",
+                "Longitude": "-81.201907"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201742,
+                    28.601175,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "UCF Bookstore",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"UCF Bookstore\"></p><p>University of Central Florida Official Bookstore</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-2665\">407-823-2665</a></p><p>Website: <a href=\"http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1\">http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1</a></p>",
+                "Name": "UCF Bookstore",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"UCF Bookstore\"></p><p>University of Central Florida Official Bookstore</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-2665\">407-823-2665</a></p><p>Website: <a href=\"http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1\">http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1</a></p>",
+                "Latitude": "28.601175",
+                "Longitude": "-81.201742"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201983,
+                    28.6008644,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "UCF Card Services",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"UCF Card Services\"></p><p>Welcome to Card Services, your one stop shop for all things related to your UCF Card. Here, we will show you how to add money to your Knight Cash account, where to use your card on campus and all the other tips and tricks that will make your time at UCF a pleasurable experience.</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-2100\">407-823-2100</a></p><p>Website: <a href=\"https://ucfcard.ucf.edu\">https://ucfcard.ucf.edu</a></p>",
+                "Name": "UCF Card Services",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b26.jpg\" alt=\"UCF Card Services\"></p><p>Welcome to Card Services, your one stop shop for all things related to your UCF Card. Here, we will show you how to add money to your Knight Cash account, where to use your card on campus and all the other tips and tricks that will make your time at UCF a pleasurable experience.</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href=\"tel:407-823-2100\">407-823-2100</a></p><p>Website: <a href=\"https://ucfcard.ucf.edu\">https://ucfcard.ucf.edu</a></p>",
+                "Latitude": "28.600864",
+                "Longitude": "-81.201983"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200352,
+                    28.600676,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "UCF Technology Product Center (Computer Store)",
+                "description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b29.jpg\" alt=\"UCF Technology Product Center (Computer Store)\"></p><p>The Technology Product Center is university owned and operated by CS&T (Computer Services & Telecommunications) and has been on campus for more than 25 years. We serve the UCF community; departments, students, staff, faculty and alumni and provide student discount pricing on hardware, software, supplies & accessories from the biggest brands including Apple, Dell, Adobe, Microsoft, HP, Skullcandy and more. We are an official Apple Authorized Campus Store / Apple Store for Education in East Orlando and offer student discount pricing on Apple hardware and software.</p><p>Location: Technology Commons II</p><p>Phone Number: <a href=\"tel:407-823-5603\">407-823-5603</a></p><p>Website: <a href=\"http://cstore.ucf.edu/\">http://cstore.ucf.edu/</a></p>",
+                "Name": "UCF Technology Product Center (Computer Store)",
+                "Description": "<p><img src=\"http://map.ucf.edu/media/uploads/images/b29.jpg\" alt=\"UCF Technology Product Center (Computer Store)\"></p><p>The Technology Product Center is university owned and operated by CS&T (Computer Services & Telecommunications) and has been on campus for more than 25 years. We serve the UCF community; departments, students, staff, faculty and alumni and provide student discount pricing on hardware, software, supplies & accessories from the biggest brands including Apple, Dell, Adobe, Microsoft, HP, Skullcandy and more. We are an official Apple Authorized Campus Store / Apple Store for Education in East Orlando and offer student discount pricing on Apple hardware and software.</p><p>Location: Technology Commons II</p><p>Phone Number: <a href=\"tel:407-823-5603\">407-823-5603</a></p><p>Website: <a href=\"http://cstore.ucf.edu/\">http://cstore.ucf.edu/</a></p>",
+                "Latitude": "28.600676",
+                "Longitude": "-81.200352"
+            }
+        }
+    ]
+}

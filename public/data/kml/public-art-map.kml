@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Art at UCF</name>
+    <visibility>1</visibility>
+    <open>0</open>
+
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Rounding Off the Edges</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/s-3-150x150.jpg" alt="Rounding Off the Edges"></p><p>1st Floor atrium in front of Art Gallery, RM 140</p><p>Rounding Off the Edges <br/> Richard Termes <br/> acrylic paint on acrylic sphere <br/> 1992 <br/><br /> Termes uses a six point perspective system that he devised to create unique paintings on large spheres called Termespheres. His imagery is influenced by M.C. Escher and Buckminster Fuller.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.203378,28.602678</coordinates>
+        </Point>
+      </Placemark>
+       <!--<Placemark>
+        <name>Florida Song</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/s-1-150x150.jpg" alt="Florida Song"></p><p>1st Floor atrium outside RM 117</p><p>Florida Song <br/> Craig Rubadoux <br/>oil on canvas <br/>1992 <br/><br/>Rubadoux primarily works on paper and canvas. His paintings are intensely personal glimpses into particular emotions, and he frequently speaks of his work as a journal. Greatly affected by his environment and a love of nature, Rubadoux&#039;s painting style is colorful and fluid.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.203391,28.602671</coordinates>
+        </Point>
+      </Placemark>-->
+       <!--<Placemark>
+        <name>The Drawing Lesson</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/s-2-150x150.jpg" alt="The Drawing Lesson"></p><p>2nd Floor near west exit doors</p><p>The Drawing Lesson <br/>Cheryl Bogdanowitsch <br/>painted wood <br/>1992 <br/><br/>These figurative sculptures are inspired by the artist’s life-long interest in the natural world and sculptors Mia Westerlund Roosen and James Surls. As Bogdanowitsch states, “My central Florida environment of trees and lakes provides me with both the inspiration and the materials for my work. My work has evolved from my personal life, my environment, and my metaphysical studies."</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20292,28.602766</coordinates>
+        </Point>
+      </Placemark>-->
+      <Placemark>
+        <name>Mindscapes</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Mindscapes-detail-150x150.jpg" alt="Mindscapes"></p><p>1st Floor Stairs</p><p>Mindscapes, Beth Ravitz, glass, 2012, Ravitz is a multidimensional public artist working in ceramic, glass, metal, painting and printing. She earned her MFA degree from Vermont College. Mindscapes is based on patterns resulting from digital scans of the human brain.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.204313,28.598438</coordinates>
+        </Point>
+      </Placemark>
+    <Placemark>
+        <name>Enlightenment</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Enlightenment-150x150.jpg" alt="Enlightenment"></p><p>Teaching Academy Courtyard</p><p>Enlightenment, Don Reynolds, mixed media fountain, 2005, This sculpture has a water feature and can be rotated at the base. By pointing the hand in any direction, the art suggest different paths of enlightenment. In the words of the artist, “the willingness of the student reach out and take the hand of a mentor and allow the self to follow is basic to learning."</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.202903,28.599528</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bishop and Queen</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Bishop-and-Queen-150x150.jpg" alt="Bishop and Queen"></p><p>Education Complex concourse</p><p>Bishop and Queen, Nita Sunderland, limestone, 1990, Sunderland earned a bachelor’s degree from Bradley University and taught sculpture there for over 30 years. This work is from her “chessman” series of sculptures and reflects her ongoing interest in parallels between medieval and contemporary society.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.203621,28.59993</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Recumbent Knight</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Recumbent-Knight-150x150.jpg" alt="Recumbent Knight"></p><p>Education Complex concourse</p><p>Recumbent Knight, Nita Sunderland, bronze, 1990, Sunderland earned a bachelor’s degree from Bradley University and taught sculpture there for over 30 years. This work is from her “chessman” series of sculptures and reflects her ongoing interest in parallels between medieval and contemporary society.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.203491,28.599886</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun Target #1</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Sun-Target-1-150x150.jpg" alt="Sun Target #1"></p><p>Colbourn Hall grounds</p><p>Sun Target #1, welded aluminum, 1974, Sculptor John Henry is based in Chattanooga, TN. His works are described as “welded steel drawings” or “drawing in space”. Some of his sculptures, which are often monumental in size, have the appearance of floating despite the weight.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20343,28.60068</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alamar</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Alamar-150x150.jpg" alt="Alamar"></p><p>Bookstore grounds</p><p>Alamar, Bruce White, Corten steel, 1975-76, White’s work has been described as “an elegant union of ancient symbolism and contemporary science.” He does not usually begin with a specific idea in mind, but rather, relies on manipulation of paper or thin sheet of metal to generate a “surprise” solution which can only be fully realized in three dimensions.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.20202,28.60033</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Florida Dream for UCF</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Florida-Dream-150x150.jpg" alt="Florida Dream for UCF"></p><p>Millican Hall lobby</p><p>Florida Dream for UCF, Steve Lotz, acrylic on canvas, 1982, Lotz served as the first Chair of the UCF Art Department and is Professor Emeritus. He is known for his large-scale paintings such as this example and for his public art commissions. Lotz’s dreamlike images often depict imaginary and tropical environments.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.202225,28.59917</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flame of Hope</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Flame-of-Hope-Restored-150x150.jpg" alt="Flame of Hope"></p><p>John C. Hitt Library west entrance</p><p>Flame of Hope, Leonardo Nierman, bronze, 1987, Leonardo Nierman was born in Mexico City in 1932. He started his career painting murals and his early work was influenced by Vasily Kandinsky, Paul Klee and Juan Miro. The Flame of Hope evokes movement and harmony through the use of the spiral form.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.201796,28.599928</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trio</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Trio-150x150.jpg" alt="Trio"></p><p>Student Union atrium</p><p>Trio, Tim Prentice, aluminum &amp; Stainless Lexan, 1996, This work is suspended from a single wire and consists of three major parts that are carefully balanced and rotate with precision. Prentice’s sculpture is inspired by the tradition of kinetic works by Alexander Calder and George Rickey.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.200491,28.60195</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tree of Life</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Tree-of-Life-150x150.jpg" alt="Tree of Life"></p><p>Health and Public Affairs courtyard</p><p>Tree of Life, Gretchen Lothrop, stainless steel and bronze, 2003, Lothrop states that "My process is additive, using predominately, but not exclusively, stainless steel. My imagery is often based on music or its corollary - dance, and the paradox of time. I think of my work as haiku - the crystallization of an instant of insight which might otherwise be swept away."</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.198478,28.603296</coordinates>
+        </Point>
+      </Placemark>
+      <!-- <Placemark>
+        <name>We See the Same Stars</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/We-See-the-Same-Stars-150x150.jpg" alt="We See the Same Stars"></p><p>Classroom II rotunda, east entrance</p><p>We See the Same Stars, Malcolm Robertson, Solaglass, 2013, This work is integrated with the design of the Classroom II building rotunda. Solaglass is stainless steel that has been polished to a mirror surface. Malcolm Robertson creates commissioned work from his studios in Scotland and Sarasota, Florida.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.199058,28.604125</coordinates>
+        </Point>
+      </Placemark>-->
+       <!--<Placemark>
+        <name>Tree Talk</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Tree-Talk-150x150.jpg" alt="Tree Talk"></p><p>Classroom I, east and west entrances</p><p>Tree Talk, Melanie Walker and George Peters, aluminum and PVC, 2001, Walker and Peters “believe that public artwork should reflect a character of place, make a positive influence on the people that use and inhabit these areas, create an integrated platform for art in our public spaces and make our living, playing and working spaces a mix of color, culture and heart."</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.200203,28.603736</coordinates>
+        </Point>
+      </Placemark>-->
+      <Placemark>
+        <name>Power of Passage</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/08/s-1-2-150x150.jpg" alt="Power of Passage"></p><p>School of Performing Arts Theatre lobby</p><p>Power of Passage, Johann Eyfells, aluminum, 1994, Eyfells was born in Iceland and moved to Florida in 1969, where he was a professor of art at UCF for over 30 years. He produces abstract sculptures based on his experiments in chemistry and physics, using metals such as aluminum, iron and copper. The volcanic landscape of Iceland is a strong influence in his work.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.199701,28.600354</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cyclorama</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Cyclorama-150x150.jpg" alt="Cyclorama"></p><p>School of Performing Arts courtyard</p><p>Cyclorama, Joe O’Connell/Blessing Hancock, Powder coated stainless steel, 2012, Cyclorama is a series of interactive, illuminated sculptures that serve as a contemporary stage set for shadow theatre. The public is invited to walk, sit and relax amongst the forms whose surfaces tell archetypal origin stories. At night colored lights prokect strong silhouettes onto the surrounding trees and visitors, creating the effect of being surrounded by a panoramic theater production.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.204103,28.602261</coordinates>
+        </Point>
+      </Placemark>
+      <!-- <Placemark>
+        <name>Logic at Random</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/08/s-2-2-150x150.jpg" alt="Logic at Random"></p><p>Business Administration II courtyard</p><p>Logic at Random, Obie Simonis, steel and granite, 1992, Simonis states that “The spiral or helix has been a symbol of spiritual transformation throughout history and across cultural lines. It is the modern representation of biological transformation…the elegant simplicity of the pure spiral has inspired me throughout my career."</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.198258,28.601161</coordinates>
+        </Point>
+      </Placemark>-->
+      <!-- <Placemark>
+        <name>Monolith #1</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Monolith-1-150x150.jpg" alt="Monolith #1"></p><p>Business Administration I lobby</p><p>Monolith #1, John Balistreri, ceramic, 1997, Balistreri is best known for his large-scale ceramic sculpture as well as his innovations using digital technology to create ceramic objects using ceramic 3D printing techniques. He states that “My early work was a continuation of my involvement with the ancient process of wood firing. Since 1994, I began to concentrate on using this process in an attempt to make objects that resonate with age, both geologic and human."</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.199171,28.600916</coordinates>
+        </Point>
+      </Placemark>-->
+      <Placemark>
+        <name>Space Waves II</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Space-Waves-II.b-150x150.jpg" alt="Space Waves II"></p><p>Health and Public Affairs I west lawn</p><p>Space Waves II, Linda Howard, aluminum, 1992, Howard is known for her large-scale outdoor sculptures, typically created with aluminum. Her process involves taking polished, wheel-ground, or white-painted square aluminum bars that are cut, assembled, and welded into elaborate geometric forms.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.1988,28.602791</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elliptic Lens</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Elliptic-Lens-150x150.jpg" alt="Elliptic Lens"></p><p>CREOL, The College of Optics and Photonics, exterior wall left of main entrance</p><p>Elliptic Lens, Ray King, stainless steel, bronze, glass, 1997, King’s primary material is glass, laminated with refractive and reflective materials. His work uses the principles of sacred geometry to render 3-D patterns found in nature. Elliptic Lens&#039; proportions are based on the Golden Rectangle, the laminated glass facets are graduated in size to accentuate the swell of the lens shape.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.198013,28.601111</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lipstick Enigma</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Lipstick-Enigma-April-2018-150x150.jpg" alt="Lipstick Enigma"></p><p>Harris Corporation Engineering Center lobby, north entrance</p><p>Lipstick Enigma, Janet Zweig, computer driven sentence generator, 2010, Lipstick Enigma is a language-generating machine that combines the jargon and syntax of fashion with the vocabulary of engineering to create new sentences that are displayed in lipstick-shaped pixels. The motors are powered by custom circuit boards that receive information from a computer that holds the Java program that drives the pixels and generates the sentences. A motion detector triggers the computer to write a new sentence and then display it.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.197578,28.600711</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Axiom</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Axiom-150x150.jpg" alt="Axiom"></p><p>Physical Science lobby</p><p>Axiom, Kristin Jones/Andrew Ginzel, stainless steel, mirror, 2011, Axiom consists of 118 stainless steel tetrahedrons symbolizing the periodic table of elements. The art is designed to include future additions of tetrahedron elements to the work, as advancements in science are made. Kristin Jones and Andrew Ginzel have worked collaboratively since 1985 on public and private commissions.</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19818,28.599628</coordinates>
+        </Point>
+      </Placemark>
+      <!-- <Placemark>
+        <name>Hermes Gate</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/07/Hermes-Gate-150x150.jpg" alt="Hermes Gate"></p><p>Recreation and Wellness Center main entrance</p><p>Hermes Gate, Dale Enochs, Hermes Gate, Indiana limestone, steel &amp; gold leaf, 2011, Enochs’ preferred material is limestone. Enochs enjoys “the challenges of creating large scale work and I love doing site-specific work…Scale is one of the many formal elements of art that I draw from. It is a tool used in building a composition of thoughts, ideas and emotions."</p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.19818,28.597553</coordinates>
+        </Point>
+      </Placemark>-->
+	<Placemark>
+        <name>Untitled</name>
+        <description><![CDATA[<p><img src="https://svad.cah.ucf.edu/wp-content/uploads/sites/5/2018/08/Johann-Eyfells-Sculpture1.jpg" alt="Untitled"></p>
+        <p>Visual Arts Building, West Lawn</p>
+        <p>Johann Eyfells <br/>cast concrete and aluminum <br/>c. early 1970’s </p>
+        <p>This sculpture is believed to be a collaborative piece by UCF Professor Johann Eyfells and his students.  Information about artist Johann Eyfells can be found at <a href="http://johanneyfells.com">johanneyfells.com</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-81.204012,28.603358</coordinates>
+        </Point>
+      </Placemark>
+
+  </Document>
+</kml>

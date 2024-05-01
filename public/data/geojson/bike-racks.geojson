@@ -1,0 +1,1221 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202478,
+                    28.59540700000001,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Barbara Ying Center",
+                "description": "Barbara Ying Center",
+                "Name": "Bike Rack - Barbara Ying Center",
+                "Description": "Barbara Ying Center",
+                "Latitude": "28.595407",
+                "Longitude": "-81.202478"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.193031,
+                    28.609464,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Bright House Stadium (Rack 1)",
+                "description": "Bright House Stadium (Rack 1)",
+                "Name": "Bike Rack - Bright House Stadium (Rack 1)",
+                "Description": "Bright House Stadium (Rack 1)",
+                "Latitude": "28.609464",
+                "Longitude": "-81.193031"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.192729,
+                    28.609545,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Bright House Stadium (Rack 2)",
+                "description": "Bright House Stadium (Rack 2)",
+                "Name": "Bike Rack - Bright House Stadium (Rack 2)",
+                "Description": "Bright House Stadium (Rack 2)",
+                "Latitude": "28.609545",
+                "Longitude": "-81.192729"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.192602,
+                    28.609522,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Bright House Stadium (Rack 3)",
+                "description": "Bright House Stadium (Rack 3)",
+                "Name": "Bike Rack - Bright House Stadium (Rack 3)",
+                "Description": "Bright House Stadium (Rack 3)",
+                "Latitude": "28.609522",
+                "Longitude": "-81.192602"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20157,
+                    28.602229,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Burnett Honors College",
+                "description": "Burnett Honors College",
+                "Name": "Bike Rack - Burnett Honors College",
+                "Description": "Burnett Honors College",
+                "Latitude": "28.602229",
+                "Longitude": "-81.20157"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197354,
+                    28.606807,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Addition Financial Arena",
+                "description": "Addition Financial Arena",
+                "Name": "Bike Rack - Addition Financial Arena",
+                "Description": "Addition Financial Arena",
+                "Latitude": "28.606807",
+                "Longitude": "-81.197354"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199436,
+                    28.600044,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Chemistry",
+                "description": "Chemistry",
+                "Name": "Bike Rack - Chemistry",
+                "Description": "Chemistry",
+                "Latitude": "28.600044",
+                "Longitude": "-81.199436"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202193,
+                    28.594996,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - CMMS",
+                "description": "CMMS",
+                "Name": "Bike Rack - CMMS",
+                "Description": "CMMS",
+                "Latitude": "28.594996",
+                "Longitude": "-81.202193"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.203205,
+                    28.601433,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Colbourn Hall",
+                "description": "Colbourn Hall",
+                "Name": "Bike Rack - Colbourn Hall",
+                "Description": "Colbourn Hall",
+                "Latitude": "28.601433",
+                "Longitude": "-81.203205"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200442,
+                    28.600829,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - College of Sciences",
+                "description": "College of Sciences",
+                "Name": "Bike Rack - College of Sciences",
+                "Description": "College of Sciences",
+                "Latitude": "28.600829",
+                "Longitude": "-81.200442"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.203353,
+                    28.604139,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Communication (Rack 1)",
+                "description": "Communication (Rack 1)",
+                "Name": "Bike Rack - Communication (Rack 1)",
+                "Description": "Communication (Rack 1)",
+                "Latitude": "28.604139",
+                "Longitude": "-81.203353"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.203606,
+                    28.603826,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Communication (Rack 2)",
+                "description": "Communication (Rack 2)",
+                "Name": "Bike Rack - Communication (Rack 2)",
+                "Description": "Communication (Rack 2)",
+                "Latitude": "28.603826",
+                "Longitude": "-81.203606"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202793,
+                    28.604663,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Communication (Rack 3)",
+                "description": "Communication (Rack 3)",
+                "Name": "Bike Rack - Communication (Rack 3)",
+                "Description": "Communication (Rack 3)",
+                "Latitude": "28.604663",
+                "Longitude": "-81.202793"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.203039,
+                    28.604465,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Communication (Rack 4)",
+                "description": "Communication (Rack 4)",
+                "Name": "Bike Rack - Communication (Rack 4)",
+                "Description": "Communication (Rack 4)",
+                "Latitude": "28.604465",
+                "Longitude": "-81.203039"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19688,
+                    28.600839,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - CREOL (Rack 1)",
+                "description": "CREOL (Rack 1)",
+                "Name": "Bike Rack - CREOL (Rack 1)",
+                "Description": "CREOL (Rack 1)",
+                "Latitude": "28.600839",
+                "Longitude": "-81.19688"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197483,
+                    28.601239,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - CREOL (Rack 2)",
+                "description": "CREOL (Rack 2)",
+                "Name": "Bike Rack - CREOL (Rack 2)",
+                "Description": "CREOL (Rack 2)",
+                "Latitude": "28.601239",
+                "Longitude": "-81.197483"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197401,
+                    28.601152,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - CREOL (Rack 3)",
+                "description": "CREOL (Rack 3)",
+                "Name": "Bike Rack - CREOL (Rack 3)",
+                "Description": "CREOL (Rack 3)",
+                "Latitude": "28.601152",
+                "Longitude": "-81.197401"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.203286,
+                    28.600117,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Education",
+                "description": "Education",
+                "Name": "Bike Rack - Education",
+                "Description": "Education",
+                "Latitude": "28.600117",
+                "Longitude": "-81.203286"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198171,
+                    28.601095,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Engineering I (East)",
+                "description": "Engineering I (East)",
+                "Name": "Bike Rack - Engineering I (East)",
+                "Description": "Engineering I (East)",
+                "Latitude": "28.601095",
+                "Longitude": "-81.198171"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198931,
+                    28.601608,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Engineering I (West)",
+                "description": "Engineering I (West)",
+                "Name": "Bike Rack - Engineering I (West)",
+                "Description": "Engineering I (West)",
+                "Latitude": "28.601608",
+                "Longitude": "-81.198931"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197758,
+                    28.602141,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Engineering II",
+                "description": "Engineering II",
+                "Name": "Bike Rack - Engineering II",
+                "Description": "Engineering II",
+                "Latitude": "28.602141",
+                "Longitude": "-81.197758"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199686,
+                    28.597552,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Ferrell Commons",
+                "description": "Ferrell Commons",
+                "Name": "Bike Rack - Ferrell Commons",
+                "Description": "Ferrell Commons",
+                "Latitude": "28.597552",
+                "Longitude": "-81.199686"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.2017,
+                    28.604162,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Garage H",
+                "description": "Garage H",
+                "Name": "Bike Rack - Garage H",
+                "Description": "Garage H",
+                "Latitude": "28.604162",
+                "Longitude": "-81.2017"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197071,
+                    28.600714,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Harris Corporation Engineering Center",
+                "description": "Harris Corporation Engineering Center",
+                "Name": "Bike Rack - Harris Corporation Engineering Center",
+                "Description": "Harris Corporation Engineering Center",
+                "Latitude": "28.600714",
+                "Longitude": "-81.197071"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199165,
+                    28.599569,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Health Center",
+                "description": "Health Center",
+                "Name": "Bike Rack - Health Center",
+                "Description": "Health Center",
+                "Latitude": "28.599569",
+                "Longitude": "-81.199165"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200246,
+                    28.593416,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Hercules (Rack 1)",
+                "description": "Hercules (Rack 1)",
+                "Name": "Bike Rack - Hercules (Rack 1)",
+                "Description": "Hercules (Rack 1)",
+                "Latitude": "28.593416",
+                "Longitude": "-81.200246"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198626,
+                    28.595012,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Hercules (Rack 2)",
+                "description": "Hercules (Rack 2)",
+                "Name": "Bike Rack - Hercules (Rack 2)",
+                "Description": "Hercules (Rack 2)",
+                "Latitude": "28.595012",
+                "Longitude": "-81.198626"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199712,
+                    28.594721,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Hercules (Rack 3)",
+                "description": "Hercules (Rack 3)",
+                "Name": "Bike Rack - Hercules (Rack 3)",
+                "Description": "Hercules (Rack 3)",
+                "Latitude": "28.594721",
+                "Longitude": "-81.199712"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200743,
+                    28.59415,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Hercules (Rack 4)",
+                "description": "Hercules (Rack 4)",
+                "Name": "Bike Rack - Hercules (Rack 4)",
+                "Description": "Hercules (Rack 4)",
+                "Latitude": "28.59415",
+                "Longitude": "-81.200743"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202521,
+                    28.600379,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Howard Phillips Hall",
+                "description": "Howard Phillips Hall",
+                "Name": "Bike Rack - Howard Phillips Hall",
+                "Description": "Howard Phillips Hall",
+                "Latitude": "28.600379",
+                "Longitude": "-81.202521"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201851,
+                    28.60068,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - John T. Washington Center",
+                "description": "John T. Washington Center",
+                "Name": "Bike Rack - John T. Washington Center",
+                "Description": "John T. Washington Center",
+                "Latitude": "28.60068",
+                "Longitude": "-81.201851"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19656,
+                    28.607454,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Knights Plaza (Northeast)",
+                "description": "Knights Plaza (Northeast)",
+                "Name": "Bike Rack - Knights Plaza (Northeast)",
+                "Description": "Knights Plaza (Northeast)",
+                "Latitude": "28.607454",
+                "Longitude": "-81.19656"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197177,
+                    28.606311,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Knights Plaza (Southeast)",
+                "description": "Knights Plaza (Southeast)",
+                "Name": "Bike Rack - Knights Plaza (Southeast)",
+                "Description": "Knights Plaza (Southeast)",
+                "Latitude": "28.606311",
+                "Longitude": "-81.197177"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.205238,
+                    28.603493,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Lake Claire Apartments (Rack 1)",
+                "description": "Lake Claire Apartments (Rack 1)",
+                "Name": "Bike Rack - Lake Claire Apartments (Rack 1)",
+                "Description": "Lake Claire Apartments (Rack 1)",
+                "Latitude": "28.603493",
+                "Longitude": "-81.205238"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.203941,
+                    28.603951,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Lake Claire Apartments (Rack 2)",
+                "description": "Lake Claire Apartments (Rack 2)",
+                "Name": "Bike Rack - Lake Claire Apartments (Rack 2)",
+                "Description": "Lake Claire Apartments (Rack 2)",
+                "Latitude": "28.603951",
+                "Longitude": "-81.203941"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.204242,
+                    28.603946,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Lake Claire Apartments (Rack 3)",
+                "description": "Lake Claire Apartments (Rack 3)",
+                "Name": "Bike Rack - Lake Claire Apartments (Rack 3)",
+                "Description": "Lake Claire Apartments (Rack 3)",
+                "Latitude": "28.603946",
+                "Longitude": "-81.204242"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.204363,
+                    28.60386400000001,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Lake Claire Apartments (Rack 4)",
+                "description": "Lake Claire Apartments (Rack 4)",
+                "Name": "Bike Rack - Lake Claire Apartments (Rack 4)",
+                "Description": "Lake Claire Apartments (Rack 4)",
+                "Latitude": "28.603864",
+                "Longitude": "-81.204363"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.205248,
+                    28.603958,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Lake Claire Apartments (Rack 5)",
+                "description": "Lake Claire Apartments (Rack 5)",
+                "Name": "Bike Rack - Lake Claire Apartments (Rack 5)",
+                "Description": "Lake Claire Apartments (Rack 5)",
+                "Latitude": "28.603958",
+                "Longitude": "-81.205248"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.205214,
+                    28.604073,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Lake Claire Apartments (Rack 6)",
+                "description": "Lake Claire Apartments (Rack 6)",
+                "Name": "Bike Rack - Lake Claire Apartments (Rack 6)",
+                "Description": "Lake Claire Apartments (Rack 6)",
+                "Latitude": "28.604073",
+                "Longitude": "-81.205214"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.204802,
+                    28.60413,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Lake Claire Apartments (Rack 7)",
+                "description": "Lake Claire Apartments (Rack 7)",
+                "Name": "Bike Rack - Lake Claire Apartments (Rack 7)",
+                "Description": "Lake Claire Apartments (Rack 7)",
+                "Latitude": "28.60413",
+                "Longitude": "-81.204802"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198361,
+                    28.598143,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Libra (Rack 1)",
+                "description": "Libra (Rack 1)",
+                "Name": "Bike Rack - Libra (Rack 1)",
+                "Description": "Libra (Rack 1)",
+                "Latitude": "28.598143",
+                "Longitude": "-81.198361"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198629,
+                    28.597835,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Libra (Rack 2)",
+                "description": "Libra (Rack 2)",
+                "Name": "Bike Rack - Libra (Rack 2)",
+                "Description": "Libra (Rack 2)",
+                "Latitude": "28.597835",
+                "Longitude": "-81.198629"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201942,
+                    28.600168,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Library",
+                "description": "Library",
+                "Name": "Bike Rack - Library",
+                "Description": "Library",
+                "Latitude": "28.600168",
+                "Longitude": "-81.201942"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200474,
+                    28.600046,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Mathematical Sciences Building",
+                "description": "Mathematical Sciences Building",
+                "Name": "Bike Rack - Mathematical Sciences Building",
+                "Description": "Mathematical Sciences Building",
+                "Latitude": "28.600046",
+                "Longitude": "-81.200474"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198859,
+                    28.603589,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Memory Mall (East)",
+                "description": "Memory Mall (East)",
+                "Name": "Bike Rack - Memory Mall (East)",
+                "Description": "Memory Mall (East)",
+                "Latitude": "28.603589",
+                "Longitude": "-81.198859"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199739,
+                    28.603891,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Memory Mall (West)",
+                "description": "Memory Mall (West)",
+                "Name": "Bike Rack - Memory Mall (West)",
+                "Description": "Memory Mall (West)",
+                "Latitude": "28.603891",
+                "Longitude": "-81.199739"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202597,
+                    28.60177,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Mercury Circle (Rack 1)",
+                "description": "Mercury Circle (Rack 1)",
+                "Name": "Bike Rack - Mercury Circle (Rack 1)",
+                "Description": "Mercury Circle (Rack 1)",
+                "Latitude": "28.60177",
+                "Longitude": "-81.202597"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20254,
+                    28.601649,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Mercury Circle (Rack 2)",
+                "description": "Mercury Circle (Rack 2)",
+                "Name": "Bike Rack - Mercury Circle (Rack 2)",
+                "Description": "Mercury Circle (Rack 2)",
+                "Latitude": "28.601649",
+                "Longitude": "-81.20254"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201644,
+                    28.599257,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Millican Hall (East)",
+                "description": "Millican Hall (East)",
+                "Name": "Bike Rack - Millican Hall (East)",
+                "Description": "Millican Hall (East)",
+                "Latitude": "28.599257",
+                "Longitude": "-81.201644"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202495,
+                    28.599684,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Millican Hall (West)",
+                "description": "Millican Hall (West)",
+                "Name": "Bike Rack - Millican Hall (West)",
+                "Description": "Millican Hall (West)",
+                "Latitude": "28.599684",
+                "Longitude": "-81.202495"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197477,
+                    28.59437,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Nike (Rack 1)",
+                "description": "Nike (Rack 1)",
+                "Name": "Bike Rack - Nike (Rack 1)",
+                "Description": "Nike (Rack 1)",
+                "Latitude": "28.59437",
+                "Longitude": "-81.197477"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.197276,
+                    28.594937,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Nike (Rack 2)",
+                "description": "Nike (Rack 2)",
+                "Name": "Bike Rack - Nike (Rack 2)",
+                "Description": "Nike (Rack 2)",
+                "Latitude": "28.594937",
+                "Longitude": "-81.197276"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201118,
+                    28.597578,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Osceola Hall",
+                "description": "Osceola Hall",
+                "Name": "Bike Rack - Osceola Hall",
+                "Description": "Osceola Hall",
+                "Latitude": "28.597578",
+                "Longitude": "-81.201118"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.19797,
+                    28.592105,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Perseus Loop",
+                "description": "Perseus Loop",
+                "Name": "Bike Rack - Perseus Loop",
+                "Description": "Perseus Loop",
+                "Latitude": "28.592105",
+                "Longitude": "-81.19797"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200042,
+                    28.604554,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Psychology",
+                "description": "Psychology",
+                "Name": "Bike Rack - Psychology",
+                "Description": "Psychology",
+                "Latitude": "28.604554",
+                "Longitude": "-81.200042"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.199405,
+                    28.596237,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Rec Center",
+                "description": "Rec Center",
+                "Name": "Bike Rack - Rec Center",
+                "Description": "Rec Center",
+                "Latitude": "28.596237",
+                "Longitude": "-81.199405"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.189929,
+                    28.604277,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Softball Field",
+                "description": "Softball Field",
+                "Name": "Bike Rack - Softball Field",
+                "Description": "Softball Field",
+                "Latitude": "28.604277",
+                "Longitude": "-81.189929"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200045,
+                    28.601283,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Student Union (South)",
+                "description": "Student Union (South)",
+                "Name": "Bike Rack - Student Union (South)",
+                "Description": "Student Union (South)",
+                "Latitude": "28.601283",
+                "Longitude": "-81.200045"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.201007,
+                    28.602813,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Student Union North",
+                "description": "Student Union North",
+                "Name": "Bike Rack - Student Union North",
+                "Description": "Student Union North",
+                "Latitude": "28.602813",
+                "Longitude": "-81.201007"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.198177,
+                    28.596296,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Tennis Courts",
+                "description": "Tennis Courts",
+                "Name": "Bike Rack - Tennis Courts",
+                "Description": "Tennis Courts",
+                "Latitude": "28.596296",
+                "Longitude": "-81.198177"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20388,
+                    28.602576,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Visual Arts Building (Rack 1)",
+                "description": "Visual Arts Building (Rack 1)",
+                "Name": "Bike Rack - Visual Arts Building (Rack 1)",
+                "Description": "Visual Arts Building (Rack 1)",
+                "Latitude": "28.602576",
+                "Longitude": "-81.20388"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.202667,
+                    28.602926,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Visual Arts Building (Rack 2)",
+                "description": "Visual Arts Building (Rack 2)",
+                "Name": "Bike Rack - Visual Arts Building (Rack 2)",
+                "Description": "Visual Arts Building (Rack 2)",
+                "Latitude": "28.602926",
+                "Longitude": "-81.202667"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.200984,
+                    28.598576,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Volusia Hall",
+                "description": "Volusia Hall",
+                "Name": "Bike Rack - Volusia Hall",
+                "Description": "Volusia Hall",
+                "Latitude": "28.598576",
+                "Longitude": "-81.200984"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.194726,
+                    28.606011,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bike Rack - Wayne Densch Sport Center",
+                "description": "Wayne Densch Sport Center",
+                "Name": "Bike Rack - Wayne Densch Sport Center",
+                "Description": "Wayne Densch Sport Center",
+                "Latitude": "28.606011",
+                "Longitude": "-81.194726"
+            }
+        }
+    ]
+}

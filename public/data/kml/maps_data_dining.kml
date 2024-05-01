@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+		<name>maps_data_dining</name>
+		<open>1</open>
+		<Placemark>
+			<name>&apos;63 South</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b7aa.jpg" alt="63 South"></p><p>This dining hall offers a changing menu centered around eight stations. Located in Ferrell Commons and provides an unlimited breakfast selection, as well as extended evening hours for every student's needs.</p><p>Location: Ferrell Commons</p><p>Phone Number: <a href="tel:407-823-2631">407-823-2631</a></p><p>Website: <a href="http://ucf.campusdish.com">http://ucf.campusdish.com</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">&apos;63 South</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b7aa.jpg" alt="63 South"></p><p>This dining hall offers a changing menu centered around eight stations. Located in Ferrell Commons and provides an unlimited breakfast selection, as well as extended evening hours for every student's needs.</p><p>Location: Ferrell Commons</p><p>Phone Number: <a href="tel:407-823-2631">407-823-2631</a></p><p>Website: <a href="http://ucf.campusdish.com">http://ucf.campusdish.com</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.597909</SimpleData>
+					<SimpleData name="Longitude">-81.199729</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.199729,28.597909,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7-Eleven</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="7-Eleven"></p><p>7-Eleven is your go-to convenience store for food, snacks, hot and cold beverages, coffee, gas and so much more. </p><p>Phone Number: <a href="tel:407-882-5750">407-882-5750</a></p><p>Website: <a href="https://www.7-eleven.com/">https://www.7-eleven.com/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">7-Eleven</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="7-Eleven"></p><p>7-Eleven is your go-to convenience store for food, snacks, hot and cold beverages, coffee, gas and so much more.</p><p>Phone Number: <a href="tel:407-882-5750">407-882-5750</a></p><p>Website: <a href="https://www.7-eleven.com/">https://www.7-eleven.com/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60725439211365</SimpleData>
+					<SimpleData name="Longitude">-81.19822867109805</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19822867109805,28.60725439211365,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Aurora Restaurant at the Celeste Hotel</name>
+			<description><![CDATA[<p>Aurora is a restaurant experience that captures vast attention through colorful flavors, stunning ambiance, and refined service. With an emphasis on fresh, locally sourced food and the inspiring culinary genius, Aurora will be a glimmering spectacle within the Celeste Hotel experience.</p><p>Location: The Celeste Hotel</p><p>Phone Number: <a href="tel:407-207-4700">407-207-4700</a></p><p>Website: <a href="https://thecelestehotel.com/restaurant/">https://thecelestehotel.com/restaurant/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Aurora Restaurant at the Celeste Hotel</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p>Aurora is a restaurant experience that captures vast attention through colorful flavors, stunning ambiance, and refined service. With an emphasis on fresh, locally sourced food and the inspiring culinary genius, Aurora will be a glimmering spectacle within the Celeste Hotel experience.</p><p>Location: The Celeste Hotel</p><p>Phone Number: <a href="tel:407-207-4700">407-207-4700</a></p><p>Website: <a href="https://thecelestehotel.com/restaurant/">https://thecelestehotel.com/restaurant/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.599161166488088</SimpleData>
+					<SimpleData name="Longitude">-81.20697099284256</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20697099284256,28.599161166488088,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Barnes &amp; Noble Cafe</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="Barnes & Noble Cafe - Knights Plaza"></p><p>Barnes & Noble @ UCF Cafe is located on East Plaza Drive, directly across from the Addition Financial Arena Box Office. We Proudly Brew Starbucks Coffee. The Barnes & Noble @ UCF Cafe also serves breakfast, lunch, dinner, desserts, and snacks..</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:407-882-0364">407-882-0364</a></p><p>Website: <a href="http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1">http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Barnes &amp; Noble Cafe</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="Barnes & Noble Cafe - Knights Plaza"></p><p>Barnes & Noble @ UCF Cafe is located on East Plaza Drive, directly across from the Addition Financial Arena Box Office. We Proudly Brew Starbucks Coffee. The Barnes & Noble @ UCF Cafe also serves breakfast, lunch, dinner, desserts, and snacks..</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:407-882-0364">407-882-0364</a></p><p>Website: <a href="http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1">http://ucf.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=16552&catalogId=10001&langId=-1</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.606327</SimpleData>
+					<SimpleData name="Longitude">-81.197072</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19707200000001,28.606327,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bento Sushi</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Bento Sushi"></p><p>Bento Sushi is North America’s second largest sushi brand providing the highest quality packaged sushi and ready to heat/made to order hot Asian food.</p><p>Website: <a href="https://www.bentosushi.com/us/">https://www.bentosushi.com/us/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Bento Sushi</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Bento Sushi"></p><p>Bento Sushi is North America’s second largest sushi brand providing the highest quality packaged sushi and ready to heat/made to order hot Asian food.</p><p>Website: <a href="https://www.bentosushi.com/us/">https://www.bentosushi.com/us/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601786</SimpleData>
+					<SimpleData name="Longitude">-81.200451</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200451,28.601786,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Burger U</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="Burger U"></p><p>Best burgers around! Burger U is a great place to spend 4 years!</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:407-882-0450">407-882-0450</a></p><p>Website: <a href="http://www.burgeruucf.com/store/c1/Featured_Products.html">http://www.burgeruucf.com/store/c1/Featured_Products.html</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Burger U</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="Burger U"></p><p>Best burgers around! Burger U is a great place to spend 4 years!</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:407-882-0450">407-882-0450</a></p><p>Website: <a href="http://www.burgeruucf.com/store/c1/Featured_Products.html">http://www.burgeruucf.com/store/c1/Featured_Products.html</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.607066</SimpleData>
+					<SimpleData name="Longitude">-81.196605</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19660500000001,28.607066,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cafe Bustelo – Tech Commons</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b29.jpg" alt="Cafe Bustelo"></p><p>Offering sandwiches, waffles, snacks, desserts and of course rich cuban coffee, this location is sure to be a student favorite.</p><p>Location: Technology Commons II</p><p>Phone Number: <a href="tel:407-823-1301">407-823-1301</a></p><p>Website: <a href="https://ucf.campusdish.com/Locations/CafeBustelo.aspx?Device=true">https://ucf.campusdish.com/Locations/CafeBustelo.aspx?Device=true</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Cafe Bustelo – Tech Commons</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b29.jpg" alt="Cafe Bustelo"></p><p>Offering sandwiches, waffles, snacks, desserts and of course rich cuban coffee, this location is sure to be a student favorite.</p><p>Location: Technology Commons II</p><p>Phone Number: <a href="tel:407-823-1301">407-823-1301</a></p><p>Website: <a href="https://ucf.campusdish.com/Locations/CafeBustelo.aspx?Device=true">https://ucf.campusdish.com/Locations/CafeBustelo.aspx?Device=true</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600603</SimpleData>
+					<SimpleData name="Longitude">-81.200541</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200541,28.600603,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chick-fil-A - JTWC</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b26.jpg" alt="Chick-fil-A"></p><p>Chick-fil-A serves chicken sandwiches, salads, wraps, and more.</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href="tel:407-823-2238">407-823-2238</a></p><p>Website: <a href="http://www.chick-fil-a.com/">http://www.chick-fil-a.com/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Chick-fil-A</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b26.jpg" alt="Chick-fil-A"></p><p>Chick-fil-A serves chicken sandwiches, salads, wraps, and more.</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href="tel:407-823-2238">407-823-2238</a></p><p>Website: <a href="http://www.chick-fil-a.com/">http://www.chick-fil-a.com/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601315</SimpleData>
+					<SimpleData name="Longitude">-81.201450</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.201450,28.601315,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chick-fil-A - RWC</name>
+			<description><![CDATA[<p>Chick-fil-A serves chicken sandwiches, salads, wraps, and more.</p><p>Location: UCF Recreation and Wellness Center</p><p>Website: <a href="http://www.chick-fil-a.com/">http://www.chick-fil-a.com/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Chick-fil-A</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p>Chick-fil-A serves chicken sandwiches, salads, wraps, and more.</p><p>Location: UCF Recreation and Wellness Center</p><p>Website: <a href="http://www.chick-fil-a.com/">http://www.chick-fil-a.com/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.596048339382154</SimpleData>
+					<SimpleData name="Longitude">-81.19886220845062</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19886220845062,28.596048339382154,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chili&apos;s</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Chili's"></p><p>Providing all the favorite’s, Chili’s classic menu will boast the best fast casual services the campus has to offer. </p><p>Location: Student Union Attrium</p><p>Phone Number: <a href="tel:407-823-2000">407-823-2000</a></p><p>Website: <a href="https://www.chilis.com">https://www.chilis.com</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Chili&apos;s</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Chili's"></p><p>Providing all the favorite’s, Chili’s classic menu will boast the best fast casual services the campus has to offer. </p><p>Location: Student Union Attrium</p><p>Phone Number: <a href="tel:407-823-2000">407-823-2000</a></p><p>Website: <a href="https://www.chilis.com">https://www.chilis.com</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601786</SimpleData>
+					<SimpleData name="Longitude">-81.200451</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200451,28.601786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Domino&apos;s Pizza - Knights Plaza</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="Domino's Pizza"></p><p>Pizza, Sandwiches, and More.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:407-882-1010">407-882-1010</a></p><p>Website: <a href="https://www.dominos.com/en/">https://www.dominos.com/en/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Domino&apos;s Pizza</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="Domino's Pizza"></p><p>Pizza, Sandwiches, and More.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:407-882-1010">407-882-1010</a></p><p>Website: <a href="https://www.dominos.com/en/">https://www.dominos.com/en/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.606956</SimpleData>
+					<SimpleData name="Longitude">-81.198466</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198466,28.606956,0</coordinates>
+			</Point>
+		</Placemark>
+				<Placemark>
+			<name>Domino&apos;s Pizza - JTWC</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b26.jpg" alt="Domino's Pizza"></p><p>Pizza, Sandwiches, and More.</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href="tel:407-882-2010">407-882-2010</a></p><p>Website: <a href="https://www.dominos.com/en/">https://www.dominos.com/en/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Domino&apos;s Pizza - JTWC</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b26.jpg" alt="Domino's Pizza"></p><p>Pizza, Sandwiches, and More.</p><p>Location: John T. Washington Center</p><p>Phone Number: <a href="tel:407-882-2010">407-882-2010</a></p><p>Website: <a href="https://www.dominos.com/en/">https://www.dominos.com/en/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601124</SimpleData>
+					<SimpleData name="Longitude">-81.201288</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.201288,28.601124,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dunkin&apos; Donuts</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="Dunkin' Donuts"></p><p>Dunkin' Donuts is America's favorite every day, all-day stop for coffee and baked goods. Dunkin' Donuts is a market leader in the regular/decaf coffee, iced coffee, hot flavored coffee, donut, bagel and muffin categories, and the world's leading baked goods and coffee chain in the world.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:407-882-1010">407-882-1010</a></p><p>Website: <a href="www.dunkindonuts.com">www.dunkindonuts.com</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Dunkin&apos; Donuts</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="Dunkin' Donuts"></p><p>Dunkin' Donuts is America's favorite every day, all-day stop for coffee and baked goods. Dunkin' Donuts is a market leader in the regular/decaf coffee, iced coffee, hot flavored coffee, donut, bagel and muffin categories, and the world's leading baked goods and coffee chain in the world.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:407-882-1010">407-882-1010</a></p><p>Website: <a href="www.dunkindonuts.com">www.dunkindonuts.com</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.606616</SimpleData>
+					<SimpleData name="Longitude">-81.198575</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19857500000001,28.606616,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Einstein Bros. Bagels - Business Administration</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b45.jpg" alt="Einstein Bros. Bagels - Business Administration"></p><p>Our Einstein Bros. Bagels are located in the Education Complex and the Business Administration building. You can find "darn good coffee," "hot, fresh bagels," and delicious treats like bagel poppers at each location. Stop by today for a specialty coffee or a delicious breakfast sandwich!</p><p>Location: Business Adminstration I</p><p>Phone Number: <a href="tel:407-823-1944">407-823-1944</a></p><p>Website: <a href="http://www.einsteinbros.com/">http://www.einsteinbros.com/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Einstein Bros. Bagels - Business Administration</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b45.jpg" alt="Einstein Bros. Bagels - Business Administration"></p><p>Our Einstein Bros. Bagels are located in the Education Complex and the Business Administration building. You can find "darn good coffee," "hot, fresh bagels," and delicious treats like bagel poppers at each location. Stop by today for a specialty coffee or a delicious breakfast sandwich!</p><p>Location: Business Adminstration I</p><p>Phone Number: <a href="tel:407-823-1944">407-823-1944</a></p><p>Website: <a href="http://www.einsteinbros.com/">http://www.einsteinbros.com/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601424</SimpleData>
+					<SimpleData name="Longitude">-81.199046</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.199046,28.601424,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Einstein Bros. Bagels - Education Complex</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b21.jpg" alt="Einstein Bros. Bagels - Education Complex"></p><p>Our Einstein Bros. Bagels are located in the Education Complex and the Business Administration building. You can find "darn good coffee," "hot, fresh bagels," and delicious treats like bagel poppers at each location. Stop by today for a specialty coffee or a delicious breakfast sandwich!</p><p>Location: Education Complex</p><p>Phone Number: <a href="tel:407-823-1946">407-823-1946</a></p><p>Website: <a href="http://www.einsteinbros.com/">http://www.einsteinbros.com/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Einstein Bros. Bagels - Education Complex</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b21.jpg" alt="Einstein Bros. Bagels - Education Complex"></p><p>Our Einstein Bros. Bagels are located in the Education Complex and the Business Administration building. You can find "darn good coffee," "hot, fresh bagels," and delicious treats like bagel poppers at each location. Stop by today for a specialty coffee or a delicious breakfast sandwich!</p><p>Location: Education Complex</p><p>Phone Number: <a href="tel:407-823-1946">407-823-1946</a></p><p>Website: <a href="http://www.einsteinbros.com/">http://www.einsteinbros.com/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600202</SimpleData>
+					<SimpleData name="Longitude">-81.204059</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.204059,28.600202,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Foxtail Coffee</name>
+			<description><![CDATA[<p></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="maps_data_dining2.kml#csv_20170106083102">
+					<SimpleData name="Name">Foxtail Coffee</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601105</SimpleData>
+					<SimpleData name="Longitude">-81.202093</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.202093,28.601105,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gringos Locos</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="Gringos Locos"></p><p>We pride ourselves on serving the finest, freshest products we can produce. We use fresh, never frozen 100% beef, chicken is cut in house and our pork is slow roasted for seven hours. Fresh tomatoes, onions, cilantro and jalapenos are cut in house on a daily basis. The tortillas we serve are shipped direct and we fry the chips and hard taco shells daily. Our beans come in a bag, not a can. The sofrito for our rice, our salsas, marinades and queso are all made from scratch…Well, you’ve got the idea.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:1-866-407-8226">1-866-407-TACO</a></p><p>Website: <a href="https://gringoslocos.com/location/gringos-ucf/">https://gringoslocos.com/location/gringos-ucf/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Gringos Locos</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="Gringos Locos"></p><p>We pride ourselves on serving the finest, freshest products we can produce. We use fresh, never frozen 100% beef, chicken is cut in house and our pork is slow roasted for seven hours. Fresh tomatoes, onions, cilantro and jalapenos are cut in house on a daily basis. The tortillas we serve are shipped direct and we fry the chips and hard taco shells daily. Our beans come in a bag, not a can. The sofrito for our rice, our salsas, marinades and queso are all made from scratch…Well, you’ve got the idea.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:1-866-407-8226">1-866-407-TACO</a></p><p>Website: <a href="https://gringoslocos.com/location/gringos-ucf/">https://gringoslocos.com/location/gringos-ucf/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.607190276216883</SimpleData>
+					<SimpleData name="Longitude">-81.19826955771953</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19826955771953,28.607190276216883,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Huey Magoo&apos;s</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Huey Magoo's"></p><p>Huey Magoo's serves up the best fried chicken tenders on the planet. Our chicken tenders are cooked to order and are fresh, never frozen. Don't forget to try our famous Magoo's Sauce!</p><p>Location: Student Union</p><p>Phone Number: <a href="tel:561-846-9200">561-846-9200</a></p><p>Website: <a href="http://www.hueymagoos.com/locations#ucf">http://www.hueymagoos.com/locations#ucf</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Huey Magoo&apos;s Express</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Huey Magoo's"></p><p>Huey Magoo's serves up the best fried chicken tenders on the planet. Our chicken tenders are cooked to order and are fresh, never frozen. Don't forget to try our famous Magoo's Sauce!</p><p>Location: Student Union</p><p>Phone Number: <a href="tel:561-846-9200">561-846-9200</a></p><p>Website: <a href="http://www.hueymagoos.com/locations#ucf">http://www.hueymagoos.com/locations#ucf</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.602138</SimpleData>
+					<SimpleData name="Longitude">-81.20037</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20037000000001,28.602138,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Java City</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b2.jpg" alt="Java City"></p><p>There's nothing like a delicious espresso drink to get you through the day! Stop by Java City in the UCF Library for espresso, fresh-brewed coffee, sandwiches and salads, sushi, pastries, bagels and more at this comfy cafe. Check out our Eco-Grounds coffee, which is Fair Trade and Rainforest Alliance Certified! Do you have an All-Access Meal Plan but no time for the dining hall? You're in luck! Java City now offers equivalencies that allow you to eat a meal included in your meal plan!</p><p>Location: John C. Hitt Library</p><p>Phone Number: <a href="tel:407-823-4975">407-823-4975</a></p><p>Website: <a href="http://www.javacity.com/">http://www.javacity.com/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Java City</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b2.jpg" alt="Java City"></p><p>There's nothing like a delicious espresso drink to get you through the day! Stop by Java City in the UCF Library for espresso, fresh-brewed coffee, sandwiches and salads, sushi, pastries, bagels and more at this comfy cafe. Check out our Eco-Grounds coffee, which is Fair Trade and Rainforest Alliance Certified! Do you have an All-Access Meal Plan but no time for the dining hall? You're in luck! Java City now offers equivalencies that allow you to eat a meal included in your meal plan!</p><p>Location: John C. Hitt Library</p><p>Phone Number: <a href="tel:407-823-4975">407-823-4975</a></p><p>Website: <a href="http://www.javacity.com/">http://www.javacity.com/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.600128</SimpleData>
+					<SimpleData name="Longitude">-81.201488</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.201488,28.60012800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jimmy John&apos;s</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="Jimmy John's"></p><p>Jimmy John's Gourmet Sandwiches - America's #1 Sandwich Delivery! World Class Catering & Delivery! Franchise opportunities available. Located in the lobby of Addition Financial Arena facing E. Plaza Dr. in the beautiful Knights Plaza at the Addition Financial Arena.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:407-882-2222">407-882-2222</a></p><p>Website: <a href="https://www.jimmyjohns.com/">https://www.jimmyjohns.com/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Jimmy John&apos;s</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="Jimmy John's"></p><p>Jimmy John's Gourmet Sandwiches - America's #1 Sandwich Delivery! World Class Catering & Delivery! Franchise opportunities available. Located in the lobby of Addition Financial Arena facing E. Plaza Dr. in the beautiful Knights Plaza at the Addition Financial Arena.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:407-882-2222">407-882-2222</a></p><p>Website: <a href="https://www.jimmyjohns.com/">https://www.jimmyjohns.com/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.60696</SimpleData>
+					<SimpleData name="Longitude">-81.197025</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.197025,28.60696,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Knightro&apos;s</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/kntro_b50b.jpg" alt="Knightro's"></p><p>Knightro's dining hall offers a changing menu centered around 10 action stations, serving everything from burgers and fries to made-to-order stir-fry. At Knightro's, we put the emphasis on quality and freshness in a casual, social environment.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:407-823-2651">407-823-2651</a></p><p>Website: <a href="http://ucf.campusdish.com">http://ucf.campusdish.com</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Knightro&apos;s</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/kntro_b50b.jpg" alt="Knightro's"></p><p>Knightro's dining hall offers a changing menu centered around 10 action stations, serving everything from burgers and fries to made-to-order stir-fry. At Knightro's, we put the emphasis on quality and freshness in a casual, social environment.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:407-823-2651">407-823-2651</a></p><p>Website: <a href="http://ucf.campusdish.com">http://ucf.campusdish.com</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.607455</SimpleData>
+					<SimpleData name="Longitude">-81.196703</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.196703,28.607455,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Knightstop &amp; Sushi</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Knightstop & Sushi"></p><p>Conveniently located in the Student Union at the heart of campus, Knightstop offers something for everyone's needs. A variety of our most popular items include: freshly made sushi, vegetarian and organic selections, grab-and-go sandwiches, and health & beauty products.</p><p>Location: Student Union</p><p>Phone Number: <a href="tel:407-823-0626">407-823-0626</a></p><p>Website: <a href="http://www.afcsushi.com/">http://www.afcsushi.com/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Knightstop &amp; Sushi</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Knightstop & Sushi"></p><p>Conveniently located in the Student Union at the heart of campus, Knightstop offers something for everyone's needs. A variety of our most popular items include: freshly made sushi, vegetarian and organic selections, grab-and-go sandwiches, and health & beauty products.</p><p>Location: Student Union</p><p>Phone Number: <a href="tel:407-823-0626">407-823-0626</a></p><p>Website: <a href="http://www.afcsushi.com/">http://www.afcsushi.com/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601744</SimpleData>
+					<SimpleData name="Longitude">-81.200675</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200675,28.601744,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Panda Express</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Panda Express"></p><p>From our world famous Orange Chicken to our health-minded Wok Smart selections, Panda Express defines American Chinese cuisine with bold flavors and fresh ingredients. Freshly prepared. Every day.</p></p><p>Website: <a href="https://www.pandaexpress.com">https://www.pandaexpress.com</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Panda Express</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Panda Express"></p><p>From our world famous Orange Chicken to our health-minded Wok Smart selections, Panda Express defines American Chinese cuisine with bold flavors and fresh ingredients. Freshly prepared. Every day.</p><p>Website: <a href="https://www.pandaexpress.com">https://www.pandaexpress.com</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601786</SimpleData>
+					<SimpleData name="Longitude">-81.200451</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200451,28.601786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.O.D. Market</name>
+			<description><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="P.O.D. Market"></p><p>Whether you want a full meal, a quick snack or a sip of our Jamba Juice fruit smoothies we have all of the essentials to satisfy your cravings!</p><p>Location: South Academic Village</p><p>Phone Number: <a href="tel:407-823-1023">407-823-1023</a></p><p>Website: <a href="https://ucf.campusdish.com/Locations/PODMarket.aspx?device=true">https://ucf.campusdish.com/Locations/PODMarket.aspx?device=true</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">P.O.D. Market</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="P.O.D. Market"></p><p>Whether you want a full meal, a quick snack or a sip of our Jamba Juice fruit smoothies we have all of the essentials to satisfy your cravings!</p><p>Location: South Academic Village</p><p>Phone Number: <a href="tel:407-823-1023">407-823-1023</a></p><p>Website: <a href="https://ucf.campusdish.com/Locations/PODMarket.aspx?device=true">https://ucf.campusdish.com/Locations/PODMarket.aspx?device=true</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.594581</SimpleData>
+					<SimpleData name="Longitude">-81.197927</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19792700000001,28.594581,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Qdoba Mexican Grill</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Qdoba Mexican Grill"></p><p>Qdoba's menu centers around large signature burritos. grilled quesadillas, tacos, nachos, salads and more. All entrees are prepared in front of the customer and topped with personally selected ingredients.</p><p>Location: Student Union</p><p>Phone Number: <a href="tel:407-275-3820">407-275-3820</a></p><p>Website: <a href="https://www.qdoba.com/">https://www.qdoba.com/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Qdoba Mexican Grill</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Qdoba Mexican Grill"></p><p>Qdoba's menu centers around large signature burritos. grilled quesadillas, tacos, nachos, salads and more. All entrees are prepared in front of the customer and topped with personally selected ingredients.</p><p>Location: Student Union</p><p>Phone Number: <a href="tel:407-275-3820">407-275-3820</a></p><p>Website: <a href="https://www.qdoba.com/">https://www.qdoba.com/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.602081</SimpleData>
+					<SimpleData name="Longitude">-81.200698</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200698,28.602081,0</coordinates>
+			</Point>
+		</Placemark>
+				<Placemark>
+			<name>Smoothie King - RWC</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Smoothie King"></p><p>Smoothie King offers their guests the industry's first and original nutritional fruit and function-based, fresh blended smoothies. They offer healthy retail product solutions such as sport beverages, energy bars, healthy snacks, vitamin supplements, herbs, minerals, and sports nutrition products. In addition, they also offer salads and fresh fruit cups. Stop in or have delivered!</p><p>Website: <a href="http://www.smoothieking.com/">http://www.smoothieking.com/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Smoothie King - RWC</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Smoothie King"></p><p>Smoothie King offers their guests the industry's first and original nutritional fruit and function-based, fresh blended smoothies. They offer healthy retail product solutions such as sport beverages, energy bars, healthy snacks, vitamin supplements, herbs, minerals, and sports nutrition products. In addition, they also offer salads and fresh fruit cups. Stop in or have delivered!</p><p>Website: <a href="http://www.smoothieking.com/">http://www.smoothieking.com/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.595813</SimpleData>
+					<SimpleData name="Longitude">-81.199129</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19912963320418,28.59581352747039,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Smoothie King - Student Union</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Smoothie King"></p><p>Smoothie King offers their guests the industry's first and original nutritional fruit and function-based, fresh blended smoothies. They offer healthy retail product solutions such as sport beverages, energy bars, healthy snacks, vitamin supplements, herbs, minerals, and sports nutrition products. In addition, they also offer salads and fresh fruit cups. Stop in, or have delivered, free on campus!</p><p>Location: Student Union</p><p>Phone Number: <a href="tel:407-380-3333">407-380-3333</a></p><p>Website: <a href="http://www.smoothieking.com/">http://www.smoothieking.com/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Smoothie King - Student Union</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Smoothie King"></p><p>Smoothie King offers their guests the industry's first and original nutritional fruit and function-based, fresh blended smoothies. They offer healthy retail product solutions such as sport beverages, energy bars, healthy snacks, vitamin supplements, herbs, minerals, and sports nutrition products. In addition, they also offer salads and fresh fruit cups. Stop in, or have delivered, free on campus!</p><p>Location: Student Union</p><p>Phone Number: <a href="tel:407-380-3333">407-380-3333</a></p><p>Website: <a href="http://www.smoothieking.com/">http://www.smoothieking.com/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601563</SimpleData>
+					<SimpleData name="Longitude">-81.200521</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20052099999999,28.601563,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Steak n Shake</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Steak n Shake"></p><p>Premium burgers and milk shakes.</p><p>Website: <a href="https://www.steaknshake.com">https://www.steaknshake.com</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Steak n Shake</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Steak n Shake"></p><p>Premium burgers and milk shakes.</p></p><p>Website: <a href="https://www.steaknshake.com">https://www.steaknshake.com</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601786</SimpleData>
+					<SimpleData name="Longitude">-81.200451</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200451,28.601786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Starbucks - Student Union</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Starbucks"></p><p>Starbucks Coffee offers high-quality whole bean coffees and fresh, rich-brewed, Italian style espresso beverages, a variety of pastries and confections, and coffee-related accessories. Complete with a cozy fireplace, plenty of seating, and a group study station, this location is a student favorite for relaxing, doing school work, and meeting up with friends.</p><p>Location: Health and Public Affairs II</p><p>Phone Number: <a href="tel:407-823-4100">407-823-4100</a></p><p>Website: <a href="http://www.starbucks.com">http://www.starbucks.com</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Starbucks</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Starbucks"></p><p>Starbucks Coffee offers high-quality whole bean coffees and fresh, rich-brewed, Italian style espresso beverages, a variety of pastries and confections, and coffee-related accessories. Complete with a cozy fireplace, plenty of seating, and a group study station, this location is a student favorite for relaxing, doing school work, and meeting up with friends.</p><p>Location: Health and Public Affairs II</p><p>Phone Number: <a href="tel:407-823-4100">407-823-4100</a></p><p>Website: <a href="http://www.starbucks.com">http://www.starbucks.com</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601786</SimpleData>
+					<SimpleData name="Longitude">-81.200451</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200451,28.601786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Starbucks - HPA</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b80.jpg" alt="Starbucks"></p><p>Starbucks Coffee at the Health and Public Affairs building offers high-quality whole bean coffees and fresh, rich-brewed, Italian style espresso beverages, a variety of pastries and confections, and coffee-related accessories. Complete with a cozy fireplace, plenty of seating, and a group study station, this location is a student favorite for relaxing, doing school work, and meeting up with friends.</p><p>Location: Health and Public Affairs II</p><p>Phone Number: <a href="tel:407-823-4100">407-823-4100</a></p><p>Website: <a href="http://www.starbucks.com">http://www.starbucks.com</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Starbucks</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b80.jpg" alt="Starbucks"></p><p>Starbucks Coffee at the Health and Public Affairs building offers high-quality whole bean coffees and fresh, rich-brewed, Italian style espresso beverages, a variety of pastries and confections, and coffee-related accessories. Complete with a cozy fireplace, plenty of seating, and a group study station, this location is a student favorite for relaxing, doing school work, and meeting up with friends.</p><p>Location: Health and Public Affairs II</p><p>Phone Number: <a href="tel:407-823-4100">407-823-4100</a></p><p>Website: <a href="http://www.starbucks.com">http://www.starbucks.com</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.6034822</SimpleData>
+					<SimpleData name="Longitude">-81.19895529999999</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.19895529999999,28.6034822,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Subway - Knights Plaza</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="Subway - Knights Plaza"></p><p>The SUBWAY restaurant is the leader in the submarine sandwich category serving fresh, great tasting, made-for-you sandwiches, many of which have 6 grams of fat or less. Located between Red Brick Pizza and The Princeton Review on W. Plaza Dr. in the beautiful Knights Plaza at the Addition Financial Arena.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:407-482-2267">407-482-2267</a></p><p>Website: <a href="http://www.subway.com/">http://www.subway.com/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Subway - Knights Plaza</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="Subway - Knights Plaza"></p><p>The SUBWAY restaurant is the leader in the submarine sandwich category serving fresh, great tasting, made-for-you sandwiches, many of which have 6 grams of fat or less. Located between Red Brick Pizza and The Princeton Review on W. Plaza Dr. in the beautiful Knights Plaza at the Addition Financial Arena.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:407-482-2267">407-482-2267</a></p><p>Website: <a href="http://www.subway.com/">http://www.subway.com/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.606828</SimpleData>
+					<SimpleData name="Longitude">-81.198522</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.198522,28.606828,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sushi Bar @ Knightstop</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Sushi Bar @ Knightstop"></p><p>Conveniently located in the Student Union at the heart of campus, Knightstop offers something for everyone's needs. A variety of our most popular items include: freshly made sushi, vegetarian and organic selections, grab-and-go sandwiches, and health & beauty products.</p><p>Location: Student Union</p><p>Phone Number: <a href="tel:407-823-0626">407-823-0626</a></p><p>Website: <a href="http://www.afcsushi.com/">http://www.afcsushi.com/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Sushi Bar @ Knightstop</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Sushi Bar @ Knightstop"></p><p>Conveniently located in the Student Union at the heart of campus, Knightstop offers something for everyone's needs. A variety of our most popular items include: freshly made sushi, vegetarian and organic selections, grab-and-go sandwiches, and health & beauty products.</p><p>Location: Student Union</p><p>Phone Number: <a href="tel:407-823-0626">407-823-0626</a></p><p>Website: <a href="http://www.afcsushi.com/">http://www.afcsushi.com/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601744</SimpleData>
+					<SimpleData name="Longitude">-81.200675</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200675,28.601744,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Pop Parlour</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="The Pop Parlour"></p><p>Stop in for home-frozen pops made with high quality, organic ingredients. For a little more kick, try the locally roasted craft coffee or wine and beer from Cigar City Brewing Company.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:321-348-7677">321-348-7677</a></p><p>Website: <a href="http://www.thepopparlour.com">http://www.thepopparlour.com</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="maps_data_dining2.kml#csv_20170106083102">
+					<SimpleData name="Name">The Pop Parlour</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b137.jpg" alt="The Pop Parlour"></p><p>Stop in for home-frozen pops made with high quality, organic ingredients. For a little more kick, try the locally roasted craft coffee or wine and beer from Cigar City Brewing Company.</p><p>Location: Knights Plaza</p><p>Phone Number: <a href="tel:321-348-7677">321-348-7677</a></p><p>Website: <a href="http://www.thepopparlour.com">http://www.thepopparlour.com</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.607042</SimpleData>
+					<SimpleData name="Longitude">-81.196952</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.196952,28.607042,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Topper&apos;s Creamery</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b310.jpg" alt="Topper's Creamery"></p><p>Topper's has the best soft serve ice cream on the planet! We use only top of the line ingredients (we call it soft serve ice cream, but it's really frozen custard-style ice cream). Our flavors of the week rotate, so you may get raspberry, mint, pistachio, butter pecan, or another favorite flavor we offer.</p><p>Location: Reflections Kiosk</p><p>Phone Number: <a href="tel:407-823-6700">407-823-6700</a></p><p>Website: <a href="http://www.topperscreamery.com/">http://www.topperscreamery.com/</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Topper&apos;s Creamery</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b310.jpg" alt="Topper's Creamery"></p><p>Topper's has the best soft serve ice cream on the planet! We use only top of the line ingredients (we call it soft serve ice cream, but it's really frozen custard-style ice cream). Our flavors of the week rotate, so you may get raspberry, mint, pistachio, butter pecan, or another favorite flavor we offer.</p><p>Location: Reflections Kiosk</p><p>Phone Number: <a href="tel:407-823-6700">407-823-6700</a></p><p>Website: <a href="http://www.topperscreamery.com/">http://www.topperscreamery.com/</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.599339</SimpleData>
+					<SimpleData name="Longitude">-81.201355</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.20135500000001,28.599339,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tropical Smoothie Cafe</name>
+			<description><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Tropical Smoothie Cafe"></p><p>Offers smoothies, gourmet wraps, specialty sandwiches and salads.</p><p>Location: Research Park</p><p>Phone Number: <a href="tel:407-601-4220">407-601-4220</a></p><p>Website: <a href="http://tropicalsmoothie.com">http://tropicalsmoothie.com</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Tropical Smoothie Cafe</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://ucfmobile.ucf.edu/app/images/no_image.png" alt="Tropical Smoothie Cafe"></p><p>Offers smoothies, gourmet wraps, specialty sandwiches and salads.</p><p>Location: Research Park</p><p>Phone Number: <a href="tel:407-601-4220">407-601-4220</a></p><p>Website: <a href="http://tropicalsmoothie.com">http://tropicalsmoothie.com</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.587979</SimpleData>
+					<SimpleData name="Longitude">-81.199189</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.199189,28.587979,0</coordinates>
+			</Point>
+		</Placemark>
+				<Placemark>
+			<name>Which Wich</name>
+			<description><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Which Wich"></p><p>Which Wich Superior Sandwiches serves chef-inspired Faves, build your own wich and bowlwich options with a creative ordering system, and personalized sandwich bag. Get Your Wich On!</p><p>Website: <a href="https://www.whichwich.com">https://www.whichwich.com</a></p>]]></description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#csv_20170106083102">
+					<SimpleData name="Name">Which Wich</SimpleData>
+					<SimpleData name="Description"><![CDATA[<p><img src="http://map.ucf.edu/media/uploads/images/b52.jpg" alt="Which Wich"></p><p>Which Wich Superior Sandwiches serves chef-inspired Faves, build your own wich and bowlwich options with a creative ordering system, and personalized sandwich bag. Get Your Wich On!</p><p>Website: <a href="https://www.whichwich.com">https://www.whichwich.com</a></p>]]></SimpleData>
+					<SimpleData name="Latitude">28.601786</SimpleData>
+					<SimpleData name="Longitude">-81.200451</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.200451,28.601786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Schema name="csv_20170106083102" id="csv_20170106083102">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="string"></SimpleField>
+	<SimpleField name="Longitude" type="string"></SimpleField>
+</Schema>
+
+</Document>
+</kml>

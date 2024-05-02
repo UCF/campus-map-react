@@ -32,10 +32,8 @@ function App() {
   const handleOnClick = (e: MapLayerMouseEvent) => {
     if (!e.features) setPopupData(null);
     const feature = e.features?.pop();
-
-    if (feature) {
-      setPopupData(feature);
-    }
+    console.log(feature);
+    if (feature) setPopupData(feature);
   };
 
   const [visibility, setVisibility] = useState({
@@ -108,7 +106,7 @@ function App() {
 
           {popupData && (
             <Popup
-              key={popupData.id}
+              key={popupData.properties!['name']}
               latitude={popupData.properties!['Latitude']}
               longitude={popupData.properties!['Longitude']}
               onClose={() => setPopupData(null)}

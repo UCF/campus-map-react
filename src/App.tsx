@@ -32,7 +32,6 @@ function App() {
   const handleOnClick = (e: MapLayerMouseEvent) => {
     if (!e.features) setPopupData(null);
     const feature = e.features?.pop();
-    console.log(feature);
     if (feature) setPopupData(feature);
   };
 

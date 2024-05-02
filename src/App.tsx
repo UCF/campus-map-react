@@ -7,7 +7,10 @@ import {
   ScaleControl,
   Source,
   Layer,
-  SymbolLayer
+  SymbolLayer,
+  Popup,
+  MapboxGeoJSONFeature,
+  MapLayerMouseEvent
 } from 'react-map-gl';
 
 import {
@@ -24,6 +27,17 @@ function App() {
   const [lat] = useState(28.602368);
   const [zoom] = useState(15);
 
+  const [popupData, setPopupData] = useState<MapboxGeoJSONFeature|null>(null);
+
+  const handleOnClick = (e: MapLayerMouseEvent) => {
+    if (!e.features) setPopupData(null);
+    const feature = e.features?.pop();
+
+    if (feature) {
+      setPopupData(feature);
+    }
+  };
+
   const [visibility, setVisibility] = useState({
     locations: true,
     departments: true,
@@ -35,8 +49,10 @@ function App() {
     type: 'symbol',
     layout: {
       "icon-image": 'location',
+      'icon-allow-overlap': true,
       'visibility': visibility.locations! ? "visible" : "none"
-    }
+    },
+    interactive: true
   };
 
   const departmentsLayer: SymbolLayer = {
@@ -44,8 +60,10 @@ function App() {
     type: 'symbol',
     layout: {
       'icon-image': 'building',
+      'icon-allow-overlap': true,
       'visibility': visibility.departments! ? "visible" : "none"
-    }
+    },
+    interactive: true
   };
 
   const emPhonesLayer: SymbolLayer = {
@@ -53,8 +71,10 @@ function App() {
     type: 'symbol',
     layout: {
       'icon-image': 'phone',
+      'icon-allow-overlap': true,
       'visibility': visibility.emPhones! ? "visible" : "none"
-    }
+    },
+    interactive: true
   };
 
   return (
@@ -65,7 +85,9 @@ function App() {
           zoom: zoom
         }}
         mapStyle='mapbox://styles/mapbox/streets-v12'
-        mapboxAccessToken={ TOKEN } >
+        mapboxAccessToken={ TOKEN }
+        interactiveLayerIds={['location-layer', 'departments-layer']}
+        onClick={handleOnClick}>
           <GeolocateControl position="top-left" />
           <FullscreenControl position="top-left" />
           <NavigationControl position="top-left" />
@@ -84,6 +106,16 @@ function App() {
             <Layer {...emPhonesLayer} />
           </Source>
 
+          {popupData && (
+            <Popup
+              key={popupData.id}
+              latitude={popupData.properties!['Latitude']}
+              longitude={popupData.properties!['Longitude']}
+              onClose={() => setPopupData(null)}
+              closeButton={true}>
+                <span className="location-title">{popupData.properties!['Name']}</span>
+              </Popup>
+          )}
           <MapIcon iconName='location' iconImageSource='/img/location.png' />
           <MapIcon iconName='building' iconImageSource='/img/building.png' />
           <MapIcon iconName='food' iconImageSource='/img/food.png' />

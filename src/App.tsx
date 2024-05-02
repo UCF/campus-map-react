@@ -15,6 +15,7 @@ import {
 } from './components/MapImage';
 
 import './App.scss'
+import MapMenu from './components/MapMenu';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
@@ -23,10 +24,10 @@ function App() {
   const [lat] = useState(28.602368);
   const [zoom] = useState(15);
 
-  const [visibility] = useState({
+  const [visibility, setVisibility] = useState({
     locations: true,
     departments: true,
-    emPhones: true
+    emPhones: false
   });
 
   const locationLayer: SymbolLayer = {
@@ -69,6 +70,10 @@ function App() {
           <FullscreenControl position="top-left" />
           <NavigationControl position="top-left" />
           <ScaleControl />
+          <MapMenu
+            visibility={visibility}
+            setVisibility={setVisibility}
+            />
           <Source type="geojson" data="/data/geojson/buildingsv2.geojson">
             <Layer {...locationLayer} />
           </Source>

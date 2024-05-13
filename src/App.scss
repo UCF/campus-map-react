@@ -1,9 +1,5 @@
 .map-container {
-  min-height: calc(100dvh - 50px);
-
   .mapboxgl-map {
-    position: absolute !important;
-    top: 50px;
-    bottom: 0;
+    min-height: calc(100dvh - 50px);
   }
 }

@@ -23,6 +23,7 @@ import NavigationMenu from './components/NavigationMenu';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const HEADER_MENU_ID = import.meta.env.VITE_REMOTE_HEADER_MENU_ID;
+const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
 
 function App() {
   const [lng] = useState(-81.200142);
@@ -158,6 +159,28 @@ function App() {
           </div>
         </div>
       </div>
+      <footer className='footer'>
+        <div className='title'>
+          <a
+            className='title-link'
+            href='https://www.ucf.edu'>
+            University of Central Florida
+          </a>
+        </div>
+        <div className='ucf-footer-nav'>
+          <NavigationMenu
+            listItemClasses='nav-item my-2'
+            anchorClasses='nav-link text-white py-0'
+            menuId='footer-menu'
+            remoteMenuId={FOOTER_MENU_ID} />
+        </div>
+        <div className='address'>
+		      4000 Central Florida Blvd. Orlando, Florida, 32816 | <a className='text-white' href="tel:4078232000">407.823.2000</a>
+        </div>
+        <div className='copyright'>
+		      © <a className='text-white' href="https://www.ucf.edu/">University of Central Florida</a>
+        </div>
+      </footer>
     </div>
   )
 }

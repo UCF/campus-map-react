@@ -22,7 +22,9 @@ export default function NavigationMenu(props: NavigationMenuProps) {
   const [links, setLinks] = useState<Array<RestMenuItem>>([]);
 
   useMemo(() => {
-    fetch(`https://www.ucf.edu/wp-json/ucf-rest-menus/v1/menus/${remoteMenuId}`)
+    console.log(`${import.meta.env.VITE_REMOTE_MENU_BASE_URL}/${remoteMenuId}`);
+
+    fetch(`${import.meta.env.VITE_REMOTE_MENU_BASE_URL}/${remoteMenuId}`)
       .then((responseJson) => responseJson.json())
       .then((response: RestMenuResponse) => {
         setLinks(response.items);

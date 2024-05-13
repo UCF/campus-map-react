@@ -19,6 +19,7 @@ import {
 
 import './App.scss'
 import MapMenu from './components/MapMenu';
+import NavigationMenu from './components/NavigationMenu';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
@@ -96,7 +97,10 @@ function App() {
             <span className='navbar-toggler-icon'></span>
           </button>
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-            <p>Navigation Menu goes here</p>
+            <NavigationMenu
+              listClasses='navbar-nav d-flex justify-content-evenly mb-2 mb-lg-0 w-100'
+              menuId='header-menu'
+              remoteMenuId={23} />
           </div>
         </div>
       </nav>

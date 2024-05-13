@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import parse from 'html-react-parser';
 
 import { RestMenuItem, RestMenuResponse } from "../types/RemoteMenus";
 
@@ -39,7 +40,7 @@ export default function NavigationMenu(props: NavigationMenuProps) {
           <a
             className={anchorClasses}
             href={link.url}>
-              {link.title}
+              {parse(link.title)}
             </a>
         </li>
         );

@@ -19,8 +19,10 @@ import {
 
 import './App.scss'
 import MapMenu from './components/MapMenu';
+import NavigationMenu from './components/NavigationMenu';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
+const HEADER_MENU_ID = import.meta.env.VITE_REMOTE_HEADER_MENU_ID;
 
 function App() {
   const [lng] = useState(-81.200142);
@@ -96,7 +98,10 @@ function App() {
             <span className='navbar-toggler-icon'></span>
           </button>
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-            <p>Navigation Menu goes here</p>
+            <NavigationMenu
+              listClasses='navbar-nav d-flex justify-content-evenly mb-2 mb-lg-0 w-100'
+              menuId='header-menu'
+              remoteMenuId={HEADER_MENU_ID} />
           </div>
         </div>
       </nav>

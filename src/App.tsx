@@ -45,14 +45,24 @@ function App() {
     dining: false,
   });
 
+  const defaultLayoutProps: any = {
+    'icon-allow-overlap': true,
+    'text-field': ['get', 'name'],
+    'text-font': [
+      'Open Sans Semibold',
+      'Arial Unicode MS Bold'
+    ],
+    'text-offset': [0, 1.25],
+    'text-anchor': 'top',
+  };
+
   const locationLayer: SymbolLayer = {
     id: 'location-layer',
     type: 'symbol',
     layout: {
-      "icon-image": 'location',
-      'icon-allow-overlap': true,
-      "icon-text-fit": 'both',
-      'visibility': visibility.locations! ? "visible" : "none"
+      ...defaultLayoutProps,
+      'icon-image': 'location',
+      'visibility': visibility.locations! ? 'visible' : 'none'
     },
     interactive: true
   };
@@ -61,9 +71,9 @@ function App() {
     id: 'departments-layer',
     type: 'symbol',
     layout: {
+      ...defaultLayoutProps,
       'icon-image': 'building',
-      'icon-allow-overlap': true,
-      'visibility': visibility.departments! ? "visible" : "none"
+      'visibility': visibility.departments! ? 'visible' : 'none'
     },
     interactive: true
   };
@@ -72,9 +82,9 @@ function App() {
     id: 'emergency-phones-layer',
     type: 'symbol',
     layout: {
+      ...defaultLayoutProps,
       'icon-image': 'phone',
-      'icon-allow-overlap': true,
-      'visibility': visibility.emPhones! ? "visible" : "none"
+      'visibility': visibility.emPhones! ? 'visible' : 'none'
     },
     interactive: true
   };
@@ -83,9 +93,9 @@ function App() {
     id: 'dining-layer',
     type: 'symbol',
     layout: {
+      ...defaultLayoutProps,
       'icon-image': 'food',
-      'icon-allow-overlap': true,
-      'visibility': visibility.dining! ? "visible" : "none"
+      'visibility': visibility.dining! ? 'visible' : 'none'
     },
     interactive: true
   };
@@ -106,7 +116,7 @@ function App() {
           </div>
         </div>
       </nav>
-      <div className="row gx-0">
+      <div className='row gx-0'>
         <div className='col-12 col-md-2 px-0 px-md-3 bg-light'>
           <MapMenu
             visibility={visibility}
@@ -123,20 +133,20 @@ function App() {
             mapboxAccessToken={ TOKEN }
             interactiveLayerIds={['location-layer', 'departments-layer']}
             onClick={handleOnClick}>
-              <GeolocateControl position="top-left" />
-              <FullscreenControl position="top-left" />
-              <NavigationControl position="top-left" />
+              <GeolocateControl position='top-left' />
+              <FullscreenControl position='top-left' />
+              <NavigationControl position='top-left' />
               <ScaleControl />
-              <Source type="geojson" data="/data/geojson/buildingsv2.geojson">
+              <Source type='geojson' data='/data/geojson/buildingsv2.geojson'>
                 <Layer {...locationLayer} />
               </Source>
-              <Source type="geojson" data="/data/geojson/departments.geojson">
+              <Source type='geojson' data='/data/geojson/departments.geojson'>
                 <Layer {...departmentsLayer} />
               </Source>
-              <Source type="geojson" data="/data/geojson/emergency-phones2.geojson">
+              <Source type='geojson' data='/data/geojson/emergency-phones2.geojson'>
                 <Layer {...emPhonesLayer} />
               </Source>
-              <Source type="geojson" data="/data/geojson/maps_data_dining.geojson">
+              <Source type='geojson' data='/data/geojson/maps_data_dining.geojson'>
                 <Layer {...diningLayer} />
               </Source>
 
@@ -147,7 +157,7 @@ function App() {
                   longitude={popupData.properties!['Longitude']}
                   onClose={() => setPopupData(null)}
                   closeButton={true}>
-                    <span className="location-title">{popupData.properties!['Name']}</span>
+                    <span className='location-title'>{popupData.properties!['Name']}</span>
                   </Popup>
               )}
               <MapIcon iconName='location' iconImageSource='/img/location.png' />
@@ -175,10 +185,10 @@ function App() {
             remoteMenuId={FOOTER_MENU_ID} />
         </div>
         <div className='address'>
-		      4000 Central Florida Blvd. Orlando, Florida, 32816 | <a className='text-white' href="tel:4078232000">407.823.2000</a>
+		      4000 Central Florida Blvd. Orlando, Florida, 32816 | <a className='text-white' href='tel:4078232000'>407.823.2000</a>
         </div>
         <div className='copyright'>
-		      © <a className='text-white' href="https://www.ucf.edu/">University of Central Florida</a>
+		      © <a className='text-white' href='https://www.ucf.edu/'>University of Central Florida</a>
         </div>
       </footer>
     </div>

@@ -45,13 +45,23 @@ function App() {
     dining: false,
   });
 
+  const defaultLayoutProps: any = {
+    'icon-allow-overlap': true,
+    'text-field': ['get', 'name'],
+    'text-font': [
+      'Open Sans Semibold',
+      'Arial Unicode MS Bold'
+    ],
+    'text-offset': [0, 1.25],
+    'text-anchor': 'top',
+  };
+
   const locationLayer: SymbolLayer = {
     id: 'location-layer',
     type: 'symbol',
     layout: {
-      "icon-image": 'location',
-      'icon-allow-overlap': true,
-      "icon-text-fit": 'both',
+      ...defaultLayoutProps,
+      'icon-image': 'location',
       'visibility': visibility.locations! ? "visible" : "none"
     },
     interactive: true
@@ -61,8 +71,8 @@ function App() {
     id: 'departments-layer',
     type: 'symbol',
     layout: {
+      ...defaultLayoutProps,
       'icon-image': 'building',
-      'icon-allow-overlap': true,
       'visibility': visibility.departments! ? "visible" : "none"
     },
     interactive: true
@@ -72,8 +82,8 @@ function App() {
     id: 'emergency-phones-layer',
     type: 'symbol',
     layout: {
+      ...defaultLayoutProps,
       'icon-image': 'phone',
-      'icon-allow-overlap': true,
       'visibility': visibility.emPhones! ? "visible" : "none"
     },
     interactive: true
@@ -83,8 +93,8 @@ function App() {
     id: 'dining-layer',
     type: 'symbol',
     layout: {
+      ...defaultLayoutProps,
       'icon-image': 'food',
-      'icon-allow-overlap': true,
       'visibility': visibility.dining! ? "visible" : "none"
     },
     interactive: true
@@ -127,7 +137,7 @@ function App() {
               <FullscreenControl position="top-left" />
               <NavigationControl position="top-left" />
               <ScaleControl />
-              <Source type="geojson" data="/data/geojson/buildingsv2.geojson">
+              <Source type="geojson" data='/data/geojson/buildingsv2.geojson'>
                 <Layer {...locationLayer} />
               </Source>
               <Source type="geojson" data="/data/geojson/departments.geojson">

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import {
   Map,
   GeolocateControl,
@@ -44,6 +44,29 @@ function App() {
     emPhones: false,
     dining: false,
   });
+
+  const [locationData, setLocationData] = useState();
+  const [departmentsData, setDepartmentsData] = useState();
+  const [emPhonesData, setEmPhonesData] = useState();
+  const [diningData, setDiningData] = useState();
+
+  useMemo(() => {
+    fetch('/data/geojson/buildingsv2.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setLocationData(response));
+
+    fetch('/data/geojson/departments.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setDepartmentsData(response));
+
+    fetch('/data/geojson/emergency-phones2.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setEmPhonesData(response));
+
+    fetch('/data/geojson/maps_data_dining.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setDiningData(response));
+  }, []);
 
   const defaultLayoutProps: any = {
     'icon-allow-overlap': true,
@@ -137,16 +160,16 @@ function App() {
               <FullscreenControl position='top-left' />
               <NavigationControl position='top-left' />
               <ScaleControl />
-              <Source type='geojson' data='/data/geojson/buildingsv2.geojson'>
+              <Source type='geojson' data={locationData}>
                 <Layer {...locationLayer} />
               </Source>
-              <Source type='geojson' data='/data/geojson/departments.geojson'>
+              <Source type='geojson' data={departmentsData}>
                 <Layer {...departmentsLayer} />
               </Source>
-              <Source type='geojson' data='/data/geojson/emergency-phones2.geojson'>
+              <Source type='geojson' data={emPhonesData}>
                 <Layer {...emPhonesLayer} />
               </Source>
-              <Source type='geojson' data='/data/geojson/maps_data_dining.geojson'>
+              <Source type='geojson' data={diningData}>
                 <Layer {...diningLayer} />
               </Source>
 

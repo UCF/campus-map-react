@@ -12,8 +12,13 @@ import {
   LineLayer,
   Popup,
   MapboxGeoJSONFeature,
-  MapLayerMouseEvent
+  MapLayerMouseEvent,
 } from 'react-map-gl';
+
+import {
+  FeatureCollection,
+  GeoJsonProperties
+} from 'geojson';
 
 import {
   MapIcon
@@ -22,7 +27,6 @@ import {
 import './App.scss'
 import MapMenu from './components/MapMenu';
 import NavigationMenu from './components/NavigationMenu';
-import { Feature, FeatureCollection } from './types/MapData';
 import { SearchResults } from './types/SearchResults';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
@@ -79,26 +83,26 @@ function App() {
   const [searchResults, setSearchResults] = useState<SearchResults>();
 
   const searchData = (searchQuery: string) => {
-    if (searchQuery.length < 4) return {};
-
     const retval: SearchResults = {
       locationResults: [],
       departmentResults: [],
       diningResults: []
     }
 
+    if (searchQuery.length < 4) return retval;
+
     if (locationData) {
-      let locationResults = locationData.features.filter((e: Feature) => e.properties.name.includes(searchQuery));
+      let locationResults = locationData.features.filter((e: GeoJsonProperties) => e!.properties.name.includes(searchQuery));
       retval.locationResults = locationResults;
     }
 
     if (departmentsData) {
-      let departmentResults = departmentsData.features.filter((e: Feature) => e.properties.name.includes(searchQuery));
+      let departmentResults = departmentsData.features.filter((e: GeoJsonProperties) => e!.properties.name.includes(searchQuery));
       retval.departmentResults = departmentResults;
     }
 
     if (diningData) {
-      let diningResults = diningData.features.filter((e: Feature) => e.properties.name.includes(searchQuery));
+      let diningResults = diningData.features.filter((e: GeoJsonProperties) => e!.properties.name.includes(searchQuery));
       retval.diningResults = diningResults;
     }
 

@@ -1,8 +1,8 @@
-import { Feature } from "./MapData";
+import { GeoJsonProperties } from 'geojson';
 
 export interface SearchResults {
-  locationResults?: Array<Feature>,
-  departmentResults?: Array<Feature>,
-  emergencyPhoneResults?: Array<Feature>,
-  diningResults?: Array<Feature>,
+  locationResults?: Array<GeoJsonProperties>,
+  departmentResults?: Array<GeoJsonProperties>,
+  emergencyPhoneResults?: Array<GeoJsonProperties>,
+  diningResults?: Array<GeoJsonProperties>,
 }

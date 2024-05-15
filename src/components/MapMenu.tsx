@@ -50,9 +50,9 @@ export default function MapMenu(props: MapMenuProps) {
         <ul className='list-unstyled'>
           {props.searchResults.locationResults!.map((result) => {
             return (
-              <li key={result.properties.name} className='list-item search-result ps-4'>
+              <li key={result!.properties.name} className='list-item search-result ps-4'>
                 <a className='' href='#'>
-                  {result.properties.name}
+                  {result!.properties.name}
                 </a>
               </li>
             )
@@ -72,9 +72,9 @@ export default function MapMenu(props: MapMenuProps) {
         <ul className='list-unstyled'>
           {props.searchResults.departmentResults!.map((result) => {
             return (
-              <li key={result.properties.name} className='list-item search-result ps-4'>
+              <li key={result!.properties.name} className='list-item search-result ps-4'>
                 <a className='' href='#'>
-                  {result.properties.name}
+                  {result!.properties.name}
                 </a>
               </li>
             )
@@ -103,9 +103,9 @@ export default function MapMenu(props: MapMenuProps) {
         <ul className='list-unstyled'>
           {props.searchResults.diningResults!.map((result) => {
             return (
-              <li key={result.properties.name} className='list-item search-result ps-4'>
+              <li key={result!.properties.name} className='list-item search-result ps-4'>
                 <a className='' href='#'>
-                  {result.properties.name}
+                  {result!.properties.name}
                 </a>
               </li>
             )

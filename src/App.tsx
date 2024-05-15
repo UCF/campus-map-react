@@ -8,6 +8,8 @@ import {
   Source,
   Layer,
   SymbolLayer,
+  FillLayer,
+  LineLayer,
   Popup,
   MapboxGeoJSONFeature,
   MapLayerMouseEvent
@@ -45,13 +47,36 @@ function App() {
     departments: true,
     emPhones: false,
     dining: false,
+    bikes: false,
+    family: false,
+    housing: false,
+    pantry: false,
+    labs: false,
+    art: false,
+    rec: false,
+    retail: false,
+    services: false,
+    parking: false,
+    well_being: false
   });
 
   const [locationData, setLocationData] = useState<FeatureCollection>();
   const [departmentsData, setDepartmentsData] = useState<FeatureCollection>();
   const [emPhonesData, setEmPhonesData] = useState<FeatureCollection>();
   const [diningData, setDiningData] = useState<FeatureCollection>();
-  const [searchResults, setSearchResults] = useState<SearchResults>([]);
+  const [bikeRackData, setBikeRackData] = useState<FeatureCollection>();
+  const [familyData, setFamilyData] = useState<FeatureCollection>();
+  const [housingData, setHousingData] = useState<FeatureCollection>();
+  const [pantryData, setPantryData] = useState<FeatureCollection>();
+  const [labData, setLabData] = useState<FeatureCollection>();
+  const [artData, setArtData] = useState<FeatureCollection>();
+  const [recData, setRecData] = useState<FeatureCollection>();
+  const [retailData, setRetailData] = useState<FeatureCollection>();
+  const [servicesData, setServicesData] = useState<FeatureCollection>();
+  const [parkingData, setParkingData] = useState<FeatureCollection>();
+  const [wellBeingData, setWellBeingData] = useState<FeatureCollection>();
+  
+  const [searchResults, setSearchResults] = useState<SearchResults>();
 
   const searchData = (searchQuery: string) => {
     if (searchQuery.length < 4) return {};
@@ -96,6 +121,50 @@ function App() {
     fetch('/data/geojson/maps_data_dining.geojson')
       .then((responseJson) => responseJson.json())
       .then((response) => setDiningData(response));
+
+    fetch('/data/geojson/bike-racks.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setBikeRackData(response));
+
+    fetch('/data/geojson/family-combined.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setFamilyData(response));
+
+    fetch('/data/geojson/housingv2.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setHousingData(response));
+
+    fetch('/data/geojson/knightspantry.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setPantryData(response));
+
+    fetch('/data/geojson/labs.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setLabData(response));
+
+    fetch('/data/geojson/public-art-map.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setArtData(response));
+
+    fetch('/data/geojson/recreation.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setRecData(response));
+
+    fetch('/data/geojson/retail.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setRetailData(response));
+
+    fetch('/data/geojson/services.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setServicesData(response));
+
+    fetch('/data/geojson/ucf-parking-combined.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setParkingData(response));
+
+    fetch('/data/geojson/well-being.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setWellBeingData(response));
   }, []);
 
   const defaultLayoutProps: any = {
@@ -135,11 +204,9 @@ function App() {
     id: 'emergency-phones-layer',
     type: 'symbol',
     layout: {
-      ...defaultLayoutProps,
       'icon-image': 'phone',
       'visibility': visibility.emPhones! ? 'visible' : 'none'
-    },
-    interactive: true
+    }
   };
 
   const diningLayer: SymbolLayer = {
@@ -151,6 +218,140 @@ function App() {
       'visibility': visibility.dining! ? 'visible' : 'none'
     },
     interactive: true
+  };
+
+  const bikeRackLayer: SymbolLayer = {
+    id: 'bike-rack-layer',
+    type: 'symbol',
+    layout: {
+      'icon-image': 'location',
+      'visibility': visibility.bikes! ? 'visible': 'none'
+    }
+  };
+
+  const familyLayer: SymbolLayer = {
+    id: 'family-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      'icon-image': 'location',
+      visibility: visibility.family! ? 'visible': 'none'
+    }
+  };
+
+  const housingLayer: SymbolLayer = {
+    id: 'housing-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      'icon-image': 'location',
+      visibility: visibility.housing! ? 'visible': 'none'
+    }
+  };
+
+  const pantryLayer: SymbolLayer = {
+    id: 'pantry-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      'icon-image': 'location',
+      visibility: visibility.pantry! ? 'visible': 'none'
+    }
+  };
+
+  const labLayer: SymbolLayer = {
+    id: 'lab-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      'icon-image': 'location',
+      visibility: visibility.labs! ? 'visible': 'none'
+    }
+  };
+
+  const artLayer: SymbolLayer = {
+    id: 'art-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      'icon-image': 'location',
+      visibility: visibility.art! ? 'visible': 'none'
+    }
+  };
+
+  const recLayer: SymbolLayer = {
+    id: 'rec-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      'icon-image': 'location',
+      visibility: visibility.rec! ? 'visible': 'none'
+    }
+  };
+
+  const retailLayer: SymbolLayer = {
+    id: 'retail-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      'icon-image': 'location',
+      visibility: visibility.retail! ? 'visible': 'none'
+    }
+  };
+
+  const servicesLayer: SymbolLayer = {
+    id: 'services-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      'icon-image': 'location',
+      visibility: visibility.services! ? 'visible': 'none'
+    }
+  };
+
+  const parkingFillLayer: FillLayer = {
+    id: 'parking-fill-layer',
+    type: 'fill',
+    paint: {
+      'fill-color': ['get', 'fill'],
+      'fill-opacity': ['get', 'fill-opacity']
+    },
+    layout: {
+      visibility: visibility.parking! ? 'visible': 'none'
+    },
+    interactive: true
+  };
+
+  const parkingOutlineLayer: LineLayer = {
+    id: 'parking-line-layer',
+    type: 'line',
+    paint: {
+      'line-color': ['get', 'stroke'],
+      'line-opacity': ['get', 'stroke-opacity'],
+      "line-width": 3
+    },
+    layout: {
+      visibility: visibility.parking! ? 'visible': 'none'
+    }
+  };
+
+  const parkingLabelLayer: SymbolLayer = {
+    id: 'parking-label-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      visibility: visibility.parking! ? 'visible': 'none'
+    }
+  };
+
+  const wellBeingLayer: SymbolLayer = {
+    id: 'well-being-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      'icon-image': 'location',
+      visibility: visibility.well_being! ? 'visible': 'none'
+    }
   };
 
   return (
@@ -174,7 +375,7 @@ function App() {
           <MapMenu
             visibility={visibility}
             setVisibility={setVisibility}
-            searchResults={searchResults}
+            searchResults={searchResults!}
             searchData={searchData} />
         </div>
         <div className='col-12 col-md-10'>
@@ -186,7 +387,7 @@ function App() {
             }}
             mapStyle='mapbox://styles/mapbox/streets-v12'
             mapboxAccessToken={ TOKEN }
-            interactiveLayerIds={['location-layer', 'departments-layer']}
+            interactiveLayerIds={['location-layer', 'departments-layer', 'parking-layer']}
             onClick={handleOnClick}>
               <GeolocateControl position='top-left' />
               <FullscreenControl position='top-left' />
@@ -203,6 +404,41 @@ function App() {
               </Source>
               <Source type='geojson' data={diningData}>
                 <Layer {...diningLayer} />
+              </Source>
+              <Source type='geojson' data={bikeRackData}>
+                <Layer {...bikeRackLayer} />
+              </Source>
+              <Source type='geojson' data={familyData}>
+                <Layer {...familyLayer} />
+              </Source>
+              <Source type='geojson' data={housingData}>
+                <Layer {...housingLayer} />
+              </Source>
+              <Source type='geojson' data={pantryData}>
+                <Layer {...pantryLayer} />
+              </Source>
+              <Source type='geojson' data={labData}>
+                <Layer {...labLayer} />
+              </Source>
+              <Source type='geojson' data={artData}>
+                <Layer {...artLayer} />
+              </Source>
+              <Source type='geojson' data={recData}>
+                <Layer {...recLayer} />
+              </Source>
+              <Source type='geojson' data={retailData}>
+                <Layer {...retailLayer} />
+              </Source>
+              <Source type='geojson' data={servicesData}>
+                <Layer {...servicesLayer} />
+              </Source>
+              <Source type='geojson' data={parkingData}>
+                <Layer {...parkingFillLayer} />
+                <Layer {...parkingOutlineLayer} />
+                <Layer {...parkingLabelLayer} />
+              </Source>
+              <Source type='geojson' data={wellBeingData}>
+                <Layer {...wellBeingLayer} />
               </Source>
 
               {popupData && (

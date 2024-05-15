@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import {
   Map,
   GeolocateControl,
@@ -20,6 +20,8 @@ import {
 import './App.scss'
 import MapMenu from './components/MapMenu';
 import NavigationMenu from './components/NavigationMenu';
+import { Feature, FeatureCollection } from './types/MapData';
+import { SearchResults } from './types/SearchResults';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const HEADER_MENU_ID = import.meta.env.VITE_REMOTE_HEADER_MENU_ID;
@@ -44,6 +46,57 @@ function App() {
     emPhones: false,
     dining: false,
   });
+
+  const [locationData, setLocationData] = useState<FeatureCollection>();
+  const [departmentsData, setDepartmentsData] = useState<FeatureCollection>();
+  const [emPhonesData, setEmPhonesData] = useState<FeatureCollection>();
+  const [diningData, setDiningData] = useState<FeatureCollection>();
+  const [searchResults, setSearchResults] = useState<SearchResults>([]);
+
+  const searchData = (searchQuery: string) => {
+    if (searchQuery.length < 4) return {};
+
+    const retval: SearchResults = {
+      locationResults: [],
+      departmentResults: [],
+      diningResults: []
+    }
+
+    if (locationData) {
+      let locationResults = locationData.features.filter((e: Feature) => e.properties.name.includes(searchQuery));
+      retval.locationResults = locationResults;
+    }
+
+    if (departmentsData) {
+      let departmentResults = departmentsData.features.filter((e: Feature) => e.properties.name.includes(searchQuery));
+      retval.departmentResults = departmentResults;
+    }
+
+    if (diningData) {
+      let diningResults = diningData.features.filter((e: Feature) => e.properties.name.includes(searchQuery));
+      retval.diningResults = diningResults;
+    }
+
+    setSearchResults(retval);
+  };
+
+  useMemo(() => {
+    fetch('/data/geojson/buildingsv2.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setLocationData(response));
+
+    fetch('/data/geojson/departments.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setDepartmentsData(response));
+
+    fetch('/data/geojson/emergency-phones2.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setEmPhonesData(response));
+
+    fetch('/data/geojson/maps_data_dining.geojson')
+      .then((responseJson) => responseJson.json())
+      .then((response) => setDiningData(response));
+  }, []);
 
   const defaultLayoutProps: any = {
     'icon-allow-overlap': true,
@@ -101,8 +154,8 @@ function App() {
   };
 
   return (
-    <div className='container-fluid'>
-      <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+    <div className='container-fluid px-0'>
+      <nav className='navbar navbar-expand-lg navbar-light bg-light px-2'>
         <span className='navbar-brand pl-4'>UCF Campus Map</span>
         <div className='container'>
           <button className='navbar-toggler justify-self-right' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
@@ -120,7 +173,9 @@ function App() {
         <div className='col-12 col-md-2 px-0 px-md-3 bg-light'>
           <MapMenu
             visibility={visibility}
-            setVisibility={setVisibility} />
+            setVisibility={setVisibility}
+            searchResults={searchResults}
+            searchData={searchData} />
         </div>
         <div className='col-12 col-md-10'>
           <div className='map-container'>
@@ -137,16 +192,16 @@ function App() {
               <FullscreenControl position='top-left' />
               <NavigationControl position='top-left' />
               <ScaleControl />
-              <Source type='geojson' data='/data/geojson/buildingsv2.geojson'>
+              <Source type='geojson' data={locationData}>
                 <Layer {...locationLayer} />
               </Source>
-              <Source type='geojson' data='/data/geojson/departments.geojson'>
+              <Source type='geojson' data={departmentsData}>
                 <Layer {...departmentsLayer} />
               </Source>
-              <Source type='geojson' data='/data/geojson/emergency-phones2.geojson'>
+              <Source type='geojson' data={emPhonesData}>
                 <Layer {...emPhonesLayer} />
               </Source>
-              <Source type='geojson' data='/data/geojson/maps_data_dining.geojson'>
+              <Source type='geojson' data={diningData}>
                 <Layer {...diningLayer} />
               </Source>
 

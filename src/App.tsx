@@ -1,6 +1,7 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import {
   Map,
+  MapRef,
   GeolocateControl,
   FullscreenControl,
   NavigationControl,
@@ -27,24 +28,20 @@ import {
 import './App.scss'
 import MapMenu from './components/MapMenu';
 import NavigationMenu from './components/NavigationMenu';
-import { SearchResults } from './types/SearchResults';
+import SearchResults from './components/SearchResults';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const HEADER_MENU_ID = import.meta.env.VITE_REMOTE_HEADER_MENU_ID;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
 
 function App() {
-  const [lng] = useState(-81.200142);
-  const [lat] = useState(28.602368);
-  const [zoom] = useState(15);
+  const [mapState, setMapState] = useState({
+    lng: -81.200142,
+    lat: 28.602368,
+    zoom: 15
+  });
 
   const [popupData, setPopupData] = useState<MapboxGeoJSONFeature|null>(null);
-
-  const handleOnClick = (e: MapLayerMouseEvent) => {
-    if (!e.features) setPopupData(null);
-    const feature = e.features?.pop();
-    if (feature) setPopupData(feature);
-  };
 
   const [visibility, setVisibility] = useState({
     locations: true,
@@ -61,7 +58,8 @@ function App() {
     retail: false,
     services: false,
     parking: false,
-    well_being: false
+    wellBeing: false,
+    searchResults: false
   });
 
   const [locationData, setLocationData] = useState<FeatureCollection>();
@@ -80,30 +78,43 @@ function App() {
   const [parkingData, setParkingData] = useState<FeatureCollection>();
   const [wellBeingData, setWellBeingData] = useState<FeatureCollection>();
   
-  const [searchResults, setSearchResults] = useState<SearchResults>();
+  const [searchResults, setSearchResults] = useState<Array<GeoJsonProperties>>([]);
+
+  const handleOnClick = (e: MapLayerMouseEvent) => {
+    if (!e.features) setPopupData(null);
+    const feature = e.features?.pop();
+    if (feature) setPopupData(feature);
+  };
+
+  const onSearchResultClick = (result: GeoJsonProperties) => {
+    setMapState({
+      lng: result!.properties.Longitude,
+      lat: result!.properties.Latitude,
+      zoom: 18
+    });
+  };
 
   const searchData = (searchQuery: string) => {
-    const retval: SearchResults = {
-      locationResults: [],
-      departmentResults: [],
-      diningResults: []
-    }
+    const retval: Array<GeoJsonProperties> = [];
 
-    if (searchQuery.length < 4) return retval;
+    if (searchQuery.length < 4) {
+      setSearchResults(retval);
+      return;
+    }
 
     if (locationData) {
       let locationResults = locationData.features.filter((e: GeoJsonProperties) => e!.properties.name.includes(searchQuery));
-      retval.locationResults = locationResults;
+      retval.push(...locationResults);
     }
 
     if (departmentsData) {
       let departmentResults = departmentsData.features.filter((e: GeoJsonProperties) => e!.properties.name.includes(searchQuery));
-      retval.departmentResults = departmentResults;
+      retval.push(...departmentResults);
     }
 
     if (diningData) {
       let diningResults = diningData.features.filter((e: GeoJsonProperties) => e!.properties.name.includes(searchQuery));
-      retval.diningResults = diningResults;
+      retval.push(...diningResults);
     }
 
     setSearchResults(retval);
@@ -354,7 +365,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       'icon-image': 'location',
-      visibility: visibility.well_being! ? 'visible': 'none'
+      visibility: visibility.wellBeing! ? 'visible': 'none'
     }
   };
 
@@ -376,19 +387,20 @@ function App() {
       </nav>
       <div className='row gx-0'>
         <div className='col-12 col-md-2 px-0 px-md-3 bg-light'>
-          <MapMenu
+          <SearchResults
+            searchResults={searchResults}
+            searchData={searchData}
+            onSearchResultClick={onSearchResultClick} />
+          {(searchResults.length === 0) && (<MapMenu
             visibility={visibility}
-            setVisibility={setVisibility}
-            searchResults={searchResults!}
-            searchData={searchData} />
+            setVisibility={setVisibility} />)}
         </div>
         <div className='col-12 col-md-10'>
           <div className='map-container'>
-          <Map initialViewState={{
-              latitude: lat,
-              longitude: lng,
-              zoom: zoom
-            }}
+          <Map
+            latitude={mapState.lat}
+            longitude={mapState.lng}
+            zoom={mapState.zoom}
             mapStyle='mapbox://styles/mapbox/streets-v12'
             mapboxAccessToken={ TOKEN }
             interactiveLayerIds={['location-layer', 'departments-layer', 'parking-layer']}

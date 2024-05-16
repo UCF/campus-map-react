@@ -1,5 +1,3 @@
-import { Feature } from '../types/MapData';
-import { SearchResults } from '../types/SearchResults';
 import './MapMenu.scss';
 
 interface MapMenuProps {

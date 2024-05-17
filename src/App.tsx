@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import {
   Map,
   GeolocateControl,
@@ -13,6 +13,7 @@ import {
   Popup,
   MapboxGeoJSONFeature,
   MapLayerMouseEvent,
+  MapRef
 } from 'react-map-gl';
 
 import {
@@ -34,12 +35,11 @@ const HEADER_MENU_ID = import.meta.env.VITE_REMOTE_HEADER_MENU_ID;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
 
 function App() {
-  const [mapState, setMapState] = useState({
-    lng: -81.200142,
-    lat: 28.602368,
-    zoom: 15
-  });
+  const initialLng = -81.200142;
+  const intitalLat = 28.602368;
+  const initialZoom = 15;
 
+  const mapRef = useRef<MapRef>(null);
   const [popupData, setPopupData] = useState<MapboxGeoJSONFeature|null>(null);
 
   const [visibility, setVisibility] = useState({
@@ -86,11 +86,13 @@ function App() {
   };
 
   const onSearchResultClick = (result: GeoJsonProperties) => {
-    setMapState({
-      lng: result!.properties.Longitude,
-      lat: result!.properties.Latitude,
-      zoom: 18
-    });
+    mapRef.current!.flyTo({
+      center: [
+        result!.properties.Longitude,
+        result!.properties.Latitude
+      ],
+      zoom: 16
+    })
   };
 
   const searchData = (searchQuery: string) => {
@@ -389,7 +391,7 @@ function App() {
           <SearchResults
             searchResults={searchResults}
             searchData={searchData}
-            onSearchResultClick={onSearchResultClick} />
+            onSearchResultClick={onSearchResultClick}/>
           {(searchResults.length === 0) && (<MapMenu
             visibility={visibility}
             setVisibility={setVisibility} />)}
@@ -397,13 +399,16 @@ function App() {
         <div className='col-12 col-md-10'>
           <div className='map-container'>
           <Map
-            latitude={mapState.lat}
-            longitude={mapState.lng}
-            zoom={mapState.zoom}
+            initialViewState={{
+              latitude: intitalLat,
+              longitude: initialLng,
+              zoom: initialZoom
+            }}
             mapStyle='mapbox://styles/mapbox/streets-v12'
             mapboxAccessToken={ TOKEN }
             interactiveLayerIds={['location-layer', 'departments-layer', 'parking-layer']}
-            onClick={handleOnClick}>
+            onClick={handleOnClick}
+            ref={mapRef}>
               <GeolocateControl position='top-left' />
               <FullscreenControl position='top-left' />
               <NavigationControl position='top-left' />

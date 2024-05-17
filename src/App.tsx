@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import {
   Map,
   GeolocateControl,
@@ -13,9 +13,11 @@ import {
   Popup,
   MapboxGeoJSONFeature,
   MapLayerMouseEvent,
+  MapRef
 } from 'react-map-gl';
 
 import {
+  Feature,
   FeatureCollection,
   GeoJsonProperties
 } from 'geojson';
@@ -27,24 +29,19 @@ import {
 import './App.scss'
 import MapMenu from './components/MapMenu';
 import NavigationMenu from './components/NavigationMenu';
-import { SearchResults } from './types/SearchResults';
+import SearchResults from './components/SearchResults';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const HEADER_MENU_ID = import.meta.env.VITE_REMOTE_HEADER_MENU_ID;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
 
 function App() {
-  const [lng] = useState(-81.200142);
-  const [lat] = useState(28.602368);
-  const [zoom] = useState(15);
+  const initialLng = -81.200142;
+  const intitalLat = 28.602368;
+  const initialZoom = 15;
 
+  const mapRef = useRef<MapRef>(null);
   const [popupData, setPopupData] = useState<MapboxGeoJSONFeature|null>(null);
-
-  const handleOnClick = (e: MapLayerMouseEvent) => {
-    if (!e.features) setPopupData(null);
-    const feature = e.features?.pop();
-    if (feature) setPopupData(feature);
-  };
 
   const [visibility, setVisibility] = useState({
     locations: true,
@@ -61,7 +58,7 @@ function App() {
     retail: false,
     services: false,
     parking: false,
-    well_being: false
+    wellBeing: false
   });
 
   const [locationData, setLocationData] = useState<FeatureCollection>();
@@ -79,34 +76,72 @@ function App() {
   const [servicesData, setServicesData] = useState<FeatureCollection>();
   const [parkingData, setParkingData] = useState<FeatureCollection>();
   const [wellBeingData, setWellBeingData] = useState<FeatureCollection>();
+  const [searchResultData, setSearchResultData] = useState<FeatureCollection>({
+    type: 'FeatureCollection',
+    features: []
+  });
   
-  const [searchResults, setSearchResults] = useState<SearchResults>();
+  const [searchResults, setSearchResults] = useState<Array<GeoJsonProperties>>([]);
+
+  const handleOnClick = (e: MapLayerMouseEvent) => {
+    if (!e.features) setPopupData(null);
+    const feature = e.features?.pop();
+    if (feature) setPopupData(feature);
+  };
+
+  const onSearchResultClick = (result: GeoJsonProperties) => {
+    mapRef.current!.flyTo({
+      center: [
+        result!.properties.Longitude,
+        result!.properties.Latitude
+      ],
+      zoom: 17
+    })
+  };
 
   const searchData = (searchQuery: string) => {
-    const retval: SearchResults = {
-      locationResults: [],
-      departmentResults: [],
-      diningResults: []
-    }
+    const retval: Array<Feature> = [];
 
-    if (searchQuery.length < 4) return retval;
+    if (searchQuery.length < 4) {
+      setSearchResults(retval);
+      return;
+    }
 
     if (locationData) {
-      let locationResults = locationData.features.filter((e: GeoJsonProperties) => e!.properties.name.includes(searchQuery));
-      retval.locationResults = locationResults;
-    }
-
-    if (departmentsData) {
-      let departmentResults = departmentsData.features.filter((e: GeoJsonProperties) => e!.properties.name.includes(searchQuery));
-      retval.departmentResults = departmentResults;
+      let locationResults = locationData.features.filter((e: Feature) => e!.properties!.name.includes(searchQuery));
+      retval.push(...locationResults);
     }
 
     if (diningData) {
-      let diningResults = diningData.features.filter((e: GeoJsonProperties) => e!.properties.name.includes(searchQuery));
-      retval.diningResults = diningResults;
+      let diningResults = diningData.features.filter((e: Feature) => e!.properties!.name.includes(searchQuery));
+      retval.push(...diningResults);
+    }
+
+    if (retval.length > 0) {
+      setVisibility({
+        locations: false,
+        departments: false,
+        emPhones: false,
+        dining: false,
+        bikes: false,
+        family: false,
+        housing: false,
+        pantry: false,
+        labs: false,
+        art: false,
+        rec: false,
+        retail: false,
+        services: false,
+        parking: false,
+        wellBeing: false
+      })
     }
 
     setSearchResults(retval);
+    setSearchResultData({
+      type: 'FeatureCollection',
+      features: retval
+    });
   };
 
   useMemo(() => {
@@ -354,7 +389,17 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       'icon-image': 'location',
-      visibility: visibility.well_being! ? 'visible': 'none'
+      visibility: visibility.wellBeing! ? 'visible': 'none'
+    }
+  };
+
+  const searchResultLayer: SymbolLayer = {
+    id: 'search-result-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      'icon-image': 'location',
+      visibility: searchResults && searchResults.length > 0 ? 'visible' : 'none'
     }
   };
 
@@ -376,23 +421,27 @@ function App() {
       </nav>
       <div className='row gx-0'>
         <div className='col-12 col-md-2 px-0 px-md-3 bg-light'>
-          <MapMenu
+          <SearchResults
+            searchResults={searchResults}
+            searchData={searchData}
+            onSearchResultClick={onSearchResultClick}/>
+          {(searchResults.length === 0) && (<MapMenu
             visibility={visibility}
-            setVisibility={setVisibility}
-            searchResults={searchResults!}
-            searchData={searchData} />
+            setVisibility={setVisibility} />)}
         </div>
         <div className='col-12 col-md-10'>
           <div className='map-container'>
-          <Map initialViewState={{
-              latitude: lat,
-              longitude: lng,
-              zoom: zoom
+          <Map
+            initialViewState={{
+              latitude: intitalLat,
+              longitude: initialLng,
+              zoom: initialZoom
             }}
             mapStyle='mapbox://styles/mapbox/streets-v12'
             mapboxAccessToken={ TOKEN }
             interactiveLayerIds={['location-layer', 'departments-layer', 'parking-layer']}
-            onClick={handleOnClick}>
+            onClick={handleOnClick}
+            ref={mapRef}>
               <GeolocateControl position='top-left' />
               <FullscreenControl position='top-left' />
               <NavigationControl position='top-left' />
@@ -443,6 +492,9 @@ function App() {
               </Source>
               <Source type='geojson' data={wellBeingData}>
                 <Layer {...wellBeingLayer} />
+              </Source>
+              <Source type='geojson' data={searchResultData}>
+                <Layer {...searchResultLayer} />
               </Source>
 
               {popupData && (

@@ -1,5 +1,4 @@
-import { Feature, GeoJsonProperties } from 'geojson';
-import { useMap } from 'react-map-gl';
+import { Feature } from 'geojson';
 
 interface SearchResultsProps {
   searchResults: Array<Feature>,
@@ -19,13 +18,13 @@ export default function SearchResults(props: SearchResultsProps) {
         <>
           <h2>Search Results</h2>
           <ul id='search-results'>
-            {props.searchResults.map((result: GeoJsonProperties) => {
+            {props.searchResults.map((result: Feature) => {
               return (
-                <li key={result!.properties.name} className='list-item search-result'>
+                <li key={result!.properties!.name} className='list-item search-result'>
                   <a
                     className='search-result-link'
                     onClick={() => props.onSearchResultClick(result)}>
-                    {result!.properties.name}  
+                    {result!.properties!.name}  
                   </a>
                 </li>
               );

@@ -81,7 +81,7 @@ function App() {
     features: []
   });
   
-  const [searchResults, setSearchResults] = useState<Array<GeoJsonProperties>>([]);
+  const [searchResults, setSearchResults] = useState<Array<Feature>>([]);
 
   const handleOnClick = (e: MapLayerMouseEvent) => {
     if (!e.features) setPopupData(null);

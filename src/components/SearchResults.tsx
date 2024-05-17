@@ -1,8 +1,8 @@
-import { GeoJsonProperties } from 'geojson';
+import { Feature, GeoJsonProperties } from 'geojson';
 import { useMap } from 'react-map-gl';
 
 interface SearchResultsProps {
-  searchResults: Array<GeoJsonProperties>,
+  searchResults: Array<Feature>,
   onSearchResultClick: Function,
   searchData: Function
 }

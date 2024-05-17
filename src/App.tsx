@@ -17,6 +17,7 @@ import {
 } from 'react-map-gl';
 
 import {
+  Feature,
   FeatureCollection,
   GeoJsonProperties
 } from 'geojson';
@@ -57,8 +58,7 @@ function App() {
     retail: false,
     services: false,
     parking: false,
-    wellBeing: false,
-    searchResults: false
+    wellBeing: false
   });
 
   const [locationData, setLocationData] = useState<FeatureCollection>();
@@ -76,6 +76,10 @@ function App() {
   const [servicesData, setServicesData] = useState<FeatureCollection>();
   const [parkingData, setParkingData] = useState<FeatureCollection>();
   const [wellBeingData, setWellBeingData] = useState<FeatureCollection>();
+  const [searchResultData, setSearchResultData] = useState<FeatureCollection>({
+    type: 'FeatureCollection',
+    features: []
+  });
   
   const [searchResults, setSearchResults] = useState<Array<GeoJsonProperties>>([]);
 
@@ -91,12 +95,12 @@ function App() {
         result!.properties.Longitude,
         result!.properties.Latitude
       ],
-      zoom: 16
+      zoom: 17
     })
   };
 
   const searchData = (searchQuery: string) => {
-    const retval: Array<GeoJsonProperties> = [];
+    const retval: Array<Feature> = [];
 
     if (searchQuery.length < 4) {
       setSearchResults(retval);
@@ -104,21 +108,40 @@ function App() {
     }
 
     if (locationData) {
-      let locationResults = locationData.features.filter((e: GeoJsonProperties) => e!.properties.name.includes(searchQuery));
+      let locationResults = locationData.features.filter((e: Feature) => e!.properties!.name.includes(searchQuery));
       retval.push(...locationResults);
     }
 
-    if (departmentsData) {
-      let departmentResults = departmentsData.features.filter((e: GeoJsonProperties) => e!.properties.name.includes(searchQuery));
-      retval.push(...departmentResults);
-    }
-
     if (diningData) {
-      let diningResults = diningData.features.filter((e: GeoJsonProperties) => e!.properties.name.includes(searchQuery));
+      let diningResults = diningData.features.filter((e: Feature) => e!.properties!.name.includes(searchQuery));
       retval.push(...diningResults);
     }
 
+    if (retval.length > 0) {
+      setVisibility({
+        locations: false,
+        departments: false,
+        emPhones: false,
+        dining: false,
+        bikes: false,
+        family: false,
+        housing: false,
+        pantry: false,
+        labs: false,
+        art: false,
+        rec: false,
+        retail: false,
+        services: false,
+        parking: false,
+        wellBeing: false
+      })
+    }
+
     setSearchResults(retval);
+    setSearchResultData({
+      type: 'FeatureCollection',
+      features: retval
+    });
   };
 
   useMemo(() => {
@@ -370,6 +393,16 @@ function App() {
     }
   };
 
+  const searchResultLayer: SymbolLayer = {
+    id: 'search-result-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      'icon-image': 'location',
+      visibility: searchResults && searchResults.length > 0 ? 'visible' : 'none'
+    }
+  };
+
   return (
     <div className='container-fluid px-0'>
       <nav className='navbar navbar-expand-lg navbar-light bg-light px-2'>
@@ -459,6 +492,9 @@ function App() {
               </Source>
               <Source type='geojson' data={wellBeingData}>
                 <Layer {...wellBeingLayer} />
+              </Source>
+              <Source type='geojson' data={searchResultData}>
+                <Layer {...searchResultLayer} />
               </Source>
 
               {popupData && (

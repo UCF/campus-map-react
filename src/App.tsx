@@ -9,7 +9,6 @@ import {
   Layer,
   SymbolLayer,
   FillLayer,
-  LineLayer,
   Popup,
   MapboxGeoJSONFeature,
   MapLayerMouseEvent,
@@ -44,38 +43,37 @@ function App() {
   const [popupData, setPopupData] = useState<MapboxGeoJSONFeature|null>(null);
 
   const [visibility, setVisibility] = useState({
-    locations: true,
-    departments: true,
-    emPhones: false,
-    dining: false,
-    bikes: false,
-    family: false,
-    housing: false,
-    pantry: false,
-    labs: false,
-    art: false,
-    rec: false,
-    retail: false,
-    services: false,
-    parking: false,
-    wellBeing: false
+    buildings: true,
+    accessibility: false,
+    greenSpaces: false,
+    blueLightPhones: false,
+    roads: false,
+    walkways: false,
+    shuttleStops: false,
   });
 
-  const [locationData, setLocationData] = useState<FeatureCollection>();
-  const [departmentsData, setDepartmentsData] = useState<FeatureCollection>();
-  const [emPhonesData, setEmPhonesData] = useState<FeatureCollection>();
-  const [diningData, setDiningData] = useState<FeatureCollection>();
-  const [bikeRackData, setBikeRackData] = useState<FeatureCollection>();
-  const [familyData, setFamilyData] = useState<FeatureCollection>();
-  const [housingData, setHousingData] = useState<FeatureCollection>();
-  const [pantryData, setPantryData] = useState<FeatureCollection>();
-  const [labData, setLabData] = useState<FeatureCollection>();
-  const [artData, setArtData] = useState<FeatureCollection>();
-  const [recData, setRecData] = useState<FeatureCollection>();
-  const [retailData, setRetailData] = useState<FeatureCollection>();
-  const [servicesData, setServicesData] = useState<FeatureCollection>();
-  const [parkingData, setParkingData] = useState<FeatureCollection>();
-  const [wellBeingData, setWellBeingData] = useState<FeatureCollection>();
+  // Building data
+  const [buildingPointData, setBuildingPointData] = useState<FeatureCollection>();
+  const [buildingFootprintData, setBuildingFootprintData] = useState<FeatureCollection>();
+
+  // Accessibility data
+  const [accessibleRampData, setAccessibleRampData] = useState<FeatureCollection>();
+  const [accessibleParkData, setAccessibleParkData] = useState<FeatureCollection>();
+  const [curbRampData, setCurbRampData] = useState<FeatureCollection>();
+
+  // Greenspaces
+  const [greenSpaceData, setGreenSpaceData] = useState<FeatureCollection>();
+
+  // Blue light phones
+  const [blueLightPhoneData, setBlueLightPhoneData] = useState<FeatureCollection>();
+
+  // Pavement
+  const [roadData, setRoadData] = useState<FeatureCollection>();
+  const [walkwayData, setWalkwayData] = useState<FeatureCollection>();
+
+  // Shuttle Stops
+  const [shuttleStopData, setShuttleStopData] = useState<FeatureCollection>();
+
   const [searchResultData, setSearchResultData] = useState<FeatureCollection>({
     type: 'FeatureCollection',
     features: []
@@ -107,33 +105,20 @@ function App() {
       return;
     }
 
-    if (locationData) {
-      let locationResults = locationData.features.filter((e: Feature) => e!.properties!.name.includes(searchQuery));
+    if (buildingPointData) {
+      let locationResults = buildingPointData.features.filter((e: Feature) => e!.properties!.name.includes(searchQuery));
       retval.push(...locationResults);
-    }
-
-    if (diningData) {
-      let diningResults = diningData.features.filter((e: Feature) => e!.properties!.name.includes(searchQuery));
-      retval.push(...diningResults);
     }
 
     if (retval.length > 0) {
       setVisibility({
-        locations: false,
-        departments: false,
-        emPhones: false,
-        dining: false,
-        bikes: false,
-        family: false,
-        housing: false,
-        pantry: false,
-        labs: false,
-        art: false,
-        rec: false,
-        retail: false,
-        services: false,
-        parking: false,
-        wellBeing: false
+        buildings: false,
+        accessibility: false,
+        greenSpaces: false,
+        blueLightPhones: false,
+        roads: false,
+        walkways: false,
+        shuttleStops: false
       })
     }
 
@@ -145,70 +130,51 @@ function App() {
   };
 
   useMemo(() => {
-    fetch('/data/geojson/buildingsv2.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setLocationData(response));
+    fetch('/data/geojson/new/buildingPoints.geojson')
+      .then((responseText) => responseText.json())
+      .then((response) => setBuildingPointData(response));
 
-    fetch('/data/geojson/departments.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setDepartmentsData(response));
+    fetch('/data/geojson/new/BuildingFootprints.geojson')
+      .then((responseText) => responseText.json())
+      .then((response) => setBuildingFootprintData(response));
 
-    fetch('/data/geojson/emergency-phones2.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setEmPhonesData(response));
+    fetch('/data/geojson/new/AccessibilityRamps.geojson')
+      .then((responseText) => responseText.json())
+      .then((response) => setAccessibleRampData(response));
 
-    fetch('/data/geojson/maps_data_dining.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setDiningData(response));
+    fetch('/data/geojson/new/AccessibleParking.geojson')
+      .then((responseText) => responseText.json())
+      .then((response) => setAccessibleParkData(response));
 
-    fetch('/data/geojson/bike-racks.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setBikeRackData(response));
+    fetch('/data/geojson/new/CurbRamps.geojson')
+      .then((responseText) => responseText.json())
+      .then((response) => setCurbRampData(response));
 
-    fetch('/data/geojson/family-combined.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setFamilyData(response));
+    fetch('/data/geojson/new/Greenspaces.geojson')
+      .then((responseText) => responseText.json())
+      .then((response) => setGreenSpaceData(response));
 
-    fetch('/data/geojson/housingv2.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setHousingData(response));
+    fetch('/data/geojson/new/BlueLightPhones.geojson')
+      .then((responseText) => responseText.json())
+      .then((response) => setBlueLightPhoneData(response));
 
-    fetch('/data/geojson/knightspantry.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setPantryData(response));
+    fetch('/data/geojson/new/vehpave.geojson')
+      .then((responseText) => responseText.json())
+      .then((response) => setRoadData(response));
 
-    fetch('/data/geojson/labs.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setLabData(response));
+    fetch('/data/geojson/new/pedpave.geojson')
+      .then((responseText) => responseText.json())
+      .then((response) => setWalkwayData(response));
 
-    fetch('/data/geojson/public-art-map.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setArtData(response));
+    fetch('/data/geojson/new/ShuttleStops.geojson')
+      .then((responseText) => responseText.json())
+      .then((response) => setShuttleStopData(response));
 
-    fetch('/data/geojson/recreation.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setRecData(response));
-
-    fetch('/data/geojson/retail.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setRetailData(response));
-
-    fetch('/data/geojson/services.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setServicesData(response));
-
-    fetch('/data/geojson/ucf-parking-combined.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setParkingData(response));
-
-    fetch('/data/geojson/well-being.geojson')
-      .then((responseJson) => responseJson.json())
-      .then((response) => setWellBeingData(response));
   }, []);
 
   const defaultLayoutProps: any = {
     'icon-allow-overlap': true,
-    'text-field': ['get', 'name'],
+    'text-field': ['get', 'Name'],
     'text-font': [
       'Open Sans Semibold',
       'Arial Unicode MS Bold'
@@ -217,182 +183,119 @@ function App() {
     'text-anchor': 'top',
   };
 
-  const locationLayer: SymbolLayer = {
-    id: 'location-layer',
+  const buildingPointLayer: SymbolLayer = {
+    id: 'building-point-layer',
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      'icon-image': 'location',
-      'visibility': visibility.locations! ? 'visible' : 'none'
+      visibility: visibility.buildings! ? 'visible': 'none'
     },
-    interactive: true
   };
 
-  const departmentsLayer: SymbolLayer = {
-    id: 'departments-layer',
-    type: 'symbol',
-    layout: {
-      ...defaultLayoutProps,
-      'icon-image': 'building',
-      'visibility': visibility.departments! ? 'visible' : 'none'
-    },
-    interactive: true
-  };
-
-  const emPhonesLayer: SymbolLayer = {
-    id: 'emergency-phones-layer',
-    type: 'symbol',
-    layout: {
-      'icon-image': 'phone',
-      'visibility': visibility.emPhones! ? 'visible' : 'none'
-    }
-  };
-
-  const diningLayer: SymbolLayer = {
-    id: 'dining-layer',
-    type: 'symbol',
-    layout: {
-      ...defaultLayoutProps,
-      'icon-image': 'food',
-      'visibility': visibility.dining! ? 'visible' : 'none'
-    },
-    interactive: true
-  };
-
-  const bikeRackLayer: SymbolLayer = {
-    id: 'bike-rack-layer',
-    type: 'symbol',
-    layout: {
-      'icon-image': 'location',
-      'visibility': visibility.bikes! ? 'visible': 'none'
-    }
-  };
-
-  const familyLayer: SymbolLayer = {
-    id: 'family-layer',
-    type: 'symbol',
-    layout: {
-      ...defaultLayoutProps,
-      'icon-image': 'location',
-      visibility: visibility.family! ? 'visible': 'none'
-    }
-  };
-
-  const housingLayer: SymbolLayer = {
-    id: 'housing-layer',
-    type: 'symbol',
-    layout: {
-      ...defaultLayoutProps,
-      'icon-image': 'location',
-      visibility: visibility.housing! ? 'visible': 'none'
-    }
-  };
-
-  const pantryLayer: SymbolLayer = {
-    id: 'pantry-layer',
-    type: 'symbol',
-    layout: {
-      ...defaultLayoutProps,
-      'icon-image': 'location',
-      visibility: visibility.pantry! ? 'visible': 'none'
-    }
-  };
-
-  const labLayer: SymbolLayer = {
-    id: 'lab-layer',
-    type: 'symbol',
-    layout: {
-      ...defaultLayoutProps,
-      'icon-image': 'location',
-      visibility: visibility.labs! ? 'visible': 'none'
-    }
-  };
-
-  const artLayer: SymbolLayer = {
-    id: 'art-layer',
-    type: 'symbol',
-    layout: {
-      ...defaultLayoutProps,
-      'icon-image': 'location',
-      visibility: visibility.art! ? 'visible': 'none'
-    }
-  };
-
-  const recLayer: SymbolLayer = {
-    id: 'rec-layer',
-    type: 'symbol',
-    layout: {
-      ...defaultLayoutProps,
-      'icon-image': 'location',
-      visibility: visibility.rec! ? 'visible': 'none'
-    }
-  };
-
-  const retailLayer: SymbolLayer = {
-    id: 'retail-layer',
-    type: 'symbol',
-    layout: {
-      ...defaultLayoutProps,
-      'icon-image': 'location',
-      visibility: visibility.retail! ? 'visible': 'none'
-    }
-  };
-
-  const servicesLayer: SymbolLayer = {
-    id: 'services-layer',
-    type: 'symbol',
-    layout: {
-      ...defaultLayoutProps,
-      'icon-image': 'location',
-      visibility: visibility.services! ? 'visible': 'none'
-    }
-  };
-
-  const parkingFillLayer: FillLayer = {
-    id: 'parking-fill-layer',
+  const buildingShapeLayer: FillLayer = {
+    id: 'building-shape-layer',
     type: 'fill',
-    paint: {
-      'fill-color': ['get', 'fill'],
-      'fill-opacity': ['get', 'fill-opacity']
-    },
     layout: {
-      visibility: visibility.parking! ? 'visible': 'none'
+      ...defaultLayoutProps,
+      visibility: visibility.buildings! ? 'visible': 'none'
     },
-    interactive: true
-  };
-
-  const parkingOutlineLayer: LineLayer = {
-    id: 'parking-line-layer',
-    type: 'line',
     paint: {
-      'line-color': ['get', 'stroke'],
-      'line-opacity': ['get', 'stroke-opacity'],
-      "line-width": 3
-    },
-    layout: {
-      visibility: visibility.parking! ? 'visible': 'none'
+      "fill-color": '#a6a6a6',
+      "fill-opacity": .5
     }
   };
 
-  const parkingLabelLayer: SymbolLayer = {
-    id: 'parking-label-layer',
+  const accessibilityRampLayer: SymbolLayer = {
+    id: 'accessibility-ramp-layer',
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      visibility: visibility.parking! ? 'visible': 'none'
+      'icon-image': 'handicap',
+      visibility: visibility.accessibility! ? 'visible': 'none'
     }
   };
 
-  const wellBeingLayer: SymbolLayer = {
-    id: 'well-being-layer',
+  const accessibilityParkingLayer: SymbolLayer = {
+    id: 'accessibility-parking-layer',
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      'icon-image': 'location',
-      visibility: visibility.wellBeing! ? 'visible': 'none'
+      'icon-image': 'handicap',
+      visibility: visibility.accessibility! ? 'visible': 'none'
     }
   };
 
+  const curbRampLayer: SymbolLayer = {
+    id: 'curb-ramp-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      'icon-image': 'handicap',
+      visibility: visibility.accessibility! ? 'visible': 'none'
+    }
+  };
+
+  const greenSpaceFillLayer: FillLayer = {
+    id: 'green-space-layer',
+    type: 'fill',
+    layout: {
+      ...defaultLayoutProps,
+      visibility: visibility.greenSpaces! ? 'visible': 'none'
+    },
+    paint: {
+      "fill-color": '#4cbb17',
+      "fill-opacity": .5
+    }
+  };
+
+  const blueLightPhoneLayer: SymbolLayer = {
+    id: 'blue-light-phone-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      'icon-image': 'phone',
+      visibility: visibility.blueLightPhones! ? 'visible' : 'none'
+    }
+  };
+
+  const roadLayer: FillLayer = {
+    id: 'road-layer',
+    type: 'fill',
+    layout: {
+      ...defaultLayoutProps,
+      visibility: visibility.roads! ? 'visible': 'none'
+    },
+    paint: {
+      "fill-color": '#428bca',
+      "fill-opacity": .5
+    }
+  };
+
+  const walkwayLayer: FillLayer = {
+    id: 'walkway-layer',
+    type: 'fill',
+    layout: {
+      ...defaultLayoutProps,
+      visibility: visibility.walkways! ? 'visible': 'none'
+    },
+    paint: {
+      "fill-color": '#ffcc00',
+      "fill-opacity": .5
+    }
+  };
+
+  const shuttleStopLayer: SymbolLayer = {
+    id: 'shuttle-stop-layer',
+    type: 'symbol',
+    layout: {
+      ...defaultLayoutProps,
+      'icon-image': 'bus',
+      'icon-size': 2.0,
+      visibility: visibility.shuttleStops! ? 'visible': 'none'
+    }
+  }
+
+  // BEWARE!!! Old Layers Below!!!
   const searchResultLayer: SymbolLayer = {
     id: 'search-result-layer',
     type: 'symbol',
@@ -446,55 +349,38 @@ function App() {
               <FullscreenControl position='top-left' />
               <NavigationControl position='top-left' />
               <ScaleControl />
-              <Source type='geojson' data={locationData}>
-                <Layer {...locationLayer} />
+              <Source type="geojson" data={buildingPointData}>
+                <Layer {...buildingPointLayer} />
               </Source>
-              <Source type='geojson' data={departmentsData}>
-                <Layer {...departmentsLayer} />
-              </Source>
-              <Source type='geojson' data={emPhonesData}>
-                <Layer {...emPhonesLayer} />
-              </Source>
-              <Source type='geojson' data={diningData}>
-                <Layer {...diningLayer} />
-              </Source>
-              <Source type='geojson' data={bikeRackData}>
-                <Layer {...bikeRackLayer} />
-              </Source>
-              <Source type='geojson' data={familyData}>
-                <Layer {...familyLayer} />
-              </Source>
-              <Source type='geojson' data={housingData}>
-                <Layer {...housingLayer} />
-              </Source>
-              <Source type='geojson' data={pantryData}>
-                <Layer {...pantryLayer} />
-              </Source>
-              <Source type='geojson' data={labData}>
-                <Layer {...labLayer} />
-              </Source>
-              <Source type='geojson' data={artData}>
-                <Layer {...artLayer} />
-              </Source>
-              <Source type='geojson' data={recData}>
-                <Layer {...recLayer} />
-              </Source>
-              <Source type='geojson' data={retailData}>
-                <Layer {...retailLayer} />
-              </Source>
-              <Source type='geojson' data={servicesData}>
-                <Layer {...servicesLayer} />
-              </Source>
-              <Source type='geojson' data={parkingData}>
-                <Layer {...parkingFillLayer} />
-                <Layer {...parkingOutlineLayer} />
-                <Layer {...parkingLabelLayer} />
-              </Source>
-              <Source type='geojson' data={wellBeingData}>
-                <Layer {...wellBeingLayer} />
+              <Source type="geojson" data={buildingFootprintData}>
+                <Layer {...buildingShapeLayer} />
               </Source>
               <Source type='geojson' data={searchResultData}>
                 <Layer {...searchResultLayer} />
+              </Source>
+              <Source type='geojson' data={accessibleRampData}>
+                <Layer {...accessibilityRampLayer} />
+              </Source>
+              <Source type='geojson' data={accessibleParkData}>
+                <Layer {...accessibilityParkingLayer} />
+              </Source>
+              <Source type='geojson' data={curbRampData}>
+                <Layer {...curbRampLayer} />
+              </Source>
+              <Source type='geojson' data={greenSpaceData}>
+                <Layer {...greenSpaceFillLayer} />
+              </Source>
+              <Source type='geojson' data={blueLightPhoneData}>
+                <Layer {...blueLightPhoneLayer} />
+              </Source>
+              <Source type='geojson' data={roadData}>
+                <Layer {...roadLayer} />
+              </Source>
+              <Source type='geojson' data={walkwayData}>
+                <Layer {...walkwayLayer} />
+              </Source>
+              <Source type='geojson' data={shuttleStopData}>
+                <Layer {...shuttleStopLayer} />
               </Source>
 
               {popupData && (
@@ -509,6 +395,7 @@ function App() {
               )}
               <MapIcon iconName='location' iconImageSource='/img/location.png' />
               <MapIcon iconName='building' iconImageSource='/img/building.png' />
+              <MapIcon iconName='bus' iconImageSource='/img/bus.png' />
               <MapIcon iconName='food' iconImageSource='/img/food.png' />
               <MapIcon iconName='handicap' iconImageSource='/img/handicap.png' />
               <MapIcon iconName='phone' iconImageSource='/img/phone.png' />

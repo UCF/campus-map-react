@@ -2,21 +2,13 @@ import './MapMenu.scss';
 
 interface MapMenuProps {
   visibility: {
-    locations: boolean,
-    departments: boolean,
-    emPhones: boolean,
-    dining: boolean,
-    bikes: boolean,
-    family: boolean,
-    housing: boolean,
-    pantry: boolean,
-    labs: boolean,
-    art: boolean,
-    rec: boolean,
-    retail: boolean,
-    services: boolean,
-    parking: boolean,
-    wellBeing: boolean
+    buildings: boolean,
+    accessibility: boolean,
+    greenSpaces: boolean,
+    blueLightPhones: boolean,
+    roads: boolean,
+    walkways: boolean,
+    shuttleStops: boolean
   },
   setVisibility: Function
 }
@@ -29,127 +21,64 @@ export default function MapMenu(props: MapMenuProps) {
         <input
           className='form-check-input'
           type="checkbox"
-          name="locations"
-          checked={props.visibility.locations}
-          onChange={() => props.setVisibility({ ...props.visibility, 'locations': !props.visibility['locations'] })} />
-        <label className="form-check-label" htmlFor='locations'>Locations</label>
+          name="buildings"
+          checked={props.visibility.buildings}
+          onChange={() => props.setVisibility({ ...props.visibility, 'buildings': !props.visibility['buildings'] })} />
+        <label className="form-check-label" htmlFor='buildings'>Buildings</label>
       </div>
       <div className="form-check">
         <input
           className='form-check-input'
           type="checkbox"
-          name="departments"
-          checked={props.visibility.departments}
-          onChange={() => props.setVisibility({ ...props.visibility, departments: !props.visibility.departments })} />
-        <label className="form-check-label" htmlFor='departments'>Departments</label>
+          name="accessibility"
+          checked={props.visibility.accessibility}
+          onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })} />
+        <label className="form-check-label" htmlFor='accessibility'>Accessibility</label>
       </div>
       <div className="form-check">
         <input
           className='form-check-input'
           type="checkbox"
-          name="emergency-phones"
-          checked={props.visibility.emPhones}
-          onChange={() => props.setVisibility({ ...props.visibility, emPhones: !props.visibility.emPhones })} />
-        <label className="form-check-label" htmlFor='emergency-phones'>Emergency Phones</label>
+          name="greenSpaces"
+          checked={props.visibility.greenSpaces}
+          onChange={() => props.setVisibility({ ...props.visibility, 'greenSpaces': !props.visibility['greenSpaces'] })} />
+        <label className="form-check-label" htmlFor='greenSpaces'>Green Spaces</label>
       </div>
       <div className="form-check">
         <input
           className='form-check-input'
           type="checkbox"
-          name="dining"
-          checked={props.visibility.dining}
-          onChange={() => props.setVisibility({ ...props.visibility, dining: !props.visibility.dining })} />
-        <label className="form-check-label" htmlFor='dining'>Dining</label>
+          name="blueLightPhones"
+          checked={props.visibility.blueLightPhones}
+          onChange={() => props.setVisibility({ ...props.visibility, 'blueLightPhones': !props.visibility['blueLightPhones'] })} />
+        <label className="form-check-label" htmlFor='blueLightPhones'>Emergency Phones</label>
       </div>
       <div className="form-check">
         <input
           className='form-check-input'
           type="checkbox"
-          name="family"
-          checked={props.visibility.family}
-          onChange={() => props.setVisibility({ ...props.visibility, family: !props.visibility.family })} />
-        <label className="form-check-label" htmlFor='family'>Family Resources</label>
+          name="roads"
+          checked={props.visibility.roads}
+          onChange={() => props.setVisibility({ ...props.visibility, 'roads': !props.visibility['roads'] })} />
+        <label className="form-check-label" htmlFor='roads'>Roads and Parking Lots</label>
       </div>
       <div className="form-check">
         <input
           className='form-check-input'
           type="checkbox"
-          name="housing"
-          checked={props.visibility.housing}
-          onChange={() => props.setVisibility({ ...props.visibility, housing: !props.visibility.housing })} />
-        <label className="form-check-label" htmlFor='housing'>Housing</label>
+          name="walkways"
+          checked={props.visibility.walkways}
+          onChange={() => props.setVisibility({ ...props.visibility, 'walkways': !props.visibility['walkways'] })} />
+        <label className="form-check-label" htmlFor='walkways'>Walkways</label>
       </div>
       <div className="form-check">
         <input
           className='form-check-input'
           type="checkbox"
-          name="pantry"
-          checked={props.visibility.pantry}
-          onChange={() => props.setVisibility({ ...props.visibility, pantry: !props.visibility.pantry })} />
-        <label className="form-check-label" htmlFor='pantry'>Knight's Pantry</label>
-      </div>
-      <div className="form-check">
-        <input
-          className='form-check-input'
-          type="checkbox"
-          name="labs"
-          checked={props.visibility.labs}
-          onChange={() => props.setVisibility({ ...props.visibility, labs: !props.visibility.labs })} />
-        <label className="form-check-label" htmlFor='labs'>Labs</label>
-      </div>
-      <div className="form-check">
-        <input
-          className='form-check-input'
-          type="checkbox"
-          name="art"
-          checked={props.visibility.art}
-          onChange={() => props.setVisibility({ ...props.visibility, art: !props.visibility.art })} />
-        <label className="form-check-label" htmlFor='art'>Art</label>
-      </div>
-      <div className="form-check">
-        <input
-          className='form-check-input'
-          type="checkbox"
-          name="rec"
-          checked={props.visibility.rec}
-          onChange={() => props.setVisibility({ ...props.visibility, rec: !props.visibility.rec })} />
-        <label className="form-check-label" htmlFor='bikes'>Recreation</label>
-      </div>
-      <div className="form-check">
-        <input
-          className='form-check-input'
-          type="checkbox"
-          name="retail"
-          checked={props.visibility.retail}
-          onChange={() => props.setVisibility({ ...props.visibility, retail: !props.visibility.retail })} />
-        <label className="form-check-label" htmlFor='retail'>Retail</label>
-      </div>
-      <div className="form-check">
-        <input
-          className='form-check-input'
-          type="checkbox"
-          name="services"
-          checked={props.visibility.services}
-          onChange={() => props.setVisibility({ ...props.visibility, services: !props.visibility.services })} />
-        <label className="form-check-label" htmlFor='services'>Services</label>
-      </div>
-      <div className="form-check">
-        <input
-          className='form-check-input'
-          type="checkbox"
-          name="bikes"
-          checked={props.visibility.parking}
-          onChange={() => props.setVisibility({ ...props.visibility, parking: !props.visibility.parking })} />
-        <label className="form-check-label" htmlFor='parking'>Parking</label>
-      </div>
-      <div className="form-check">
-        <input
-          className='form-check-input'
-          type="checkbox"
-          name="well-being"
-          checked={props.visibility.wellBeing}
-          onChange={() => props.setVisibility({ ...props.visibility, wellBeing: !props.visibility.wellBeing })} />
-        <label className="form-check-label" htmlFor='well-being'>Well Being</label>
+          name="shuttleStops"
+          checked={props.visibility.shuttleStops}
+          onChange={() => props.setVisibility({ ...props.visibility, 'shuttleStops': !props.visibility['shuttleStops'] })} />
+        <label className="form-check-label" htmlFor='shuttleStops'>Shuttle Stops</label>
       </div>
     </div>
   );

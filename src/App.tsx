@@ -221,6 +221,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       'icon-image': 'ramp',
+      'icon-size': .5,
       visibility: visibility.accessibility! ? 'visible': 'none'
     }
   };
@@ -231,6 +232,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       'icon-image': 'ramp',
+      'icon-size': .5,
       visibility: visibility.accessibility! ? 'visible': 'none'
     }
   };

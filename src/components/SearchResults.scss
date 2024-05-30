@@ -1,0 +1,67 @@
+@import "bootstrap/scss/functions"; 
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+.search-control {
+  height: 2.2rem;
+  left: 0;
+  margin: .5rem .5rem;
+  padding: .25rem .5rem;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 1rem);
+
+  @include media-breakpoint-up(sm) {
+    width: 50%;
+  }
+
+  @include media-breakpoint-up(md) {
+    width: 40%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 33%;
+  }
+}
+
+.search-results-container {
+  background: rgba(0, 0, 0, 0.65);
+  left: 0;
+  margin: 0 .5rem;
+  padding: .25rem;
+  position: absolute;
+  top: 2.7rem;
+  width: calc(100% - 1rem);
+
+  @include media-breakpoint-up(sm) {
+    width: 50%;
+  }
+
+  @include media-breakpoint-up(md) {
+    width: 40%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 33%;
+  }
+}
+
+.search-results {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: .15rem;
+
+  .search-result {
+    padding: .5rem .15rem;
+    margin-bottom: 0;
+
+    a {
+      color: #fff;
+
+      &:hover {
+        color: #ffcc00;
+        cursor: pointer;
+      }
+    }
+  }
+}

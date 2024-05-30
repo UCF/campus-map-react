@@ -326,13 +326,9 @@ function App() {
       </nav>
       <div className='row gx-0'>
         <div className='col-12 col-md-2 px-0 px-md-3 bg-light'>
-          <SearchResults
-            searchResults={searchResults}
-            searchData={searchData}
-            onSearchResultClick={onSearchResultClick}/>
-          {(searchResults.length === 0) && (<MapMenu
+          <MapMenu
             visibility={visibility}
-            setVisibility={setVisibility} />)}
+            setVisibility={setVisibility} />
         </div>
         <div className='col-12 col-md-10'>
           <div className='map-container'>
@@ -347,9 +343,13 @@ function App() {
             interactiveLayerIds={['location-layer', 'departments-layer', 'parking-layer']}
             onClick={handleOnClick}
             ref={mapRef}>
-              <GeolocateControl position='top-left' />
-              <FullscreenControl position='top-left' />
-              <NavigationControl position='top-left' />
+              <SearchResults
+                searchResults={searchResults}
+                searchData={searchData}
+                onSearchResultClick={onSearchResultClick}/>
+              <GeolocateControl position='top-right' />
+              <FullscreenControl position='top-right' />
+              <NavigationControl position='top-right' />
               <ScaleControl />
               <Source type="geojson" data={buildingPointData}>
                 <Layer {...buildingPointLayer} />

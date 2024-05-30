@@ -1,5 +1,7 @@
 import { Feature } from 'geojson';
 
+import './SearchResults.scss';
+
 interface SearchResultsProps {
   searchResults: Array<Feature>,
   onSearchResultClick: Function,
@@ -10,7 +12,7 @@ export default function SearchResults(props: SearchResultsProps) {
   return (
     <>
       <input
-        className='form-control'
+        className='search-control'
         type='text'
         placeholder='Search...'
         onChange={(e) => props.searchData(e.target.value)} />

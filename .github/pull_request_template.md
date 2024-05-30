@@ -1,8 +1,5 @@
 <!---
-Thank you for contributing to UCF-WordPress-Theme.
-
-Please make sure you've read our contributing guidelines:
-https://github.com/UCF/UCF-WordPress-Theme/blob/master/CONTRIBUTING.md
+Thank you for contributing to the campus map product.
 
 Provide a general summary of your changes in the Title above and fill in the template below.
 -->

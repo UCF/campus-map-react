@@ -220,7 +220,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      'icon-image': 'handicap',
+      'icon-image': 'ramp',
       visibility: visibility.accessibility! ? 'visible': 'none'
     }
   };
@@ -230,7 +230,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      'icon-image': 'handicap',
+      'icon-image': 'ramp',
       visibility: visibility.accessibility! ? 'visible': 'none'
     }
   };
@@ -398,6 +398,7 @@ function App() {
               <MapIcon iconName='bus' iconImageSource='/img/bus.png' />
               <MapIcon iconName='food' iconImageSource='/img/food.png' />
               <MapIcon iconName='handicap' iconImageSource='/img/handicap.png' />
+              <MapIcon iconName='ramp' iconImageSource='/img/ramp.png' />
               <MapIcon iconName='phone' iconImageSource='/img/phone.png' />
             </Map>
           </div>

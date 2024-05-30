@@ -9,6 +9,8 @@ interface SearchResultsProps {
 }
 
 export default function SearchResults(props: SearchResultsProps) {
+  console.log(props.searchResults);
+
   return (
     <>
       <input
@@ -17,22 +19,22 @@ export default function SearchResults(props: SearchResultsProps) {
         placeholder='Search...'
         onChange={(e) => props.searchData(e.target.value)} />
       {props.searchResults && props.searchResults.length > 0 && (
-        <>
-          <h2>Search Results</h2>
-          <ul id='search-results'>
+        <div className='search-results-container'>
+          <h2 className='sr-only'>Search Results</h2>
+          <ul id='search-results' className='search-results'>
             {props.searchResults.map((result: Feature) => {
               return (
-                <li key={result!.properties!.name} className='list-item search-result'>
+                <li key={result!.properties!.Name} className='list-item search-result'>
                   <a
                     className='search-result-link'
                     onClick={() => props.onSearchResultClick(result)}>
-                    {result!.properties!.name}  
+                    {result!.properties!.Name}  
                   </a>
                 </li>
               );
             })}
           </ul>
-        </>
+        </div>
       )}
     </>
   );

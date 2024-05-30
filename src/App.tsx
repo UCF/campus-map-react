@@ -106,7 +106,7 @@ function App() {
     }
 
     if (buildingPointData) {
-      let locationResults = buildingPointData.features.filter((e: Feature) => e!.properties!.name.includes(searchQuery));
+      let locationResults = buildingPointData.features.filter((e: Feature) => e!.properties!.Name.toLowerCase().includes(searchQuery.toLowerCase()));
       retval.push(...locationResults);
     }
 

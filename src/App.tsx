@@ -31,7 +31,6 @@ import NavigationMenu from './components/NavigationMenu';
 import SearchResults from './components/SearchResults';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
-const HEADER_MENU_ID = import.meta.env.VITE_REMOTE_HEADER_MENU_ID;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
 
 function App() {

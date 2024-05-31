@@ -81,6 +81,9 @@ function App() {
   
   const [searchResults, setSearchResults] = useState<Array<Feature>>([]);
 
+  // Hamburger Button
+  const [hamburgerStatus, setHambergerStatus] = useState(false); 
+
   const handleOnClick = (e: MapLayerMouseEvent) => {
     if (!e.features) setPopupData(null);
     const feature = e.features?.pop();
@@ -128,6 +131,10 @@ function App() {
       features: retval
     });
   };
+
+  const hamburgerButton = () => {
+    setHambergerStatus(!hamburgerStatus);
+  }
 
   useMemo(() => {
     fetch('/data/geojson/new/buildingPoints.geojson')
@@ -312,10 +319,10 @@ function App() {
     <div className='container-fluid px-0'>
       <nav className='navbar navbar-expand-lg navbar-light bg-light px-2'>
         <span className='navbar-brand pl-4'>UCF Campus Map</span>
-        <div className='container'>
-          <button className='navbar-toggler justify-self-right' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+        <button onClick={hamburgerButton} className='navbar-toggler justify-self-right' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
             <span className='navbar-toggler-icon'></span>
           </button>
+          <div className='container'>
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
             <NavigationMenu
               listClasses='navbar-nav d-flex justify-content-evenly mb-2 mb-lg-0 w-100'
@@ -325,7 +332,7 @@ function App() {
         </div>
       </nav>
       <div className='row gx-0'>
-        <div className='col-12 col-md-2 px-0 px-md-3 bg-light'>
+        <div className='d-md-block col-12 col-md-2 px-0 px-md-3 bg-light' style={{ display: !hamburgerStatus ? 'none' : 'block' }}>
           <MapMenu
             visibility={visibility}
             setVisibility={setVisibility} />

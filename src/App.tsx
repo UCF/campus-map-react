@@ -321,13 +321,13 @@ function App() {
         <span className='navbar-brand pl-4'>UCF Campus Map</span>
         <button onClick={hamburgerButton} className='navbar-toggler justify-self-right' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
             <span className='navbar-toggler-icon'></span>
-          </button>
-          <div className='container'>
+        </button>
+        <div className='container'>
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-            <NavigationMenu
-              listClasses='navbar-nav d-flex justify-content-evenly mb-2 mb-lg-0 w-100'
-              menuId='header-menu'
-              remoteMenuId={HEADER_MENU_ID} />
+              <NavigationMenu
+                listClasses='navbar-nav d-flex justify-content-evenly mb-2 mb-lg-0 w-100'
+                menuId='header-menu'
+                remoteMenuId={HEADER_MENU_ID} />
           </div>
         </div>
       </nav>

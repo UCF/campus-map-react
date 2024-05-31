@@ -81,7 +81,7 @@ function App() {
   
   const [searchResults, setSearchResults] = useState<Array<Feature>>([]);
 
-  // Hamburger Button
+  // Hamburger Button Status
   const [hamburgerStatus, setHambergerStatus] = useState(false); 
 
   const handleOnClick = (e: MapLayerMouseEvent) => {

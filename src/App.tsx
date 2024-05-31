@@ -132,10 +132,8 @@ function App() {
     });
   };
 
-  const hamburgerButton = () => {
-    setHambergerStatus(!hamburgerStatus);
-  }
-
+  // offcanvas
+ 
   useMemo(() => {
     fetch('/data/geojson/new/buildingPoints.geojson')
       .then((responseText) => responseText.json())
@@ -319,20 +317,12 @@ function App() {
     <div className='container-fluid px-0'>
       <nav className='navbar navbar-expand-lg navbar-light bg-light px-2'>
         <span className='navbar-brand pl-4'>UCF Campus Map</span>
-        <button onClick={hamburgerButton} className='navbar-toggler justify-self-right' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+        <button className='navbar-toggler justify-self-right' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
             <span className='navbar-toggler-icon'></span>
-        </button>
-        <div className='container'>
-          <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-              <NavigationMenu
-                listClasses='navbar-nav d-flex justify-content-evenly mb-2 mb-lg-0 w-100'
-                menuId='header-menu'
-                remoteMenuId={HEADER_MENU_ID} />
-          </div>
-        </div>
+          </button>
       </nav>
-      <div className='row gx-0'>
-        <div className='d-md-block col-12 col-md-2 px-0 px-md-3 bg-light' style={{ display: !hamburgerStatus ? 'none' : 'block' }}>
+      <div className='row gx-0'  > 
+        <div className='col-12 col-md-2 px-0 px-md-3 bg-light' id="navbarSupportedContent">
           <MapMenu
             visibility={visibility}
             setVisibility={setVisibility} />

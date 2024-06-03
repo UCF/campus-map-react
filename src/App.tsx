@@ -318,7 +318,7 @@ function App() {
         <button className='navbar-toggler justify-self-right mb-1' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
           <span className='navbar-toggler-icon'></span>
         </button>
-        <div className='px-0 px-md-3 bg-light' id="navbarSupportedContent">
+        <div className='px-0 px-md-3 bg-light navbar-collapse collapse' id="navbarSupportedContent">
           <MapMenu
             visibility={visibility}
             setVisibility={setVisibility} />

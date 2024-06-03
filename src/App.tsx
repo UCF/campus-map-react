@@ -313,19 +313,19 @@ function App() {
 
   return (
     <div className='container-fluid px-0'>
-      <nav className='navbar navbar-expand-lg navbar-light bg-light px-2'>
+      <nav className='navbar fixed-top navbar-expand-lg navbar-light bg-light px-2' style={{top:50}}>
         <span className='navbar-brand pl-4'>UCF Campus Map</span>
-        <button className='navbar-toggler justify-self-right' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
-            <span className='navbar-toggler-icon'></span>
-          </button>
-      </nav>
-      <div className='row gx-0'  > 
-        <div className='col-12 col-md-2 px-0 px-md-3 bg-light' id="navbarSupportedContent">
+        <button className='navbar-toggler justify-self-right mb-1' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+          <span className='navbar-toggler-icon'></span>
+        </button>
+        <div className='px-0 px-md-3 bg-light' id="navbarSupportedContent">
           <MapMenu
             visibility={visibility}
             setVisibility={setVisibility} />
         </div>
-        <div className='col-12 col-md-10'>
+      </nav>
+      <div className='row gx-0'> 
+        <div className='col-12'>
           <div className='map-container'>
           <Map
             initialViewState={{

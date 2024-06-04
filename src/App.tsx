@@ -337,7 +337,7 @@ function App() {
               <SearchResults
                 searchResults={searchResults}
                 searchData={searchData}
-                onSearchResultClick={onSearchResultClick}/>
+                onSearchResultClick={onSearchResultClick} />
               <GeolocateControl position='top-right' />
               <FullscreenControl position='top-right' />
               <NavigationControl position='top-right' />

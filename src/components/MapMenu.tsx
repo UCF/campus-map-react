@@ -15,9 +15,9 @@ interface MapMenuProps {
 
 export default function MapMenu(props: MapMenuProps) {
   return (
-    <div className='h-100'>
-      <div className="d-flex flex-row flex-wrap justify-content-center">
-      <div className="form-check">
+    <div className='w-100'>
+      <div className="d-flex flex-row flex-wrap justify-content-start ps-5 py-1">
+      <div className="ms-1 ms-sm-3 my-1">
         <input
           className='btn-check'
           type="checkbox"
@@ -27,7 +27,7 @@ export default function MapMenu(props: MapMenuProps) {
           onChange={() => props.setVisibility({ ...props.visibility, 'buildings': !props.visibility['buildings'] })} />
         <label className="btn btn-outline-dark" htmlFor='buildings'>Buildings</label>
       </div>
-      <div className="form-check">
+      <div className="ms-1 ms-sm-3 my-1">
         <input
           className='btn-check'
           type="checkbox"
@@ -37,7 +37,7 @@ export default function MapMenu(props: MapMenuProps) {
           onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })} />
         <label className="btn btn-outline-dark" htmlFor='accessibility'>Accessibility</label>
       </div>
-      <div className="form-check">
+      <div className="ms-1 ms-sm-3 my-1">
         <input
           className='btn-check'
           type="checkbox"
@@ -47,7 +47,7 @@ export default function MapMenu(props: MapMenuProps) {
           onChange={() => props.setVisibility({ ...props.visibility, 'greenSpaces': !props.visibility['greenSpaces'] })} />
         <label className="btn btn-outline-dark" htmlFor='greenSpaces'>Green Spaces</label>
       </div>
-      <div className="form-check">
+      <div className="ms-1 ms-sm-3 my-1">
         <input
           className='btn-check'
           type="checkbox"
@@ -58,7 +58,7 @@ export default function MapMenu(props: MapMenuProps) {
         <label className="btn btn-outline-dark" htmlFor='blueLightPhones'>Emergency Phones</label>
       </div>
       
-      <div className="form-check">
+      <div className="ms-1 ms-sm-3 my-1">
         <input
           className='btn-check'
           type="checkbox"
@@ -68,7 +68,7 @@ export default function MapMenu(props: MapMenuProps) {
           onChange={() => props.setVisibility({ ...props.visibility, 'walkways': !props.visibility['walkways'] })} />
         <label className="btn btn-outline-dark" htmlFor='walkways'>Walkways</label>
       </div>
-      <div className="form-check">
+      <div className="ms-1 ms-sm-3 my-1">
         <input
           className='btn-check'
           type="checkbox"
@@ -78,7 +78,7 @@ export default function MapMenu(props: MapMenuProps) {
           onChange={() => props.setVisibility({ ...props.visibility, 'shuttleStops': !props.visibility['shuttleStops'] })} />
         <label className="btn btn-outline-dark" htmlFor='shuttleStops'>Shuttle Stops</label>
       </div>
-      <div className="form-check">
+      <div className="ms-1 ms-sm-3 my-1">
         <input
           className='btn-check'
           type="checkbox"

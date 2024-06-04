@@ -80,8 +80,6 @@ function App() {
   
   const [searchResults, setSearchResults] = useState<Array<Feature>>([]);
 
-  // Hamburger Button Status
-
   const handleOnClick = (e: MapLayerMouseEvent) => {
     if (!e.features) setPopupData(null);
     const feature = e.features?.pop();
@@ -130,8 +128,6 @@ function App() {
     });
   };
 
-  // offcanvas
- 
   useMemo(() => {
     fetch('/data/geojson/new/buildingPoints.geojson')
       .then((responseText) => responseText.json())

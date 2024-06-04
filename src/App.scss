@@ -1,7 +1,11 @@
+.navbar-custom-style {
+  top: 50px !important;
+}
+
 .map-container {
   .mapboxgl-map {
     margin-top: 110px;
-    min-height: calc(100dvh - 311px);
+    min-height: calc(110dvh - 311px);
   }
 }
 
@@ -41,11 +45,21 @@
   }
 }
 
-.mapboxgl-ctrl-top-right {
-  top: auto!important;
-  bottom: 80px
-}
-
 #ucfhb {
   position: fixed !important;
+}
+
+@media screen and (min-width: 992px) {
+  #ucfhb {
+    position: static !important;
+  }
+}
+
+@media screen and (min-width: 1255px) {
+  .map-container {
+    .mapboxgl-map {
+      margin-top: 70px;
+      min-height: calc(110dvh - 311px);
+    }
+  }
 }

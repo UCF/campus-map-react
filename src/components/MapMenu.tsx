@@ -16,7 +16,7 @@ interface MapMenuProps {
 export default function MapMenu(props: MapMenuProps) {
   return (
     <div className='w-100'>
-      <div className="d-flex flex-row flex-wrap justify-content-start ps-5 py-1">
+      <div className="d-flex flex-row flex-wrap justify-content-center justify-content-sm-start py-1">
       <div className="ms-1 ms-sm-3 my-1">
         <input
           className='btn-check'

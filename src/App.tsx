@@ -31,7 +31,6 @@ import NavigationMenu from './components/NavigationMenu';
 import SearchResults from './components/SearchResults';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
-const HEADER_MENU_ID = import.meta.env.VITE_REMOTE_HEADER_MENU_ID;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
 
 function App() {
@@ -310,101 +309,89 @@ function App() {
 
   return (
     <div className='container-fluid px-0'>
-      <nav className='navbar navbar-expand-lg navbar-light bg-light px-2'>
+      <nav className='navbar fixed-top navbar-expand-lg navbar-light bg-light px-2 navbar-custom-style'>
         <span className='navbar-brand pl-4'>UCF Campus Map</span>
-        <div className='container'>
-          <button className='navbar-toggler justify-self-right' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
-            <span className='navbar-toggler-icon'></span>
-          </button>
-          <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-            <NavigationMenu
-              listClasses='navbar-nav d-flex justify-content-evenly mb-2 mb-lg-0 w-100'
-              menuId='header-menu'
-              remoteMenuId={HEADER_MENU_ID} />
-          </div>
-        </div>
-      </nav>
-      <div className='row gx-0'>
-        <div className='col-12 col-md-2 px-0 px-md-3 bg-light'>
+        <button className='navbar-toggler justify-self-right mb-1' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+          <span className='navbar-toggler-icon'></span>
+        </button>
+        <div className='px-0 px-md-3 bg-light navbar-collapse collapse' id="navbarSupportedContent">
           <MapMenu
             visibility={visibility}
             setVisibility={setVisibility} />
         </div>
-        <div className='col-12 col-md-10'>
-          <div className='map-container'>
-          <Map
-            initialViewState={{
-              latitude: intitalLat,
-              longitude: initialLng,
-              zoom: initialZoom
-            }}
-            mapStyle='mapbox://styles/mapbox/streets-v12'
-            mapboxAccessToken={ TOKEN }
-            interactiveLayerIds={['location-layer', 'departments-layer', 'parking-layer']}
-            onClick={handleOnClick}
-            ref={mapRef}>
-              <SearchResults
-                searchResults={searchResults}
-                searchData={searchData}
-                onSearchResultClick={onSearchResultClick}/>
-              <GeolocateControl position='top-right' />
-              <FullscreenControl position='top-right' />
-              <NavigationControl position='top-right' />
-              <ScaleControl />
-              <Source type="geojson" data={buildingPointData}>
-                <Layer {...buildingPointLayer} />
-              </Source>
-              <Source type="geojson" data={buildingFootprintData}>
-                <Layer {...buildingShapeLayer} />
-              </Source>
-              <Source type='geojson' data={searchResultData}>
-                <Layer {...searchResultLayer} />
-              </Source>
-              <Source type='geojson' data={accessibleRampData}>
-                <Layer {...accessibilityRampLayer} />
-              </Source>
-              <Source type='geojson' data={accessibleParkData}>
-                <Layer {...accessibilityParkingLayer} />
-              </Source>
-              <Source type='geojson' data={curbRampData}>
-                <Layer {...curbRampLayer} />
-              </Source>
-              <Source type='geojson' data={greenSpaceData}>
-                <Layer {...greenSpaceFillLayer} />
-              </Source>
-              <Source type='geojson' data={blueLightPhoneData}>
-                <Layer {...blueLightPhoneLayer} />
-              </Source>
-              <Source type='geojson' data={roadData}>
-                <Layer {...roadLayer} />
-              </Source>
-              <Source type='geojson' data={walkwayData}>
-                <Layer {...walkwayLayer} />
-              </Source>
-              <Source type='geojson' data={shuttleStopData}>
-                <Layer {...shuttleStopLayer} />
-              </Source>
+      </nav>
+      <div className='map-container'>
+      <Map
+        initialViewState={{
+          latitude: intitalLat,
+          longitude: initialLng,
+          zoom: initialZoom
+        }}
+        mapStyle='mapbox://styles/mapbox/streets-v12'
+        mapboxAccessToken={ TOKEN }
+        interactiveLayerIds={['location-layer', 'departments-layer', 'parking-layer']}
+        onClick={handleOnClick}
+        ref={mapRef}>
+          <SearchResults
+            searchResults={searchResults}
+            searchData={searchData}
+            onSearchResultClick={onSearchResultClick} />
+          <GeolocateControl position='bottom-right' />
+          <FullscreenControl position='bottom-right' />
+          <NavigationControl position='bottom-right' />
+          <ScaleControl />
+          <Source type="geojson" data={buildingPointData}>
+            <Layer {...buildingPointLayer} />
+          </Source>
+          <Source type="geojson" data={buildingFootprintData}>
+            <Layer {...buildingShapeLayer} />
+          </Source>
+          <Source type='geojson' data={searchResultData}>
+            <Layer {...searchResultLayer} />
+          </Source>
+          <Source type='geojson' data={accessibleRampData}>
+            <Layer {...accessibilityRampLayer} />
+          </Source>
+          <Source type='geojson' data={accessibleParkData}>
+            <Layer {...accessibilityParkingLayer} />
+          </Source>
+          <Source type='geojson' data={curbRampData}>
+            <Layer {...curbRampLayer} />
+          </Source>
+          <Source type='geojson' data={greenSpaceData}>
+            <Layer {...greenSpaceFillLayer} />
+          </Source>
+          <Source type='geojson' data={blueLightPhoneData}>
+            <Layer {...blueLightPhoneLayer} />
+          </Source>
+          <Source type='geojson' data={roadData}>
+            <Layer {...roadLayer} />
+          </Source>
+          <Source type='geojson' data={walkwayData}>
+            <Layer {...walkwayLayer} />
+          </Source>
+          <Source type='geojson' data={shuttleStopData}>
+            <Layer {...shuttleStopLayer} />
+          </Source>
 
-              {popupData && (
-                <Popup
-                  key={popupData.properties!['name']}
-                  latitude={popupData.properties!['Latitude']}
-                  longitude={popupData.properties!['Longitude']}
-                  onClose={() => setPopupData(null)}
-                  closeButton={true}>
-                    <span className='location-title'>{popupData.properties!['Name']}</span>
-                  </Popup>
-              )}
-              <MapIcon iconName='location' iconImageSource='/img/location.png' />
-              <MapIcon iconName='building' iconImageSource='/img/building.png' />
-              <MapIcon iconName='bus' iconImageSource='/img/bus.png' />
-              <MapIcon iconName='food' iconImageSource='/img/food.png' />
-              <MapIcon iconName='handicap' iconImageSource='/img/handicap.png' />
-              <MapIcon iconName='ramp' iconImageSource='/img/ramp.png' />
-              <MapIcon iconName='phone' iconImageSource='/img/phone.png' />
-            </Map>
-          </div>
-        </div>
+          {popupData && (
+            <Popup
+              key={popupData.properties!['name']}
+              latitude={popupData.properties!['Latitude']}
+              longitude={popupData.properties!['Longitude']}
+              onClose={() => setPopupData(null)}
+              closeButton={true}>
+                <span className='location-title'>{popupData.properties!['Name']}</span>
+              </Popup>
+          )}
+          <MapIcon iconName='location' iconImageSource='/img/location.png' />
+          <MapIcon iconName='building' iconImageSource='/img/building.png' />
+          <MapIcon iconName='bus' iconImageSource='/img/bus.png' />
+          <MapIcon iconName='food' iconImageSource='/img/food.png' />
+          <MapIcon iconName='handicap' iconImageSource='/img/handicap.png' />
+          <MapIcon iconName='ramp' iconImageSource='/img/ramp.png' />
+          <MapIcon iconName='phone' iconImageSource='/img/phone.png' />
+        </Map>
       </div>
       <footer className='footer'>
         <div className='title'>

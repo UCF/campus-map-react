@@ -1,6 +1,14 @@
+.navbar-custom-style {
+  top: 50px !important;
+}
+
 .map-container {
+  display: flex;
+  flex-wrap: wrap;
+
   .mapboxgl-map {
-    min-height: calc(100dvh - 311px);
+    margin-top: 110px;
+    min-height: calc(110dvh - 311px);
   }
 }
 
@@ -36,6 +44,19 @@
 
     &:last-child {
       border-right: none;
+    }
+  }
+}
+
+#ucfhb {
+  position: fixed !important;
+}
+
+@media screen and (min-width: 1255px) {
+  .map-container {
+    .mapboxgl-map {
+      margin-top: 120px;
+      min-height: calc(110dvh - 311px);
     }
   }
 }

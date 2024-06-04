@@ -1,6 +1,6 @@
 .map-container {
   .mapboxgl-map {
-    margin-top: 60px;
+    margin-top: 110px;
     min-height: calc(100dvh - 311px);
   }
 }
@@ -44,4 +44,8 @@
 .mapboxgl-ctrl-top-right {
   top: auto!important;
   bottom: 80px
+}
+
+#ucfhb {
+  position: fixed !important;
 }

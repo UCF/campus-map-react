@@ -393,7 +393,7 @@ function App() {
           <MapIcon iconName='phone' iconImageSource='/img/phone.png' />
         </Map>
       </div>
-      <footer className='footer pt-2'>
+      <footer className='footer pt-3'>
         <div className='container'>
           <div className="row pt-2">
             <div className="col-4 col-md-3 text-end">

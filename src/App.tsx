@@ -320,82 +320,78 @@ function App() {
             setVisibility={setVisibility} />
         </div>
       </nav>
-      <div className='row gx-0'> 
-        <div className='col-12'>
-          <div className='map-container'>
-          <Map
-            initialViewState={{
-              latitude: intitalLat,
-              longitude: initialLng,
-              zoom: initialZoom
-            }}
-            mapStyle='mapbox://styles/mapbox/streets-v12'
-            mapboxAccessToken={ TOKEN }
-            interactiveLayerIds={['location-layer', 'departments-layer', 'parking-layer']}
-            onClick={handleOnClick}
-            ref={mapRef}>
-              <SearchResults
-                searchResults={searchResults}
-                searchData={searchData}
-                onSearchResultClick={onSearchResultClick} />
-              <GeolocateControl position='bottom-right' />
-              <FullscreenControl position='bottom-right' />
-              <NavigationControl position='bottom-right' />
-              <ScaleControl />
-              <Source type="geojson" data={buildingPointData}>
-                <Layer {...buildingPointLayer} />
-              </Source>
-              <Source type="geojson" data={buildingFootprintData}>
-                <Layer {...buildingShapeLayer} />
-              </Source>
-              <Source type='geojson' data={searchResultData}>
-                <Layer {...searchResultLayer} />
-              </Source>
-              <Source type='geojson' data={accessibleRampData}>
-                <Layer {...accessibilityRampLayer} />
-              </Source>
-              <Source type='geojson' data={accessibleParkData}>
-                <Layer {...accessibilityParkingLayer} />
-              </Source>
-              <Source type='geojson' data={curbRampData}>
-                <Layer {...curbRampLayer} />
-              </Source>
-              <Source type='geojson' data={greenSpaceData}>
-                <Layer {...greenSpaceFillLayer} />
-              </Source>
-              <Source type='geojson' data={blueLightPhoneData}>
-                <Layer {...blueLightPhoneLayer} />
-              </Source>
-              <Source type='geojson' data={roadData}>
-                <Layer {...roadLayer} />
-              </Source>
-              <Source type='geojson' data={walkwayData}>
-                <Layer {...walkwayLayer} />
-              </Source>
-              <Source type='geojson' data={shuttleStopData}>
-                <Layer {...shuttleStopLayer} />
-              </Source>
+      <div className='map-container'>
+      <Map
+        initialViewState={{
+          latitude: intitalLat,
+          longitude: initialLng,
+          zoom: initialZoom
+        }}
+        mapStyle='mapbox://styles/mapbox/streets-v12'
+        mapboxAccessToken={ TOKEN }
+        interactiveLayerIds={['location-layer', 'departments-layer', 'parking-layer']}
+        onClick={handleOnClick}
+        ref={mapRef}>
+          <SearchResults
+            searchResults={searchResults}
+            searchData={searchData}
+            onSearchResultClick={onSearchResultClick} />
+          <GeolocateControl position='bottom-right' />
+          <FullscreenControl position='bottom-right' />
+          <NavigationControl position='bottom-right' />
+          <ScaleControl />
+          <Source type="geojson" data={buildingPointData}>
+            <Layer {...buildingPointLayer} />
+          </Source>
+          <Source type="geojson" data={buildingFootprintData}>
+            <Layer {...buildingShapeLayer} />
+          </Source>
+          <Source type='geojson' data={searchResultData}>
+            <Layer {...searchResultLayer} />
+          </Source>
+          <Source type='geojson' data={accessibleRampData}>
+            <Layer {...accessibilityRampLayer} />
+          </Source>
+          <Source type='geojson' data={accessibleParkData}>
+            <Layer {...accessibilityParkingLayer} />
+          </Source>
+          <Source type='geojson' data={curbRampData}>
+            <Layer {...curbRampLayer} />
+          </Source>
+          <Source type='geojson' data={greenSpaceData}>
+            <Layer {...greenSpaceFillLayer} />
+          </Source>
+          <Source type='geojson' data={blueLightPhoneData}>
+            <Layer {...blueLightPhoneLayer} />
+          </Source>
+          <Source type='geojson' data={roadData}>
+            <Layer {...roadLayer} />
+          </Source>
+          <Source type='geojson' data={walkwayData}>
+            <Layer {...walkwayLayer} />
+          </Source>
+          <Source type='geojson' data={shuttleStopData}>
+            <Layer {...shuttleStopLayer} />
+          </Source>
 
-              {popupData && (
-                <Popup
-                  key={popupData.properties!['name']}
-                  latitude={popupData.properties!['Latitude']}
-                  longitude={popupData.properties!['Longitude']}
-                  onClose={() => setPopupData(null)}
-                  closeButton={true}>
-                    <span className='location-title'>{popupData.properties!['Name']}</span>
-                  </Popup>
-              )}
-              <MapIcon iconName='location' iconImageSource='/img/location.png' />
-              <MapIcon iconName='building' iconImageSource='/img/building.png' />
-              <MapIcon iconName='bus' iconImageSource='/img/bus.png' />
-              <MapIcon iconName='food' iconImageSource='/img/food.png' />
-              <MapIcon iconName='handicap' iconImageSource='/img/handicap.png' />
-              <MapIcon iconName='ramp' iconImageSource='/img/ramp.png' />
-              <MapIcon iconName='phone' iconImageSource='/img/phone.png' />
-            </Map>
-          </div>
-        </div>
+          {popupData && (
+            <Popup
+              key={popupData.properties!['name']}
+              latitude={popupData.properties!['Latitude']}
+              longitude={popupData.properties!['Longitude']}
+              onClose={() => setPopupData(null)}
+              closeButton={true}>
+                <span className='location-title'>{popupData.properties!['Name']}</span>
+              </Popup>
+          )}
+          <MapIcon iconName='location' iconImageSource='/img/location.png' />
+          <MapIcon iconName='building' iconImageSource='/img/building.png' />
+          <MapIcon iconName='bus' iconImageSource='/img/bus.png' />
+          <MapIcon iconName='food' iconImageSource='/img/food.png' />
+          <MapIcon iconName='handicap' iconImageSource='/img/handicap.png' />
+          <MapIcon iconName='ramp' iconImageSource='/img/ramp.png' />
+          <MapIcon iconName='phone' iconImageSource='/img/phone.png' />
+        </Map>
       </div>
       <footer className='footer'>
         <div className='title'>

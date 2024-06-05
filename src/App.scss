@@ -1,3 +1,7 @@
+@import "bootstrap/scss/functions"; 
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
 .navbar-custom-style {
   top: 50px !important;
 }
@@ -8,7 +12,7 @@
 
   .mapboxgl-map {
     margin-top: 110px;
-    min-height: calc(110dvh - 311px);
+    min-height: calc(100dvh - 230px);
   }
 }
 
@@ -17,12 +21,10 @@
 }
 
 .footer {
-  background: #3e3e3e;
+  background: #000;
   color: #fff;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 12px;
-  margin: 0;
-  padding: 3rem 0;
   text-align: center;
 
   .footer-title {
@@ -32,9 +34,9 @@
 
   .title-link {
     color: #fff;
-    font-size: 26px;
+    font-size: 16px;
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
   }
@@ -52,11 +54,14 @@
   position: fixed !important;
 }
 
-@media screen and (min-width: 1255px) {
+.footer-logo-map {
+  width:60% 
+}
+
+@include media-breakpoint-up(xl) {
   .map-container {
     .mapboxgl-map {
       margin-top: 120px;
-      min-height: calc(110dvh - 311px);
     }
   }
 }

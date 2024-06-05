@@ -309,7 +309,7 @@ function App() {
 
   return (
     <div className='container-fluid px-0'>
-      <nav className='navbar fixed-top navbar-expand-lg navbar-light bg-light px-2 navbar-custom-style'>
+      <nav className='navbar fixed-top navbar-expand-xl navbar-light bg-light px-2 navbar-custom-style'>
         <span className='navbar-brand pl-4'>UCF Campus Map</span>
         <button className='navbar-toggler justify-self-right mb-1' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
           <span className='navbar-toggler-icon'></span>
@@ -393,14 +393,23 @@ function App() {
           <MapIcon iconName='phone' iconImageSource='/img/phone.png' />
         </Map>
       </div>
-      <footer className='footer'>
-        <div className='title'>
-          <a
-            className='title-link'
-            href='https://www.ucf.edu'>
-            University of Central Florida
-          </a>
-        </div>
+      <footer className='footer pt-3'>
+          <div className="d-flex justify-content-center">
+            <div className="flex-shrink-0">
+              <img className='footer-logo-map' src="../img/ucf-logo.png" alt="pegasus logo" />
+            </div>
+            <div className="pt-sm-2">
+              <div className='text-start'>
+              <a className='title-link' href='https://www.ucf.edu'> University of Central Florida</a>
+              </div>
+              <div className='address text-start'>
+                4000 Central Florida Blvd. Orlando, Florida, 32816 | 
+                <a className='text-white' href='tel:4078232000'> 407.823.2000</a>
+              </div>          
+            </div>
+          </div>
+        
+        <div className='h3 mt-1 mt-md-0 mb-md-0'> &#65088;</div>
         <div className='ucf-footer-nav'>
           <NavigationMenu
             listItemClasses='nav-item my-2'
@@ -408,9 +417,7 @@ function App() {
             menuId='footer-menu'
             remoteMenuId={FOOTER_MENU_ID} />
         </div>
-        <div className='address'>
-		      4000 Central Florida Blvd. Orlando, Florida, 32816 | <a className='text-white' href='tel:4078232000'>407.823.2000</a>
-        </div>
+      
         <div className='copyright'>
 		      © <a className='text-white' href='https://www.ucf.edu/'>University of Central Florida</a>
         </div>

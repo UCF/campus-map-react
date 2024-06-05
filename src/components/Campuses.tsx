@@ -1,4 +1,3 @@
-import React from 'react';
 
 interface Campus {
   name: string;
@@ -9,7 +8,7 @@ interface CampusesProps {
   campusesData: Campus[];
 }
 
-const Campuses: React.FC<CampusesProps> = ({ campusesData }) => {
+const Campuses = ({ campusesData }: CampusesProps) => {
 
   return (
     <ul>

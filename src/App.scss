@@ -6,6 +6,16 @@
   top: 50px !important;
 }
 
+.map-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  .mapboxgl-map {
+    margin-top: 110px;
+    min-height: calc(100dvh - 230px);
+  }
+}
+
 .sr-only {
   display: none;
 }
@@ -48,20 +58,10 @@
   width:60% 
 }
 
-.map-container {
-  display: flex;
-  flex-wrap: wrap;
-  .mapboxgl-map {
-    margin-top: 110px;
-    min-height: calc(100dvh - 230px);
-  }
-}
-
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-up(xl) {
   .map-container {
     .mapboxgl-map {
       margin-top: 120px;
-      min-height: calc(100dvh - 230px);
     }
   }
 }

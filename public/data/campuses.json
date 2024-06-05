@@ -1,0 +1,25 @@
+{
+    "campuses": [
+        {
+                "name": "University of Central Florida",
+                "Latitude": "28.6024321",
+                "Longitude": "-81.2026402"
+        },
+        {
+                "name": "UCF College of Medicine",
+                "Latitude": "28.3680993",
+                "Longitude": "-81.2811666"
+        },
+        {
+                "name": "UCF Downtown",
+                "Latitude": "28.5462775",
+                "Longitude": "-81.3872291"
+        },   
+        {
+                "name": "Rosen College of Hospitality Management",
+                "Latitude": "28.42829",
+                "Longitude": "-81.4419018"
+    
+        }
+    ]
+}

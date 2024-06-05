@@ -29,6 +29,7 @@ import './App.scss'
 import MapMenu from './components/MapMenu';
 import NavigationMenu from './components/NavigationMenu';
 import SearchResults from './components/SearchResults';
+import Campuses from './components/Campuses';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
@@ -72,6 +73,14 @@ function App() {
 
   // Shuttle Stops
   const [shuttleStopData, setShuttleStopData] = useState<FeatureCollection>();
+
+  // Campuses 
+  interface CampusesDataType {
+    name: string,
+    Latitude: string,
+    Longitude: string,
+  }
+  const [campusesData, setCampusesData] = useState<CampusesDataType[]>([]);
 
   const [searchResultData, setSearchResultData] = useState<FeatureCollection>({
     type: 'FeatureCollection',
@@ -169,6 +178,9 @@ function App() {
       .then((responseText) => responseText.json())
       .then((response) => setShuttleStopData(response));
 
+    fetch('/data/campuses.json')
+      .then((responseText) => responseText.json())
+      .then((response) => setCampusesData(response.campuses));
   }, []);
 
   const defaultLayoutProps: any = {
@@ -392,6 +404,9 @@ function App() {
           <MapIcon iconName='ramp' iconImageSource='/img/ramp.png' />
           <MapIcon iconName='phone' iconImageSource='/img/phone.png' />
         </Map>
+      </div>
+      <div>
+      <Campuses campusesData={campusesData} />
       </div>
       <footer className='footer pt-3'>
           <div className="d-flex justify-content-center">

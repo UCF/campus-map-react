@@ -438,7 +438,7 @@ function App() {
             </div>
           </div>
         
-        <div className='h3 mt-1 mt-md-0 mb-md-0'> &#65088;</div>
+        <div className='h3 mb-3 mt-0 my-md-0'> &#65088;</div>
         <div className='ucf-footer-nav'>
           <NavigationMenu
             listItemClasses='nav-item my-2'

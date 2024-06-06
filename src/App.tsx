@@ -76,15 +76,6 @@ function App() {
   // Shuttle Stops
   const [shuttleStopData, setShuttleStopData] = useState<FeatureCollection>();
 
-  // Campuses 
-  interface CampusesDataType {
-    name: string,
-    latitude: string,
-    longitude: string,
-    zoom: string
-  }
-  const [campusesData, setCampusesData] = useState<CampusesDataType[]>(campusData);
-
   const [searchResultData, setSearchResultData] = useState<FeatureCollection>({
     type: 'FeatureCollection',
     features: []
@@ -418,7 +409,7 @@ function App() {
         </Map>
       </div>
       <div>
-      <Campuses campusesData={campusesData} campusHandler={campusHandler} />
+      <Campuses campusesData={campusData} campusHandler={campusHandler} />
       </div>
       <footer className='footer pt-3'>
           <div className="d-flex justify-content-center">

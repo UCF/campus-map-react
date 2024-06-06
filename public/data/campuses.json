@@ -1,24 +1,28 @@
 {
     "campuses": [
         {
-                "name": "University of Central Florida",
-                "Latitude": "28.6024321",
-                "Longitude": "-81.2026402"
+                "name": "Main Campus",
+                "latitude": "28.602368",
+                "longitude": "-81.200142",
+                "zoom": "15"
         },
         {
-                "name": "UCF College of Medicine",
-                "Latitude": "28.3680993",
-                "Longitude": "-81.2811666"
+                "name": "College of Medicine",
+                "latitude": "28.3680993",
+                "longitude": "-81.2811666",
+                "zoom":"17"
         },
         {
-                "name": "UCF Downtown",
-                "Latitude": "28.5462775",
-                "Longitude": "-81.3872291"
+                "name": "Downtown",
+                "latitude": "28.5462775",
+                "longitude": "-81.3872291",
+                "zoom": "17"
         },   
         {
-                "name": "Rosen College of Hospitality Management",
-                "Latitude": "28.42829",
-                "Longitude": "-81.4419018"
+                "name": "Rosen College",
+                "latitude": "28.42829",
+                "longitude": "-81.4419018",
+                "zoom": "17"
     
         }
     ]

@@ -77,8 +77,9 @@ function App() {
   // Campuses 
   interface CampusesDataType {
     name: string,
-    Latitude: string,
-    Longitude: string,
+    latitude: string,
+    longitude: string,
+    zoom: string
   }
   const [campusesData, setCampusesData] = useState<CampusesDataType[]>([]);
 
@@ -136,6 +137,19 @@ function App() {
       features: retval
     });
   };
+
+  const campusHandler = (latitude: string, longitude: string, zoom: string) => {
+    const lat = Number(latitude)
+    const lon = Number(longitude)
+    const mapZoom = Number(zoom);
+    mapRef.current!.flyTo({
+      center: [
+        lon!,
+        lat!
+      ],
+      zoom: mapZoom
+    })
+  }
 
   useMemo(() => {
     fetch('/data/geojson/new/buildingPoints.geojson')
@@ -406,7 +420,7 @@ function App() {
         </Map>
       </div>
       <div>
-      <Campuses campusesData={campusesData} />
+      <Campuses campusesData={campusesData} campusHandler={campusHandler} />
       </div>
       <footer className='footer pt-3'>
           <div className="d-flex justify-content-center">

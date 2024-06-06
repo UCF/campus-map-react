@@ -12,7 +12,8 @@ import {
   Popup,
   MapboxGeoJSONFeature,
   MapLayerMouseEvent,
-  MapRef
+  MapRef,
+  Marker
 } from 'react-map-gl';
 
 import {
@@ -80,6 +81,13 @@ function App() {
     type: 'FeatureCollection',
     features: []
   });
+  // Campus Marker
+  interface CampusCoordination {
+    CampCordLng: number;
+    CampCordLat: number;
+  }
+
+  const [campusCordination, setCampusCordination] = useState<CampusCoordination>({CampCordLng:initialLng, CampCordLat:intitalLat});
   
   const [searchResults, setSearchResults] = useState<Array<Feature>>([]);
 
@@ -142,6 +150,8 @@ function App() {
       ],
       zoom: mapZoom
     })
+
+    setCampusCordination({CampCordLat: lat,CampCordLng: lon});
   }
 
   useMemo(() => {
@@ -388,6 +398,7 @@ function App() {
           <Source type='geojson' data={shuttleStopData}>
             <Layer {...shuttleStopLayer} />
           </Source>
+          
 
           {popupData && (
             <Popup
@@ -406,6 +417,11 @@ function App() {
           <MapIcon iconName='handicap' iconImageSource='/img/handicap.png' />
           <MapIcon iconName='ramp' iconImageSource='/img/ramp.png' />
           <MapIcon iconName='phone' iconImageSource='/img/phone.png' />
+
+          <Marker longitude={campusCordination.CampCordLng} latitude={campusCordination.CampCordLat} anchor="bottom" >
+            <img src='./img/location.png' />
+          </Marker>
+
         </Map>
       </div>
       <div>

@@ -371,6 +371,10 @@ function App() {
           <Source type="geojson" data={buildingFootprintData}>
             <Layer {...buildingShapeLayer} />
           </Source>
+          <Marker longitude={campusCordination.CampCordLng} latitude={campusCordination.CampCordLat} anchor="bottom" >
+            <img src='./img/campus-logo.png' />
+          </Marker>
+
           <Source type='geojson' data={searchResultData}>
             <Layer {...searchResultLayer} />
           </Source>
@@ -398,8 +402,7 @@ function App() {
           <Source type='geojson' data={shuttleStopData}>
             <Layer {...shuttleStopLayer} />
           </Source>
-          
-
+        
           {popupData && (
             <Popup
               key={popupData.properties!['name']}
@@ -417,11 +420,6 @@ function App() {
           <MapIcon iconName='handicap' iconImageSource='/img/handicap.png' />
           <MapIcon iconName='ramp' iconImageSource='/img/ramp.png' />
           <MapIcon iconName='phone' iconImageSource='/img/phone.png' />
-
-          <Marker longitude={campusCordination.CampCordLng} latitude={campusCordination.CampCordLat} anchor="bottom" >
-            <img src='./img/location.png' />
-          </Marker>
-
         </Map>
       </div>
       <div>

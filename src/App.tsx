@@ -31,6 +31,8 @@ import NavigationMenu from './components/NavigationMenu';
 import SearchResults from './components/SearchResults';
 import Campuses from './components/Campuses';
 
+import campusData from './assets/campuses.json';
+
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
 
@@ -81,7 +83,7 @@ function App() {
     longitude: string,
     zoom: string
   }
-  const [campusesData, setCampusesData] = useState<CampusesDataType[]>([]);
+  const [campusesData, setCampusesData] = useState<CampusesDataType[]>(campusData);
 
   const [searchResultData, setSearchResultData] = useState<FeatureCollection>({
     type: 'FeatureCollection',
@@ -191,10 +193,6 @@ function App() {
     fetch('/data/geojson/new/ShuttleStops.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setShuttleStopData(response));
-
-    fetch('/data/campuses.json')
-      .then((responseText) => responseText.json())
-      .then((response) => setCampusesData(response.campuses));
   }, []);
 
   const defaultLayoutProps: any = {

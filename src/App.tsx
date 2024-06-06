@@ -29,6 +29,9 @@ import './App.scss'
 import MapMenu from './components/MapMenu';
 import NavigationMenu from './components/NavigationMenu';
 import SearchResults from './components/SearchResults';
+import Campuses from './components/Campuses';
+
+import campusData from './assets/campuses.json';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
@@ -128,6 +131,19 @@ function App() {
     });
   };
 
+  const campusHandler = (latitude: string, longitude: string, zoom: string) => {
+    const lat = Number(latitude)
+    const lon = Number(longitude)
+    const mapZoom = Number(zoom);
+    mapRef.current!.flyTo({
+      center: [
+        lon!,
+        lat!
+      ],
+      zoom: mapZoom
+    })
+  }
+
   useMemo(() => {
     fetch('/data/geojson/new/buildingPoints.geojson')
       .then((responseText) => responseText.json())
@@ -168,7 +184,6 @@ function App() {
     fetch('/data/geojson/new/ShuttleStops.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setShuttleStopData(response));
-
   }, []);
 
   const defaultLayoutProps: any = {
@@ -393,6 +408,9 @@ function App() {
           <MapIcon iconName='phone' iconImageSource='/img/phone.png' />
         </Map>
       </div>
+      <div>
+      <Campuses campusesData={campusData} campusHandler={campusHandler} />
+      </div>
       <footer className='footer pt-3'>
           <div className="d-flex justify-content-center">
             <div className="flex-shrink-0">
@@ -409,7 +427,7 @@ function App() {
             </div>
           </div>
         
-        <div className='h3 mt-1 mt-md-0 mb-md-0'> &#65088;</div>
+        <div className='h3 mb-3 mt-0 my-md-0'> &#65088;</div>
         <div className='ucf-footer-nav'>
           <NavigationMenu
             listItemClasses='nav-item my-2'

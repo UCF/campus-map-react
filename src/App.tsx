@@ -335,15 +335,16 @@ function App() {
   return (
     <div className='container-fluid px-0'>
       <nav className='navbar fixed-top navbar-expand-xl navbar-light bg-light px-2 navbar-custom-style'>
-        <span className='navbar-brand pl-4'>UCF Campus Map</span>
+        <span className='navbar-brand pl-4'>Campus Map</span>
         <button className='navbar-toggler justify-self-right mb-1' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
           <span className='navbar-toggler-icon'></span>
         </button>
-        <div className='px-0 px-md-3 bg-light navbar-collapse collapse' id="navbarSupportedContent">
+        <div className='float-start px-0 px-md-3 bg-light navbar-collapse collapse' id="navbarSupportedContent">
           <MapMenu
             visibility={visibility}
             setVisibility={setVisibility} />
         </div>
+        
       </nav>
       <div className='map-container'>
       <Map
@@ -441,7 +442,7 @@ function App() {
             </div>
           </div>
         
-        <div className='h3 mb-3 mt-0 my-md-0'> &#65088;</div>
+        <div className='h3 mb-3 mt-0 my-md-0'><a href='#copyright' className='text-white text-decoration-none'>&#65088;</a></div>
         <div className='ucf-footer-nav'>
           <NavigationMenu
             listItemClasses='nav-item my-2'
@@ -450,7 +451,7 @@ function App() {
             remoteMenuId={FOOTER_MENU_ID} />
         </div>
       
-        <div className='copyright'>
+        <div id="copyright" className='copyright'>
 		      © <a className='text-white' href='https://www.ucf.edu/'>University of Central Florida</a>
         </div>
       </footer>

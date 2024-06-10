@@ -12,11 +12,11 @@ export default function SearchResults(props: SearchResultsProps) {
   console.log(props.searchResults);
 
   return (
-    <>
+    <div className='search-control-wrapper'>
       <input
-        className='search-control'
+        className='w-100'
         type='text'
-        placeholder='Search...'
+        placeholder='Find locations, services, parking & more... '
         onChange={(e) => props.searchData(e.target.value)} />
       {props.searchResults && props.searchResults.length > 0 && (
         <div className='search-results-container'>
@@ -36,7 +36,7 @@ export default function SearchResults(props: SearchResultsProps) {
           </ul>
         </div>
       )}
-    </>
+    </div>
   );
 }
 

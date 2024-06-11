@@ -12,7 +12,8 @@ import {
   Popup,
   MapboxGeoJSONFeature,
   MapLayerMouseEvent,
-  MapRef
+  MapRef,
+  Marker
 } from 'react-map-gl';
 
 import {
@@ -32,6 +33,7 @@ import SearchResults from './components/SearchResults';
 import Campuses from './components/Campuses';
 
 import campusData from './assets/campuses.json';
+import { CampusCoordination } from './Interfaces';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
@@ -80,6 +82,8 @@ function App() {
     type: 'FeatureCollection',
     features: []
   });
+
+  const [campusCoordinate, setCampusCoordinate] = useState<CampusCoordination>({CampCordLng:initialLng, CampCordLat:intitalLat});
   
   const [searchResults, setSearchResults] = useState<Array<Feature>>([]);
 
@@ -142,6 +146,8 @@ function App() {
       ],
       zoom: mapZoom
     })
+
+    setCampusCoordinate({CampCordLat: lat,CampCordLng: lon});
   }
 
   useMemo(() => {
@@ -325,7 +331,7 @@ function App() {
   return (
     <div className='container-fluid px-0'>
       <nav className='navbar fixed-top navbar-expand-xl navbar-light bg-light px-2 navbar-custom-style'>
-        <span className='navbar-brand pl-4'>UCF Campus Map</span>
+        <span className='navbar-brand pl-4'>Campus Map</span>
         <button className='navbar-toggler justify-self-right mb-1' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
           <span className='navbar-toggler-icon'></span>
         </button>
@@ -334,6 +340,7 @@ function App() {
             visibility={visibility}
             setVisibility={setVisibility} />
         </div>
+        
       </nav>
       <div className='map-container'>
       <Map
@@ -361,6 +368,10 @@ function App() {
           <Source type="geojson" data={buildingFootprintData}>
             <Layer {...buildingShapeLayer} />
           </Source>
+          <Marker longitude={campusCoordinate.CampCordLng} latitude={campusCoordinate.CampCordLat} anchor="bottom" >
+            <img src='./img/campus-logo.png' />
+          </Marker>
+
           <Source type='geojson' data={searchResultData}>
             <Layer {...searchResultLayer} />
           </Source>
@@ -388,7 +399,7 @@ function App() {
           <Source type='geojson' data={shuttleStopData}>
             <Layer {...shuttleStopLayer} />
           </Source>
-
+        
           {popupData && (
             <Popup
               key={popupData.properties!['name']}
@@ -427,7 +438,7 @@ function App() {
             </div>
           </div>
         
-        <div className='h3 mb-3 mt-0 my-md-0'> &#65088;</div>
+        <div className='h3 mb-3 mt-0 my-md-0'><a href='#copyright' className='text-white text-decoration-none'>&#65088;</a></div>
         <div className='ucf-footer-nav'>
           <NavigationMenu
             listItemClasses='nav-item my-2'
@@ -436,7 +447,7 @@ function App() {
             remoteMenuId={FOOTER_MENU_ID} />
         </div>
       
-        <div className='copyright'>
+        <div id="copyright" className='copyright'>
 		      © <a className='text-white' href='https://www.ucf.edu/'>University of Central Florida</a>
         </div>
       </footer>

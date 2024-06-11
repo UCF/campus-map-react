@@ -33,6 +33,7 @@ import SearchResults from './components/SearchResults';
 import Campuses from './components/Campuses';
 
 import campusData from './assets/campuses.json';
+import { CampusCoordination } from './Interfaces';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
@@ -81,11 +82,6 @@ function App() {
     type: 'FeatureCollection',
     features: []
   });
-  // Campus Marker
-  interface CampusCoordination {
-    CampCordLng: number;
-    CampCordLat: number;
-  }
 
   const [campusCoordinate, setCampusCoordinate] = useState<CampusCoordination>({CampCordLng:initialLng, CampCordLat:intitalLat});
   

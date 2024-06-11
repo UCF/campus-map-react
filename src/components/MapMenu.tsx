@@ -1,15 +1,8 @@
+import { Visibility } from '../types/Visibility';
 import './MapMenu.scss';
 
 interface MapMenuProps {
-  visibility: {
-    buildings: boolean,
-    accessibility: boolean,
-    greenSpaces: boolean,
-    blueLightPhones: boolean,
-    roads: boolean,
-    walkways: boolean,
-    shuttleStops: boolean
-  },
+  visibility: Visibility,
   setVisibility: Function
 }
 
@@ -25,8 +18,8 @@ export default function MapMenu(props: MapMenuProps) {
                 type="checkbox"
                 name="buildings"
                 id="buildings"
-                checked={props.visibility.buildings}
-                onChange={() => props.setVisibility({ ...props.visibility, 'buildings': !props.visibility['buildings'] })} />
+                checked={props.visibility.locations.buildings}
+                onChange={() => props.setVisibility({ ...props.visibility, 'buildings': !props.visibility.locations.buildings })} />
               <label className="btn btn-outline-dark" htmlFor='buildings'>Locations</label>
               </div>
               <div className="ms-1 ms-sm-3 my-1">

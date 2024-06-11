@@ -87,7 +87,7 @@ function App() {
     CampCordLat: number;
   }
 
-  const [campusCordination, setCampusCordination] = useState<CampusCoordination>({CampCordLng:initialLng, CampCordLat:intitalLat});
+  const [campusCoordinate, setCampusCoordinate] = useState<CampusCoordination>({CampCordLng:initialLng, CampCordLat:intitalLat});
   
   const [searchResults, setSearchResults] = useState<Array<Feature>>([]);
 
@@ -151,7 +151,7 @@ function App() {
       zoom: mapZoom
     })
 
-    setCampusCordination({CampCordLat: lat,CampCordLng: lon});
+    setCampusCoordinate({CampCordLat: lat,CampCordLng: lon});
   }
 
   useMemo(() => {
@@ -372,7 +372,7 @@ function App() {
           <Source type="geojson" data={buildingFootprintData}>
             <Layer {...buildingShapeLayer} />
           </Source>
-          <Marker longitude={campusCordination.CampCordLng} latitude={campusCordination.CampCordLat} anchor="bottom" >
+          <Marker longitude={campusCoordinate.CampCordLng} latitude={campusCoordinate.CampCordLat} anchor="bottom" >
             <img src='./img/campus-logo.png' />
           </Marker>
 

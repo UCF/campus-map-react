@@ -55,7 +55,7 @@ function App() {
 
   const [visibility, setVisibility] = useState<Visibility>({
     locations: {
-      buildings: false,
+      buildings: true,
       housing: false,
       dining: false,
       retail: false,
@@ -68,7 +68,7 @@ function App() {
       wellBeing: false
     },
     accessibility: {
-      parking: true,
+      parking: false,
       buildingRamps: false,
       curbRamps: false,
       autoDoors: false
@@ -343,7 +343,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'house',
+      "icon-image": 'location',
       visibility: visibility.locations.housing! ? 'visible': 'none'
     },
   };
@@ -363,7 +363,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'retail',
+      "icon-image": 'location',
       visibility: visibility.locations.housing! ? 'visible': 'none'
     },
   };
@@ -373,7 +373,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'lab',
+      "icon-image": 'location',
       visibility: visibility.locations.labs! ? 'visible': 'none'
     },
   };
@@ -465,7 +465,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'ramp',
+      "icon-image": 'location',
       visibility: visibility.accessibility.buildingRamps! ? 'visible': 'none'
     },
   };
@@ -496,7 +496,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'shuttle',
+      "icon-image": 'location',
       visibility: visibility.shuttleStops! ? 'visible': 'none'
     },
   };

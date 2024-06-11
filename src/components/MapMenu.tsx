@@ -26,11 +26,11 @@ export default function MapMenu(props: MapMenuProps) {
             <input
               className='btn-check'
               type="checkbox"
-              name="roads"
-              id="roads"
-              checked={props.visibility.roads}
-              onChange={() => props.setVisibility({ ...props.visibility, 'roads': !props.visibility['roads'] })} />
-            <label className="btn btn-outline-dark" htmlFor='roads'>Roads and Parking Lots</label>
+              name="parking"
+              id="parking"
+              checked={props.visibility.parking}
+              onChange={() => props.setVisibility({ ...props.visibility, 'parking': !props.visibility.parking })} />
+            <label className="btn btn-outline-dark" htmlFor='parking'>Parking Lots</label>
           </div>
           <div className="ms-1 ms-sm-3 my-1">
             <input
@@ -38,21 +38,10 @@ export default function MapMenu(props: MapMenuProps) {
               type="checkbox"
               name="greenSpaces"
               id='greenSpaces'
-              checked={props.visibility.greenSpaces}
-              onChange={() => props.setVisibility({ ...props.visibility, 'greenSpaces': !props.visibility['greenSpaces'] })} />
-            <label className="btn btn-outline-dark" htmlFor='greenSpaces'>Green Spaces</label>
+              checked={props.visibility.outdoors.greenspaces}
+              onChange={() => props.setVisibility({ ...props.visibility, 'greenspaces': !props.visibility.outdoors.greenspaces })} />
+            <label className="btn btn-outline-dark" htmlFor='greenspaces'>Green Spaces</label>
           </div> 
-          <div className="ms-1 ms-sm-3 my-1">
-            <input
-              className='btn-check'
-              type="checkbox"
-              name="walkways"
-              id="walkways"
-              checked={props.visibility.walkways}
-              onChange={() => props.setVisibility({ ...props.visibility, 'walkways': !props.visibility['walkways'] })} />
-            <label className="btn btn-outline-dark" htmlFor='walkways'>Walkways</label>
-          </div>
-          
           </div>
         </div>   
         <div className='col-12 col-lg-6'>
@@ -67,12 +56,17 @@ export default function MapMenu(props: MapMenuProps) {
                   <input
                     className="btn-check"
                     type="checkbox"
-                    // name="accessibility"
-                    // id="accessibility"
-                    // checked={props.visibility.accessibility}
-                    // onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })}
+                    name="accessible-parking"
+                    id="accessible-parking"
+                    checked={props.visibility.accessibility.parking}
+                    onChange={() => 
+                      props.setVisibility({...props.visibility, 'accessibility': {
+                        ...props.visibility.accessibility,
+                        'parking': !props.visibility.accessibility.parking
+                      }})
+                    }
                   />
-                  <label htmlFor="parking">
+                  <label htmlFor="accessible-parking">
                     Parking
                   </label>
                 </div>
@@ -80,10 +74,15 @@ export default function MapMenu(props: MapMenuProps) {
                   <input
                     className="btn-check"
                     type="checkbox"
-                    // name="accessibility"
-                    // id="accessibility"
-                    // checked={props.visibility.accessibility}
-                    // onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })}
+                    name="building-ramps"
+                    id="building-ramps"
+                    checked={props.visibility.accessibility.buildingRamps}
+                    onChange={() => 
+                      props.setVisibility({...props.visibility, 'accessibility': {
+                        ...props.visibility.accessibility,
+                        'buildingRamps': !props.visibility.accessibility.buildingRamps
+                      }})
+                    }
                   />
                   <label htmlFor="building-ramps">
                     Building Ramps
@@ -93,10 +92,15 @@ export default function MapMenu(props: MapMenuProps) {
                   <input
                     className="btn-check"
                     type="checkbox"
-                    // name="accessibility"
-                    // id="accessibility"
-                    // checked={props.visibility.accessibility}
-                    // onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })}
+                    name="parking-ramps"
+                    id="parking-ramps"
+                    checked={props.visibility.accessibility.curbRamps}
+                    onChange={() => 
+                      props.setVisibility({...props.visibility, 'accessibility': {
+                        ...props.visibility.accessibility,
+                        'curbRamps': !props.visibility.accessibility.curbRamps
+                      }})
+                    }
                   />
                   <label htmlFor="parking-ramps">
                     Parking Ramps
@@ -106,10 +110,15 @@ export default function MapMenu(props: MapMenuProps) {
                   <input
                     className="btn-check"
                     type="checkbox"
-                    // name="accessibility"
-                    // id="accessibility"
-                    // checked={props.visibility.accessibility}
-                    // onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })}
+                    name="automatic-doors"
+                    id="automatic-doors"
+                    checked={props.visibility.accessibility.autoDoors}
+                    onChange={() => 
+                      props.setVisibility({...props.visibility, 'accessibility': {
+                        ...props.visibility.accessibility,
+                        'autoDoors': !props.visibility.accessibility.autoDoors
+                      }})
+                    }
                   />
                   <label htmlFor="automatic-doors">
                     Automatic Doors
@@ -130,8 +139,8 @@ export default function MapMenu(props: MapMenuProps) {
                 type="checkbox"
                 name="blueLightPhones"
                 id="blueLightPhones"
-                checked={props.visibility.blueLightPhones}
-                onChange={() => props.setVisibility({ ...props.visibility, 'blueLightPhones': !props.visibility['blueLightPhones'] })} />
+                checked={props.visibility.emergencyPhones}
+                onChange={() => props.setVisibility({ ...props.visibility, 'emergencyPhones': !props.visibility['emergencyPhones'] })} />
               <label className="btn btn-outline-dark d-flex align-items-center" htmlFor='blueLightPhones'><img width={30} src='./img/phone.png'/><span> Emergency</span></label> 
               <button type="button" className="btn btn-outline-dark align-items-center dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               </button>
@@ -140,10 +149,10 @@ export default function MapMenu(props: MapMenuProps) {
                     <input
                       className="btn-check"
                       type="checkbox"
-                      // name="accessibility"
-                      // id="accessibility"
-                      // checked={props.visibility.accessibility}
-                      // onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })}
+                      name="bike-racks"
+                      id="bike-racks"
+                      checked={props.visibility.bikeRacks}
+                      onChange={() => props.setVisibility({ ...props.visibility, 'bikeRacks': !props.visibility['bikeRacks'] })}
                     />
                     <label htmlFor="bike-racks">
                       Bike Racks
@@ -153,12 +162,12 @@ export default function MapMenu(props: MapMenuProps) {
                   <input
                     className="btn-check"
                     type="checkbox"
-                    // name="accessibility"
-                    // id="accessibility"
-                    // checked={props.visibility.accessibility}
-                    // onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })}
+                    name="family"
+                    id="family"
+                    checked={props.visibility.family}
+                    onChange={() => props.setVisibility({ ...props.visibility, 'family': !props.visibility['family'] })}
                   />
-                  <label htmlFor="Family Resources">
+                  <label htmlFor="family">
                     Family Resources
                   </label>
                 </div>
@@ -166,12 +175,12 @@ export default function MapMenu(props: MapMenuProps) {
                   <input
                     className="btn-check"
                     type="checkbox"
-                    // name="accessibility"
-                    // id="accessibility"
-                    // checked={props.visibility.accessibility}
-                    // onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })}
+                    name="pantry"
+                    id="pantry"
+                    checked={props.visibility.knightsPantry}
+                    onChange={() => props.setVisibility({ ...props.visibility, 'knightsPantry': !props.visibility['knightsPantry'] })}
                   />
-                  <label htmlFor="knight-pantry">
+                  <label htmlFor="pantry">
                     Knight's Pantry
                   </label>
                 </div>
@@ -179,10 +188,10 @@ export default function MapMenu(props: MapMenuProps) {
                   <input
                     className="btn-check"
                     type="checkbox"
-                    // name="accessibility"
-                    // id="accessibility"
-                    // checked={props.visibility.accessibility}
-                    // onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })}
+                    name="art"
+                    id="art"
+                    checked={props.visibility.art}
+                    onChange={() => props.setVisibility({ ...props.visibility, 'art': !props.visibility['art'] })}
                   />
                   <label htmlFor="art">
                     Art
@@ -192,12 +201,12 @@ export default function MapMenu(props: MapMenuProps) {
                   <input
                     className="btn-check"
                     type="checkbox"
-                    // name="accessibility"
-                    // id="accessibility"
-                    // checked={props.visibility.accessibility}
-                    // onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })}
+                    name="services"
+                    id="services"
+                    checked={props.visibility.studentServices}
+                    onChange={() => props.setVisibility({ ...props.visibility, 'studentServices': !props.visibility['studentServices'] })}
                   />
-                  <label htmlFor="Student Services">
+                  <label htmlFor="services">
                     Student Services
                   </label>
                 </div>

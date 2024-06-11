@@ -64,15 +64,66 @@ export default function MapMenu(props: MapMenuProps) {
         </div>   
         <div className='col-12 col-lg-6'>
         <div className='d-flex justify-content-center py-1'>
-        <div className="btn-group btn-group-sm my-1" role="group" aria-label="Basic checkbox toggle button group">
-              <input
-                className='btn-check'
-                type="checkbox"
-                name="accessibility"
-                id="accessibility"
-                checked={props.visibility.accessibility}
-                onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })} />
-              <label className="btn btn-outline-dark d-flex align-items-center" htmlFor='accessibility'><img width={30} src='./img/handicap.png' /><span> Accessiblity</span></label>
+        <div className="btn-group btn-group-sm my-1" role="group" aria-label="Basic checkbox toggle button group">     
+            <button className="btn btn-outline-dark dropdown-toggle rounded-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img width={30} src='./img/handicap.png' alt="Accessibility" />
+              <span> Accessibility</span>
+            </button>
+              <ul className="dropdown-menu">
+                <div className="dropdown-item">
+                  <input
+                    className="btn-check"
+                    type="checkbox"
+                    // name="accessibility"
+                    // id="accessibility"
+                    // checked={props.visibility.accessibility}
+                    // onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })}
+                  />
+                  <label htmlFor="parking">
+                    Parking
+                  </label>
+                </div>
+                <div className="dropdown-item">
+                  <input
+                    className="btn-check"
+                    type="checkbox"
+                    // name="accessibility"
+                    // id="accessibility"
+                    // checked={props.visibility.accessibility}
+                    // onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })}
+                  />
+                  <label htmlFor="building-ramps">
+                    Building Ramps
+                  </label>
+                </div>
+                <div className="dropdown-item">
+                  <input
+                    className="btn-check"
+                    type="checkbox"
+                    // name="accessibility"
+                    // id="accessibility"
+                    // checked={props.visibility.accessibility}
+                    // onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })}
+                  />
+                  <label htmlFor="parking-ramps">
+                    Parking Ramps
+                  </label>
+                </div>
+                <div className="dropdown-item">
+                  <input
+                    className="btn-check"
+                    type="checkbox"
+                    // name="accessibility"
+                    // id="accessibility"
+                    // checked={props.visibility.accessibility}
+                    // onChange={() => props.setVisibility({ ...props.visibility, 'accessibility': !props.visibility['accessibility'] })}
+                  />
+                  <label htmlFor="automatic-doors">
+                    Automatic Doors
+                  </label>
+                </div>
+              </ul>
+
               <input
                 className='btn-check'
                 type="checkbox"
@@ -81,14 +132,24 @@ export default function MapMenu(props: MapMenuProps) {
                 checked={props.visibility.shuttleStops}
                 onChange={() => props.setVisibility({ ...props.visibility, 'shuttleStops': !props.visibility['shuttleStops'] })} />
               <label className="btn btn-outline-dark d-flex align-items-center" htmlFor='shuttleStops'><img width={30} src='./img/bus.png' /><span> Shuttle</span></label>
-              <div className="btn-group" role="group">
-    <button type="button" className="btn btn-outlined d-flex align-items-center dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-    </button>
-    <ul className="dropdown-menu dropdown-menu-end">
-      <li><a className="dropdown-item" href="#">Dropdown link</a></li>
-      <li><a className="dropdown-item" href="#">Dropdown link</a></li>
-    </ul>
-  </div>         
+              <input
+                className='btn-check'
+                type="checkbox"
+                name="blueLightPhones"
+                id="blueLightPhones"
+                checked={props.visibility.blueLightPhones}
+                onChange={() => props.setVisibility({ ...props.visibility, 'blueLightPhones': !props.visibility['blueLightPhones'] })} />
+              <label className="btn btn-outline-dark d-flex align-items-center" htmlFor='blueLightPhones'><img width={30} src='./img/phone.png'/><span> Emergency</span></label> 
+              <button type="button" className="btn btn-outline-dark align-items-center dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              </button>
+              <ul className="dropdown-menu dropdown-menu-end">
+                <li><a className="dropdown-item" href="#">Bike Racks</a></li>
+                <li><a className="dropdown-item" href="#">Family Resources</a></li>
+                <li><a className="dropdown-item" href="#">Knight's Pantry</a></li>
+                <li><a className="dropdown-item" href="#">Art</a></li>
+                <li><a className="dropdown-item" href="#">Student Services</a></li>
+              </ul>
+      
           </div>
         </div>
         </div>

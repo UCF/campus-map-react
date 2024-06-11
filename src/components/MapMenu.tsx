@@ -81,14 +81,14 @@ export default function MapMenu(props: MapMenuProps) {
                 checked={props.visibility.shuttleStops}
                 onChange={() => props.setVisibility({ ...props.visibility, 'shuttleStops': !props.visibility['shuttleStops'] })} />
               <label className="btn btn-outline-dark d-flex align-items-center" htmlFor='shuttleStops'><img width={30} src='./img/bus.png' /><span> Shuttle</span></label>
-              <input
+              {/* <input
                 className='btn-check'
                 type="checkbox"
                 name="blueLightPhones"
                 id="blueLightPhones"
                 checked={props.visibility.blueLightPhones}
                 onChange={() => props.setVisibility({ ...props.visibility, 'blueLightPhones': !props.visibility['blueLightPhones'] })} />
-              <label className="btn btn-outline-dark d-flex align-items-center" htmlFor='blueLightPhones'><img width={30} src='./img/phone.png'/><span> Emergency</span></label>
+              <label className="btn btn-outline-dark d-flex align-items-center" htmlFor='blueLightPhones'><img width={30} src='./img/phone.png'/><span> Emergency</span></label> */}
               <div className="btn-group" role="group">
     <button type="button" className="btn btn-outlined d-flex align-items-center dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
     </button>

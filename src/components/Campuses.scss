@@ -1,7 +1,11 @@
+@import "bootstrap/scss/functions"; 
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
 .campus-bar {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 
-.campus-bar a:hover {
-    background-color: transparent;
+.campus-bar a {
+    color: #fc0;
 }

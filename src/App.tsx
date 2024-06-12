@@ -716,23 +716,12 @@ function App() {
           <MapIcon iconName='service' iconImageSource='/img/other/student-service.png' />
         </Map>
       </div>
-      <div>
-      <Campuses campus={campusData} onclick={campusHandler} />
-      </div>
-      <footer className='footer pt-3'>
+      <footer className='footer pt-2'>
           <div className="d-flex justify-content-center">
             <div className="flex-shrink-0">
               <img className='footer-logo-map' src="../img/ucf-logo.png" alt="pegasus logo" />
             </div>
-            <div className="pt-sm-2">
-              <div className='text-start'>
-              <a className='title-link' href='https://www.ucf.edu'> University of Central Florida</a>
-              </div>
-              <div className='address text-start'>
-                4000 Central Florida Blvd. Orlando, Florida, 32816 | 
-                <a className='text-white' href='tel:4078232000'> 407.823.2000</a>
-              </div>          
-            </div>
+              <Campuses campus={campusData} onclick={campusHandler} />
           </div>
         
         <div className='h3 mb-3 mt-0 my-md-0'><a href='#copyright' className='text-white text-decoration-none'>&#65088;</a></div>

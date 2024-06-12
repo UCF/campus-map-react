@@ -12,7 +12,7 @@
 
   .mapboxgl-map {
     margin-top: 110px;
-    min-height: calc(100dvh - 290px);
+    min-height: calc(100dvh - 230px);
   }
 }
 
@@ -55,7 +55,7 @@
 }
 
 .footer-logo-map {
-  width:60% 
+  width:80% 
 }
 
 
@@ -63,7 +63,7 @@
   .map-container {
     .mapboxgl-map {
       margin-top: 120px;
-      min-height: calc(100dvh - 275px);
+      min-height: calc(100dvh - 250px);
     }
   }
 }

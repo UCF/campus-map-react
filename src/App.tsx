@@ -678,6 +678,9 @@ function App() {
           <Source type="geojson" data={serviceData}>
             <Layer {...serviceLayer} />
           </Source>
+          <Source type="geojson" data={searchResultData}>
+            <Layer {...searchResultLayer} />
+          </Source>
         
           <Marker longitude={campusCoordinate.longitude} latitude={campusCoordinate.latitude} anchor="bottom" >
             <img src='./img/campus/main-campus.png' />

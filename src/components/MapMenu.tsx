@@ -216,13 +216,13 @@ export default function MapMenu(props: MapMenuProps) {
               </ul>
 
               <a
-                className={props.visibility.shuttleStops ? 'btn btn-dark' : 'btn btn-outline-dark'}
+                className={props.visibility.shuttleStops ? 'btn btn-dark rounded-0' : 'btn btn-outline-dark rounded-0'}
                 id="shuttleStops"
                 href='#shuttleStops'
                 onClick={() => props.setVisibility({ ...props.visibility, 'shuttleStops': !props.visibility['shuttleStops'] })} >
               <img width={30} src='./img/bus.png' alt="bus logo"/><span> Shuttle</span></a>
               <a
-                className={props.visibility.emergencyPhones ? 'btn btn-dark' : 'btn btn-outline-dark'}
+                className={props.visibility.emergencyPhones ? 'btn btn-dark rounded-0' : 'btn btn-outline-dark rounded-0'}
                 id="blueLightPhones"
                 href='#blueLightPhones'
                 onClick={() => props.setVisibility({ ...props.visibility, 'emergencyPhones': !props.visibility['emergencyPhones'] })} >

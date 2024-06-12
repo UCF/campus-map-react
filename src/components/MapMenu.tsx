@@ -215,22 +215,18 @@ export default function MapMenu(props: MapMenuProps) {
                 </li>
               </ul>
 
-              <input
-                className='btn-check'
-                type="checkbox"
-                name="shuttleStops"
+              <a
+                className={props.visibility.shuttleStops ? 'btn btn-dark' : 'btn btn-outline-dark'}
                 id="shuttleStops"
-                checked={props.visibility.shuttleStops}
-                onChange={() => props.setVisibility({ ...props.visibility, 'shuttleStops': !props.visibility['shuttleStops'] })} />
-              <label className="btn btn-outline-dark d-flex align-items-center" htmlFor='shuttleStops'><img width={30} src='./img/bus.png' alt="bus logo"/><span> Shuttle</span></label>
-              <input
-                className='btn-check'
-                type="checkbox"
-                name="blueLightPhones"
+                href='#shuttleStops'
+                onClick={() => props.setVisibility({ ...props.visibility, 'shuttleStops': !props.visibility['shuttleStops'] })} >
+              <img width={30} src='./img/bus.png' alt="bus logo"/><span> Shuttle</span></a>
+              <a
+                className={props.visibility.emergencyPhones ? 'btn btn-dark' : 'btn btn-outline-dark'}
                 id="blueLightPhones"
-                checked={props.visibility.emergencyPhones}
-                onChange={() => props.setVisibility({ ...props.visibility, 'emergencyPhones': !props.visibility['emergencyPhones'] })} />
-              <label className="btn btn-outline-dark d-flex align-items-center" htmlFor='blueLightPhones'><img width={30} src='./img/phone.png' alt="emergency phones"/><span> Emergency</span></label> 
+                href='#blueLightPhones'
+                onClick={() => props.setVisibility({ ...props.visibility, 'emergencyPhones': !props.visibility['emergencyPhones'] })} >
+              <img width={30} src='./img/phone.png' alt="emergency phones"/><span> Emergency</span></a> 
               <button type="button" className="btn btn-outline-dark align-items-center dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               </button>
               <ul className="dropdown-menu dropdown-menu-end">

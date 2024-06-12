@@ -234,7 +234,7 @@ export default function MapMenu(props: MapMenuProps) {
               <button type="button" className="btn btn-outline-dark align-items-center dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               </button>
               <ul className="dropdown-menu dropdown-menu-end">
-                <li className="dropdown-item">
+                <li>
                     <a
                       className={props.visibility.bikeRacks ? 'dropdown-item active' : 'dropdown-item'}
                       href='#bikeRack'
@@ -244,7 +244,7 @@ export default function MapMenu(props: MapMenuProps) {
                       Bike Racks
                     </a>
                   </li>
-                  <li className="dropdown-item">
+                  <li>
                   <a
                     className={props.visibility.family ? 'dropdown-item active' : 'dropdown-item'}
                     id="family"
@@ -254,7 +254,7 @@ export default function MapMenu(props: MapMenuProps) {
                     Family Resources
                   </a>  
                 </li>
-                <li className="dropdown-item">
+                <li>
                   <a
                     className={props.visibility.knightsPantry ? 'dropdown-item active' : 'dropdown-item'}
                     id="pantry"
@@ -274,7 +274,7 @@ export default function MapMenu(props: MapMenuProps) {
                     Art
                   </a>  
                 </li>
-                <li className="dropdown-item">
+                <li>
                   <a
                     className={props.visibility.studentServices ? 'dropdown-item active' : 'dropdown-item'}
                     id="services"

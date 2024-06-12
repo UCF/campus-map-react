@@ -343,7 +343,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'location',
+      "icon-image": 'housing',
       visibility: visibility.locations.housing! ? 'visible': 'none'
     },
   };
@@ -363,7 +363,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'location',
+      "icon-image": 'retail',
       visibility: visibility.locations.housing! ? 'visible': 'none'
     },
   };
@@ -373,7 +373,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'location',
+      "icon-image": 'lab',
       visibility: visibility.locations.labs! ? 'visible': 'none'
     },
   };
@@ -434,7 +434,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'location',
+      "icon-image": 'recreation',
       visibility: visibility.outdoors.recreation! ? 'visible': 'none'
     },
   };
@@ -444,7 +444,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'location',
+      "icon-image": 'well-being',
       visibility: visibility.outdoors.wellBeing! ? 'visible': 'none'
     },
   };
@@ -455,7 +455,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'handicap',
+      "icon-image": 'accessible-parking',
       visibility: visibility.accessibility.parking! ? 'visible': 'none'
     },
   };
@@ -465,7 +465,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'location',
+      "icon-image": 'building-ramp',
       visibility: visibility.accessibility.buildingRamps! ? 'visible': 'none'
     },
   };
@@ -475,7 +475,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'ramp',
+      "icon-image": 'parking-ramp',
       visibility: visibility.accessibility.curbRamps! ? 'visible': 'none'
     },
   };
@@ -485,7 +485,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'location',
+      "icon-image": 'auto-door',
       visibility: visibility.accessibility.autoDoors! ? 'visible': 'none'
     },
   };
@@ -496,7 +496,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'location',
+      "icon-image": 'bus',
       visibility: visibility.shuttleStops! ? 'visible': 'none'
     },
   };
@@ -517,7 +517,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'location',
+      "icon-image": 'bike-rack',
       visibility: visibility.bikeRacks! ? 'visible': 'none'
     },
   };
@@ -527,7 +527,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'location',
+      "icon-image": 'family',
       visibility: visibility.family! ? 'visible': 'none'
     },
   };
@@ -537,7 +537,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'location',
+      "icon-image": 'pantry',
       visibility: visibility.knightsPantry! ? 'visible': 'none'
     },
   };
@@ -547,7 +547,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'location',
+      "icon-image": 'art',
       visibility: visibility.art! ? 'visible': 'none'
     },
   };
@@ -557,7 +557,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'location',
+      "icon-image": 'service',
       visibility: visibility.studentServices! ? 'visible': 'none'
     },
   };
@@ -607,11 +607,11 @@ function App() {
           <FullscreenControl position='bottom-right' />
           <NavigationControl position='bottom-right' />
           <ScaleControl />
-          <Source type="geojson" data={buildingPointData}>
-            <Layer {...buildingPointLayer} />
-          </Source>
           <Source type="geojson" data={buildingFootprintData}>
             <Layer {...buildingShapeLayer} />
+          </Source>
+          <Source type="geojson" data={buildingPointData}>
+            <Layer {...buildingPointLayer} />
           </Source>
           <Source type="geojson" data={housingData}>
             <Layer {...housingLayer} />
@@ -680,7 +680,7 @@ function App() {
           </Source>
         
           <Marker longitude={campusCoordinate.longitude} latitude={campusCoordinate.latitude} anchor="bottom" >
-            <img src='./img/campus-logo.png' />
+            <img src='./img/campus/main-campus.png' />
           </Marker>
 
           {popupData && (
@@ -694,12 +694,23 @@ function App() {
               </Popup>
           )}
           <MapIcon iconName='location' iconImageSource='/img/location.png' />
-          <MapIcon iconName='building' iconImageSource='/img/building.png' />
+          <MapIcon iconName='housing' iconImageSource='/img/locations/housing.png' />
+          <MapIcon iconName='dining' iconImageSource='/img/locations/dining.png' />
+          <MapIcon iconName='retail' iconImageSource='/img/locations/retail.png' />
+          <MapIcon iconName='lab' iconImageSource='/img/locations/lab.png' />
+          <MapIcon iconName='recreation' iconImageSource='/img/outdoors/recreation.png' />
+          <MapIcon iconName='wellbeing' iconImageSource='/img/outdoors/well-being.png' />
+          <MapIcon iconName='accessible-parking' iconImageSource='/img/accessibility/accessible-parking.png' />
+          <MapIcon iconName='auto-door' iconImageSource='/img/accessibility/automatic-door.png' />
+          <MapIcon iconName='building-ramp' iconImageSource='/img/accessibility/building-ramp.png' />
+          <MapIcon iconName='parking-ramp' iconImageSource='/img/accessibility/parking-ramp.png' />
           <MapIcon iconName='bus' iconImageSource='/img/bus.png' />
-          <MapIcon iconName='food' iconImageSource='/img/food.png' />
-          <MapIcon iconName='handicap' iconImageSource='/img/handicap.png' />
-          <MapIcon iconName='ramp' iconImageSource='/img/ramp.png' />
           <MapIcon iconName='phone' iconImageSource='/img/phone.png' />
+          <MapIcon iconName='bike-rack' iconImageSource='/img/other/bike-racks.png' />
+          <MapIcon iconName='family' iconImageSource='/img/other/family-solid.png' />
+          <MapIcon iconName='pantry' iconImageSource='/img/other/pantry.png' />
+          <MapIcon iconName='art' iconImageSource='/img/other/art.png' />
+          <MapIcon iconName='service' iconImageSource='/img/other/student-service.png' />
         </Map>
       </div>
       <div>

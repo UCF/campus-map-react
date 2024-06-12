@@ -11,37 +11,138 @@ export default function MapMenu(props: MapMenuProps) {
     <div className='w-100'>
       <div className='row'>
         <div className='col-12 col-lg-6'>
-            <div className="d-flex flex-row flex-wrap justify-content-center justify-content-sm-start py-1">
-              <div className="ms-1 ms-sm-3 my-1">
-              <input
-                className='btn-check'
-                type="checkbox"
-                name="buildings"
-                id="buildings"
-                checked={props.visibility.locations.buildings}
-                onChange={() => props.setVisibility({ ...props.visibility, 'buildings': !props.visibility.locations.buildings })} />
-              <label className="btn btn-outline-dark" htmlFor='buildings'>Locations</label>
+          <div className="d-flex flex-row flex-wrap justify-content-center justify-content-sm-start py-1">
+            <div className='btn-group'>
+              <div className='btn-group'>
+                <a className='btn btn-outline-dark dropdown-toggle' data-bs-toggle='dropdown' href='#locations' role="button" aria-expanded="false">Locations</a>
+                <ul className='dropdown-menu'>
+                  <li>
+                    <a
+                      className={props.visibility.locations.buildings ? 'dropdown-item active' : 'dropdown-item'}
+                      href='#buildings'
+                      id="buildings"
+                      onClick={() =>
+                        props.setVisibility({...props.visibility, 'locations': {
+                          ...props.visibility.locations,
+                          'buildings': !props.visibility.locations.buildings
+                        }})
+                      }>
+                      Buildings
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className={props.visibility.locations.housing ? 'dropdown-item active' : 'dropdown-item'}
+                      href='#housing'
+                      id="housing"
+                      onClick={() =>
+                        props.setVisibility({...props.visibility, 'locations': {
+                          ...props.visibility.locations,
+                          'housing': !props.visibility.locations.housing
+                        }})
+                      }>
+                      Housing
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className={props.visibility.locations.dining ? 'dropdown-item active' : 'dropdown-item'}
+                      href='#dining'
+                      id="dining"
+                      onClick={() =>
+                        props.setVisibility({...props.visibility, 'locations': {
+                          ...props.visibility.locations,
+                          'dining': !props.visibility.locations.dining
+                        }})
+                      }>
+                      Dining
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className={props.visibility.locations.retail ? 'dropdown-item active' : 'dropdown-item'}
+                      href='#retail'
+                      id="retail"
+                      onClick={() =>
+                        props.setVisibility({...props.visibility, 'locations': {
+                          ...props.visibility.locations,
+                          'retail': !props.visibility.locations.retail
+                        }})
+                      }>
+                      Retail
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className={props.visibility.locations.labs ? 'dropdown-item active' : 'dropdown-item'}
+                      href='#labs'
+                      id="labs"
+                      onClick={() =>
+                        props.setVisibility({...props.visibility, 'locations': {
+                          ...props.visibility.locations,
+                          'labs': !props.visibility.locations.labs
+                        }})
+                      }>
+                      Labs
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <div className="ms-1 ms-sm-3 my-1">
-            <input
-              className='btn-check'
-              type="checkbox"
-              name="parking"
-              id="parking"
-              checked={props.visibility.parking}
-              onChange={() => props.setVisibility({ ...props.visibility, 'parking': !props.visibility.parking })} />
-            <label className="btn btn-outline-dark" htmlFor='parking'>Parking Lots</label>
-          </div>
-          <div className="ms-1 ms-sm-3 my-1">
-            <input
-              className='btn-check'
-              type="checkbox"
-              name="greenSpaces"
-              id='greenSpaces'
-              checked={props.visibility.outdoors.greenspaces}
-              onChange={() => props.setVisibility({ ...props.visibility, 'greenspaces': !props.visibility.outdoors.greenspaces })} />
-            <label className="btn btn-outline-dark" htmlFor='greenspaces'>Green Spaces</label>
-          </div> 
+              <a
+                className={props.visibility.parking ? 'btn btn-dark' : 'btn btn-outline-dark'}
+                href='#parking'
+                id="parking"
+                onClick={() => props.setVisibility({ ...props.visibility, 'parking': !props.visibility.parking })}>
+                  Parking
+              </a>
+              <div className='btn-group'>
+                <a className='btn btn-outline-dark dropdown-toggle' data-bs-toggle='dropdown' href='#locations' role="button" aria-expanded="false">Outdoors</a>
+                <ul className='dropdown-menu'>
+                  <li className='dropdown-item'>
+                    <a
+                      className={props.visibility.outdoors.greenspaces ? 'nav-link active' : 'nav-link'}
+                      href='#greenspaces'
+                      id="greenspaces"
+                      onClick={() =>
+                        props.setVisibility({...props.visibility, 'outdoors': {
+                          ...props.visibility.outdoors,
+                          'greenspaces': !props.visibility.outdoors.greenspaces
+                        }})
+                      }>
+                      Green Spaces
+                    </a>
+                  </li>
+                  <li className='dropdown-item'>
+                    <a
+                      className={props.visibility.outdoors.recreation ? 'nav-link active' : 'nav-link'}
+                      href='#recreation'
+                      id="recreation"
+                      onClick={() =>
+                        props.setVisibility({...props.visibility, 'outdoors': {
+                          ...props.visibility.outdoors,
+                          'recreation': !props.visibility.outdoors.recreation
+                        }})
+                      }>
+                      Recreation
+                    </a>
+                  </li>
+                  <li className='dropdown-item'>
+                    <a
+                      className={props.visibility.outdoors.wellBeing ? 'nav-link active' : 'nav-link'}
+                      href='#wellBeing'
+                      id="wellBeing"
+                      onClick={() =>
+                        props.setVisibility({...props.visibility, 'outdoors': {
+                          ...props.visibility.outdoors,
+                          'wellBeing': !props.visibility.outdoors.wellBeing
+                        }})
+                      }>
+                      Well-Being
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>   
         <div className='col-12 col-lg-6'>

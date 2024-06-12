@@ -364,7 +364,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'retail',
-      visibility: visibility.locations.housing! ? 'visible': 'none'
+      visibility: visibility.locations.retail! ? 'visible': 'none'
     },
   };
 

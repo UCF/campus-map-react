@@ -12,7 +12,7 @@ export default function MapMenu(props: MapMenuProps) {
       <div className='row'>
         <div className='col-12 col-lg-6'>
           <div className="d-flex flex-row flex-wrap justify-content-center justify-content-sm-start py-1">
-            <div className='btn-group'>
+            <div className='btn-group my-1'>
               <div className='btn-group'>
                 <a className='btn btn-outline-dark dropdown-toggle' data-bs-toggle='dropdown' href='#locations' role="button" aria-expanded="false">Locations</a>
                 <ul className='dropdown-menu'>

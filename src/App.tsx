@@ -704,7 +704,7 @@ function App() {
           <MapIcon iconName='recreation' iconImageSource='/img/outdoors/recreation.png' />
           <MapIcon iconName='wellbeing' iconImageSource='/img/outdoors/well-being.png' />
           <MapIcon iconName='accessible-parking' iconImageSource='/img/accessibility/accessible-parking.png' />
-          <MapIcon iconName='auto-door' iconImageSource='/img/accessibility/automatic-door.png' />
+          <MapIcon iconName='auto-door' iconImageSource='/img/accessibility/automatic-doors.png' />
           <MapIcon iconName='building-ramp' iconImageSource='/img/accessibility/building-ramp.png' />
           <MapIcon iconName='parking-ramp' iconImageSource='/img/accessibility/parking-ramp.png' />
           <MapIcon iconName='bus' iconImageSource='/img/bus.png' />

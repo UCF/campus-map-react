@@ -444,7 +444,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'well-being',
+      "icon-image": 'wellbeing',
       visibility: visibility.outdoors.wellBeing! ? 'visible': 'none'
     },
   };

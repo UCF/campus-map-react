@@ -98,9 +98,9 @@ export default function MapMenu(props: MapMenuProps) {
               <div className='btn-group'>
                 <a className='btn btn-outline-dark dropdown-toggle' data-bs-toggle='dropdown' href='#locations' role="button" aria-expanded="false">Outdoors</a>
                 <ul className='dropdown-menu'>
-                  <li className='dropdown-item'>
+                  <li>
                     <a
-                      className={props.visibility.outdoors.greenspaces ? 'nav-link active' : 'nav-link'}
+                      className={props.visibility.outdoors.greenspaces ? 'dropdown-item active' : 'dropdown-item'}
                       href='#greenspaces'
                       id="greenspaces"
                       onClick={() =>
@@ -112,9 +112,9 @@ export default function MapMenu(props: MapMenuProps) {
                       Green Spaces
                     </a>
                   </li>
-                  <li className='dropdown-item'>
+                  <li>
                     <a
-                      className={props.visibility.outdoors.recreation ? 'nav-link active' : 'nav-link'}
+                      className={props.visibility.outdoors.recreation ? 'dropdown-item active' : 'dropdown-item'}
                       href='#recreation'
                       id="recreation"
                       onClick={() =>
@@ -126,9 +126,9 @@ export default function MapMenu(props: MapMenuProps) {
                       Recreation
                     </a>
                   </li>
-                  <li className='dropdown-item'>
+                  <li>
                     <a
-                      className={props.visibility.outdoors.wellBeing ? 'nav-link active' : 'nav-link'}
+                      className={props.visibility.outdoors.wellBeing ? 'dropdown-item active' : 'dropdown-item'}
                       href='#wellBeing'
                       id="wellBeing"
                       onClick={() =>

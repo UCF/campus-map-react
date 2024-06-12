@@ -148,83 +148,71 @@ export default function MapMenu(props: MapMenuProps) {
         <div className='col-12 col-lg-6'>
         <div className='d-flex justify-content-center py-1'>
         <div className="btn-group btn-group-sm my-1" role="group" aria-label="Basic checkbox toggle button group">     
-            <button className="btn btn-outline-dark dropdown-toggle rounded-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="btn btn-outline-dark dropdown-toggle rounded-0" id="accessibility" href="#accessibility" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               <img width={30} src='./img/handicap.png' alt="Accessibility" />
-              <span> Accessibility</span>
-            </button>
+              <span>Accessibility</span>
+            </a>
               <ul className="dropdown-menu">
-                <div className="dropdown-item">
-                  <input
-                    className="btn-check"
-                    type="checkbox"
-                    name="accessible-parking"
+                <li>
+                  <a
+                    className={props.visibility.accessibility.parking ? 'dropdown-item active' : 'dropdown-item'}
                     id="accessible-parking"
-                    checked={props.visibility.accessibility.parking}
-                    onChange={() => 
+                    href='#accessible-parking'
+                    onClick={() => 
                       props.setVisibility({...props.visibility, 'accessibility': {
                         ...props.visibility.accessibility,
                         'parking': !props.visibility.accessibility.parking
                       }})
                     }
-                  />
-                  <label htmlFor="accessible-parking">
+                  >
                     Parking
-                  </label>
-                </div>
-                <div className="dropdown-item">
-                  <input
-                    className="btn-check"
-                    type="checkbox"
-                    name="building-ramps"
+                  </a>  
+                </li>
+                <li>
+                  <a
+                    className={props.visibility.accessibility.buildingRamps ? 'dropdown-item active' : 'dropdown-item'}
                     id="building-ramps"
-                    checked={props.visibility.accessibility.buildingRamps}
-                    onChange={() => 
+                    href='#building-ramps'
+                    onClick={() => 
                       props.setVisibility({...props.visibility, 'accessibility': {
                         ...props.visibility.accessibility,
                         'buildingRamps': !props.visibility.accessibility.buildingRamps
                       }})
                     }
-                  />
-                  <label htmlFor="building-ramps">
+                  >
                     Building Ramps
-                  </label>
-                </div>
-                <div className="dropdown-item">
-                  <input
-                    className="btn-check"
-                    type="checkbox"
-                    name="parking-ramps"
-                    id="parking-ramps"
-                    checked={props.visibility.accessibility.curbRamps}
-                    onChange={() => 
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className={props.visibility.accessibility.curbRamps ? 'dropdown-item active' : 'dropdown-item'}
+                    href='#curbRamps'
+                    id="curbRamps"
+                    onClick={() => 
                       props.setVisibility({...props.visibility, 'accessibility': {
                         ...props.visibility.accessibility,
                         'curbRamps': !props.visibility.accessibility.curbRamps
                       }})
                     }
-                  />
-                  <label htmlFor="parking-ramps">
+                  >
                     Parking Ramps
-                  </label>
-                </div>
-                <div className="dropdown-item">
-                  <input
-                    className="btn-check"
-                    type="checkbox"
-                    name="automatic-doors"
-                    id="automatic-doors"
-                    checked={props.visibility.accessibility.autoDoors}
-                    onChange={() => 
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className={props.visibility.accessibility.autoDoors ? 'dropdown-item active' : 'dropdown-item'}
+                    id="autoDoors"
+                    href='#autoDoors'
+                    onClick={() => 
                       props.setVisibility({...props.visibility, 'accessibility': {
                         ...props.visibility.accessibility,
                         'autoDoors': !props.visibility.accessibility.autoDoors
                       }})
                     }
-                  />
-                  <label htmlFor="automatic-doors">
+                  >
                     Automatic Doors
-                  </label>
-                </div>
+                  </a>
+                </li>
               </ul>
 
               <input
@@ -234,7 +222,7 @@ export default function MapMenu(props: MapMenuProps) {
                 id="shuttleStops"
                 checked={props.visibility.shuttleStops}
                 onChange={() => props.setVisibility({ ...props.visibility, 'shuttleStops': !props.visibility['shuttleStops'] })} />
-              <label className="btn btn-outline-dark d-flex align-items-center" htmlFor='shuttleStops'><img width={30} src='./img/bus.png' /><span> Shuttle</span></label>
+              <label className="btn btn-outline-dark d-flex align-items-center" htmlFor='shuttleStops'><img width={30} src='./img/bus.png' alt="bus logo"/><span> Shuttle</span></label>
               <input
                 className='btn-check'
                 type="checkbox"
@@ -242,75 +230,60 @@ export default function MapMenu(props: MapMenuProps) {
                 id="blueLightPhones"
                 checked={props.visibility.emergencyPhones}
                 onChange={() => props.setVisibility({ ...props.visibility, 'emergencyPhones': !props.visibility['emergencyPhones'] })} />
-              <label className="btn btn-outline-dark d-flex align-items-center" htmlFor='blueLightPhones'><img width={30} src='./img/phone.png'/><span> Emergency</span></label> 
+              <label className="btn btn-outline-dark d-flex align-items-center" htmlFor='blueLightPhones'><img width={30} src='./img/phone.png' alt="emergency phones"/><span> Emergency</span></label> 
               <button type="button" className="btn btn-outline-dark align-items-center dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               </button>
               <ul className="dropdown-menu dropdown-menu-end">
-                <div className="dropdown-item">
-                    <input
-                      className="btn-check"
-                      type="checkbox"
-                      name="bike-racks"
-                      id="bike-racks"
-                      checked={props.visibility.bikeRacks}
-                      onChange={() => props.setVisibility({ ...props.visibility, 'bikeRacks': !props.visibility['bikeRacks'] })}
-                    />
-                    <label htmlFor="bike-racks">
+                <li className="dropdown-item">
+                    <a
+                      className={props.visibility.bikeRacks ? 'dropdown-item active' : 'dropdown-item'}
+                      href='#bikeRack'
+                      id="bikeRacks"
+                      onClick={() => props.setVisibility({ ...props.visibility, 'bikeRacks': !props.visibility['bikeRacks'] })}
+                    >
                       Bike Racks
-                    </label>
-                  </div>
-                  <div className="dropdown-item">
-                  <input
-                    className="btn-check"
-                    type="checkbox"
-                    name="family"
+                    </a>
+                  </li>
+                  <li className="dropdown-item">
+                  <a
+                    className={props.visibility.family ? 'dropdown-item active' : 'dropdown-item'}
                     id="family"
-                    checked={props.visibility.family}
-                    onChange={() => props.setVisibility({ ...props.visibility, 'family': !props.visibility['family'] })}
-                  />
-                  <label htmlFor="family">
+                    href='#family'
+                    onClick={() => props.setVisibility({ ...props.visibility, 'family': !props.visibility['family'] })}
+                  >
                     Family Resources
-                  </label>
-                </div>
-                <div className="dropdown-item">
-                  <input
-                    className="btn-check"
-                    type="checkbox"
-                    name="pantry"
+                  </a>  
+                </li>
+                <li className="dropdown-item">
+                  <a
+                    className={props.visibility.knightsPantry ? 'dropdown-item active' : 'dropdown-item'}
                     id="pantry"
-                    checked={props.visibility.knightsPantry}
-                    onChange={() => props.setVisibility({ ...props.visibility, 'knightsPantry': !props.visibility['knightsPantry'] })}
-                  />
-                  <label htmlFor="pantry">
+                    href='#pantry'
+                    onClick={() => props.setVisibility({ ...props.visibility, 'knightsPantry': !props.visibility['knightsPantry'] })}
+                  >
                     Knight's Pantry
-                  </label>
-                </div>
-                <div className="dropdown-item">
-                  <input
-                    className="btn-check"
-                    type="checkbox"
-                    name="art"
+                  </a>  
+                </li>
+                <li className="dropdown-item">
+                  <a
+                    className={props.visibility.art ? 'dropdown-item active' : 'dropdown-item'}
                     id="art"
-                    checked={props.visibility.art}
-                    onChange={() => props.setVisibility({ ...props.visibility, 'art': !props.visibility['art'] })}
-                  />
-                  <label htmlFor="art">
+                    href='#art'
+                    onClick={() => props.setVisibility({ ...props.visibility, 'art': !props.visibility['art'] })}
+                  >
                     Art
-                  </label>
-                </div>
-                <div className="dropdown-item">
-                  <input
-                    className="btn-check"
-                    type="checkbox"
-                    name="services"
+                  </a>  
+                </li>
+                <li className="dropdown-item">
+                  <a
+                    className={props.visibility.studentServices ? 'dropdown-item active' : 'dropdown-item'}
                     id="services"
-                    checked={props.visibility.studentServices}
-                    onChange={() => props.setVisibility({ ...props.visibility, 'studentServices': !props.visibility['studentServices'] })}
-                  />
-                  <label htmlFor="services">
+                    href='#services'
+                    onClick={() => props.setVisibility({ ...props.visibility, 'studentServices': !props.visibility['studentServices'] })}
+                  >
                     Student Services
-                  </label>
-                </div>
+                  </a>  
+                </li>
               </ul>
       
           </div>

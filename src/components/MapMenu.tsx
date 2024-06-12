@@ -264,14 +264,13 @@ export default function MapMenu(props: MapMenuProps) {
                     Knight's Pantry
                   </a>  
                 </li>
-                <li className="dropdown-item">
+                <li>
                   <a
                     className={props.visibility.art ? 'dropdown-item active' : 'dropdown-item'}
                     id="art"
                     href='#art'
                     onClick={() => props.setVisibility({ ...props.visibility, 'art': !props.visibility['art'] })}
-                  >
-                    Art
+                  >Art
                   </a>  
                 </li>
                 <li>

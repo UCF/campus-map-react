@@ -41,6 +41,7 @@ import { Visibility } from './types/Visibility';
 
 // Data Imports
 import campusData from './assets/campuses.json';
+import SocialMedia from './components/SocialMedia';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
@@ -723,9 +724,11 @@ function App() {
             </div>
               <Campuses campus={campusData} onclick={campusHandler} />
           </div>
-        
+
         <div className='h3 mb-3 mt-0 my-md-0'><a href='#copyright' className='text-white text-decoration-none'>&#65088;</a></div>
         <div className='ucf-footer-nav'>
+        <SocialMedia />
+
           <NavigationMenu
             listItemClasses='nav-item my-2'
             anchorClasses='nav-link text-white py-0'

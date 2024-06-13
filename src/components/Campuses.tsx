@@ -11,9 +11,9 @@ const Campuses = ({ campus, onclick }: CampusesProps) => {
     <div className="campus-bar d-flex flex-wrap justify-content-around pt-3 mb-2">
       <div className='d-flex w-100 flex-wrap justify-content-around mb-2'>
         {campus.map((campusData, index) => (
-          <>
-            <a href="#" className='text-decoration-none' key={index} onClick={()=> onclick(campusData)}>{campusData.shortName}</a>{ index !== campus.length - 1 && <span>|</span> }
-            </>
+          <div key={index}>
+            <a href="#" className='text-decoration-none' onClick={()=> onclick(campusData)}>{campusData.shortName}</a>{ index !== campus.length - 1 && <span>|</span> }
+            </div>
           ))}
       </div>
       <div className='address text-start small'>

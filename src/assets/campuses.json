@@ -4,27 +4,31 @@
     "shortName": "Main",
     "latitude": 28.602368,
     "longitude": -81.200142,
-    "zoom": 15
+    "zoom": 15,
+    "img": "./img/campus/main-campus.png"
   },
   {
     "name": "Downtown",
     "shortName": "Downtown",
     "latitude": 28.5462775,
     "longitude": -81.3872291,
-    "zoom": 17
+    "zoom": 17,
+    "img": "./img/campus/downtown-campus.png"
   },
   {
     "name": "College of Medicine",
     "shortName": "Health",
     "latitude": 28.3680993,
     "longitude": -81.2811666,
-    "zoom":17
+    "zoom":17,
+    "img": "./img/campus/health-campus.png"
   },   
   {
     "name": "Rosen College",
     "shortName": "Hospitality",
     "latitude": 28.42829,
     "longitude": -81.4419018,
-    "zoom": 17
+    "zoom": 17,
+    "img": "./img/campus/hospitality-campus.png"
   }
 ]

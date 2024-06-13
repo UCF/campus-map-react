@@ -3,5 +3,6 @@ export interface Campus {
   shortName: string,
   latitude: number, // Float
   longitude: number, // Float
-  zoom: number // Float
+  zoom: number, // Float
+  img: string
 }

@@ -158,6 +158,7 @@ function App() {
   });
 
   const [campusCoordinate, setCampusCoordinate] = useState<Campus>(campusData[0]);
+  const [campusIcon, setCampusIcon] = useState<string>(campusData[0].img);
   
   const [searchResults, setSearchResults] = useState<Array<Feature>>([]);
 
@@ -211,6 +212,7 @@ function App() {
     })
 
     setCampusCoordinate(campus);
+    setCampusIcon(campus.img);
   }
 
   useMemo(() => {
@@ -684,7 +686,7 @@ function App() {
           </Source>
         
           <Marker longitude={campusCoordinate.longitude} latitude={campusCoordinate.latitude} anchor="bottom" >
-            <img src='./img/campus/main-campus.png' />
+            <img src={campusIcon} />
           </Marker>
 
           {popupData && (

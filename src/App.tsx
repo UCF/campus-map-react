@@ -499,6 +499,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'bus',
+      "icon-size": 1.8,
       visibility: visibility.shuttleStops! ? 'visible': 'none'
     },
   };

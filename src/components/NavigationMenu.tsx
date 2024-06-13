@@ -31,7 +31,7 @@ export default function NavigationMenu(props: NavigationMenuProps) {
         setLinks(response.items);
       });
   }, []);
-
+  console.log(links);
   return (
     <ul id={menuId} className={listClasses}>
       {links.map((link: RestMenuItem) => {
@@ -40,7 +40,7 @@ export default function NavigationMenu(props: NavigationMenuProps) {
           <a
             className={anchorClasses}
             href={link.url}>
-              {parse(link.title)}
+              { menuId !== 'social-links' && parse(link.title) }
             </a>
         </li>
         );

@@ -41,10 +41,10 @@ import { Visibility } from './types/Visibility';
 
 // Data Imports
 import campusData from './assets/campuses.json';
-import SocialMedia from './components/SocialMedia';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
+const FOOTER_SOCIAL_ID = import.meta.env.VITE_REMOTE_SOCIAL_LINKS_ID;
 
 function App() {
   const initialLng = -81.200142;
@@ -726,9 +726,15 @@ function App() {
           </div>
 
         <div className='h3 mb-3 mt-0 my-md-0'><a href='#copyright' className='text-white text-decoration-none'>&#65088;</a></div>
+        <NavigationMenu 
+            listClasses='ucf-footer-social mb-2 list-unstyled list-group list-group-horizontal d-flex justify-content-center'
+            listItemClasses='ucf-footer-social-item ms-1'
+            anchorClasses="ucf-footer-social-link"
+            menuId='social-links'
+            remoteMenuId={FOOTER_SOCIAL_ID}
+          /> 
         <div className='ucf-footer-nav'>
-        <SocialMedia />
-
+          
           <NavigationMenu
             listItemClasses='nav-item my-2'
             anchorClasses='nav-link text-white py-0'

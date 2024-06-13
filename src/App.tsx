@@ -734,7 +734,6 @@ function App() {
             remoteMenuId={FOOTER_SOCIAL_ID}
           /> 
         <div className='ucf-footer-nav'>
-          
           <NavigationMenu
             listItemClasses='nav-item my-2'
             anchorClasses='nav-link text-white py-0'

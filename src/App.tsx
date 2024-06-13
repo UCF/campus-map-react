@@ -157,7 +157,7 @@ function App() {
     features: []
   });
 
-  const [campusCoordinate, setCampusCoordinate] = useState<Campus>(campusData[0]);
+  const [campus, setCampus] = useState<Campus>(campusData[0]);
   
   const [searchResults, setSearchResults] = useState<Array<Feature>>([]);
 
@@ -210,7 +210,7 @@ function App() {
       zoom: campus.zoom
     })
 
-    setCampusCoordinate(campus);
+    setCampus(campus);
   }
 
   useMemo(() => {
@@ -467,6 +467,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'building-ramp',
+      "icon-size": .5,
       visibility: visibility.accessibility.buildingRamps! ? 'visible': 'none'
     },
   };
@@ -498,6 +499,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'bus',
+      "icon-size": 1.8,
       visibility: visibility.shuttleStops! ? 'visible': 'none'
     },
   };
@@ -683,8 +685,8 @@ function App() {
             <Layer {...searchResultLayer} />
           </Source>
         
-          <Marker longitude={campusCoordinate.longitude} latitude={campusCoordinate.latitude} anchor="bottom" >
-            <img src='./img/campus/main-campus.png' />
+          <Marker longitude={campus.longitude} latitude={campus.latitude} anchor="bottom" >
+            <img src={campus.img} />
           </Marker>
 
           {popupData && (

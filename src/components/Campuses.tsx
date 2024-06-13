@@ -1,3 +1,4 @@
+import React from 'react';
 import { Campus } from '../types/Campus';
 import './Campuses.scss';
 
@@ -11,9 +12,9 @@ const Campuses = ({ campus, onclick }: CampusesProps) => {
     <div className="campus-bar d-flex flex-wrap justify-content-around pt-3 mb-2">
       <div className='d-flex w-100 flex-wrap justify-content-around mb-2'>
         {campus.map((campusData, index) => (
-          <div key={index}>
-            <a href="#" className='text-decoration-none' onClick={()=> onclick(campusData)}>{campusData.shortName}</a>{ index !== campus.length - 1 && <span>|</span> }
-            </div>
+          <React.Fragment key={index}>
+            <a href={`#${campusData.shortName.toLowerCase()}`} className='text-decoration-none' onClick={()=> onclick(campusData)}>{campusData.shortName}</a>{ index !== campus.length - 1 && <span>|</span> }
+            </React.Fragment>
           ))}
       </div>
       <div className='address text-start small'>

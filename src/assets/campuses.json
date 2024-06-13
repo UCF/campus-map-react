@@ -1,24 +1,28 @@
 [
   {
     "name": "Main Campus",
+    "shortName": "Main",
     "latitude": 28.602368,
     "longitude": -81.200142,
     "zoom": 15
   },
   {
-    "name": "College of Medicine",
-    "latitude": 28.3680993,
-    "longitude": -81.2811666,
-    "zoom":17
-  },
-  {
     "name": "Downtown",
+    "shortName": "Downtown",
     "latitude": 28.5462775,
     "longitude": -81.3872291,
     "zoom": 17
+  },
+  {
+    "name": "College of Medicine",
+    "shortName": "Health",
+    "latitude": 28.3680993,
+    "longitude": -81.2811666,
+    "zoom":17
   },   
   {
     "name": "Rosen College",
+    "shortName": "Hospitality",
     "latitude": 28.42829,
     "longitude": -81.4419018,
     "zoom": 17

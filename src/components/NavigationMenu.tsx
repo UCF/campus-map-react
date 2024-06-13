@@ -1,6 +1,8 @@
 import { useMemo, useState } from "react";
 import parse from 'html-react-parser';
 
+import './NavigationMenu.scss';
+
 import { RestMenuItem, RestMenuResponse } from "../types/RemoteMenus";
 
 interface NavigationMenuProps {
@@ -23,15 +25,13 @@ export default function NavigationMenu(props: NavigationMenuProps) {
   const [links, setLinks] = useState<Array<RestMenuItem>>([]);
 
   useMemo(() => {
-    console.log(`${import.meta.env.VITE_REMOTE_MENU_BASE_URL}/${remoteMenuId}`);
-
     fetch(`${import.meta.env.VITE_REMOTE_MENU_BASE_URL}/${remoteMenuId}`)
       .then((responseJson) => responseJson.json())
       .then((response: RestMenuResponse) => {
         setLinks(response.items);
       });
   }, []);
-
+  
   return (
     <ul id={menuId} className={listClasses}>
       {links.map((link: RestMenuItem) => {
@@ -40,7 +40,7 @@ export default function NavigationMenu(props: NavigationMenuProps) {
           <a
             className={anchorClasses}
             href={link.url}>
-              {parse(link.title)}
+              { parse(link.title) }
             </a>
         </li>
         );

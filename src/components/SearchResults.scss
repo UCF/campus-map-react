@@ -4,12 +4,11 @@
 
 .search-control-wrapper {
   background-color: black;
-  height: 2.2rem;
+  height: 3.1rem;
   left: 0;
-  padding: .25rem .5rem;
+  padding: .35rem .25rem;
   position: absolute;
   top: 0;
-  border-radius: 2px;
   width: calc(100% - 1rem);
 
   @include media-breakpoint-up(sm) {

@@ -9,9 +9,10 @@ interface MapMenuProps {
 export default function MapMenu(props: MapMenuProps) {
   return (
     <div className='w-100'>
-      <div className='row'>
-        <div className='col-12 col-sm-6'>
-          <div className="d-flex flex-row flex-wrap justify-content-center justify-content-sm-start py-1">
+      <div className='d-flex row'>
+        <div className='col-4 col-sm-2 col-xl-1 pt-2 mt-1 text-center'><span className='text-uppercase fw-bold navbar-brand'>Campus Map</span></div>
+        <div className='order-3 order-sm-2 col-12 col-sm-6'>
+          <div className="d-flex flex-row flex-wrap justify-content-center justify-content-md-start py-1 ms-sm-5">
             <div className='btn-group my-1'>
               <div className='btn-group'>
                 <a className='btn btn-outline-dark dropdown-toggle' data-bs-toggle='dropdown' href='#locations' role="button" aria-expanded="false">Locations</a>
@@ -142,15 +143,69 @@ export default function MapMenu(props: MapMenuProps) {
                   </li>
                 </ul>
               </div>
+              <div className='btn-group'>
+                <a className='btn btn-outline-dark dropdown-toggle' data-bs-toggle='dropdown' href='#locations' role="button" aria-expanded="false">More</a>
+              <ul className="dropdown-menu dropdown-menu-end">
+                <li>
+                    <a
+                      className={props.visibility.bikeRacks ? 'dropdown-item active' : 'dropdown-item'}
+                      href='#bikeRack'
+                      id="bikeRacks"
+                      onClick={() => props.setVisibility({ ...props.visibility, 'bikeRacks': !props.visibility['bikeRacks'] })}
+                    >
+                      Bike Racks
+                    </a>
+                  </li>
+                  <li>
+                  <a
+                    className={props.visibility.family ? 'dropdown-item active' : 'dropdown-item'}
+                    id="family"
+                    href='#family'
+                    onClick={() => props.setVisibility({ ...props.visibility, 'family': !props.visibility['family'] })}
+                  >
+                    Family Resources
+                  </a>  
+                </li>
+                <li>
+                  <a
+                    className={props.visibility.knightsPantry ? 'dropdown-item active' : 'dropdown-item'}
+                    id="pantry"
+                    href='#pantry'
+                    onClick={() => props.setVisibility({ ...props.visibility, 'knightsPantry': !props.visibility['knightsPantry'] })}
+                  >
+                    Knight's Pantry
+                  </a>  
+                </li>
+                <li>
+                  <a
+                    className={props.visibility.art ? 'dropdown-item active' : 'dropdown-item'}
+                    id="art"
+                    href='#art'
+                    onClick={() => props.setVisibility({ ...props.visibility, 'art': !props.visibility['art'] })}
+                  >Art
+                  </a>  
+                </li>
+                <li>
+                  <a
+                    className={props.visibility.studentServices ? 'dropdown-item active' : 'dropdown-item'}
+                    id="services"
+                    href='#services'
+                    onClick={() => props.setVisibility({ ...props.visibility, 'studentServices': !props.visibility['studentServices'] })}
+                  >
+                    Student Services
+                  </a>  
+                </li>
+              </ul>
+              </div>
             </div>
           </div>
         </div>   
-        <div className='col-12 col-sm-6 px-0'>
-        <div className='d-flex justify-content-center py-1'>
+        <div className='order-1 order-sm-3 col-8 col-sm-4 px-0'>
+        <div className='d-flex justify-content-end me-3 pb-1'>
         <div className="btn-group btn-group-sm my-1" role="group" aria-label="Basic checkbox toggle button group">     
-            <a className="btn btn-outline-dark dropdown-toggle rounded-end-0 d-flex align-items-center" id="accessibility" href="#accessibility" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="btn dropdown-toggle rounded-end-0 d-flex align-items-center" id="accessibility" href="#accessibility" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               <img width={30} src='./img/handicap.png' alt="Accessibility" />
-              <span>Accessibility</span>
+              
             </a>
               <ul className="dropdown-menu">
                 <li>
@@ -216,70 +271,18 @@ export default function MapMenu(props: MapMenuProps) {
               </ul>
 
               <a
-                className={props.visibility.shuttleStops ? 'btn btn-dark rounded-0 d-flex align-items-center' : 'btn btn-outline-dark rounded-0 d-flex align-items-center'}
+                className={props.visibility.shuttleStops ? 'btn btn-dark rounded-0 d-flex align-items-center' : 'btn rounded-0 d-flex align-items-center'}
                 id="shuttleStops"
                 href='#shuttleStops'
                 onClick={() => props.setVisibility({ ...props.visibility, 'shuttleStops': !props.visibility['shuttleStops'] })} >
-              <img width={30} src='./img/bus.png' alt="bus logo"/><span> Shuttle</span></a>
+              <img width={30} src='./img/bus.png' alt="bus logo"/></a>
               <a
-                className={props.visibility.emergencyPhones ? 'btn btn-dark rounded-0 d-flex align-items-center' : 'btn btn-outline-dark rounded-0 d-flex align-items-center'}
+                className={props.visibility.emergencyPhones ? 'btn btn-dark rounded-0 d-flex align-items-center' : 'btn rounded-0 d-flex align-items-center'}
                 id="blueLightPhones"
                 href='#blueLightPhones'
                 onClick={() => props.setVisibility({ ...props.visibility, 'emergencyPhones': !props.visibility['emergencyPhones'] })} >
-              <img width={30} src='./img/phone.png' alt="emergency phones"/><span> Emergency</span></a> 
-              <button type="button" className="btn btn-outline-dark align-items-center dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              </button>
-              <ul className="dropdown-menu dropdown-menu-end">
-                <li>
-                    <a
-                      className={props.visibility.bikeRacks ? 'dropdown-item active' : 'dropdown-item'}
-                      href='#bikeRack'
-                      id="bikeRacks"
-                      onClick={() => props.setVisibility({ ...props.visibility, 'bikeRacks': !props.visibility['bikeRacks'] })}
-                    >
-                      Bike Racks
-                    </a>
-                  </li>
-                  <li>
-                  <a
-                    className={props.visibility.family ? 'dropdown-item active' : 'dropdown-item'}
-                    id="family"
-                    href='#family'
-                    onClick={() => props.setVisibility({ ...props.visibility, 'family': !props.visibility['family'] })}
-                  >
-                    Family Resources
-                  </a>  
-                </li>
-                <li>
-                  <a
-                    className={props.visibility.knightsPantry ? 'dropdown-item active' : 'dropdown-item'}
-                    id="pantry"
-                    href='#pantry'
-                    onClick={() => props.setVisibility({ ...props.visibility, 'knightsPantry': !props.visibility['knightsPantry'] })}
-                  >
-                    Knight's Pantry
-                  </a>  
-                </li>
-                <li>
-                  <a
-                    className={props.visibility.art ? 'dropdown-item active' : 'dropdown-item'}
-                    id="art"
-                    href='#art'
-                    onClick={() => props.setVisibility({ ...props.visibility, 'art': !props.visibility['art'] })}
-                  >Art
-                  </a>  
-                </li>
-                <li>
-                  <a
-                    className={props.visibility.studentServices ? 'dropdown-item active' : 'dropdown-item'}
-                    id="services"
-                    href='#services'
-                    onClick={() => props.setVisibility({ ...props.visibility, 'studentServices': !props.visibility['studentServices'] })}
-                  >
-                    Student Services
-                  </a>  
-                </li>
-              </ul>
+              <img width={30} src='./img/phone.png' alt="emergency phones"/></a> 
+              
       
           </div>
         </div>

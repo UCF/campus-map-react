@@ -5,13 +5,14 @@
 .search-control-wrapper {
   background-color: black;
   height: 3.1rem;
-  left: 0;
+  left: 10px;
   padding: .35rem .25rem;
   position: absolute;
-  top: 0;
+  top: 60px;
   width: calc(100% - 1rem);
 
   @include media-breakpoint-up(sm) {
+    top: 0;
     width: 50%;
   }
 

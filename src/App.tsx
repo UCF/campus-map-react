@@ -34,6 +34,7 @@ import MapMenu from './components/MapMenu';
 import NavigationMenu from './components/NavigationMenu';
 import SearchResults from './components/SearchResults';
 import Campuses from './components/Campuses';
+import { SearchForLocation } from './services/LocationService';
 
 // Type Imports
 import { Campus }  from './types/Campus';
@@ -53,6 +54,7 @@ function App() {
 
   const mapRef = useRef<MapRef>(null);
   const [popupData, setPopupData] = useState<MapboxGeoJSONFeature|null>(null);
+  const [popupURL, setPopupURL] = useState<string|null>(null);
 
   const [visibility, setVisibility] = useState<Visibility>({
     locations: {
@@ -164,6 +166,9 @@ function App() {
   const handleOnClick = (e: MapLayerMouseEvent) => {
     if (!e.features) setPopupData(null);
     const feature = e.features?.pop();
+    
+    SearchForLocation(feature?.properties?.Name, setPopupURL);
+
     if (feature) setPopupData(feature);
   };
 
@@ -322,6 +327,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
+      'icon-image': 'location',
       visibility: visibility.locations.buildings! ? 'visible': 'none'
     },
   };
@@ -598,7 +604,7 @@ function App() {
         }}
         mapStyle='mapbox://styles/mapbox/streets-v12'
         mapboxAccessToken={ TOKEN }
-        interactiveLayerIds={['location-layer', 'departments-layer', 'parking-layer']}
+        interactiveLayerIds={['building-point-layer']}
         onClick={handleOnClick}
         ref={mapRef}>
           <SearchResults
@@ -695,7 +701,11 @@ function App() {
               longitude={popupData.properties!['Longitude']}
               onClose={() => setPopupData(null)}
               closeButton={true}>
-                <span className='location-title'>{popupData.properties!['Name']}</span>
+                {popupURL !== null ? (
+                  <a className='location-title' href={popupURL!} target='_blank'>{popupData.properties!['Name']}</a>
+                ) : (
+                  <span className='location-title'>{popupData.properties!['Name']}</span>
+                )}
               </Popup>
           )}
           <MapIcon iconName='location' iconImageSource='/img/location.png' />

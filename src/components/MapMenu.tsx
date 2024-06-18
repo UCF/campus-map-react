@@ -28,7 +28,7 @@ export default function MapMenu(props: MapMenuProps) {
                           'buildings': !props.visibility.locations.buildings
                         }})
                       }>
-                      Buildings
+                      <img width={15} src={ props.visibility.locations.buildings ? './img/square-check-solid.png' : './img/square-thin.png' } /> &nbsp; Buildings
                     </a>
                   </li>
                   <li>
@@ -41,7 +41,8 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.locations,
                           'housing': !props.visibility.locations.housing
                         }})
-                      }>
+                      }><img width={15} src={ props.visibility.locations.housing ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                      &nbsp;
                       Housing
                     </a>
                   </li>
@@ -55,7 +56,8 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.locations,
                           'dining': !props.visibility.locations.dining
                         }})
-                      }>
+                      }><img width={15} src={ props.visibility.locations.dining ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                      &nbsp;
                       Dining
                     </a>
                   </li>
@@ -69,7 +71,8 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.locations,
                           'retail': !props.visibility.locations.retail
                         }})
-                      }>
+                      }><img width={15} src={ props.visibility.locations.retail ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                      &nbsp;
                       Retail
                     </a>
                   </li>
@@ -83,7 +86,7 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.locations,
                           'labs': !props.visibility.locations.labs
                         }})
-                      }>
+                      }><img width={15} src={ props.visibility.locations.labs ? './img/square-check-solid.png' : './img/square-thin.png' } />&nbsp;
                       Labs
                     </a>
                   </li>
@@ -109,7 +112,8 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.outdoors,
                           'greenspaces': !props.visibility.outdoors.greenspaces
                         }})
-                      }>
+                      }><img width={15} src={ props.visibility.outdoors.greenspaces ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                      &nbsp;
                       Green Spaces
                     </a>
                   </li>
@@ -123,7 +127,8 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.outdoors,
                           'recreation': !props.visibility.outdoors.recreation
                         }})
-                      }>
+                      }><img width={15} src={ props.visibility.outdoors.recreation ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                      &nbsp;
                       Recreation
                     </a>
                   </li>
@@ -137,7 +142,8 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.outdoors,
                           'wellBeing': !props.visibility.outdoors.wellBeing
                         }})
-                      }>
+                      }><img width={15} src={ props.visibility.outdoors.wellBeing ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                      &nbsp;
                       Well-Being
                     </a>
                   </li>
@@ -152,7 +158,8 @@ export default function MapMenu(props: MapMenuProps) {
                       href='#bikeRack'
                       id="bikeRacks"
                       onClick={() => props.setVisibility({ ...props.visibility, 'bikeRacks': !props.visibility['bikeRacks'] })}
-                    >
+                    > <img width={15} src={ props.visibility.bikeRacks ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                    &nbsp;
                       Bike Racks
                     </a>
                   </li>
@@ -162,7 +169,8 @@ export default function MapMenu(props: MapMenuProps) {
                     id="family"
                     href='#family'
                     onClick={() => props.setVisibility({ ...props.visibility, 'family': !props.visibility['family'] })}
-                  >
+                  ><img width={15} src={ props.visibility.family ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                  &nbsp;
                     Family Resources
                   </a>  
                 </li>
@@ -172,7 +180,8 @@ export default function MapMenu(props: MapMenuProps) {
                     id="pantry"
                     href='#pantry'
                     onClick={() => props.setVisibility({ ...props.visibility, 'knightsPantry': !props.visibility['knightsPantry'] })}
-                  >
+                  > <img width={15} src={ props.visibility.knightsPantry ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                  &nbsp;
                     Knight's Pantry
                   </a>  
                 </li>
@@ -182,7 +191,8 @@ export default function MapMenu(props: MapMenuProps) {
                     id="art"
                     href='#art'
                     onClick={() => props.setVisibility({ ...props.visibility, 'art': !props.visibility['art'] })}
-                  >Art
+                  ><img width={15} src={ props.visibility.art ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                  &nbsp; Art
                   </a>  
                 </li>
                 <li>
@@ -191,7 +201,8 @@ export default function MapMenu(props: MapMenuProps) {
                     id="services"
                     href='#services'
                     onClick={() => props.setVisibility({ ...props.visibility, 'studentServices': !props.visibility['studentServices'] })}
-                  >
+                  > <img width={15} src={ props.visibility.studentServices ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                  &nbsp;
                     Student Services
                   </a>  
                 </li>
@@ -219,7 +230,8 @@ export default function MapMenu(props: MapMenuProps) {
                         'parking': !props.visibility.accessibility.parking
                       }})
                     }
-                  >
+                  > <img width={15} src={ props.visibility.accessibility.parking ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                  &nbsp;
                     Parking
                   </a>  
                 </li>
@@ -234,7 +246,8 @@ export default function MapMenu(props: MapMenuProps) {
                         'buildingRamps': !props.visibility.accessibility.buildingRamps
                       }})
                     }
-                  >
+                  ><img width={15} src={ props.visibility.accessibility.buildingRamps ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                  &nbsp;
                     Building Ramps
                   </a>
                 </li>
@@ -249,7 +262,8 @@ export default function MapMenu(props: MapMenuProps) {
                         'curbRamps': !props.visibility.accessibility.curbRamps
                       }})
                     }
-                  >
+                  > <img width={15} src={ props.visibility.accessibility.curbRamps ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                  &nbsp;
                     Parking Ramps
                   </a>
                 </li>
@@ -264,7 +278,8 @@ export default function MapMenu(props: MapMenuProps) {
                         'autoDoors': !props.visibility.accessibility.autoDoors
                       }})
                     }
-                  >
+                  ><img width={15} src={ props.visibility.accessibility.autoDoors ? './img/square-check-solid.png' : './img/square-thin.png' } />
+                  &nbsp;
                     Automatic Doors
                   </a>
                 </li>

@@ -355,6 +355,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'dining',
+      "icon-size": 0.4,
       visibility: visibility.locations.dining! ? 'visible': 'none'
     },
   };
@@ -375,6 +376,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'lab',
+      "icon-size": 0.8,
       visibility: visibility.locations.labs! ? 'visible': 'none'
     },
   };
@@ -436,6 +438,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'recreation',
+      "icon-size" : .5,
       visibility: visibility.outdoors.recreation! ? 'visible': 'none'
     },
   };
@@ -446,6 +449,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'wellbeing',
+      "icon-size": 0.5,
       visibility: visibility.outdoors.wellBeing! ? 'visible': 'none'
     },
   };
@@ -521,6 +525,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'bike-rack',
+      "icon-size": 0.7,
       visibility: visibility.bikeRacks! ? 'visible': 'none'
     },
   };
@@ -551,6 +556,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'art',
+      "icon-size": 0.5,
       visibility: visibility.art! ? 'visible': 'none'
     },
   };
@@ -579,16 +585,9 @@ function App() {
   return (
     <div className='container-fluid px-0'>
       <nav className='navbar fixed-top navbar-expand-xl navbar-light bg-light px-2 navbar-custom-style'>
-        <span className='navbar-brand pl-4'>Campus Map</span>
-        <button className='navbar-toggler justify-self-right mb-1' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
-          <span className='navbar-toggler-icon'></span>
-        </button>
-        <div className='px-0 px-md-3 bg-light navbar-collapse collapse' id="navbarSupportedContent">
           <MapMenu
             visibility={visibility}
-            setVisibility={setVisibility} />
-        </div>
-        
+            setVisibility={setVisibility} />        
       </nav>
       <div className='map-container'>
       <Map

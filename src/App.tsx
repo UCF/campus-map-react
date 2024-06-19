@@ -622,7 +622,7 @@ function App() {
         }}
         mapStyle='mapbox://styles/mapbox/streets-v12'
         mapboxAccessToken={ TOKEN }
-        interactiveLayerIds={['building-point-layer']}
+        interactiveLayerIds={['building-point-layer', 'search-result-layer']}
         onClick={handleOnClick}
         ref={mapRef}>
           <SearchResults

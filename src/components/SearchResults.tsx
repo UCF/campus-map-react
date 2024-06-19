@@ -9,8 +9,6 @@ interface SearchResultsProps {
 }
 
 export default function SearchResults(props: SearchResultsProps) {
-  console.log(props.searchResults);
-
   return (
     <div className='search-control-wrapper rounded'>
       <div className='input-group'>

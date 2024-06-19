@@ -19,6 +19,7 @@ jobs:
       VITE_REMOTE_HEADER_MENU_ID: ${{ vars.VITE_REMOTE_HEADER_MENU_ID }}
       VITE_REMOTE_FOOTER_MENU_ID: ${{ vars.VITE_REMOTE_FOOTER_MENU_ID }}
       VITE_REMOTE_SOCIAL_LINKS_ID: ${{ vars.VITE_REMOTE_SOCIAL_LINKS_ID }}
+      VITE_LOCATION_API_URL: ${{ vars.VITE_LOCATION_API_URL }}
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3

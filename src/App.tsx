@@ -236,6 +236,14 @@ function App() {
     setCampus(campus);
   }
 
+  const onMouseEnterInteractive = (_: MapLayerMouseEvent) => {
+    mapRef.current!.getCanvas().style.cursor = 'pointer';
+  }
+
+  const onMouseLeaveInteractive = (_: MapLayerMouseEvent) => {
+    mapRef.current!.getCanvas().style.cursor = '';
+  }
+
   useMemo(() => {
     // Location data
     fetch('/data/geojson/locations/buildingPoints.geojson')
@@ -347,7 +355,7 @@ function App() {
       ...defaultLayoutProps,
       'icon-image': 'location',
       visibility: visibility.locations.buildings! ? 'visible': 'none'
-    },
+    }
   };
 
   const buildingShapeLayer: FillLayer = {
@@ -623,6 +631,8 @@ function App() {
         mapStyle='mapbox://styles/mapbox/streets-v12'
         mapboxAccessToken={ TOKEN }
         interactiveLayerIds={['building-point-layer', 'search-result-layer']}
+        onMouseEnter={onMouseEnterInteractive}
+        onMouseLeave={onMouseLeaveInteractive}
         onClick={handleOnClick}
         ref={mapRef}>
           <SearchResults

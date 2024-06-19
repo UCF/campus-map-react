@@ -7,17 +7,6 @@ export interface LocationResult {
   link: string;
 }
 
-export function SearchForLocation(location_name: string, setPopupURL: Function) {
-  if (location_name) {
-    fetch(`${LOCATIONS_API_URL}?search=${location_name}`)
-      .then((responseText: Response) => responseText.json())
-      .then((response: Array<LocationResult>) => {
-        if (response.length > 0) {
-          const location = response.pop();
-          setPopupURL(location!.link);
-        } else {
-          setPopupURL(null);
-        }
-      });
-  }
+export function SearchForLocation(location_name: string) {
+  return fetch(`${LOCATIONS_API_URL}?search=${location_name}`);
 }

@@ -14,13 +14,16 @@ import {
   Layer,
   SymbolLayer,
   FillLayer,
-  Popup,
   MapboxGeoJSONFeature,
   MapLayerMouseEvent,
   MapRef,
   Marker,
   LineLayer
 } from 'react-map-gl';
+
+import {
+  Popup
+} from 'mapbox-gl';
 
 import {
   Feature,
@@ -34,7 +37,7 @@ import MapMenu from './components/MapMenu';
 import NavigationMenu from './components/NavigationMenu';
 import SearchResults from './components/SearchResults';
 import Campuses from './components/Campuses';
-import { SearchForLocation } from './services/LocationService';
+import { LocationResult, SearchForLocation } from './services/LocationService';
 
 // Type Imports
 import { Campus }  from './types/Campus';
@@ -53,8 +56,6 @@ function App() {
   const initialZoom = 15;
 
   const mapRef = useRef<MapRef>(null);
-  const [popupData, setPopupData] = useState<MapboxGeoJSONFeature|null>(null);
-  const [popupURL, setPopupURL] = useState<string|null>(null);
 
   const [visibility, setVisibility] = useState<Visibility>({
     locations: {
@@ -164,12 +165,30 @@ function App() {
   const [searchResults, setSearchResults] = useState<Array<Feature>>([]);
 
   const handleOnClick = (e: MapLayerMouseEvent) => {
-    if (!e.features) setPopupData(null);
-    const feature = e.features?.pop();
-    
-    SearchForLocation(feature?.properties?.Name, setPopupURL);
+    if (e.features?.length === 0) return;
 
-    if (feature) setPopupData(feature);
+    const feature = e.features?.pop();
+    const popup = new Popup()
+      .setLngLat({
+        lat: feature?.properties!['Latitude'],
+        lng: feature?.properties!['Longitude']
+      })
+      .addTo(mapRef.current!.getMap());
+
+    SearchForLocation(feature?.properties?.Name)
+      .then((responseText: Response) => responseText.json())
+      .then((response: Array<LocationResult>) => {
+        let html = '';
+
+        if (response.length > 0) {
+          const location = response.pop();
+          html = `<a class="location-link" href="${location!.link}" target="_blank">${feature?.properties?.Name}</a>`;
+        } else {
+          html = `<span class="location-link">${feature?.properties?.Name}</span>`
+        }
+
+        popup.setHTML(html);
+      });
   };
 
   const onSearchResultClick = (result: GeoJsonProperties) => {
@@ -693,21 +712,6 @@ function App() {
           <Marker longitude={campus.longitude} latitude={campus.latitude} anchor="bottom" >
             <img src={campus.img} />
           </Marker>
-
-          {popupData && (
-            <Popup
-              key={popupData.properties!['name']}
-              latitude={popupData.properties!['Latitude']}
-              longitude={popupData.properties!['Longitude']}
-              onClose={() => setPopupData(null)}
-              closeButton={true}>
-                {popupURL !== null ? (
-                  <a className='location-title' href={popupURL!} target='_blank'>{popupData.properties!['Name']}</a>
-                ) : (
-                  <span className='location-title'>{popupData.properties!['Name']}</span>
-                )}
-              </Popup>
-          )}
           <MapIcon iconName='location' iconImageSource='/img/location.png' />
           <MapIcon iconName='housing' iconImageSource='/img/locations/housing.png' />
           <MapIcon iconName='dining' iconImageSource='/img/locations/dining.png' />

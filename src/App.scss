@@ -68,3 +68,10 @@
   }
 }
 
+.mapboxgl-popup-content {
+  padding: .85rem 2rem!important;
+
+  .location-link {
+    font-size: .95rem;
+  }
+}

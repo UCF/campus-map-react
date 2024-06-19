@@ -14,7 +14,6 @@ import {
   Layer,
   SymbolLayer,
   FillLayer,
-  MapboxGeoJSONFeature,
   MapLayerMouseEvent,
   MapRef,
   Marker,

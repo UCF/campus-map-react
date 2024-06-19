@@ -8,5 +8,5 @@ export interface LocationResult {
 }
 
 export function SearchForLocation(location_name: string) {
-  return fetch(`${LOCATIONS_API_URL}?search=${location_name}`);
+  return fetch(`${LOCATIONS_API_URL}?search="${location_name}"`);
 }

@@ -709,7 +709,7 @@ function App() {
           </Source>
         
           <Marker longitude={campus.longitude} latitude={campus.latitude} anchor="bottom" >
-            <img src={campus.img} />
+            <img width={30} src='./img/ucf-logo.png'/>
           </Marker>
           <MapIcon iconName='location' iconImageSource='/img/location.png' />
           <MapIcon iconName='housing' iconImageSource='/img/locations/housing.png' />

@@ -15,11 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     env:
       VITE_MAPBOX_TOKEN: ${{ vars.VITE_MAPBOX_TOKEN }}
-      VITE_REMOTE_MENU_BASE_URL: ${{ vars.VITE_REMOTE_MENU_BASE_URL }}
+      VITE_REMOTE_MENU_BASE_URL: ${{ vars.VITE_REMOTE_MENU_BASE_URL_DEV }}
       VITE_REMOTE_HEADER_MENU_ID: ${{ vars.VITE_REMOTE_HEADER_MENU_ID }}
       VITE_REMOTE_FOOTER_MENU_ID: ${{ vars.VITE_REMOTE_FOOTER_MENU_ID }}
       VITE_REMOTE_SOCIAL_LINKS_ID: ${{ vars.VITE_REMOTE_SOCIAL_LINKS_ID }}
-      VITE_LOCATION_API_URL: ${{ vars.VITE_LOCATION_API_URL }}
+      VITE_LOCATION_API_URL: ${{ vars.VITE_LOCATION_API_URL_DEV }}
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3

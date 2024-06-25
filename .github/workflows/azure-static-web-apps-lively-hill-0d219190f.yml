@@ -3,16 +3,23 @@ name: Azure Static Web Apps CI/CD
 on:
   push:
     branches:
-      - main
+      - test
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
-      - main
+      - test
 
 jobs:
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
+    env:
+      VITE_MAPBOX_TOKEN: ${{ vars.VITE_MAPBOX_TOKEN }}
+      VITE_REMOTE_MENU_BASE_URL: ${{ vars.VITE_REMOTE_MENU_BASE_URL_TEST }}
+      VITE_REMOTE_HEADER_MENU_ID: ${{ vars.VITE_REMOTE_HEADER_MENU_ID }}
+      VITE_REMOTE_FOOTER_MENU_ID: ${{ vars.VITE_REMOTE_FOOTER_MENU_ID }}
+      VITE_REMOTE_SOCIAL_LINKS_ID: ${{ vars.VITE_REMOTE_SOCIAL_LINKS_ID }}
+      VITE_LOCATION_API_URL: ${{ vars.VITE_LOCATION_API_URL_TEST }}
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3

@@ -1,6 +1,10 @@
 import { Feature } from 'geojson';
 
+import closeIcon from '../assets/xmark-solid.png';
+import searchIcon from '../assets/search-white.png';
+
 import './SearchResults.scss';
+import { useState } from 'react';
 
 interface SearchResultsProps {
   searchResults: Array<Feature>,
@@ -9,6 +13,8 @@ interface SearchResultsProps {
 }
 
 export default function SearchResults(props: SearchResultsProps) {
+  const [searchQuery, setSearchQuery] = useState<string>('');
+
   return (
     <div className='search-control-wrapper rounded'>
       <div className='input-group'>
@@ -16,9 +22,21 @@ export default function SearchResults(props: SearchResultsProps) {
         className='form-control'
         type='text'
         placeholder='Find locations, services, parking & more... '
-        onChange={(e) => props.searchData(e.target.value)} />
+        value={searchQuery}
+        onChange={(e) => {
+          setSearchQuery(e.target.value);
+          props.searchData(e.target.value)
+        }} />
         <div className="input-group-text border-0 bg-black" id="search-addon">
-          <img width={20} src="./img/search-white.png" />
+          {
+          searchQuery !== '' ? (
+            <img width={20} src={closeIcon} onClick={() => {
+              props.searchData(null)
+              setSearchQuery('');
+            }} />
+          ) : (
+            <img width={20} src={searchIcon} />
+          ) }
         </div>
       </div>  
       {props.searchResults && props.searchResults.length > 0 && (

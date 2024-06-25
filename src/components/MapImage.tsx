@@ -8,10 +8,17 @@ export interface MapIconProps {
 export function MapIcon(props: MapIconProps) {
     const { current: map } = useMap();
 
+    const blankImage = new Image;
+    blankImage.width = 1;
+    blankImage.height = 1;
+
     if (!map?.hasImage(props.iconName)) {
+      map?.addImage(props.iconName, blankImage);
+
       map?.loadImage(props.iconImageSource, (err, img) => {
           if (err) throw err;
-          if (!map.hasImage(props.iconName)) map.addImage(props.iconName, img!);
+          map.removeImage(props.iconName);
+          map.addImage(props.iconName, img!);
       });
     }
 

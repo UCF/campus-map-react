@@ -30,6 +30,29 @@ import {
   GeoJsonProperties
 } from 'geojson';
 
+// Import map icons
+import locationIcon from './assets/location.png';
+import housingIcon from './assets/locations/housing.png';
+import diningIcon from './assets/locations/dining.png';
+import retailIcon from './assets/locations/retail.png';
+import labIcon from './assets/locations/lab.png';
+import recreationIcon from './assets/outdoors/recreation.png';
+import wellBeingIcon from './assets/outdoors/well-being.png';
+import accessibleParkingIcon from './assets/accessibility/accessible-parking.png';
+import autoDoorIcon from './assets/accessibility/automatic-doors.png';
+import buildingRampIcon from './assets/accessibility/building-ramp.png';
+import parkingRampIcon from './assets/accessibility/parking-ramp.png';
+import busIcon from './assets/bus.png';
+import phoneIcon from './assets/phone.png';
+import bikeRackIcon from './assets/other/bike-racks.png';
+import familyIcon from './assets/other/family-solid.png';
+import pantryIcon from './assets/other/pantry.png';
+import artIcon from './assets/other/art.png';
+import serviceIcon from './assets/other/student-service.png';
+
+// Import other icons
+import ucfLogo from './assets/ucf-logo.png';
+
 // Component imports
 import { MapIcon } from './components/MapImage';
 import MapMenu from './components/MapMenu';
@@ -202,6 +225,15 @@ function App() {
 
   const searchData = (searchQuery: string) => {
     const retval: Array<Feature> = [];
+
+    if (!searchQuery) {
+      setSearchResults(retval);
+      setSearchResultData({
+        type: 'FeatureCollection',
+        features: []
+      });
+      return;
+    }
 
     if (buildingPointData) {
       let locationResults = buildingPointData.features.filter((e: any) => 
@@ -716,34 +748,34 @@ function App() {
           <Source type="geojson" data={searchResultData}>
             <Layer {...searchResultLayer} />
           </Source>
-        
           <Marker longitude={campus.longitude} latitude={campus.latitude} anchor="bottom" >
-            <img width={30} src='./img/ucf-logo.png'/>
+            <img width={30} src={ucfLogo} />
           </Marker>
-          <MapIcon iconName='location' iconImageSource='/img/location.png' />
-          <MapIcon iconName='housing' iconImageSource='/img/locations/housing.png' />
-          <MapIcon iconName='dining' iconImageSource='/img/locations/dining.png' />
-          <MapIcon iconName='retail' iconImageSource='/img/locations/retail.png' />
-          <MapIcon iconName='lab' iconImageSource='/img/locations/lab.png' />
-          <MapIcon iconName='recreation' iconImageSource='/img/outdoors/recreation.png' />
-          <MapIcon iconName='wellbeing' iconImageSource='/img/outdoors/well-being.png' />
-          <MapIcon iconName='accessible-parking' iconImageSource='/img/accessibility/accessible-parking.png' />
-          <MapIcon iconName='auto-door' iconImageSource='/img/accessibility/automatic-doors.png' />
-          <MapIcon iconName='building-ramp' iconImageSource='/img/accessibility/building-ramp.png' />
-          <MapIcon iconName='parking-ramp' iconImageSource='/img/accessibility/parking-ramp.png' />
-          <MapIcon iconName='bus' iconImageSource='/img/bus.png' />
-          <MapIcon iconName='phone' iconImageSource='/img/phone.png' />
-          <MapIcon iconName='bike-rack' iconImageSource='/img/other/bike-racks.png' />
-          <MapIcon iconName='family' iconImageSource='/img/other/family-solid.png' />
-          <MapIcon iconName='pantry' iconImageSource='/img/other/pantry.png' />
-          <MapIcon iconName='art' iconImageSource='/img/other/art.png' />
-          <MapIcon iconName='service' iconImageSource='/img/other/student-service.png' />
+
+          <MapIcon iconName='location' iconImageSource={locationIcon} />
+          <MapIcon iconName='housing' iconImageSource={housingIcon} />
+          <MapIcon iconName='dining' iconImageSource={diningIcon} />
+          <MapIcon iconName='retail' iconImageSource={retailIcon} />
+          <MapIcon iconName='lab' iconImageSource={labIcon} />
+          <MapIcon iconName='recreation' iconImageSource={recreationIcon} />
+          <MapIcon iconName='wellbeing' iconImageSource={wellBeingIcon} />
+          <MapIcon iconName='accessible-parking' iconImageSource={accessibleParkingIcon} />
+          <MapIcon iconName='auto-door' iconImageSource={autoDoorIcon} />
+          <MapIcon iconName='building-ramp' iconImageSource={buildingRampIcon} />
+          <MapIcon iconName='parking-ramp' iconImageSource={parkingRampIcon} />
+          <MapIcon iconName='bus' iconImageSource={busIcon} />
+          <MapIcon iconName='phone' iconImageSource={phoneIcon} />
+          <MapIcon iconName='bike-rack' iconImageSource={bikeRackIcon} />
+          <MapIcon iconName='family' iconImageSource={familyIcon} />
+          <MapIcon iconName='pantry' iconImageSource={pantryIcon} />
+          <MapIcon iconName='art' iconImageSource={artIcon} />
+          <MapIcon iconName='service' iconImageSource={serviceIcon} />
         </Map>
       </div>
       <footer className='footer pt-2'>
           <div className="d-flex justify-content-center">
             <div className="flex-shrink-0">
-              <img className='footer-logo-map' src="../img/ucf-logo.png" alt="pegasus logo" />
+              <img className='footer-logo-map' src={ucfLogo} alt="pegasus logo" />
             </div>
               <Campuses campus={campusData} onclick={campusHandler} />
           </div>

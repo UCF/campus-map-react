@@ -25,6 +25,13 @@ jobs:
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3
+        if: "${{ github.event.inputs.manual_ref != '' }}"
+        with:
+          submodules: true
+          lfs: false
+          ref: "${{ github.event.inputs.manual_ref }}"
+      - uses: actions/checkout@v3
+        if: "${{ github.event.inputs.manual_ref == '' }}"
         with:
           submodules: true
           lfs: false

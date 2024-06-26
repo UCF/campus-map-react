@@ -8,8 +8,7 @@ on:
     inputs:
       manual_ref:
         type: string
-        description: The tag or hash that needs to be deployed
-    
+        description: The tag or hash that needs to be deployed 
 
 jobs:
   build_and_deploy_job:

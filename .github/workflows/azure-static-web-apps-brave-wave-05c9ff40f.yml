@@ -1,14 +1,14 @@
-name: Azure Static Web Apps CI/CD DEV
+name: Azure Static Web Apps CI/CD LIVE
 
 on:
   push:
     branches:
-      - develop
+      - main
   workflow_dispatch:
     inputs:
       manual_ref:
         type: string
-        description: The tag or hash that needs to be deployed 
+        description: The tag or hash that needs to be deployed
 
 jobs:
   build_and_deploy_job:
@@ -16,11 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     env:
       VITE_MAPBOX_TOKEN: ${{ vars.VITE_MAPBOX_TOKEN }}
-      VITE_REMOTE_MENU_BASE_URL: ${{ vars.VITE_REMOTE_MENU_BASE_URL_DEV }}
+      VITE_REMOTE_MENU_BASE_URL: ${{ vars.VITE_REMOTE_MENU_BASE_URL_LIVE }}
       VITE_REMOTE_HEADER_MENU_ID: ${{ vars.VITE_REMOTE_HEADER_MENU_ID }}
       VITE_REMOTE_FOOTER_MENU_ID: ${{ vars.VITE_REMOTE_FOOTER_MENU_ID }}
       VITE_REMOTE_SOCIAL_LINKS_ID: ${{ vars.VITE_REMOTE_SOCIAL_LINKS_ID }}
-      VITE_LOCATION_API_URL: ${{ vars.VITE_LOCATION_API_URL_DEV }}
+      VITE_LOCATION_API_URL: ${{ vars.VITE_LOCATION_API_URL_LIVE }}
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3
@@ -38,7 +38,7 @@ jobs:
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_DELIGHTFUL_MOSS_0832EAA0F }}
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_BRAVE_WAVE_05C9FF40F }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######

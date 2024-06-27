@@ -277,92 +277,92 @@ function App() {
 
   useMemo(() => {
     // Location data
-    fetch('/data/geojson/locations/buildingPoints.geojson')
+    fetch('data/geojson/locations/buildingPoints.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setBuildingPointData(response));
 
-    fetch('/data/geojson/locations/buildingShapes.geojson')
+    fetch('data/geojson/locations/buildingShapes.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setBuildingFootprintData(response));
 
-    fetch('/data/geojson/locations/dining.geojson')
+    fetch('data/geojson/locations/dining.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setDiningData(response));
 
-    fetch('/data/geojson/locations/housing.geojson')
+    fetch('data/geojson/locations/housing.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setHousingData(response));
 
-    fetch('/data/geojson/locations/labs.geojson')
+    fetch('data/geojson/locations/labs.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setLabData(response));
 
-    fetch('/data/geojson/locations/retail.geojson')
+    fetch('data/geojson/locations/retail.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setRetailData(response));
 
     // Parking Data
-    fetch('/data/geojson/parking.geojson')
+    fetch('data/geojson/parking.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setParkingData(response));
 
     // Outdoor Data
-    fetch('/data/geojson/outdoors/greenspaces.geojson')
+    fetch('data/geojson/outdoors/greenspaces.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setGreenSpaceData(response));
 
-    fetch('/data/geojson/outdoors/recreation.geojson')
+    fetch('data/geojson/outdoors/recreation.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setRecreationData(response));
 
-    fetch('/data/geojson/outdoors/well-being.geojson')
+    fetch('data/geojson/outdoors/well-being.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setWellBeingdata(response));
 
     // Accessibility Data
-    fetch('/data/geojson/accessibility/accessibleParking.geojson')
+    fetch('data/geojson/accessibility/accessibleParking.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setAccessibleParkingData(response));
 
-    fetch('/data/geojson/accessibility/buildingRamps.geojson')
+    fetch('data/geojson/accessibility/buildingRamps.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setBuildingRampData(response));
 
-    fetch('/data/geojson/accessibility/curbRamps.geojson')
+    fetch('data/geojson/accessibility/curbRamps.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setCurbRampData(response));
 
-    fetch('/data/geojson/accessibility/autoDoor.geojson')
+    fetch('data/geojson/accessibility/autoDoor.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setAutoDoorData(response));
 
     // Icon Data
-    fetch('/data/geojson/shuttles.geojson')
+    fetch('data/geojson/shuttles.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setShuttleStopData(response));
 
-    fetch('/data/geojson/emergency-phones.geojson')
+    fetch('data/geojson/emergency-phones.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setEmergencyPhoneData(response));
 
     // Other Data
-    fetch('/data/geojson/other/bikeRacks.geojson')
+    fetch('data/geojson/other/bikeRacks.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setBikeRackData(response));
 
-    fetch('/data/geojson/other/family.geojson')
+    fetch('data/geojson/other/family.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setFamilyData(response));
 
-    fetch('/data/geojson/other/pantry.geojson')
+    fetch('data/geojson/other/pantry.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setPantryData(response));
 
-    fetch('/data/geojson/other/art.geojson')
+    fetch('data/geojson/other/art.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setArtData(response));
 
-    fetch('/data/geojson/other/services.geojson')
+    fetch('data/geojson/other/services.geojson')
       .then((responseText) => responseText.json())
       .then((response) => setServiceData(response));
   }, []);

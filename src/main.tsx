@@ -3,21 +3,9 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import 'mapbox-gl/dist/mapbox-gl.css';
 import './index.scss'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: (
-      <App />
-    )
-  }
-], {
-  basename: import.meta.env.VITE_BASEURL
-})
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <App />
   </React.StrictMode>
 )

@@ -1,7 +1,7 @@
 import './App.scss'
 
 // React Imports
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 
 // Map GL imports
 import {
@@ -366,6 +366,20 @@ function App() {
       .then((responseText) => responseText.json())
       .then((response) => setServiceData(response));
   }, []);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const show = params.get('show');
+
+    if (show !== null && buildingPointData) {
+      let results = buildingPointData!.features.filter((e: any) => 
+        e!.properties!.BldgNum.toLowerCase() === show.toLowerCase());
+
+      if (results.length > 0) {
+        onSearchResultClick(results.pop()!);
+      }
+    }
+  }, [buildingPointData])
 
   const defaultLayoutProps: any = {
     'icon-allow-overlap': true,

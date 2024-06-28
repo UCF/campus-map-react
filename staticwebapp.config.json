@@ -1,12 +1,5 @@
 {
   "platform": {
     "apiRuntime": "node:18"
-  },
-  "routes": [
-    {
-      "route": "/map",
-      "methods": ["GET"],
-      "redirect": "/map/"
-    }
-  ]
+  }
 }

@@ -2,5 +2,5 @@
   "platform": {
     "apiRuntime": "node:18"
   },
-  "trailingSlash": "always"
+  "trailingSlash": "auto"
 }

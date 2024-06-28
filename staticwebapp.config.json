@@ -2,5 +2,11 @@
   "platform": {
     "apiRuntime": "node:18"
   },
-  "trailingSlash": "auto"
+  "routes": [
+    {
+      "route": "/map",
+      "methods": ["GET"],
+      "redirect": "/map/"
+    }
+  ]
 }

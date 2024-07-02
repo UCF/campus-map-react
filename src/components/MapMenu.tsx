@@ -35,7 +35,7 @@ export default function MapMenu(props: MapMenuProps) {
                           'buildings': !props.visibility.locations.buildings
                         }})
                       }>
-                      <img width={15} alt="item" src={ props.visibility.locations.buildings ? checked : unchecked } /> &nbsp; Buildings
+                      <img width={15} alt="item" src={ props.visibility.locations.buildings ? checked : unchecked } /> &nbsp;Buildings
                     </a>
                   </li>
                   <li>

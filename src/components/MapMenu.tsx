@@ -35,7 +35,7 @@ export default function MapMenu(props: MapMenuProps) {
                           'buildings': !props.visibility.locations.buildings
                         }})
                       }>
-                      <img width={15} src={ props.visibility.locations.buildings ? checked : unchecked } /> &nbsp; Buildings
+                      <img width={15} alt="item" src={ props.visibility.locations.buildings ? checked : unchecked } /> &nbsp;Buildings
                     </a>
                   </li>
                   <li>
@@ -48,7 +48,7 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.locations,
                           'housing': !props.visibility.locations.housing
                         }})
-                      }><img width={15} src={ props.visibility.locations.housing ? checked : unchecked } />
+                      }><img width={15} alt="item" src={ props.visibility.locations.housing ? checked : unchecked } />
                       &nbsp;
                       Housing
                     </a>
@@ -63,7 +63,7 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.locations,
                           'dining': !props.visibility.locations.dining
                         }})
-                      }><img width={15} src={ props.visibility.locations.dining ? checked : unchecked } />
+                      }><img width={15} alt="item" src={ props.visibility.locations.dining ? checked : unchecked } />
                       &nbsp;
                       Dining
                     </a>
@@ -78,7 +78,7 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.locations,
                           'retail': !props.visibility.locations.retail
                         }})
-                      }><img width={15} src={ props.visibility.locations.retail ? checked : unchecked } />
+                      }><img width={15} alt="item" src={ props.visibility.locations.retail ? checked : unchecked } />
                       &nbsp;
                       Retail
                     </a>
@@ -93,13 +93,13 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.locations,
                           'labs': !props.visibility.locations.labs
                         }})
-                      }><img width={15} src={ props.visibility.locations.labs ? checked : unchecked } />&nbsp;
+                      }><img width={15} alt="item" src={ props.visibility.locations.labs ? checked : unchecked } />&nbsp;
                       Labs
                     </a>
                   </li>
                 </ul>
               </div>
-              <a
+              <a  
                 className={props.visibility.parking ? 'btn btn-dark' : 'btn btn-outline-dark'}
                 href='#parking'
                 id="parking"
@@ -119,7 +119,7 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.outdoors,
                           'greenspaces': !props.visibility.outdoors.greenspaces
                         }})
-                      }><img width={15} src={ props.visibility.outdoors.greenspaces ? checked : unchecked } />
+                      }><img width={15} alt="item" src={ props.visibility.outdoors.greenspaces ? checked : unchecked } />
                       &nbsp;
                       Green Spaces
                     </a>
@@ -134,7 +134,7 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.outdoors,
                           'recreation': !props.visibility.outdoors.recreation
                         }})
-                      }><img width={15} src={ props.visibility.outdoors.recreation ? checked : unchecked } />
+                      }><img width={15} alt="item" src={ props.visibility.outdoors.recreation ? checked : unchecked } />
                       &nbsp;
                       Recreation
                     </a>
@@ -149,7 +149,7 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.outdoors,
                           'wellBeing': !props.visibility.outdoors.wellBeing
                         }})
-                      }><img width={15} src={ props.visibility.outdoors.wellBeing ? checked : unchecked } />
+                      }><img width={15} alt="item" src={ props.visibility.outdoors.wellBeing ? checked : unchecked } />
                       &nbsp;
                       Well-Being
                     </a>
@@ -165,7 +165,7 @@ export default function MapMenu(props: MapMenuProps) {
                       href='#bikeRack'
                       id="bikeRacks"
                       onClick={() => props.setVisibility({ ...props.visibility, 'bikeRacks': !props.visibility['bikeRacks'] })}
-                    > <img width={15} src={ props.visibility.bikeRacks ? checked : unchecked } />
+                    > <img width={15} alt="item" src={ props.visibility.bikeRacks ? checked : unchecked } />
                     &nbsp;
                       Bike Racks
                     </a>
@@ -176,7 +176,7 @@ export default function MapMenu(props: MapMenuProps) {
                     id="family"
                     href='#family'
                     onClick={() => props.setVisibility({ ...props.visibility, 'family': !props.visibility['family'] })}
-                  ><img width={15} src={ props.visibility.family ? checked : unchecked } />
+                  ><img width={15} alt="item" src={ props.visibility.family ? checked : unchecked } />
                   &nbsp;
                     Family Resources
                   </a>  
@@ -187,7 +187,7 @@ export default function MapMenu(props: MapMenuProps) {
                     id="pantry"
                     href='#pantry'
                     onClick={() => props.setVisibility({ ...props.visibility, 'knightsPantry': !props.visibility['knightsPantry'] })}
-                  > <img width={15} src={ props.visibility.knightsPantry ? checked : unchecked } />
+                  > <img width={15} alt="item" src={ props.visibility.knightsPantry ? checked : unchecked } />
                   &nbsp;
                     Knight's Pantry
                   </a>  
@@ -198,7 +198,7 @@ export default function MapMenu(props: MapMenuProps) {
                     id="art"
                     href='#art'
                     onClick={() => props.setVisibility({ ...props.visibility, 'art': !props.visibility['art'] })}
-                  ><img width={15} src={ props.visibility.art ? checked : unchecked } />
+                  ><img width={15} alt="item" src={ props.visibility.art ? checked : unchecked } />
                   &nbsp; Art
                   </a>  
                 </li>
@@ -208,7 +208,7 @@ export default function MapMenu(props: MapMenuProps) {
                     id="services"
                     href='#services'
                     onClick={() => props.setVisibility({ ...props.visibility, 'studentServices': !props.visibility['studentServices'] })}
-                  > <img width={15} src={ props.visibility.studentServices ? checked : unchecked } />
+                  > <img width={15} alt="item" src={ props.visibility.studentServices ? checked : unchecked } />
                   &nbsp;
                     Student Services
                   </a>  
@@ -222,7 +222,7 @@ export default function MapMenu(props: MapMenuProps) {
         <div className='d-flex justify-content-end me-3 pb-1'>
         <div className="btn-group btn-group-sm my-1" role="group" aria-label="Basic checkbox toggle button group">     
             <a className="btn dropdown-toggle rounded-end-0 d-flex align-items-center" id="accessibility" href="#accessibility" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img width={30} src={accessibilityIcon} alt="Accessibility" />
+              <img width={30} src={accessibilityIcon} alt="Accessibility Dropdown menu" />
               
             </a>
               <ul className="dropdown-menu">
@@ -237,7 +237,7 @@ export default function MapMenu(props: MapMenuProps) {
                         'parking': !props.visibility.accessibility.parking
                       }})
                     }
-                  > <img width={15} src={ props.visibility.accessibility.parking ? checked : unchecked } />
+                  > <img width={15} alt='item' src={ props.visibility.accessibility.parking ? checked : unchecked } />
                   &nbsp;
                     Parking
                   </a>  
@@ -253,7 +253,7 @@ export default function MapMenu(props: MapMenuProps) {
                         'buildingRamps': !props.visibility.accessibility.buildingRamps
                       }})
                     }
-                  ><img width={15} src={ props.visibility.accessibility.buildingRamps ? checked : unchecked } />
+                  ><img width={15} alt="item" src={ props.visibility.accessibility.buildingRamps ? checked : unchecked } />
                   &nbsp;
                     Building Ramps
                   </a>
@@ -269,7 +269,7 @@ export default function MapMenu(props: MapMenuProps) {
                         'curbRamps': !props.visibility.accessibility.curbRamps
                       }})
                     }
-                  > <img width={15} src={ props.visibility.accessibility.curbRamps ? checked : unchecked } />
+                  > <img width={15} alt="item" src={ props.visibility.accessibility.curbRamps ? checked : unchecked } />
                   &nbsp;
                     Parking Ramps
                   </a>
@@ -285,19 +285,18 @@ export default function MapMenu(props: MapMenuProps) {
                         'autoDoors': !props.visibility.accessibility.autoDoors
                       }})
                     }
-                  ><img width={15} src={ props.visibility.accessibility.autoDoors ? checked : unchecked } />
+                  ><img width={15} alt="item" src={ props.visibility.accessibility.autoDoors ? checked : unchecked } />
                   &nbsp;
                     Automatic Doors
                   </a>
                 </li>
               </ul>
-
               <a
                 className={props.visibility.shuttleStops ? 'btn btn-dark rounded-0 d-flex align-items-center' : 'btn rounded-0 d-flex align-items-center'}
                 id="shuttleStops"
                 href='#shuttleStops'
                 onClick={() => props.setVisibility({ ...props.visibility, 'shuttleStops': !props.visibility['shuttleStops'] })} >
-              <img width={30} src={busIcon} alt="bus logo"/></a>
+              <img width={30} src={busIcon} alt="bus stop"/></a>
               <a
                 className={props.visibility.emergencyPhones ? 'btn btn-dark rounded-0 d-flex align-items-center' : 'btn rounded-0 d-flex align-items-center'}
                 id="blueLightPhones"

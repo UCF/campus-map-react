@@ -22,11 +22,11 @@ export default function MapMenu(props: MapMenuProps) {
           <div className="d-flex flex-row flex-wrap justify-content-center justify-content-md-start py-1 ms-sm-5">
             <div className='btn-group my-1'>
               <div className='btn-group'>
-                <a className='btn btn-outline-dark dropdown-toggle' data-bs-toggle='dropdown' href='#locations' role="button" aria-expanded="false">Locations</a>
+                <a className='btn btn-outline-dark dropdown-toggle ga-map-menu-item' data-bs-toggle='dropdown' href='#locations' role="button" aria-expanded="false">Locations</a>
                 <ul className='dropdown-menu'>
                   <li>
                     <a
-                      className={props.visibility.locations.buildings ? 'dropdown-item active' : 'dropdown-item'}
+                      className={props.visibility.locations.buildings ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                       href='#buildings'
                       id="buildings"
                       onClick={() =>
@@ -40,7 +40,7 @@ export default function MapMenu(props: MapMenuProps) {
                   </li>
                   <li>
                     <a
-                      className={props.visibility.locations.housing ? 'dropdown-item active' : 'dropdown-item'}
+                      className={props.visibility.locations.housing ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                       href='#housing'
                       id="housing"
                       onClick={() =>
@@ -55,7 +55,7 @@ export default function MapMenu(props: MapMenuProps) {
                   </li>
                   <li>
                     <a
-                      className={props.visibility.locations.dining ? 'dropdown-item active' : 'dropdown-item'}
+                      className={props.visibility.locations.dining ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                       href='#dining'
                       id="dining"
                       onClick={() =>
@@ -70,7 +70,7 @@ export default function MapMenu(props: MapMenuProps) {
                   </li>
                   <li>
                     <a
-                      className={props.visibility.locations.retail ? 'dropdown-item active' : 'dropdown-item'}
+                      className={props.visibility.locations.retail ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                       href='#retail'
                       id="retail"
                       onClick={() =>
@@ -85,7 +85,7 @@ export default function MapMenu(props: MapMenuProps) {
                   </li>
                   <li>
                     <a
-                      className={props.visibility.locations.labs ? 'dropdown-item active' : 'dropdown-item'}
+                      className={props.visibility.locations.labs ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                       href='#labs'
                       id="labs"
                       onClick={() =>
@@ -100,18 +100,18 @@ export default function MapMenu(props: MapMenuProps) {
                 </ul>
               </div>
               <a  
-                className={props.visibility.parking ? 'btn btn-dark' : 'btn btn-outline-dark'}
+                className={props.visibility.parking ? 'btn btn-dark ga-map-menu-item' : 'btn btn-outline-dark ga-map-menu-item'}
                 href='#parking'
                 id="parking"
                 onClick={() => props.setVisibility({ ...props.visibility, 'parking': !props.visibility.parking })}>
                   Parking
               </a>
               <div className='btn-group'>
-                <a className='btn btn-outline-dark dropdown-toggle' data-bs-toggle='dropdown' href='#locations' role="button" aria-expanded="false">Outdoors</a>
+                <a className='btn btn-outline-dark dropdown-toggle ga-map-menu-item' data-bs-toggle='dropdown' href='#locations' role="button" aria-expanded="false">Outdoors</a>
                 <ul className='dropdown-menu'>
                   <li>
                     <a
-                      className={props.visibility.outdoors.greenspaces ? 'dropdown-item active' : 'dropdown-item'}
+                      className={props.visibility.outdoors.greenspaces ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                       href='#greenspaces'
                       id="greenspaces"
                       onClick={() =>
@@ -126,7 +126,7 @@ export default function MapMenu(props: MapMenuProps) {
                   </li>
                   <li>
                     <a
-                      className={props.visibility.outdoors.recreation ? 'dropdown-item active' : 'dropdown-item'}
+                      className={props.visibility.outdoors.recreation ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                       href='#recreation'
                       id="recreation"
                       onClick={() =>
@@ -141,7 +141,7 @@ export default function MapMenu(props: MapMenuProps) {
                   </li>
                   <li>
                     <a
-                      className={props.visibility.outdoors.wellBeing ? 'dropdown-item active' : 'dropdown-item'}
+                      className={props.visibility.outdoors.wellBeing ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                       href='#wellBeing'
                       id="wellBeing"
                       onClick={() =>
@@ -157,11 +157,11 @@ export default function MapMenu(props: MapMenuProps) {
                 </ul>
               </div>
               <div className='btn-group'>
-                <a className='btn btn-outline-dark dropdown-toggle' data-bs-toggle='dropdown' href='#locations' role="button" aria-expanded="false">More</a>
+                <a className='btn btn-outline-dark dropdown-toggle ga-map-menu-item' data-bs-toggle='dropdown' href='#locations' role="button" aria-expanded="false">More</a>
               <ul className="dropdown-menu dropdown-menu-end">
                 <li>
                     <a
-                      className={props.visibility.bikeRacks ? 'dropdown-item active' : 'dropdown-item'}
+                      className={props.visibility.bikeRacks ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                       href='#bikeRack'
                       id="bikeRacks"
                       onClick={() => props.setVisibility({ ...props.visibility, 'bikeRacks': !props.visibility['bikeRacks'] })}
@@ -172,7 +172,7 @@ export default function MapMenu(props: MapMenuProps) {
                   </li>
                   <li>
                   <a
-                    className={props.visibility.family ? 'dropdown-item active' : 'dropdown-item'}
+                    className={props.visibility.family ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                     id="family"
                     href='#family'
                     onClick={() => props.setVisibility({ ...props.visibility, 'family': !props.visibility['family'] })}
@@ -183,7 +183,7 @@ export default function MapMenu(props: MapMenuProps) {
                 </li>
                 <li>
                   <a
-                    className={props.visibility.knightsPantry ? 'dropdown-item active' : 'dropdown-item'}
+                    className={props.visibility.knightsPantry ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                     id="pantry"
                     href='#pantry'
                     onClick={() => props.setVisibility({ ...props.visibility, 'knightsPantry': !props.visibility['knightsPantry'] })}
@@ -194,7 +194,7 @@ export default function MapMenu(props: MapMenuProps) {
                 </li>
                 <li>
                   <a
-                    className={props.visibility.art ? 'dropdown-item active' : 'dropdown-item'}
+                    className={props.visibility.art ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                     id="art"
                     href='#art'
                     onClick={() => props.setVisibility({ ...props.visibility, 'art': !props.visibility['art'] })}
@@ -204,7 +204,7 @@ export default function MapMenu(props: MapMenuProps) {
                 </li>
                 <li>
                   <a
-                    className={props.visibility.studentServices ? 'dropdown-item active' : 'dropdown-item'}
+                    className={props.visibility.studentServices ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                     id="services"
                     href='#services'
                     onClick={() => props.setVisibility({ ...props.visibility, 'studentServices': !props.visibility['studentServices'] })}
@@ -221,14 +221,14 @@ export default function MapMenu(props: MapMenuProps) {
         <div className='order-1 order-sm-3 col-8 col-sm-4 px-0'>
         <div className='d-flex justify-content-end me-3 pb-1'>
         <div className="btn-group btn-group-sm my-1" role="group" aria-label="Basic checkbox toggle button group">     
-            <a className="btn dropdown-toggle rounded-end-0 d-flex align-items-center" id="accessibility" href="#accessibility" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="btn dropdown-toggle rounded-end-0 d-flex align-items-center ga-map-menu-item" id="accessibility" href="#accessibility" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               <img width={30} src={accessibilityIcon} alt="Accessibility Dropdown menu" />
               
             </a>
               <ul className="dropdown-menu">
                 <li>
                   <a
-                    className={props.visibility.accessibility.parking ? 'dropdown-item active' : 'dropdown-item'}
+                    className={props.visibility.accessibility.parking ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                     id="accessible-parking"
                     href='#accessible-parking'
                     onClick={() => 
@@ -244,7 +244,7 @@ export default function MapMenu(props: MapMenuProps) {
                 </li>
                 <li>
                   <a
-                    className={props.visibility.accessibility.buildingRamps ? 'dropdown-item active' : 'dropdown-item'}
+                    className={props.visibility.accessibility.buildingRamps ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                     id="building-ramps"
                     href='#building-ramps'
                     onClick={() => 
@@ -260,7 +260,7 @@ export default function MapMenu(props: MapMenuProps) {
                 </li>
                 <li>
                   <a
-                    className={props.visibility.accessibility.curbRamps ? 'dropdown-item active' : 'dropdown-item'}
+                    className={props.visibility.accessibility.curbRamps ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                     href='#curbRamps'
                     id="curbRamps"
                     onClick={() => 
@@ -276,7 +276,7 @@ export default function MapMenu(props: MapMenuProps) {
                 </li>
                 <li>
                   <a
-                    className={props.visibility.accessibility.autoDoors ? 'dropdown-item active' : 'dropdown-item'}
+                    className={props.visibility.accessibility.autoDoors ? 'dropdown-item active ga-map-menu-item' : 'dropdown-item ga-map-menu-item'}
                     id="autoDoors"
                     href='#autoDoors'
                     onClick={() => 
@@ -292,13 +292,13 @@ export default function MapMenu(props: MapMenuProps) {
                 </li>
               </ul>
               <a
-                className={props.visibility.shuttleStops ? 'btn btn-dark rounded-0 d-flex align-items-center' : 'btn rounded-0 d-flex align-items-center'}
+                className={props.visibility.shuttleStops ? 'btn btn-dark rounded-0 d-flex align-items-center ga-map-menu-item' : 'btn rounded-0 d-flex align-items-center ga-map-menu-item'}
                 id="shuttleStops"
                 href='#shuttleStops'
                 onClick={() => props.setVisibility({ ...props.visibility, 'shuttleStops': !props.visibility['shuttleStops'] })} >
               <img width={30} src={busIcon} alt="bus stop"/></a>
               <a
-                className={props.visibility.emergencyPhones ? 'btn btn-dark rounded-0 d-flex align-items-center' : 'btn rounded-0 d-flex align-items-center'}
+                className={props.visibility.emergencyPhones ? 'btn btn-dark rounded-0 d-flex align-items-center ga-map-menu-item' : 'btn rounded-0 d-flex align-items-center ga-map-menu-item'}
                 id="blueLightPhones"
                 href='#blueLightPhones'
                 onClick={() => props.setVisibility({ ...props.visibility, 'emergencyPhones': !props.visibility['emergencyPhones'] })} >

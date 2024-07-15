@@ -82,7 +82,7 @@ function App() {
     gtagOptions: {
       debug_mode: true,
     },
-  }););
+  });
 
   // Send pageview with a custom path
   ReactGA.send({ hitType: "pageview", page: "/", title: "UCF Campus Map" });

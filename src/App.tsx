@@ -72,10 +72,10 @@ import campusData from './assets/campuses.json';
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
 const FOOTER_SOCIAL_ID = import.meta.env.VITE_REMOTE_SOCIAL_LINKS_ID;
-// const REACT_MEASUREMENT_ID = import.meta.env.VITE_REACTGA_MEASUREMENT_ID;
+const REACT_MEASUREMENT_ID = import.meta.env.VITE_REACTGA_MEASUREMENT_ID;
 
 function App() {
-  ReactGA.initialize('G-DFCVBKX579', {
+  ReactGA.initialize(REACT_MEASUREMENT_ID, {
     gaOptions: {
       debug_mode: true,
     },

@@ -1,4 +1,5 @@
 import './App.scss'
+import ReactGA from "react-ga4"
 
 // React Imports
 import { useEffect, useMemo, useRef, useState } from 'react'
@@ -71,8 +72,15 @@ import campusData from './assets/campuses.json';
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
 const FOOTER_SOCIAL_ID = import.meta.env.VITE_REMOTE_SOCIAL_LINKS_ID;
+const REACT_MEASUREMENT_ID = import.meta.env.VITE_REACTGA_MEASUREMENT_ID;
 
 function App() {
+  ReactGA.initialize(REACT_MEASUREMENT_ID);
+
+  // Send pageview with a custom path
+  ReactGA.send({ hitType: "pageview", page: "/", title: "UCF Campus Map" });
+
+
   const initialLng = -81.200142;
   const intitalLat = 28.602368;
   const initialZoom = 15;

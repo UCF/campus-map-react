@@ -220,7 +220,15 @@ function App() {
 
         if (response.length > 0) {
           const location = response.pop();
-          html = `<a class="location-link" href="${location!.link}" target="_blank">${feature?.properties?.Name}</a>`;
+
+          ReactGA.event({
+            category: "Link",
+            action: "click",
+            label: `${location!.title.rendered}`,
+          });
+          
+          console.log(location!.title.rendered);
+          html = `<a class="location-link" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${feature?.properties?.Name}</a>`;
         } else {
           html = `<span class="location-link">${feature?.properties?.Name}</span>`
         }
@@ -230,6 +238,7 @@ function App() {
   };
 
   const onSearchResultClick = (result: GeoJsonProperties) => {
+    // console.log(result);
     mapRef.current!.flyTo({
       center: [
         result!.properties.Longitude,

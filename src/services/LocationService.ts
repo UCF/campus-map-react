@@ -5,6 +5,7 @@ export interface LocationResult {
   slug: string;
   status: string;
   link: string;
+  title: {rendered: string};
 }
 
 export function SearchForLocation(location_name: string) {

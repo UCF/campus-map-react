@@ -274,8 +274,8 @@ function App() {
   const campusHandler = (campus: Campus) => {
     ReactGA.event({
       category: "Campus Menu",
-      action: `${campus.name}`,
-      label: "campus name",
+      action: "Campus Menu",
+      label: `${campus.name}`,
     });
 
     mapRef.current!.flyTo({

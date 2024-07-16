@@ -225,9 +225,7 @@ function App() {
             category: "Link",
             action: "click",
             label: `${location!.title.rendered}`,
-          });
-          
-          console.log(location!.title.rendered);
+          });          
           html = `<a class="location-link" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${feature?.properties?.Name}</a>`;
         } else {
           html = `<span class="location-link">${feature?.properties?.Name}</span>`

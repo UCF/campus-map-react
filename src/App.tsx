@@ -236,7 +236,6 @@ function App() {
   };
 
   const onSearchResultClick = (result: GeoJsonProperties) => {
-    // console.log(result);
     mapRef.current!.flyTo({
       center: [
         result!.properties.Longitude,

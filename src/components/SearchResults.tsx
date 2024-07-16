@@ -4,7 +4,9 @@ import closeIcon from '../assets/xmark-solid.png';
 import searchIcon from '../assets/search-white.png';
 
 import './SearchResults.scss';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+
+import ReactGA from "react-ga4"
 
 interface SearchResultsProps {
   searchResults: Array<Feature>,
@@ -14,6 +16,23 @@ interface SearchResultsProps {
 
 export default function SearchResults(props: SearchResultsProps) {
   const [searchQuery, setSearchQuery] = useState<string>('');
+  const [debouncedSearchQuery, setDebouncedSearchQuery] = useState<string>('');
+
+  useEffect(() => {
+    const delaySearchQueryTimeOutId = setTimeout(() => {
+      setDebouncedSearchQuery(searchQuery);
+    }, 500);
+    return () => clearTimeout(delaySearchQueryTimeOutId);
+  }, [searchQuery, 500])
+
+  useEffect(() => {
+    ReactGA.event({
+      category: "Map Search",
+      action: "search",
+      label: `${debouncedSearchQuery}`,
+    });
+  },[debouncedSearchQuery])
+
 
   return (
     <div className='search-control-wrapper rounded'>

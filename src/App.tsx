@@ -274,7 +274,7 @@ function App() {
   const campusHandler = (campus: Campus) => {
     ReactGA.event({
       category: "Campus Menu",
-      action: "Click",
+      action: "click",
       label: `${campus.name}`,
     });
 

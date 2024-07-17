@@ -63,7 +63,7 @@ export default function MapMenu(props: MapMenuProps) {
                           ...props.visibility.locations,
                           'dining': !props.visibility.locations.dining
                         }})
-                      }><img width={15} alt="" src={ props.visibility.locations.dining ? checked : unchecked }/>
+                      }><img width={15} alt="" src={ props.visibility.locations.dining ? checked : unchecked } />
                       &nbsp;
                       Dining
                     </a>

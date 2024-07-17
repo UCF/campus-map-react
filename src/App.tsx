@@ -86,7 +86,7 @@ function App() {
   });
 
   // Send pageview with a custom path
-  ReactGA.send({ hitType: "pageview", page: "/", title: "UCF Campus Map" });
+  ReactGA.send({ hitType: "pageview", page: "/map/", title: "UCF Campus Map" });
 }
 
   const initialLng = -81.200142;
@@ -225,9 +225,7 @@ function App() {
             category: "Link",
             action: "click",
             label: `${location!.title.rendered}`,
-          });
-          
-          console.log(location!.title.rendered);
+          });          
           html = `<a class="location-link" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${feature?.properties?.Name}</a>`;
         } else {
           html = `<span class="location-link">${feature?.properties?.Name}</span>`
@@ -238,7 +236,6 @@ function App() {
   };
 
   const onSearchResultClick = (result: GeoJsonProperties) => {
-    // console.log(result);
     mapRef.current!.flyTo({
       center: [
         result!.properties.Longitude,

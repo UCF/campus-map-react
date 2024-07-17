@@ -237,7 +237,7 @@ export default function MapMenu(props: MapMenuProps) {
                         'parking': !props.visibility.accessibility.parking
                       }})
                     }
-                  > <img width={15} alt='item' src={ props.visibility.accessibility.parking ? checked : unchecked } />
+                  > <img width={15} alt='' src={ props.visibility.accessibility.parking ? checked : unchecked } />
                   &nbsp;
                     Parking
                   </a>  

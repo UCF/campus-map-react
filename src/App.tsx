@@ -86,7 +86,7 @@ function App() {
   });
 
   // Send pageview with a custom path
-  ReactGA.send({ hitType: "pageview", page: "/", title: "UCF Campus Map" });
+  ReactGA.send({ hitType: "pageview", page: "/map/", title: "UCF Campus Map" });
 }
 
   const initialLng = -81.200142;

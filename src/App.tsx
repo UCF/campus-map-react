@@ -223,7 +223,7 @@ function App() {
 
           ReactGA.event({
             category: "Link",
-            action: "click",
+            action: "link_click",
             label: `${location!.title.rendered}`,
           });          
           html = `<a class="location-link" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${feature?.properties?.Name}</a>`;

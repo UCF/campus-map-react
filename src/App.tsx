@@ -222,8 +222,8 @@ function App() {
           const location = response.pop();
 
           ReactGA.event({
-            category: "Link",
-            action: "link_click",
+            category: "link",
+            action: "click_internal_link",
             label: `${location!.title.rendered}`,
           });          
           html = `<a class="location-link" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${feature?.properties?.Name}</a>`;
@@ -279,8 +279,8 @@ function App() {
 
   const campusHandler = (campus: Campus) => {
     ReactGA.event({
-      category: "Campus Menu",
-      action: "campus_menu_click",
+      category: "campus_menu",
+      action: "click_campus_menu",
       label: `${campus.name}`,
     });
 

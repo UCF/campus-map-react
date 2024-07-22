@@ -27,7 +27,7 @@ export default function SearchResults(props: SearchResultsProps) {
 
   useEffect(() => {
     ReactGA.event({
-      category: "Map Search",
+      category: "map_search",
       action: "search",
       label: `${debouncedSearchQuery}`,
     });

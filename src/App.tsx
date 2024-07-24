@@ -67,7 +67,6 @@ import { Visibility } from './types/Visibility';
 
 // Data Imports
 import campusData from './assets/campuses.json';
-import { CustomEventOptions } from './types/CustomEventOptions';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
@@ -220,7 +219,7 @@ function App() {
             action: "click_internal_link",
             label: `${location!.title.rendered}`
             }
-          )      
+          );      
 
           html = `<a class="location-link" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${feature?.properties?.Name}</a>`;
         } else {

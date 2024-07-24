@@ -67,6 +67,7 @@ import { Visibility } from './types/Visibility';
 
 // Data Imports
 import campusData from './assets/campuses.json';
+import { CustomEventOptions } from './types/CustomEventOptions';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const FOOTER_MENU_ID = import.meta.env.VITE_REMOTE_FOOTER_MENU_ID;
@@ -205,14 +206,16 @@ function App() {
 
         if (response.length > 0) {
           const location = response.pop();
-          ReactGA.event({
+
+          const internalLinkClickGa4: CustomEventOptions = {
             category: "link",
             action: "click_internal_link",
             label: `${location!.title.rendered}`,
-          },{
             link_url: `${location!.link}`,
             link_text: `${location!.title.rendered}`
-          })      
+          }
+
+          ReactGA.event(internalLinkClickGa4)      
 
           html = `<a class="location-link" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${feature?.properties?.Name}</a>`;
         } else {

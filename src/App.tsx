@@ -205,22 +205,14 @@ function App() {
 
         if (response.length > 0) {
           const location = response.pop();
-          
-          ReactGA.gtag("set", "user_properties", {
-            link_url: `${location!.link}`
-          });
 
-         ReactGA.gtag("set", "user_properties", {
-          link_text: `${location!.title.rendered}`
-          });
-
-          ReactGA.event({
-            category: "link",
-            action: "click_internal_link",
-            label: `${location!.title.rendered}`
-            }
-          );      
-
+          ReactGA.gtag('event', 'click_internal_link', {
+            'event_category': 'link',
+            'event_label': `${location!.title.rendered}`,
+            'link_text': `${location!.title.rendered}`,
+            'link_url': `${location!.link}`
+        });
+        
           html = `<a class="location-link" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${feature?.properties?.Name}</a>`;
         } else {
           html = `<span class="location-link">${feature?.properties?.Name}</span>`
@@ -273,16 +265,12 @@ function App() {
   };
 
   const campusHandler = (campus: Campus) => {
-  
-   ReactGA.gtag("set", "user_properties", {
-    link_text: `${campus.name}`
-    });
-    
-    ReactGA.event({
-      category: "campus_menu",
-      action: "click_campus_menu",
-      label: `${campus.name}`,
-    });
+
+    ReactGA.gtag('event', 'click_campus_menu', {
+      'event_category': 'campus_menu',
+      'event_label': `${campus.name}`,
+      'link_text': `${campus.name}`
+  });
 
     mapRef.current!.flyTo({
       center: [

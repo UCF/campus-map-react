@@ -223,6 +223,9 @@ function App() {
             category: "link",
             action: "click_internal_link",
             label: `${location!.title.rendered}`,
+          },{
+            link_url: `${location!.link}`,
+            link_text: `${location!.title.rendered}`
           })      
 
           html = `<a class="location-link" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${feature?.properties?.Name}</a>`;

@@ -205,11 +205,6 @@ function App() {
 
         if (response.length > 0) {
           const location = response.pop();
-
-          ReactGA.set({
-            link_text: `${location!.title.rendered}`, 
-            link_url: `${location!.link}`
-          })
           ReactGA.event({
             category: "link",
             action: "click_internal_link",
@@ -268,10 +263,6 @@ function App() {
   };
 
   const campusHandler = (campus: Campus) => {
-    ReactGA.set({
-      link_text: `${campus.name}`, 
-      link_url: ''
-    })
     ReactGA.event({
       category: "campus_menu",
       action: "click_campus_menu",

@@ -26,6 +26,7 @@ export default function SearchResults(props: SearchResultsProps) {
   }, [searchQuery, 500])
 
   useEffect(() => {
+    ReactGA.set({});
     ReactGA.event({
       category: "map_search",
       action: "search",

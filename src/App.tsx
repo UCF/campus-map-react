@@ -1,6 +1,5 @@
 import './App.scss'
 import ReactGA from "react-ga4"
-
 // React Imports
 import { useEffect, useMemo, useRef, useState } from 'react'
 
@@ -221,11 +220,16 @@ function App() {
         if (response.length > 0) {
           const location = response.pop();
 
+          ReactGA.set({
+            link_text: `${location!.title.rendered}`, 
+            link_url: `${location!.link}`
+          })
           ReactGA.event({
             category: "link",
             action: "click_internal_link",
             label: `${location!.title.rendered}`,
-          });          
+          })      
+
           html = `<a class="location-link" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${feature?.properties?.Name}</a>`;
         } else {
           html = `<span class="location-link">${feature?.properties?.Name}</span>`
@@ -278,6 +282,10 @@ function App() {
   };
 
   const campusHandler = (campus: Campus) => {
+    ReactGA.set({
+      link_text: `${campus.name}`, 
+      link_url: ''
+    })
     ReactGA.event({
       category: "campus_menu",
       action: "click_campus_menu",

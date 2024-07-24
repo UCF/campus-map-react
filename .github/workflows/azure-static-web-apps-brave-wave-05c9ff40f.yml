@@ -22,6 +22,7 @@ jobs:
       VITE_REMOTE_SOCIAL_LINKS_ID: ${{ vars.VITE_REMOTE_SOCIAL_LINKS_ID }}
       VITE_LOCATION_API_URL: ${{ vars.VITE_LOCATION_API_URL_LIVE }}
       VITE_BASEURL: ${{ vars.VITE_BASEURL }}
+      VITE_REACTGA_MEASUREMENT_ID: ${{ vars.VITE_REACTGA_MEASUREMENT_ID_DEVTEST }}
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3

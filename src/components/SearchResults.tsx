@@ -33,7 +33,6 @@ export default function SearchResults(props: SearchResultsProps) {
     });
   },[debouncedSearchQuery])
 
-
   return (
     <div className='search-control-wrapper rounded'>
       <div className='input-group'>

@@ -26,6 +26,11 @@ export default function SearchResults(props: SearchResultsProps) {
   }, [searchQuery, 500])
 
   useEffect(() => {
+    
+    ReactGA.gtag("set", "user_properties", {
+      link_text: `${debouncedSearchQuery}`
+    });
+
     ReactGA.event({
       category: "map_search",
       action: "search",

@@ -206,16 +206,21 @@ function App() {
 
         if (response.length > 0) {
           const location = response.pop();
+          
+          ReactGA.gtag("set", "user_properties", {
+            link_url: `${location!.link}`
+          });
 
-          const internalLinkClickGa4: CustomEventOptions = {
+         ReactGA.gtag("set", "user_properties", {
+          link_text: `${location!.title.rendered}`
+          });
+
+          ReactGA.event({
             category: "link",
             action: "click_internal_link",
-            label: `${location!.title.rendered}`,
-            link_url: `${location!.link}`,
-            link_text: `${location!.title.rendered}`
-          }
-
-          ReactGA.event(internalLinkClickGa4)      
+            label: `${location!.title.rendered}`
+            }
+          )      
 
           html = `<a class="location-link" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${feature?.properties?.Name}</a>`;
         } else {
@@ -269,6 +274,11 @@ function App() {
   };
 
   const campusHandler = (campus: Campus) => {
+  
+   ReactGA.gtag("set", "user_properties", {
+    link_text: `${campus.name}`
+    });
+    
     ReactGA.event({
       category: "campus_menu",
       action: "click_campus_menu",

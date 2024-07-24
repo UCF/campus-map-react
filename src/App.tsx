@@ -74,6 +74,12 @@ const FOOTER_SOCIAL_ID = import.meta.env.VITE_REMOTE_SOCIAL_LINKS_ID;
 const REACT_MEASUREMENT_ID = import.meta.env.VITE_REACTGA_MEASUREMENT_ID || '';
 
 function App() {
+
+  if(REACT_MEASUREMENT_ID) {
+    ReactGA.initialize(REACT_MEASUREMENT_ID)
+    // Send pageview with a custom path
+    ReactGA.send({ hitType: "pageview", page: "/map/", title: "UCF Campus Map" });
+  }
   const initialLng = -81.200142;
   const intitalLat = 28.602368;
   const initialZoom = 15;

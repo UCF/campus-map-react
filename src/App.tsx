@@ -74,20 +74,6 @@ const FOOTER_SOCIAL_ID = import.meta.env.VITE_REMOTE_SOCIAL_LINKS_ID;
 const REACT_MEASUREMENT_ID = import.meta.env.VITE_REACTGA_MEASUREMENT_ID || '';
 
 function App() {
-  if(REACT_MEASUREMENT_ID) {
-  ReactGA.initialize(REACT_MEASUREMENT_ID, {
-    gaOptions: {
-      debug_mode: true,
-    },
-    gtagOptions: {
-      debug_mode: true,
-    },
-  });
-
-  // Send pageview with a custom path
-  ReactGA.send({ hitType: "pageview", page: "/map/", title: "UCF Campus Map" });
-}
-
   const initialLng = -81.200142;
   const intitalLat = 28.602368;
   const initialZoom = 15;
@@ -219,14 +205,21 @@ function App() {
 
         if (response.length > 0) {
           const location = response.pop();
+          
+          ReactGA.gtag("set", "user_properties", {
+            link_url: `${location!.link}`
+          });
+
+         ReactGA.gtag("set", "user_properties", {
+          link_text: `${location!.title.rendered}`
+          });
+
           ReactGA.event({
             category: "link",
             action: "click_internal_link",
-            label: `${location!.title.rendered}`,
-          },{
-            link_url: `${location!.link}`,
-            link_text: `${location!.title.rendered}`
-          })      
+            label: `${location!.title.rendered}`
+            }
+          )      
 
           html = `<a class="location-link" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${feature?.properties?.Name}</a>`;
         } else {
@@ -280,6 +273,11 @@ function App() {
   };
 
   const campusHandler = (campus: Campus) => {
+  
+   ReactGA.gtag("set", "user_properties", {
+    link_text: `${campus.name}`
+    });
+    
     ReactGA.event({
       category: "campus_menu",
       action: "click_campus_menu",
@@ -304,6 +302,15 @@ function App() {
   const onMouseLeaveInteractive = (_: MapLayerMouseEvent) => {
     mapRef.current!.getCanvas().style.cursor = '';
   }
+
+  useMemo(() => {
+    if ( REACT_MEASUREMENT_ID ) {
+      ReactGA.initialize(REACT_MEASUREMENT_ID);
+  
+      // Send pageview with a custom path
+      ReactGA.send({ hitType: "pageview", page: "/map/", title: "UCF Campus Map" });
+    }
+  }, []);
 
   useMemo(() => {
     // Location data

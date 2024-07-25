@@ -26,14 +26,22 @@ export default function SearchResults(props: SearchResultsProps) {
   }, [searchQuery, 500])
 
   useEffect(() => {
-    
-    ReactGA.gtag('event', 'search', {
-      'event_category': 'map_search',
-      'event_label': `${debouncedSearchQuery}`,
-      'link_text': `${debouncedSearchQuery}`,
-  });
-
+    ReactGA.event({
+      category: "map_search",
+      action: "search",
+      label: `${debouncedSearchQuery}`,
+    });
   },[debouncedSearchQuery])
+
+  // useEffect(() => {
+    
+  //   ReactGA.gtag('event', 'search', {
+  //     'event_category': 'map_search',
+  //     'event_label': `${debouncedSearchQuery}`,
+  //     'link_text': `${debouncedSearchQuery}`,
+  // });
+
+  // },[debouncedSearchQuery])
 
   return (
     <div className='search-control-wrapper rounded'>

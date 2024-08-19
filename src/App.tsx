@@ -78,7 +78,7 @@ function App() {
 
   const initialLng = -81.200142;
   const intitalLat = 28.602368;
-  const initialZoom = isMobile ? 14 : 15;
+  const initialZoom = isMobile ? 13 : 15;
 
   const mapRef = useRef<MapRef>(null);
 

@@ -63,7 +63,7 @@ export default function SearchResults(props: SearchResultsProps) {
               setSearchQuery('');
             }} />
           ) : (
-            <img width={20} src={searchIcon} />
+            <img width={20} src={searchIcon} alt="search icon" />
           ) }
         </div>
       </div>  

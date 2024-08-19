@@ -36,38 +36,60 @@ export default function SearchResults(props: SearchResultsProps) {
 
   return (
     <div className='search-control-wrapper rounded'>
-      <div className='input-group'>
+      <div className='input-group' role='search'>
       <input
         className='form-control'
         type='text'
         placeholder='Find locations, services, parking & more... '
+        aria-label='Search for locations,services, parking, and more'
         value={searchQuery}
         onChange={(e) => {
           setSearchQuery(e.target.value);
           props.searchData(e.target.value)
-        }} />
+        }}
+        tabIndex={0}
+        role='searchbox'
+        />
         <div className="input-group-text border-0 bg-black" id="search-addon">
           {
           searchQuery !== '' ? (
             <img width={20} src={closeIcon} onClick={() => {
               props.searchData(null)
               setSearchQuery('');
-            }} />
+            }}
+            onKeyDown={(e)=>{
+              if(e.key === 'Enter'){
+                props.searchData(null)
+                setSearchQuery('');
+              }
+            }}
+            tabIndex={0}
+            role='button'
+            />
           ) : (
-            <img width={20} src={searchIcon} alt="search icon" />
+            <img width={20} src={searchIcon} alt="search icon"
+            />
           ) }
         </div>
       </div>  
       {props.searchResults && props.searchResults.length > 0 && (
         <div className='search-results-container'>
           <h2 className='sr-only'>Search Results</h2>
-          <ul id='search-results' className='search-results'>
+          <ul role="listbox" tabIndex={-1} id='search-results' className='search-results'>
             {props.searchResults.map((result: Feature) => {
               return (
                 <li key={result!.properties!.Name} className='list-item search-result'>
                   <a
                     className='search-result-link'
-                    onClick={() => props.onSearchResultClick(result)}>
+                    onClick={() => props.onSearchResultClick(result)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                        props.onSearchResultClick(result);
+                      }
+                    }}
+                    role="option"
+                    tabIndex={0}
+                    >
                     {result!.properties!.Name}  
                   </a>
                 </li>

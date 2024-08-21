@@ -54,6 +54,7 @@ import serviceIcon from './assets/other/student-service.png';
 
 // Import other icons
 import ucfLogo from './assets/ucf-logo.png';
+import redPin from './assets/red-pin.png';
 
 // Component imports
 import { MapIcon } from './components/MapImage';
@@ -66,6 +67,7 @@ import { LocationResult, SearchForLocation } from './services/LocationService';
 // Type Imports
 import { Campus }  from './types/Campus';
 import { Visibility } from './types/Visibility';
+import { SearchResultCoordinates } from './types/SearchResultCoordinates';
 
 // Data Imports
 import campusData from './assets/campuses.json';
@@ -185,6 +187,7 @@ function App() {
     type: 'FeatureCollection',
     features: []
   });
+  const [searchResultCord, setSearchResultCord] = useState<SearchResultCoordinates>();
 
   const [campus, setCampus] = useState<Campus>(campusData[0]);
   
@@ -219,6 +222,11 @@ function App() {
   };
 
   const onSearchResultClick = (result: GeoJsonProperties) => {
+    setSearchResultCord({
+      lat: result!.properties.Latitude,
+      lng: result!.properties.Longitude
+    })
+
     mapRef.current!.flyTo({
       center: [
         result!.properties.Longitude,
@@ -779,6 +787,11 @@ function App() {
           <Marker longitude={campus.longitude} latitude={campus.latitude} anchor="bottom" >
             <img width={30} src={ucfLogo} />
           </Marker>
+          {searchResultCord && searchResultCord.lat && searchResultCord.lng && 
+          <Marker longitude={searchResultCord.lng} latitude={searchResultCord.lat} anchor='bottom'> 
+            <img width={50} src={redPin}></img>
+          </Marker>
+          }
 
           <MapIcon iconName='location' iconImageSource={locationIcon} />
           <MapIcon iconName='housing' iconImageSource={housingIcon} />

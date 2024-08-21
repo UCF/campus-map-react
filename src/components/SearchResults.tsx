@@ -17,6 +17,7 @@ interface SearchResultsProps {
 export default function SearchResults(props: SearchResultsProps) {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [debouncedSearchQuery, setDebouncedSearchQuery] = useState<string>('');
+  const [searchBoxVisibility,setSearchBoxVisibility] = useState<boolean>(false);
 
   useEffect(() => {
     const delaySearchQueryTimeOutId = setTimeout(() => {
@@ -53,8 +54,9 @@ export default function SearchResults(props: SearchResultsProps) {
         aria-label='Search for locations,services, parking, and more'
         value={searchQuery}
         onChange={(e) => {
+          !searchBoxVisibility && e.target.value ?  setSearchBoxVisibility(true) : ''
           setSearchQuery(e.target.value);
-          props.searchData(e.target.value)
+          props.searchData(e.target.value);
         }}
         tabIndex={0}
         role='searchbox'
@@ -63,11 +65,13 @@ export default function SearchResults(props: SearchResultsProps) {
           {
           searchQuery !== '' ? (
             <img width={20} src={closeIcon} onClick={() => {
+              searchBoxVisibility ? setSearchBoxVisibility (false) : ''
               props.searchData(null)
               setSearchQuery('');
             }}
             onKeyDown={(e)=>{
               if(e.key === 'Enter'){
+                searchBoxVisibility ? setSearchBoxVisibility (false) : ''
                 props.searchData(null)
                 setSearchQuery('');
               }
@@ -81,7 +85,7 @@ export default function SearchResults(props: SearchResultsProps) {
           ) }
         </div>
       </div>  
-      {props.searchResults && props.searchResults.length > 0 && (
+      {props.searchResults && props.searchResults.length > 0 && searchBoxVisibility && (
         <div className='search-results-container'>
           <h2 className='sr-only'>Search Results</h2>
           <ul role="listbox" tabIndex={-1} id='search-results' className='search-results'>
@@ -90,9 +94,14 @@ export default function SearchResults(props: SearchResultsProps) {
                 <li key={result!.properties!.Name} className='list-item search-result'>
                   <a
                     className='search-result-link'
-                    onClick={() => props.onSearchResultClick(result)}
+                    onClick={() => {
+                      setSearchBoxVisibility(false);
+                      props.onSearchResultClick(result);
+                      }
+                    }
                     onKeyDown={(e) => {
                       if (e.key === 'Enter') {
+                        setSearchBoxVisibility(false);
                         props.onSearchResultClick(result);
                       }
                     }}

@@ -188,9 +188,7 @@ function App() {
     features: []
   });
   const [searchResultCord, setSearchResultCord] = useState<SearchResultCoordinates>();
-
   const [campus, setCampus] = useState<Campus>(campusData[0]);
-  
   const [searchResults, setSearchResults] = useState<Array<Feature>>([]);
 
   const handleOnClick = (e: MapLayerMouseEvent) => {

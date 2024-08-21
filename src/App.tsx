@@ -3,6 +3,7 @@ import ReactGA from "react-ga4"
 
 // React Imports
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { isMobile } from 'react-device-detect'
 
 // Map GL imports
 import {
@@ -75,9 +76,10 @@ const FOOTER_SOCIAL_ID = import.meta.env.VITE_REMOTE_SOCIAL_LINKS_ID;
 const REACT_MEASUREMENT_ID = import.meta.env.VITE_REACTGA_MEASUREMENT_ID || '';
 
 function App() {
+
   const initialLng = -81.200142;
   const intitalLat = 28.602368;
-  const initialZoom = 15;
+  const initialZoom = isMobile ? 13 : 15;
 
   const mapRef = useRef<MapRef>(null);
 

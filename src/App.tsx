@@ -23,10 +23,6 @@ import {
 } from 'react-map-gl';
 
 import {
-  Popup
-} from 'mapbox-gl';
-
-import {
   Feature,
   FeatureCollection,
   GeoJsonProperties
@@ -61,7 +57,7 @@ import MapMenu from './components/MapMenu';
 import NavigationMenu from './components/NavigationMenu';
 import SearchResults from './components/SearchResults';
 import Campuses from './components/Campuses';
-import { LocationResult, SearchForLocation } from './services/LocationService';
+import showPopup from './components/ShowPopup';
 
 // Type Imports
 import { Campus }  from './types/Campus';
@@ -194,29 +190,13 @@ function App() {
     if (e.features?.length === 0) return;
 
     const feature = e.features?.pop();
-    const popup = new Popup()
-      .setLngLat({
-        lat: feature?.properties!['Latitude'],
-        lng: feature?.properties!['Longitude']
-      })
-      .addTo(mapRef.current!.getMap());
-
-    SearchForLocation(feature?.properties?.Name)
-      .then((responseText: Response) => responseText.json())
-      .then((response: Array<LocationResult>) => {
-        let html = '';
-
-        if (response.length > 0) {
-          const location = response.pop();
-  
-          html = `<a class="location-link" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${feature?.properties?.Name}</a>`;
-        } else {
-          html = `<span class="location-link">${feature?.properties?.Name}</span>`
-        }
-
-        popup.setHTML(html);
-      });
-  };
+    showPopup({
+      mapRef: mapRef,
+      latitude: feature!.properties!['Latitude'],
+      longitude: feature!.properties!['Longitude'],
+      name: feature!.properties!.Name,
+    });
+  }
 
   const onSearchResultClick = (result: GeoJsonProperties) => {
     mapRef.current!.flyTo({
@@ -225,7 +205,13 @@ function App() {
         result!.properties.Latitude
       ],
       zoom: 17
-    })
+    });
+    showPopup({
+      mapRef: mapRef,
+      latitude: result!.properties.Latitude,
+      longitude: result!.properties.Longitude,
+      name: result!.properties.Name,
+    });
   };
 
   const searchData = (searchQuery: string) => {

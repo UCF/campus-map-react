@@ -15,7 +15,7 @@ export function MapIcon(props: MapIconProps) {
     if (!map?.hasImage(props.iconName)) {
       map?.addImage(props.iconName, blankImage);
 
-      let img = new Image(30, 30);
+      let img = new Image(40, 40);
       img.src = props.iconImageSource;
 
       img.onload = () => {

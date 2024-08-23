@@ -564,6 +564,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'auto-door',
+      "icon-size": 1.5,
       visibility: visibility.accessibility.autoDoors! ? 'visible': 'none'
     },
   };
@@ -575,6 +576,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'bus',
+      "icon-size": 2.5,
       visibility: visibility.shuttleStops! ? 'visible': 'none'
     },
   };

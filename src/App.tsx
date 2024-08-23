@@ -5,6 +5,8 @@ import ReactGA from "react-ga4"
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { isMobile } from 'react-device-detect'
 
+import { debounce } from 'lodash';
+
 // Map GL imports
 import {
   Map,
@@ -218,7 +220,7 @@ function App() {
     const retval: Array<Feature> = [];
 
     if (!searchQuery) {
-      setSearchResults(retval);
+      setSearchResults([]);
       setSearchResultData({
         type: 'FeatureCollection',
         features: []
@@ -227,11 +229,13 @@ function App() {
     }
 
     if (buildingPointData) {
-      let locationResults = buildingPointData.features.filter((e: any) => 
-        e!.properties!.Name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        e!.properties!.Abbrev.toLowerCase() === searchQuery.toLowerCase() ||
-        e!.properties!.BldgNum.toLowerCase() === searchQuery.toLowerCase()
-      );
+      const locationResults = buildingPointData.features.filter((e: any) => {
+        const includesName = e!.properties!.Name.toLowerCase().includes(searchQuery.toLowerCase());
+        const includesAbbr = e!.properties!.Abbrev.toLowerCase() === searchQuery.toLowerCase();
+        const includesBldgNum = e!.properties!.BldgNum.toLowerCase() === searchQuery.toLowerCase();
+
+        return includesName || includesAbbr || includesBldgNum;
+      });
       retval.push(...locationResults);
     }
 
@@ -239,12 +243,16 @@ function App() {
       clearVisibility();
     }
 
-    setSearchResults(retval);
+    setSearchResults([...retval]);
     setSearchResultData({
       type: 'FeatureCollection',
-      features: retval
+      features: [...retval]
     });
   };
+
+  const debouncedResults = useMemo(() => {
+    return debounce(searchData, 300);
+  }, [searchResults, buildingPointData]);
 
   const campusHandler = (campus: Campus) => {
     mapRef.current!.flyTo({
@@ -682,7 +690,7 @@ function App() {
         ref={mapRef}>
           <SearchResults
             searchResults={searchResults}
-            searchData={searchData}
+            searchData={debouncedResults}
             onSearchResultClick={onSearchResultClick} />
           <GeolocateControl position='bottom-right' />
           <FullscreenControl position='bottom-right' />

@@ -83,7 +83,7 @@ export default function SearchResults(props: SearchResultsProps) {
           <ul role="listbox" tabIndex={-1} id='search-results' className='search-results'>
             {props.searchResults.map((result: Feature) => {
               return (
-                <li key={result!.properties!.Name} className='list-item search-result'>
+                <li key={`${result!.properties!.Name}_${result!.properties!.BldgNum}`} className='list-item search-result'>
                   <a
                     className='search-result-link'
                     onClick={() => {

@@ -767,7 +767,7 @@ function App() {
             <Layer {...searchResultLayer} />
           </Source>
           <Marker longitude={campus.longitude} latitude={campus.latitude} anchor="bottom" >
-            <img width={30} src={ucfLogo} />
+            <img width={40} src={ucfLogo} />
           </Marker>
 
           <MapIcon iconName='location' iconImageSource={locationIcon} />

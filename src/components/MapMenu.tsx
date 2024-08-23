@@ -4,9 +4,9 @@ import './MapMenu.scss';
 import checked from '../assets/square-check-solid.png';
 import unchecked from '../assets/square-thin.png';
 
-import busIcon from '../assets/bus.png';
-import phoneIcon from '../assets/phone.png';
-import accessibilityIcon from '../assets/handicap.png';
+import busIcon from '../assets/bus.svg';
+import phoneIcon from '../assets/phone.svg';
+import accessibilityIcon from '../assets/handicap.svg';
 
 interface MapMenuProps {
   visibility: Visibility,

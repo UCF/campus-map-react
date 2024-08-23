@@ -251,7 +251,7 @@ function App() {
 
   const debouncedResults = useMemo(() => {
     return debounce(searchData, 300);
-  }, [searchResults]);
+  }, [searchResults, buildingPointData]);
 
   const campusHandler = (campus: Campus) => {
     mapRef.current!.flyTo({

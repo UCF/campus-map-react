@@ -45,7 +45,7 @@ export default function SearchResults(props: SearchResultsProps) {
   // },[debouncedSearchQuery])
 
   return (
-    <div className='search-control-wrapper rounded mt-1'>
+    <div className='search-control-wrapper rounded mt-2'>
       <div className='input-group' role='search'>
       <input
         className='form-control'

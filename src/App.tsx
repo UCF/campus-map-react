@@ -390,6 +390,7 @@ function App() {
 
   const defaultLayoutProps: any = {
     'icon-allow-overlap': true,
+    'icon-size': .66,
     'text-field': ['get', 'Name'],
     'text-font': [
       'Open Sans Semibold',
@@ -573,6 +574,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'auto-door',
+      "icon-size": 1,
       visibility: visibility.accessibility.autoDoors! ? 'visible': 'none'
     },
   };
@@ -605,6 +607,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'bike-rack',
+      "icon-size": 1,
       visibility: visibility.bikeRacks! ? 'visible': 'none'
     },
   };
@@ -615,6 +618,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'family',
+      "icon-size": .9,
       visibility: visibility.family! ? 'visible': 'none'
     },
   };
@@ -635,6 +639,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'art',
+      "icon-size": .9,
       visibility: visibility.art! ? 'visible': 'none'
     },
   };
@@ -645,6 +650,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'service',
+      "icon-size": .9,
       visibility: visibility.studentServices! ? 'visible': 'none'
     },
   };

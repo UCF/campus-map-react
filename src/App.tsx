@@ -575,8 +575,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'bus',
-      "icon-size": 2.5,
+      "icon-image": 'bus-icon',
       visibility: visibility.shuttleStops! ? 'visible': 'none'
     },
   };
@@ -775,7 +774,7 @@ function App() {
           <MapIcon iconName='auto-door' iconImageSource={autoDoorIcon} />
           <MapIcon iconName='building-ramp' iconImageSource={buildingRampIcon} />
           <MapIcon iconName='parking-ramp' iconImageSource={parkingRampIcon} />
-          <MapIcon iconName='bus' iconImageSource={busIcon} />
+          <MapIcon iconName='bus-icon' iconImageSource={busIcon} />
           <MapIcon iconName='phone' iconImageSource={phoneIcon} />
           <MapIcon iconName='bike-rack' iconImageSource={bikeRackIcon} />
           <MapIcon iconName='family' iconImageSource={familyIcon} />

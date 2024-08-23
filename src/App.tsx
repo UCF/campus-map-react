@@ -29,24 +29,24 @@ import {
 } from 'geojson';
 
 // Import map icons
-import locationIcon from './assets/location.png';
-import housingIcon from './assets/locations/housing.png';
-import diningIcon from './assets/locations/dining.png';
-import retailIcon from './assets/locations/retail.png';
-import labIcon from './assets/locations/lab.png';
-import recreationIcon from './assets/outdoors/recreation.png';
-import wellBeingIcon from './assets/outdoors/well-being.png';
-import accessibleParkingIcon from './assets/accessibility/accessible-parking.png';
-import autoDoorIcon from './assets/accessibility/automatic-doors.png';
-import buildingRampIcon from './assets/accessibility/building-ramp.png';
-import parkingRampIcon from './assets/accessibility/parking-ramp.png';
-import busIcon from './assets/bus.png';
-import phoneIcon from './assets/phone.png';
-import bikeRackIcon from './assets/other/bike-racks.png';
-import familyIcon from './assets/other/family-solid.png';
-import pantryIcon from './assets/other/pantry.png';
-import artIcon from './assets/other/art.png';
-import serviceIcon from './assets/other/student-service.png';
+import locationIcon from './assets/locations/location.svg';
+import housingIcon from './assets/locations/housing.svg';
+import diningIcon from './assets/locations/dining.svg';
+import retailIcon from './assets/locations/retail.svg';
+import labIcon from './assets/locations/lab.svg';
+import recreationIcon from './assets/outdoors/recreation.svg';
+import wellBeingIcon from './assets/outdoors/well-being.svg';
+import accessibleParkingIcon from './assets/accessibility/accessible-parking.svg';
+import autoDoorIcon from './assets/accessibility/automatic-doors.svg';
+import buildingRampIcon from './assets/accessibility/building-ramp.svg';
+import parkingRampIcon from './assets/accessibility/parking-ramp.svg';
+import busIcon from './assets/bus.svg';
+import phoneIcon from './assets/phone.svg';
+import bikeRackIcon from './assets/other/bike-racks.svg';
+import familyIcon from './assets/other/family-solid.svg';
+import pantryIcon from './assets/other/pantry.svg';
+import artIcon from './assets/other/art.svg';
+import serviceIcon from './assets/other/student-service.svg';
 
 // Import other icons
 import ucfLogo from './assets/ucf-logo.png';
@@ -383,6 +383,7 @@ function App() {
 
   const defaultLayoutProps: any = {
     'icon-allow-overlap': true,
+    'icon-size': .66,
     'text-field': ['get', 'Name'],
     'text-font': [
       'Open Sans Semibold',
@@ -398,6 +399,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
+      "icon-size": 0.6,
       'icon-image': 'location',
       visibility: visibility.locations.buildings! ? 'visible': 'none'
     }
@@ -421,6 +423,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
+      "icon-size": 0.6,
       "icon-image": 'housing',
       visibility: visibility.locations.housing! ? 'visible': 'none'
     },
@@ -432,7 +435,6 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'dining',
-      "icon-size": 0.4,
       visibility: visibility.locations.dining! ? 'visible': 'none'
     },
   };
@@ -453,7 +455,6 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'lab',
-      "icon-size": 0.8,
       visibility: visibility.locations.labs! ? 'visible': 'none'
     },
   };
@@ -515,7 +516,6 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'recreation',
-      "icon-size" : .5,
       visibility: visibility.outdoors.recreation! ? 'visible': 'none'
     },
   };
@@ -526,7 +526,6 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'wellbeing',
-      "icon-size": 0.5,
       visibility: visibility.outdoors.wellBeing! ? 'visible': 'none'
     },
   };
@@ -548,7 +547,6 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'building-ramp',
-      "icon-size": .5,
       visibility: visibility.accessibility.buildingRamps! ? 'visible': 'none'
     },
   };
@@ -569,6 +567,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'auto-door',
+      "icon-size": 1,
       visibility: visibility.accessibility.autoDoors! ? 'visible': 'none'
     },
   };
@@ -579,8 +578,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-image": 'bus',
-      "icon-size": 1.8,
+      "icon-image": 'bus-icon',
       visibility: visibility.shuttleStops! ? 'visible': 'none'
     },
   };
@@ -602,7 +600,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'bike-rack',
-      "icon-size": 0.7,
+      "icon-size": 0.8,
       visibility: visibility.bikeRacks! ? 'visible': 'none'
     },
   };
@@ -613,6 +611,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'family',
+      "icon-size": .8,
       visibility: visibility.family! ? 'visible': 'none'
     },
   };
@@ -633,7 +632,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'art',
-      "icon-size": 0.5,
+      "icon-size": .9,
       visibility: visibility.art! ? 'visible': 'none'
     },
   };
@@ -644,6 +643,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'service',
+      "icon-size": .9,
       visibility: visibility.studentServices! ? 'visible': 'none'
     },
   };
@@ -763,7 +763,7 @@ function App() {
             <Layer {...searchResultLayer} />
           </Source>
           <Marker longitude={campus.longitude} latitude={campus.latitude} anchor="bottom" >
-            <img width={30} src={ucfLogo} />
+            <img width={isMobile? 30 : 40} src={ucfLogo} />
           </Marker>
 
           <MapIcon iconName='location' iconImageSource={locationIcon} />
@@ -777,7 +777,7 @@ function App() {
           <MapIcon iconName='auto-door' iconImageSource={autoDoorIcon} />
           <MapIcon iconName='building-ramp' iconImageSource={buildingRampIcon} />
           <MapIcon iconName='parking-ramp' iconImageSource={parkingRampIcon} />
-          <MapIcon iconName='bus' iconImageSource={busIcon} />
+          <MapIcon iconName='bus-icon' iconImageSource={busIcon} />
           <MapIcon iconName='phone' iconImageSource={phoneIcon} />
           <MapIcon iconName='bike-rack' iconImageSource={bikeRackIcon} />
           <MapIcon iconName='family' iconImageSource={familyIcon} />

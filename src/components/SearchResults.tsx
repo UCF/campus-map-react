@@ -16,23 +16,15 @@ interface SearchResultsProps {
 
 export default function SearchResults(props: SearchResultsProps) {
   const [searchQuery, setSearchQuery] = useState<string>('');
-  const [debouncedSearchQuery, setDebouncedSearchQuery] = useState<string>('');
   const [searchBoxVisibility,setSearchBoxVisibility] = useState<boolean>(false);
-
-  useEffect(() => {
-    const delaySearchQueryTimeOutId = setTimeout(() => {
-      setDebouncedSearchQuery(searchQuery);
-    }, 500);
-    return () => clearTimeout(delaySearchQueryTimeOutId);
-  }, [searchQuery, 500])
 
   useEffect(() => {
     ReactGA.event({
       category: "map_search",
       action: "search",
-      label: `${debouncedSearchQuery}`,
+      label: `${searchQuery}`,
     });
-  },[debouncedSearchQuery])
+  },[searchQuery])
 
   // useEffect(() => {
     

@@ -406,7 +406,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-size": 0.8,
+      "icon-size": 0.6,
       'icon-image': 'location',
       visibility: visibility.locations.buildings! ? 'visible': 'none'
     }
@@ -430,7 +430,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
-      "icon-size": 0.8,
+      "icon-size": 0.6,
       "icon-image": 'housing',
       visibility: visibility.locations.housing! ? 'visible': 'none'
     },
@@ -607,7 +607,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'bike-rack',
-      "icon-size": 1,
+      "icon-size": 0.8,
       visibility: visibility.bikeRacks! ? 'visible': 'none'
     },
   };
@@ -618,7 +618,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'family',
-      "icon-size": .9,
+      "icon-size": .8,
       visibility: visibility.family! ? 'visible': 'none'
     },
   };

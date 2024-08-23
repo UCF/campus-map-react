@@ -4,6 +4,8 @@ import ReactGA from "react-ga4"
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { isMobile } from 'react-device-detect'
 
+import { debounce } from 'lodash';
+
 // Map GL imports
 import {
   Map,
@@ -226,11 +228,13 @@ function App() {
     }
 
     if (buildingPointData) {
-      let locationResults = buildingPointData.features.filter((e: any) => 
-        e!.properties!.Name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        e!.properties!.Abbrev.toLowerCase() === searchQuery.toLowerCase() ||
-        e!.properties!.BldgNum.toLowerCase() === searchQuery.toLowerCase()
-      );
+      let locationResults = buildingPointData.features.filter((e: any) => {
+        const includesName = e!.properties!.Name.toLowerCase().includes(searchQuery.toLowerCase());
+        const includesAbbr = e!.properties!.Abbrev.toLowerCase() === searchQuery.toLowerCase();
+        const includesBldgNum = e!.properties!.BldgNum.toLowerCase() === searchQuery.toLowerCase();
+
+        return includesName || includesAbbr || includesBldgNum;
+      });
       retval.push(...locationResults);
     }
 
@@ -244,6 +248,10 @@ function App() {
       features: retval
     });
   };
+
+  const debouncedResults = useMemo(() => {
+    return debounce(searchData, 300);
+  }, [searchResults]);
 
   const campusHandler = (campus: Campus) => {
     mapRef.current!.flyTo({
@@ -681,7 +689,7 @@ function App() {
         ref={mapRef}>
           <SearchResults
             searchResults={searchResults}
-            searchData={searchData}
+            searchData={debouncedResults}
             onSearchResultClick={onSearchResultClick} />
           <GeolocateControl position='bottom-right' />
           <FullscreenControl position='bottom-right' />

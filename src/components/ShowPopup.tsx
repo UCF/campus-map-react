@@ -17,7 +17,8 @@ const showPopup = ({mapRef, latitude, longitude, name}: ShowPopupProps) => {
 
       if (response.length > 0) {
         const location = response.pop();
-        html = `<a class="location-link" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${name}</a>`;
+        html = `<a class="location-link d-block" href="${location!.link}" onClick="{() => trackLinkClick(${location!.title.rendered}) }" target="_blank">${name}</a>
+        <span class="mt-2">Get location info, directions and more.</span>`;
       } else {
         html = `<span class="location-link">${name}</span>`;
       }

@@ -598,6 +598,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'bike-rack',
+      "icon-size":1.4,
       visibility: visibility.bikeRacks! ? 'visible': 'none'
     },
   };
@@ -608,6 +609,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'family',
+      "icon-size": 1.2,
       visibility: visibility.family! ? 'visible': 'none'
     },
   };
@@ -628,6 +630,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'art',
+      "icon-size":1.2,
       visibility: visibility.art! ? 'visible': 'none'
     },
   };
@@ -638,6 +641,7 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'service',
+      "icon-size":1.2,
       visibility: visibility.studentServices! ? 'visible': 'none'
     },
   };

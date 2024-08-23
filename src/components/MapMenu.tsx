@@ -4,9 +4,9 @@ import './MapMenu.scss';
 import checked from '../assets/square-check-solid.png';
 import unchecked from '../assets/square-thin.png';
 
-import busIcon from '../assets/bus.png';
-import phoneIcon from '../assets/phone.png';
-import accessibilityIcon from '../assets/handicap.png';
+import busIcon from '../assets/bus.svg';
+import phoneIcon from '../assets/phone.svg';
+import accessibilityIcon from '../assets/handicap.svg';
 
 interface MapMenuProps {
   visibility: Visibility,
@@ -219,10 +219,10 @@ export default function MapMenu(props: MapMenuProps) {
           </div>
         </div>   
         <div className='order-1 order-sm-3 col-8 col-sm-4 px-0'>
-        <div className='d-flex justify-content-end me-3 pb-1'>
+        <div className='d-flex justify-content-end me-3'>
         <div className="btn-group btn-outline-secondary btn-group-sm my-1" role="group" aria-label="Basic checkbox toggle button group">     
             <a className="btn dropdown-toggle rounded-end-0 d-flex align-items-center" id="accessibility" href="#accessibility" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img width={30} src={accessibilityIcon} alt="Accessibility Dropdown menu" />
+              <img width={42} src={accessibilityIcon} alt="Accessibility Dropdown menu" />
               
             </a>
               <ul className="dropdown-menu">

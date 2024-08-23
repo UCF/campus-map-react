@@ -15,11 +15,13 @@ export function MapIcon(props: MapIconProps) {
     if (!map?.hasImage(props.iconName)) {
       map?.addImage(props.iconName, blankImage);
 
-      map?.loadImage(props.iconImageSource, (err, img) => {
-          if (err) throw err;
-          map.removeImage(props.iconName);
-          map.addImage(props.iconName, img!);
-      });
+      let img = new Image(40, 40);
+      img.src = props.iconImageSource;
+
+      img.onload = () => {
+        map?.removeImage(props.iconName);
+        map?.addImage(props.iconName, img!);
+      };
     }
 
     return null;

@@ -220,7 +220,7 @@ function App() {
     const retval: Array<Feature> = [];
 
     if (!searchQuery) {
-      setSearchResults(retval);
+      setSearchResults([]);
       setSearchResultData({
         type: 'FeatureCollection',
         features: []
@@ -229,7 +229,7 @@ function App() {
     }
 
     if (buildingPointData) {
-      let locationResults = buildingPointData.features.filter((e: any) => {
+      const locationResults = buildingPointData.features.filter((e: any) => {
         const includesName = e!.properties!.Name.toLowerCase().includes(searchQuery.toLowerCase());
         const includesAbbr = e!.properties!.Abbrev.toLowerCase() === searchQuery.toLowerCase();
         const includesBldgNum = e!.properties!.BldgNum.toLowerCase() === searchQuery.toLowerCase();
@@ -243,10 +243,10 @@ function App() {
       clearVisibility();
     }
 
-    setSearchResults(retval);
+    setSearchResults([...retval]);
     setSearchResultData({
       type: 'FeatureCollection',
-      features: retval
+      features: [...retval]
     });
   };
 

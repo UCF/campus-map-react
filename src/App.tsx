@@ -405,6 +405,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
+      "icon-size": 0.8,
       'icon-image': 'location',
       visibility: visibility.locations.buildings! ? 'visible': 'none'
     }
@@ -428,6 +429,7 @@ function App() {
     type: 'symbol',
     layout: {
       ...defaultLayoutProps,
+      "icon-size": 0.8,
       "icon-image": 'housing',
       visibility: visibility.locations.housing! ? 'visible': 'none'
     },
@@ -571,7 +573,6 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'auto-door',
-      "icon-size": 1.5,
       visibility: visibility.accessibility.autoDoors! ? 'visible': 'none'
     },
   };
@@ -604,7 +605,6 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'bike-rack',
-      "icon-size":1.4,
       visibility: visibility.bikeRacks! ? 'visible': 'none'
     },
   };
@@ -615,7 +615,6 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'family',
-      "icon-size": 1.2,
       visibility: visibility.family! ? 'visible': 'none'
     },
   };
@@ -636,7 +635,6 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'art',
-      "icon-size":1.2,
       visibility: visibility.art! ? 'visible': 'none'
     },
   };
@@ -647,7 +645,6 @@ function App() {
     layout: {
       ...defaultLayoutProps,
       "icon-image": 'service',
-      "icon-size":1.2,
       visibility: visibility.studentServices! ? 'visible': 'none'
     },
   };

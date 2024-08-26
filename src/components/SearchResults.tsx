@@ -68,7 +68,7 @@ export default function SearchResults(props: SearchResultsProps) {
           ) }
         </div>
       </div>  
-      {props.searchResults && props.searchResults.length > 0 && searchBoxVisibility && (
+      {searchQuery && props.searchResults && searchBoxVisibility && (
         <div className='search-results-container'>
           <h2 className='sr-only'>Search Results</h2>
           <ul role="listbox" tabIndex={-1} id='search-results' className='search-results'>
@@ -96,6 +96,17 @@ export default function SearchResults(props: SearchResultsProps) {
                 </li>
               );
             })}
+            <li key="seperator" className='list-item search-result'><hr className='result-hr' /></li>
+            <li key="all-results" className='list-item search-result all-locations'>
+              <a
+                className='search-result-link'
+                href='https://www.ucf.edu/locations/all/'
+                target='_blank'
+                role='option'
+                tabIndex={0}>
+                  Browse All UCF Locations
+                </a>
+            </li>
           </ul>
         </div>
       )}

@@ -109,6 +109,7 @@ export default function SearchResults(props: SearchResultsProps) {
             })}
             <li key="seperator" className='list-item search-result'><hr className='result-hr' /></li>
             <li key="all-results" className='list-item search-result all-locations'>
+              <p className='friendly-message'>Didn't find what you're looking for in the search?</p>
               <a
                 className='search-result-link'
                 href={ FALLBACK_LOCATIONS_URL }

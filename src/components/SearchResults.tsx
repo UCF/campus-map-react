@@ -8,6 +8,8 @@ import { useState, useEffect } from 'react';
 
 import ReactGA from "react-ga4"
 
+const FALLBACK_LOCATIONS_URL = import.meta.env.VITE_FALLBACK_LOCATIONS_URL || '';
+
 interface SearchResultsProps {
   searchResults: Array<Feature>,
   onSearchResultClick: Function,
@@ -100,7 +102,7 @@ export default function SearchResults(props: SearchResultsProps) {
             <li key="all-results" className='list-item search-result all-locations'>
               <a
                 className='search-result-link'
-                href='https://www.ucf.edu/locations/all/'
+                href={ FALLBACK_LOCATIONS_URL }
                 target='_blank'
                 role='option'
                 tabIndex={0}>

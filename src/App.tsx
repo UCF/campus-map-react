@@ -801,7 +801,7 @@ function App() {
               <Campuses campus={campusData} onclick={campusHandler} />
           </div>
 
-        <div className='h3 mb-3 mt-0 my-md-0'><a href="#additional-links" aria-label="additional links" className='text-white text-decoration-none'>&#65088;</a></div>
+        <div className='h3 mb-3 mt-0 my-md-0'><a href='#additional-links' aria-label="slide to addtional links menu" className='text-white text-decoration-none'>&#65088;</a></div>
         <NavigationMenu 
             listClasses='ucf-footer-social mb-2 list-unstyled list-group list-group-horizontal d-flex justify-content-center'
             listItemClasses='ucf-footer-social-item ms-1'

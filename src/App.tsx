@@ -82,7 +82,7 @@ function App() {
 
   const [visibility, setVisibility] = useState<Visibility>({
     locations: {
-      buildings: true,
+      buildings: false,
       housing: false,
       dining: false,
       retail: false,
@@ -801,7 +801,7 @@ function App() {
               <Campuses campus={campusData} onclick={campusHandler} />
           </div>
 
-        <div className='h3 mb-3 mt-0 my-md-0'><a href='#copyright' className='text-white text-decoration-none'>&#65088;</a></div>
+        <div className='h3 mb-3 mt-0 my-md-0'><a href="#additional-links" aria-label="additional links" className='text-white text-decoration-none'>&#65088;</a></div>
         <NavigationMenu 
             listClasses='ucf-footer-social mb-2 list-unstyled list-group list-group-horizontal d-flex justify-content-center'
             listItemClasses='ucf-footer-social-item ms-1'
@@ -809,7 +809,7 @@ function App() {
             menuId='social-links'
             remoteMenuId={FOOTER_SOCIAL_ID}
           /> 
-        <div className='ucf-footer-nav'>
+        <div id="additional-links" className='ucf-footer-nav'>
           <NavigationMenu
             listItemClasses='nav-item my-2'
             anchorClasses='nav-link text-white py-0'
@@ -817,7 +817,7 @@ function App() {
             remoteMenuId={FOOTER_MENU_ID} />
         </div>
       
-        <div id="copyright" className='copyright'>
+        <div className='copyright'>
 		      © <a className='text-white' href='https://www.ucf.edu/'>University of Central Florida</a>
         </div>
       </footer>

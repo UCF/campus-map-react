@@ -221,7 +221,7 @@ export default function MapMenu(props: MapMenuProps) {
         <div className='order-1 order-sm-3 col-8 col-sm-4 px-0'>
         <div className='d-flex justify-content-end me-3'>
         <div className="btn-group btn-outline-warning btn-group-sm my-1" role="group" aria-label="Basic checkbox toggle button group">     
-            <a className="btn dropdown-toggle rounded-end-0 d-flex align-items-center" id="accessibility" href="#accessibility" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="btn dropdown-toggle rounded-end-0 rounded-start-0 d-flex align-items-center" id="accessibility" href="#accessibility" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               <img width={42} src={accessibilityIcon} alt="Accessibility Dropdown menu" />
             </a>
               <ul className="dropdown-menu">

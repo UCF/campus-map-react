@@ -66,4 +66,22 @@
       }
     }
   }
+
+  .result-hr {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .all-locations a {
+    color: #ffcc00;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .friendly-message {
+    color: #fff;
+    margin-bottom: 0;
+  }
 }

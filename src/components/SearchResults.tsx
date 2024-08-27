@@ -8,6 +8,8 @@ import { useState, useEffect } from 'react';
 
 import ReactGA from "react-ga4"
 
+const FALLBACK_LOCATIONS_URL = import.meta.env.VITE_FALLBACK_LOCATIONS_URL || '';
+
 interface SearchResultsProps {
   searchResults: Array<Feature>,
   onSearchResultClick: Function,
@@ -68,7 +70,7 @@ export default function SearchResults(props: SearchResultsProps) {
           ) }
         </div>
       </div>  
-      {props.searchResults && props.searchResults.length > 0 && searchBoxVisibility && (
+      {searchQuery && props.searchResults && searchBoxVisibility && (
         <div className='search-results-container'>
           <h2 className='sr-only'>Search Results</h2>
           <ul role="listbox" tabIndex={-1} id='search-results' className='search-results'>
@@ -96,6 +98,18 @@ export default function SearchResults(props: SearchResultsProps) {
                 </li>
               );
             })}
+            <li key="seperator" className='list-item search-result'><hr className='result-hr' /></li>
+            <li key="all-results" className='list-item search-result all-locations'>
+              <p className='friendly-message'>Didn't find what you're looking for in the search?</p>
+              <a
+                className='search-result-link'
+                href={ FALLBACK_LOCATIONS_URL }
+                target='_blank'
+                role='option'
+                tabIndex={0}>
+                  Browse All UCF Locations
+                </a>
+            </li>
           </ul>
         </div>
       )}

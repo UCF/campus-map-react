@@ -4,7 +4,7 @@ import closeIcon from '../assets/xmark-solid.png';
 import searchIcon from '../assets/search-white.png';
 
 import './SearchResults.scss';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 import ReactGA from "react-ga4"
 
@@ -19,7 +19,8 @@ interface SearchResultsProps {
 export default function SearchResults(props: SearchResultsProps) {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [searchBoxVisibility,setSearchBoxVisibility] = useState<boolean>(false);
-
+  const resultsRef = useRef<HTMLUListElement | null>(null);
+  
   useEffect(() => {
     ReactGA.event({
       category: "map_search",
@@ -28,9 +29,36 @@ export default function SearchResults(props: SearchResultsProps) {
     });
   },[searchQuery])
 
+  // function for handeling arrow down - arrow up 
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      
+      e.preventDefault();
+      if(!resultsRef.current) return false; 
+
+        const options = Array.from(resultsRef.current.querySelectorAll('a'));
+        const currentIndex = options.findIndex(option => option === document.activeElement);
+        let nextIndex;
+  
+        if (e.key === 'ArrowDown') {
+          nextIndex = currentIndex + 1;
+          if (nextIndex < options.length) {
+            options[nextIndex].focus();
+          }
+        } else if (e.key === 'ArrowUp') {
+          nextIndex = currentIndex - 1;
+          if (nextIndex >= 0) {
+            options[nextIndex].focus();
+          } else {
+            (e.currentTarget.querySelector('input') as HTMLElement).focus(); // Focus the search input
+          }
+        }
+    }
+  };
+
 
   return (
-    <div className='search-control-wrapper rounded mt-2'>
+    <div className='search-control-wrapper rounded mt-2' onKeyDown={handleKeyDown}>
       <div className='input-group' role='search'>
       <input
         className='form-control'
@@ -73,7 +101,7 @@ export default function SearchResults(props: SearchResultsProps) {
       {searchQuery && props.searchResults && searchBoxVisibility && (
         <div className='search-results-container'>
           <h2 className='sr-only'>Search Results</h2>
-          <ul role="listbox" tabIndex={-1} id='search-results' className='search-results'>
+          <ul ref={resultsRef} role="listbox" tabIndex={-1} id='search-results' className='search-results'>
             {props.searchResults.map((result: Feature) => {
               return (
                 <li key={`${result!.properties!.Name}_${result!.properties!.BldgNum}`} className='list-item search-result'>

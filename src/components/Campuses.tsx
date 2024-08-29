@@ -18,8 +18,8 @@ const Campuses = ({ campus, onclick }: CampusesProps) => {
           ))}
       </div>
       <div className='address text-start small'>
-                4000 Central Florida Blvd. Orlando, Florida, 32816 | 
-                <a className='text-white' href='tel:4078232000'> 407.823.2000</a>
+                4000 Central Florida Blvd. Orlando, Florida, 32816 |&nbsp;
+                <a className='text-white' href='tel:4078232000'>407.823.2000</a>
       </div>  
   </div>
   );

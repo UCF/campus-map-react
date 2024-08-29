@@ -220,8 +220,8 @@ export default function MapMenu(props: MapMenuProps) {
         </div>   
         <div className='order-1 order-sm-3 col-8 col-sm-4 px-0'>
         <div className='d-flex justify-content-end me-3'>
-        <div className="btn-group btn-outline-warning btn-group-sm my-1" role="group" aria-label="Basic checkbox toggle button group">     
-            <a className="btn dropdown-toggle rounded-end-0 d-flex align-items-center" id="accessibility" href="#accessibility" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <div className="btn-group btn-group-sm my-1" role="group" aria-label="Basic checkbox toggle button group">     
+            <a className="btn dropdown-toggle accessibility-btn-hover rounded-end-0 rounded-start-0 d-flex align-items-center" id="accessibility" href="#accessibility" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               <img width={42} src={accessibilityIcon} alt="Accessibility Dropdown menu" />
             </a>
               <ul className="dropdown-menu">
@@ -291,13 +291,13 @@ export default function MapMenu(props: MapMenuProps) {
                 </li>
               </ul>
               <a
-                className={props.visibility.shuttleStops ? 'btn btn-warning rounded-0 d-flex align-items-center' : 'btn rounded-0 d-flex align-items-center'}
+                className={props.visibility.shuttleStops ? 'btn border-dark rounded-0 d-flex align-items-center' : 'btn accessibility-btn-hover rounded-0 d-flex align-items-center'}
                 id="shuttleStops"
                 href='#shuttleStops'
                 onClick={() => props.setVisibility({ ...props.visibility, 'shuttleStops': !props.visibility['shuttleStops'] })} >
               <img width={30} src={busIcon} alt="bus stop"/></a>
               <a
-                className={props.visibility.emergencyPhones ? 'btn btn-warning rounded-0 d-flex align-items-center' : 'btn rounded-0 d-flex align-items-center'}
+                className={props.visibility.emergencyPhones ? 'btn border-dark rounded-0 d-flex align-items-center' : 'btn accessibility-btn-hover rounded-0 d-flex align-items-center'}
                 id="blueLightPhones"
                 href='#blueLightPhones'
                 onClick={() => props.setVisibility({ ...props.visibility, 'emergencyPhones': !props.visibility['emergencyPhones'] })} >

@@ -9,3 +9,7 @@
 .dropdown-item label {
   display: block;
 }
+
+.accessibility-btn-hover:hover , .accessibility-btn-hover:focus {
+  border: 1px solid black !important; 
+}

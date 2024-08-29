@@ -34,25 +34,25 @@ export default function SearchResults(props: SearchResultsProps) {
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
       
       e.preventDefault();
-      if(!resultsRef.current) return false; 
+      if(!resultsRef.current) return false;
 
-        const options = Array.from(resultsRef.current.querySelectorAll('a'));
-        const currentIndex = options.findIndex(option => option === document.activeElement);
-        let nextIndex;
-  
-        if (e.key === 'ArrowDown') {
-          nextIndex = currentIndex + 1;
-          if (nextIndex < options.length) {
-            options[nextIndex].focus();
+          const options = Array.from(resultsRef.current.querySelectorAll('a'));
+          const currentIndex = options.findIndex(option => option === document.activeElement);
+          let nextIndex;
+    
+          if (e.key === 'ArrowDown') {
+            nextIndex = currentIndex + 1;
+            if (nextIndex < options.length) {
+              options[nextIndex].focus();
+            }
+          } else if (e.key === 'ArrowUp') {
+            nextIndex = currentIndex - 1;
+            if (nextIndex >= 0) {
+              options[nextIndex].focus();
+            } else {
+              (e.currentTarget.querySelector('input') as HTMLElement).focus(); // Focus the search input
+            }
           }
-        } else if (e.key === 'ArrowUp') {
-          nextIndex = currentIndex - 1;
-          if (nextIndex >= 0) {
-            options[nextIndex].focus();
-          } else {
-            (e.currentTarget.querySelector('input') as HTMLElement).focus(); // Focus the search input
-          }
-        }
     }
   };
 

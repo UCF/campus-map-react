@@ -32,8 +32,10 @@ export default function SearchResults(props: SearchResultsProps) {
   // function for handeling arrow down - arrow up 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      
       e.preventDefault();
-      if (resultsRef.current) {
+      if(!resultsRef.current) return false; 
+
         const options = Array.from(resultsRef.current.querySelectorAll('a'));
         const currentIndex = options.findIndex(option => option === document.activeElement);
         let nextIndex;
@@ -51,7 +53,6 @@ export default function SearchResults(props: SearchResultsProps) {
             (e.currentTarget.querySelector('input') as HTMLElement).focus(); // Focus the search input
           }
         }
-      }
     }
   };
 
